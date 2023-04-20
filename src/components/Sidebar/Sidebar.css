@@ -1,10 +1,12 @@
 .sidebar {
-  padding: 25px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 30px;
   position: fixed;
   top: 0;
   left: 0;
   width: 16rem;
-  height: 100vh;
+  height: 90vh;
   border-right: 2px solid rgba(194, 183, 183, 0.1);
 }
 
@@ -12,7 +14,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 4rem;
+  height: 3rem;
 }
 
 .title {
