@@ -1,0 +1,54 @@
+.profile-container {
+  margin-left: 20rem;
+  padding: 0rem 1.5rem;
+}
+
+.profile-card {
+  border-radius: 10px;
+  background: #1e2a47;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.profile-card .top-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-card .profile-photo {
+  height: 6.1rem;
+  width: 6.1rem;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-details {
+  width: 44rem;
+}
+
+.profile-details p {
+  font-size: 14px;
+}
+
+.profile-details .skills-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.skills-container .skill {
+  background-color: rgba(20, 29, 47, 1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.profile-link {
+  color: #00a6fb;
+  text-align: right;
+}

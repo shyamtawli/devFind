@@ -1,15 +1,15 @@
 .search-bar {
   margin-left: 20rem;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 0px 30px;
   position: relative;
-  width: 30rem;
+  width: 31rem;
 }
 
 .search-bar input {
   width: 30rem;
-  height: 2rem;
+  height: 3rem;
   border-radius: 6px;
   border: 2px solid rgba(194, 183, 183, 0.1);
   background: rgba(20, 29, 47, 1);
@@ -22,6 +22,7 @@
 
 .search-bar .search-icon {
   position: absolute;
-  right: 15px;
+  right: 0px;
   top: 15px;
+  font-size: 1.25rem;
 }
