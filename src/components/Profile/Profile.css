@@ -48,7 +48,30 @@
   font-size: 14px;
 }
 
-.profile-link {
+.profile-link a {
+  text-decoration: none;
   color: #00a6fb;
-  text-align: right;
+}
+
+.bottom-container {
+  margin-top: 1rem;
+}
+
+.bottom-container .social {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.social .github,
+.social .twitter,
+.social .linkedin {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #fff;
 }
