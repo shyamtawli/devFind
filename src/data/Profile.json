@@ -44,19 +44,5 @@
       "Twitter": "https://twitter.com/alicesmith",
       "LinkedIn": "https://linkedin.com/in/alicesmith"
     }
-  },
-
-  {
-    "name": "Tawli Shyam",
-    "location": "Indore, India",
-    "bio": "Currently learning react and exploring open source. Pursuing my degree from Medi-Caps Universtity ",
-    "avatar": "https://github.com/shyamtawli.png",
-    "portfolio": "https://github.com/shyamtawli",
-    "skills": ["JavaScript", "ReactJS", "Java"],
-    "social": {
-      "GitHub": "https://github.com/tawlishyam",
-      "Twitter": "https://twitter.com/tawli_shyam",
-      "LinkedIn": "https://linkedin.com/in/tawlishyam"
-    }
   }
 ]
