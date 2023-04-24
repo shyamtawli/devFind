@@ -7,9 +7,8 @@ import {
   faLinkedin,
   faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
-import data from "../../data/shyamtawli.json";
 
-function Profile() {
+function Profile({ data }) {
   return (
     <div className="profile-container">
       <Card data={data} />
