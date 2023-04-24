@@ -20,7 +20,7 @@ function Search({ onSearch }) {
         type="text"
         onChange={handleInputChange}
         value={searchValue}
-        placeholder="Search..."
+        placeholder="Find users with specific skills"
       />
       <FontAwesomeIcon
         onClick={handleSearch}
