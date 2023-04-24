@@ -22,7 +22,13 @@
 
 .search-bar .search-icon {
   position: absolute;
-  right: 0px;
+  right: 5px;
   top: 15px;
   font-size: 1.25rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-icon:hover {
+  color: #00a6fb;
 }

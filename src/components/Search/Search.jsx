@@ -26,7 +26,6 @@ function Search({ onSearch }) {
         onClick={handleSearch}
         className="search-icon"
         icon={faMagnifyingGlass}
-        style={{ color: "#fff" }}
       />
     </div>
   );
