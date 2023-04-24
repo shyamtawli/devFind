@@ -31,8 +31,12 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container">
-              {data.skills.map((skill) => {
-                return <div className="skill">{skill}</div>;
+              {data.skills.map((skill, index) => {
+                return (
+                  <div className="skill" key={index}>
+                    {skill}
+                  </div>
+                );
               })}
             </div>
           </div>
@@ -53,6 +57,7 @@ function Profile({ data }) {
                 className="social-link"
                 href={data.social.GitHub}
                 target="_blank"
+                rel="noreferrer"
               >
                 {data.social.GitHub.replace("https://github.com/", "")}
               </a>
@@ -67,6 +72,7 @@ function Profile({ data }) {
                 className="social-link"
                 href={data.social.Twitter}
                 target="_blank"
+                rel="noreferrer"
               >
                 {data.social.Twitter.replace("https://twitter.com/", "")}
               </a>
@@ -81,6 +87,7 @@ function Profile({ data }) {
                 className="social-link"
                 href={data.social.LinkedIn}
                 target="_blank"
+                rel="noreferrer"
               >
                 {data.social.LinkedIn.replace("https://linkedin.com/in/", "")}
               </a>
