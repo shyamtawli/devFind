@@ -6,7 +6,6 @@ import datas from "./data/Profile.json";
 
 function App() {
   const [profiles, setProfiles] = useState([]);
-  console.log(profiles);
 
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();

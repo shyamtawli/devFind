@@ -13,7 +13,11 @@ function Search({ onSearch }) {
   const handleSearch = () => {
     onSearch(searchValue);
   };
-
+  const handleSearchOnEnter = (e) => {
+    if (e.keyCode === 13) {
+      handleSearch();
+    }
+  };
   return (
     <div className="search-bar">
       <input
@@ -21,6 +25,7 @@ function Search({ onSearch }) {
         onChange={handleInputChange}
         value={searchValue}
         placeholder="Find users with specific skills"
+        onKeyDown={handleSearchOnEnter}
       />
       <FontAwesomeIcon
         onClick={handleSearch}
