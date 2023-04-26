@@ -1,13 +1,18 @@
 import React from "react";
 import "./Sidebar.css";
-import { FaCode, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className="logo-title">
         <div className="logo">
-          <FaCode className="fa-code" />
+          <FontAwesomeIcon
+            icon={faCode}
+            size="2xl"
+            style={{ color: "#ffffff" }}
+          />
         </div>
         <div className="title">
           <p className="dev">dev</p>
@@ -16,24 +21,6 @@ function Sidebar() {
       </div>
       <div className="headline">
         Discover and Connect with Skilled Developers.
-      </div>
-      <div >
-        <p className="connect">Connect with Us </p>
-        <div className="socials">
-          <a href="https://github.com/shyamtawli/devFind" target="_blank" >
-
-            <FaGithub className="fa-icons" />
-          </a>
-          <a href="https://twitter.com/shyam_tawli" target="_blank">
-
-            <FaTwitter className="fa-icons" />
-          </a>
-          <a href="https://www.linkedin.com/in/shyamtawli/" target="_blank">
-
-            <FaLinkedin className="fa-icons" />
-          </a>
-
-        </div>
       </div>
     </div>
   );

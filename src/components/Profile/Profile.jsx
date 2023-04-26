@@ -1,7 +1,12 @@
 import React from "react";
 import "./Profile.css";
-import { MdLocationOn } from "react-icons/md";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitterSquare,
+  faLinkedin,
+  faGithubSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Profile({ data }) {
   return (
@@ -21,7 +26,7 @@ function Profile({ data }) {
             <h3>{data.name}</h3>
             <p>
               <span style={{ marginRight: "0.5rem" }}>
-                <MdLocationOn />
+                <FontAwesomeIcon icon={faLocationDot} />
               </span>
               {data.location}
             </p>
@@ -45,7 +50,11 @@ function Profile({ data }) {
           <div className="about">{data.bio}</div>
           <div className="social">
             <div className="github">
-              <FaGithub className="fa-icon-color" />
+              <FontAwesomeIcon
+                icon={faGithubSquare}
+                size="xl"
+                style={{ color: "#00a6fb" }}
+              />
               <a
                 className="social-link"
                 href={data.social.GitHub}
@@ -56,7 +65,11 @@ function Profile({ data }) {
               </a>
             </div>
             <div className="twitter">
-              <FaTwitter className="fa-icon-color" />
+              <FontAwesomeIcon
+                icon={faTwitterSquare}
+                size="xl"
+                style={{ color: "#00a6fb" }}
+              />
               <a
                 className="social-link"
                 href={data.social.Twitter}
@@ -67,7 +80,11 @@ function Profile({ data }) {
               </a>
             </div>
             <div className="linkedin">
-              <FaLinkedin className="fa-icon-color" />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="xl"
+                style={{ color: "#00a6fb" }}
+              />
               <a
                 className="social-link"
                 href={data.social.LinkedIn}

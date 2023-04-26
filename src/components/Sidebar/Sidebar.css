@@ -34,31 +34,4 @@
 
 .headline {
   color: #fff;
-  font-size: 1.3rem;
-  margin-top: 1rem;
-}
-
-.fa-code {
-  color: #fff;
-  padding-top: 0.5rem;
-  font-size: 3rem;
-}
-.connect {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 1rem;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-.fa-icons {
-  color: #fff;
-  font-size: 2rem;
-  margin: 1rem 0;
-}
-.socials {
-  display: flex;
-  gap: 1rem;
 }
