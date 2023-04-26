@@ -6,36 +6,7 @@ One of the key features of devFind is its powerful search functionality. Users c
 
 ## How to add your profile
 
-Thank you for your interest in contributing to our open-source project! To add your profile data to the project, please follow these steps:
-
-1. Fork the repository to create a copy in your GitHub account.
-2. Clone the forked repository to your local development environment.
-3. Install dependencies by running `npm install`
-4. Navigate to the `src/data` directory.
-5. Open the `Profile.json` file.
-6. Add your profile data in the JSON object format, following the existing structure:
-   ```json
-   {
-     "name": "Your Name",
-     "location": "Your Location",
-     "bio": "Your Bio should be 20-30 words not more then that",
-     "avatar": "https://github.com/<your-github-username>.png",
-     "portfolio": "Your Portfolio URL or Github URL",
-     "skills": ["Your Skill 1", "Your Skill 2", "..."],
-     "social": {
-       "GitHub": "https://github.com/<github-username>",
-       "Twitter": "https://twitter.com/<twitter-username>",
-       "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
-     }
-   },
-   ```
-   Note: Copy the above code, edit your details, and paste it in the middle (not at the top or bottom). It doesn't matter where you add your profile; it will appear randomly on the website.
-7. Save the changes to the `Profile.json` file.
-8. Create a new branch for your profile `git checkout -b add-profile`
-9. Commit your changes `git commit -m "Add profile"`
-10. Push to the branch `git push origin add-profile`
-11. Create a pull request to submit your changes to the main repository.
-12. Wait for the project maintainers to review and merge your changes.
+- Check out the [Contributing Guidelines](/contributing.md) for instructions on how to add your profile to the project.
 
 Once your changes are merged, your profile data will be added to the project's `Profile.json` file and your profile will be displayed on the project's website.
 
