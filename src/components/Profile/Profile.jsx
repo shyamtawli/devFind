@@ -1,81 +1,96 @@
 import React from "react";
-import { MdLocationOn } from "react-icons/md";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import "./Profile.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitterSquare,
+  faLinkedin,
+  faGithubSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Profile({ data }) {
   return (
-    <div className="ml-[20rem] px-5 ">
+    <div className="profile-container">
       <Card data={data} />
     </div>
   );
 
   function Card({ data }) {
     return (
-      <div className=" rounded-md bg-[#1e2a47] mb-[1.5rem] p-[1rem] max-h-full text-white">
-        {/* Profile details */}
-        <div className="flex gap-[1rem] ">
-          {/* Image */}
-          <img src={data.avatar} alt="User logo" className="h-20 rounded-full" />
-          <div className=" max-w-full flex gap-5 m-5">
-            {/* Name */}
-            <div className="flex flex-col  gap-">
-
-              <h3>{data.name}</h3>
-              <span className="flex gap-2">
-                <MdLocationOn className="mt-1" />
-                {data.location}
+      <div className="profile-card">
+        <div className="top-container">
+          <div className="profile-photo">
+            <img src={data.avatar} alt="User logo" />
+          </div>
+          <div className="profile-details">
+            <h3>{data.name}</h3>
+            <p>
+              <span style={{ marginRight: "0.5rem" }}>
+                <FontAwesomeIcon icon={faLocationDot} />
               </span>
-            </div>
-            <div className="flex gap-2 p-5">
+              {data.location}
+            </p>
+            <div className="skills-container">
               {data.skills.map((skill, index) => {
                 return (
-                  <div className="skill bg-gray-800 p-2 rounded-md " key={index}>
+                  <div className="skill" key={index}>
                     {skill}
                   </div>
                 );
               })}
             </div>
           </div>
-          <div className="text-[#00a6fb]">
-            <a href={data.portfolio} className="font-extrabold" target="_blank" rel="noreferrer">
+          <div className="profile-link">
+            <a href={data.portfolio} target="_blank" rel="noreferrer">
               View Profile &#8594;
             </a>
           </div>
         </div>
-        <div className="about">{data.bio}</div>
-        <div className="flex mt-2">
-          <div className="flex gap-2 items-center mr-8">
-            <FaGithub className="text-[#00a6fb]" />
-            <a
-              className="text-white "
-              href={data.social.GitHub}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {data.social.GitHub.replace("https://github.com/", "")}
-            </a>
-          </div>
-          <div className="flex gap-2 items-center mr-8">
-            <FaTwitter className="text-[#00a6fb]" />
-            <a
-              className="text-white"
-              href={data.social.Twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {data.social.Twitter.replace("https://twitter.com/", "")}
-            </a>
-          </div>
-          <div className="flex gap-2 items-center mr-8">
-            <FaLinkedin className="text-[#00a6fb]" />
-            <a
-              className="text-white"
-              href={data.social.LinkedIn}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {data.social.LinkedIn.replace("https://linkedin.com/in/", "")}
-            </a>
+        <div className="bottom-container">
+          <div className="about">{data.bio}</div>
+          <div className="social">
+            <div className="github">
+              <a
+                className="social-link"
+                href={data.social.GitHub}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithubSquare}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
+              </a>
+            </div>
+            <div className="twitter">
+              <a
+                className="social-link"
+                href={data.social.Twitter}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTwitterSquare}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
+              </a>
+            </div>
+            <div className="linkedin">
+              <a
+                className="social-link"
+                href={data.social.LinkedIn}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
