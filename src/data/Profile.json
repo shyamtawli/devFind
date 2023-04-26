@@ -5,7 +5,13 @@
     "bio": "As a frontend developer, I am currently honing my skills in ReactJS and actively contributing to open source projects. Alongside, I also have some experience with data structures and algorithms (DSA) in Java.",
     "avatar": "https://github.com/shyamtawli.png",
     "portfolio": "https://github.com/shyamtawli",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Java"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Java"
+    ],
     "social": {
       "GitHub": "https://github.com/shyamtawli",
       "Twitter": "https://twitter.com/shyam_tawli",
@@ -18,7 +24,14 @@
     "bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
     "avatar": "https://github.com/johndoe.png",
     "portfolio": "https://github.com/johndoe",
-    "skills": ["JavaScript", "Node.js", "ReactJS", "MongoDB", "HTML", "CSS"],
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "ReactJS",
+      "MongoDB",
+      "HTML",
+      "CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/johndoe",
       "Twitter": "https://twitter.com/johndoe",
@@ -44,9 +57,8 @@
       "Twitter": "https://twitter.com/alicesmith",
       "LinkedIn": "https://linkedin.com/in/alicesmith"
     }
-    },
-    
-      {
+  },
+  {
     "name": "Harshit Malang",
     "location": "Lucknow, India",
     "bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
@@ -56,6 +68,27 @@
       "GitHub": "https://github.com/hrshtmlng",
       "Twitter": "https://twitter.com/hrshtmlng",
       "LinkedIn": "https://www.linkedin.com/in/harshit-malang-3968011aa/"
+     }
+  },
+  {
+    "name": "Aryan Raj",
+    "location": "Banglore, India",
+    "bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
+    "avatar": "https://github.com/anonymgit.png",
+    "portfolio": "https://github.com/anonymgit",
+    "skills": [
+      "Java",
+      "Springboot",
+      "React",
+      "C++",
+      "HTML",
+      "javaScript",
+      "css"
+    ],
+    "social": {
+      "GitHub": "https://github.com/anonymgit",
+      "Twitter": "https://twitter.com/aryanraj0836",
+      "LinkedIn": "https://linkedin.com/in/aryanraj0836"
     }
   }
 ]
