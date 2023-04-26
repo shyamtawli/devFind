@@ -2,7 +2,7 @@
 
 - Fork the repository
 - Clone the forked repository to your local machine
-- Install dependencies by running `pnpm i`
+- Install dependencies by running `npm ci`
 - Navigate to the `src/data` directory
 - Open the `Profile.json` file
 - Add your profile data in the JSON object format, following the existing structure:
