@@ -59,6 +59,34 @@
     }
   },
   {
+		"name": "André Lopes",
+		"location": "Lisbon, Portugal",
+		"bio": "I've been coding for as long as I remember and have been working in the area since 2018! I'm currently working as a Fullstack Developer at a fortune500 in Lisbon and trying to learn more everyday about the latest techs.",
+		"avatar": "https://github.com/AndreJorgeLopes.png",
+		"portfolio": "https://github.com/AndreJorgeLopes",
+		"skills": [
+			"Next.js",
+			"Node.js",
+			"React.js",
+			"Vue.js",
+			"TypeScript",
+			"Storybook",
+			"Gatsby",
+			"Drupal",
+			"GraphQL",
+			"MongoDB",
+			"Postgres",
+			"Redis",
+			"RabbitMQ",
+			"AWS",
+			"GCP"
+		],
+		"social": {
+			"GitHub": "https://github.com/AndreJorgeLopes",
+			"LinkedIn": "https://www.linkedin.com/in/andr%C3%A9-lopes-a57303206/"
+		}
+	},
+  {
     "name": "Sudarshan Rai",
     "location": "Kathmandu, Nepal",
     "bio": "Hey it's me Sudarshan Rai with 5+ years of web/mobile application development experience. Javascript being my core technical skill, I don't limit within it. I do more study and research to keep updated with the latest technologies",
@@ -161,5 +189,5 @@
       "LinkedIn": "https://www.linkedin.com/in/shobhitx/"
     }
   }
-  
+
 ]
