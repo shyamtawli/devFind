@@ -59,6 +59,18 @@
     }
   },
   {
+    "name": "Harshit Malang",
+    "location": "Lucknow, India",
+    "bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
+    "avatar": "https://github.com/hrshtmlng.png",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python"],
+    "social": {
+      "GitHub": "https://github.com/hrshtmlng",
+      "Twitter": "https://twitter.com/hrshtmlng",
+      "LinkedIn": "https://www.linkedin.com/in/harshit-malang-3968011aa/"
+     }
+  },
+  {
     "name": "Aryan Raj",
     "location": "Banglore, India",
     "bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
