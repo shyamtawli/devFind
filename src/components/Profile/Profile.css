@@ -8,13 +8,14 @@
   background: #1e2a47;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  height: 220px;
+  height: 230px;
   color: #fff;
 }
 
-.profile-card .top-container {
+.top-container {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .profile-card .profile-photo {
@@ -75,4 +76,7 @@
 .social-link {
   text-decoration: none;
   color: #fff;
+}
+.fa-icon-color {
+  color: #00a6fb;
 }

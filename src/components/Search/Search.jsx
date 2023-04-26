@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Search.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FaSearch } from "react-icons/fa";
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState("");
@@ -27,10 +26,9 @@ function Search({ onSearch }) {
         placeholder="Find users with specific skills"
         onKeyDown={handleSearchOnEnter}
       />
-      <FontAwesomeIcon
-        onClick={handleSearch}
-        className="search-icon"
-        icon={faMagnifyingGlass}
+
+      <FaSearch
+        className="search-icon" aria-label="search"
       />
     </div>
   );
