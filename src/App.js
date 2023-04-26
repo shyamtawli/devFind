@@ -39,11 +39,11 @@ function App() {
       <Search onSearch={handleSearch} />
       {profiles.length === 0
         ? shuffledProfiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })
+            return <Profile data={profile} key={index} />;
+          })
         : profiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })}
+            return <Profile data={profile} key={index} />;
+          })}
     </div>
   );
 }
