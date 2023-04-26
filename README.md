@@ -10,7 +10,7 @@ Thank you for your interest in contributing to our open-source project! To add y
 
 1. Fork the repository to create a copy in your GitHub account.
 2. Clone the forked repository to your local development environment.
-3. Install dependencies by running `pnpm i`
+3. Install dependencies by running `npm install`
 4. Navigate to the `src/data` directory.
 5. Open the `Profile.json` file.
 6. Add your profile data in the JSON object format, following the existing structure:
