@@ -59,18 +59,6 @@
     }
   },
   {
-    "name": "Harshit Malang",
-    "location": "Lucknow, India",
-    "bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
-    "avatar": "https://github.com/hrshtmlng.png",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python"],
-    "social": {
-      "GitHub": "https://github.com/hrshtmlng",
-      "Twitter": "https://twitter.com/hrshtmlng",
-      "LinkedIn": "https://www.linkedin.com/in/harshit-malang-3968011aa/"
-     }
-  },
-  {
     "name": "Aryan Raj",
     "location": "Banglore, India",
     "bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
@@ -89,44 +77,6 @@
       "GitHub": "https://github.com/anonymgit",
       "Twitter": "https://twitter.com/aryanraj0836",
       "LinkedIn": "https://linkedin.com/in/aryanraj0836"
-    }
-  },
-  {
-    "name": "Akshat Kumar",
-    "location": "Jhansi, India",
-    "bio": "I've been learning to code for 2 years, after my bachelors in Electronics & Communication. I started with HTML & CSS, but have really found a passion for backend development.",
-    "avatar": "https://github.com/KyloRen04.png",
-    "portfolio": "https://superlative-lily-568543.netlify.app",
-    "skills": [
-      "JavaScript",
-      "Node.js",
-      "React.js",
-      "TypeScript",
-      "HTML",
-      "CSS"
-    ],
-    "social": {
-      "GitHub": "https://github.com/KyloRen04",
-      "LinkedIn": "https://www.linkedin.com/in/akshat-kumar-75816b20b"
-    }
-  },
-  {
-    "name": "Munish pathania",
-    "location": "Kangra, India",
-    "bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
-    "avatar": "https://github.com/munish-on-git.png",
-    "portfolio": "https://github.com/munish-on-git",
-    "skills": [
-      "JavaScript",
-      "Html/css",
-      "Java",
-      "Git",
-      "Node.js"
-    ],
-    "social": {
-      "GitHub": "https://github.com/munish-on-git",
-      "Twitter": "https://twitter.com/munishtwts",
-      "LinkedIn": "https://www.linkedin.com/in/munish-pathania-0972aa24b/"
     }
   }
 ]
