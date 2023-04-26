@@ -50,48 +50,45 @@ function Profile({ data }) {
           <div className="about">{data.bio}</div>
           <div className="social">
             <div className="github">
-              <FontAwesomeIcon
-                icon={faGithubSquare}
-                size="xl"
-                style={{ color: "#00a6fb" }}
-              />
               <a
                 className="social-link"
                 href={data.social.GitHub}
                 target="_blank"
                 rel="noreferrer"
               >
-                {data.social.GitHub.replace("https://github.com/", "")}
+                <FontAwesomeIcon
+                  icon={faGithubSquare}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
               </a>
             </div>
             <div className="twitter">
-              <FontAwesomeIcon
-                icon={faTwitterSquare}
-                size="xl"
-                style={{ color: "#00a6fb" }}
-              />
               <a
                 className="social-link"
                 href={data.social.Twitter}
                 target="_blank"
                 rel="noreferrer"
               >
-                {data.social.Twitter.replace("https://twitter.com/", "")}
+                <FontAwesomeIcon
+                  icon={faTwitterSquare}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
               </a>
             </div>
             <div className="linkedin">
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                size="xl"
-                style={{ color: "#00a6fb" }}
-              />
               <a
                 className="social-link"
                 href={data.social.LinkedIn}
                 target="_blank"
                 rel="noreferrer"
               >
-                {data.social.LinkedIn.replace("https://linkedin.com/in/", "")}
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="xl"
+                  style={{ color: "#00a6fb" }}
+                />
               </a>
             </div>
           </div>
