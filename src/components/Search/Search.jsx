@@ -9,7 +9,9 @@ function Search({ onSearch }) {
   };
 
   const handleSearch = () => {
-    onSearch(searchValue);
+    if (searchValue !== "") {
+      onSearch(searchValue);
+    }
   };
   const handleSearchOnEnter = (e) => {
     if (e.keyCode === 13) {
