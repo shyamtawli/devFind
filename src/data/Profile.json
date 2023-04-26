@@ -160,6 +160,29 @@
       "Twitter": "https://twitter.com/shobhitexe",
       "LinkedIn": "https://www.linkedin.com/in/shobhitx/"
     }
+  },
+  {
+    "name": "Santosh",
+    "location": "AndraPradesh, India",
+    "bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
+    "avatar": "https://avatars.githubusercontent.com/u/106766496?s=96&v=4",
+    "portfolio": "https://santoshkuchettiportfolio.netlify.app/",
+    "skills": [
+      "ReactJs",
+      "JavaScript",
+      "TypeScript",
+      "Html/css",
+      "Java",
+      "Git",
+      "GitHub",
+      "Antdesign",
+      "TailwindCSS",
+      "ContextAPI"
+    ],
+    "social": {
+      "GitHub": "https://github.com/santoshkuchetti",
+      "LinkedIn": "https://www.linkedin.com/in/santoshkuchetti/"
+    }
   }
   
 ]
