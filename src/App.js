@@ -3,6 +3,7 @@ import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
 import datas from "./data/Profile.json";
+import "./App.css"
 
 function App() {
   const [profiles, setProfiles] = useState([]);

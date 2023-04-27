@@ -12,6 +12,10 @@
   color: #fff;
 }
 
+.profile-photo {
+  flex-shrink: 0;
+}
+
 .profile-card .top-container {
   display: flex;
   gap: 1rem;
@@ -30,6 +34,7 @@
 
 .profile-details {
   width: 44rem;
+  overflow: hidden;
 }
 
 .profile-details p {
@@ -47,6 +52,7 @@
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .profile-link a {
@@ -56,6 +62,15 @@
 
 .bottom-container {
   margin-top: 1rem;
+}
+
+.bottom-container .about {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre-wrap;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .bottom-container .social {

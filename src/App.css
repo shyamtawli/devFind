@@ -1,0 +1,10 @@
+.App {
+
+}
+
+@media (max-width: 768px) {
+    .App > div{
+      margin-left: 0px;
+    }
+}
+  
