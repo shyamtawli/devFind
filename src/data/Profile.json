@@ -111,6 +111,25 @@
     }
   },
   {
+    "name": "Tushar Verma",
+    "location": "Delhi, India",
+    "bio": "16.Frontend Dev.Building Stuff with AI.",
+    "avatar": "https://github.com/tusharverma06.png",
+    "portfolio": "https://www.tusharv.xyz",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Tailwind CSS"
+    ],
+    "social": {
+      "GitHub": "https://github.com/tusharverma06",
+      "Twitter": "https://twitter.com/tusharrvrma",
+      "LinkedIn": "https://www.linkedin.com/in/tushar-verma-4b4974261/"
+    }
+  },
+  {
     "name": "Akshat Kumar",
     "location": "Jhansi, India",
     "bio": "I've been learning to code for 2 years, after my bachelors in Electronics & Communication. I started with HTML & CSS, but have really found a passion for backend development.",
@@ -179,6 +198,26 @@
       "GitHub": "https://github.com/jayk-gupta",
       "Twitter": "https://twitter.com/jayk_gupta",
       "LinkedIn": "https://www.linkedin.com/in/jay-kumar-gupta-ba0434201/"
+    }
+  },
+  {
+    "name": "Santosh",
+    "location": "AndraPradesh, India",
+    "bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
+    "avatar": "https://avatars.githubusercontent.com/u/106766496?s=96&v=4",
+    "portfolio": "https://santoshkuchettiportfolio.netlify.app/",
+    "skills": [
+      "ReactJs",
+      "TypeScript",
+      "Java",
+      "Git",
+      "Antdesign",
+      "TailwindCSS",
+      "ContextAPI"
+    ],
+    "social": {
+      "GitHub": "https://github.com/santoshkuchetti",
+      "LinkedIn": "https://www.linkedin.com/in/santoshkuchetti/"
     }
   }
 ]
