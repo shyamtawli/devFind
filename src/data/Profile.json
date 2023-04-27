@@ -1,215 +1,228 @@
 [
-	{
-		"name": "Shyam Tawli",
-		"location": "Indore, India",
-		"bio": "As a frontend developer, I am currently honing my skills in ReactJS and actively contributing to open source projects. Alongside, I also have some experience with data structures and algorithms (DSA) in Java.",
-		"avatar": "https://github.com/shyamtawli.png",
-		"portfolio": "https://github.com/shyamtawli",
-		"skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Java"],
-		"social": {
-			"GitHub": "https://github.com/shyamtawli",
-			"Twitter": "https://twitter.com/shyam_tawli",
-			"LinkedIn": "https://linkedin.com/in/shyamtawli"
-		}
-	},
-	{
-		"name": "John Doe",
-		"location": "New York, USA",
-		"bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
-		"avatar": "https://github.com/johndoe.png",
-		"portfolio": "https://github.com/johndoe",
-		"skills": ["JavaScript", "Node.js", "ReactJS", "MongoDB", "HTML", "CSS"],
-		"social": {
-			"GitHub": "https://github.com/johndoe",
-			"Twitter": "https://twitter.com/johndoe",
-			"LinkedIn": "https://linkedin.com/in/johndoe"
-		}
-	},
-	{
-		"name": "Alice Smith",
-		"location": "London, UK",
-		"bio": "I am a UX/UI Designer with a passion for creating clean and visually appealing user interfaces. I have experience in designing websites and mobile applications for various industries.",
-		"avatar": "https://github.com/alicesmith.png",
-		"portfolio": "https://github.com/alicesmith",
-		"skills": [
-			"(UX) Design",
-			"(UI) Design",
-			"Sketch",
-			"Figma",
-			"InVision",
-			"Adobe XD"
-		],
-		"social": {
-			"GitHub": "https://github.com/alicesmith",
-			"Twitter": "https://twitter.com/alicesmith",
-			"LinkedIn": "https://linkedin.com/in/alicesmith"
-		}
-	},
-	{
-		"name": "Sudarshan Rai",
-		"location": "Kathmandu, Nepal",
-		"bio": "Hey it's me Sudarshan Rai with 5+ years of web/mobile application development experience. Javascript being my core technical skill, I don't limit within it. I do more study and research to keep updated with the latest technologies",
-		"avatar": "https://github.com/mrsudarshanrai.png",
-		"portfolio": "https://sudarshanrai.com.np/",
-		"skills": ["Typescript", "Rust", "React/Next", "Html/css", "Node.js"],
-		"social": {
-			"GitHub": "https://github.com/mrsudarshanrai",
-			"Twitter": "https://twitter.com/rai_F0x",
-			"LinkedIn": "https://www.linkedin.com/in/mr-sudarshan-rai/"
-		}
-	},
-	{
-		"name": "Harshit Malang",
-		"location": "Lucknow, India",
-		"bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
-		"avatar": "https://github.com/hrshtmlng.png",
-		"skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python"],
-		"social": {
-			"GitHub": "https://github.com/hrshtmlng",
-			"Twitter": "https://twitter.com/hrshtmlng",
-			"LinkedIn": "https://www.linkedin.com/in/harshit-malang-3968011aa/"
-		}
-	},
-	{
-		"name": "Aryan Raj",
-		"location": "Banglore, India",
-		"bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
-		"avatar": "https://github.com/anonymgit.png",
-		"portfolio": "https://github.com/anonymgit",
-		"skills": [
-			"Java",
-			"Springboot",
-			"React",
-			"C++",
-			"HTML",
-			"javaScript",
-			"css"
-		],
-		"social": {
-			"GitHub": "https://github.com/anonymgit",
-			"Twitter": "https://twitter.com/aryanraj0836",
-			"LinkedIn": "https://linkedin.com/in/aryanraj0836"
-		}
-	},
-	{
-		"name": "Tushar Verma",
-		"location": "Delhi, India",
-		"bio": "16.Frontend Dev.Building Stuff with AI.",
-		"avatar": "https://github.com/tusharverma06.png",
-		"portfolio": "https://www.tusharv.xyz",
-		"skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS"],
-		"social": {
-			"GitHub": "https://github.com/tusharverma06",
-			"Twitter": "https://twitter.com/tusharrvrma",
-			"LinkedIn": "https://www.linkedin.com/in/tushar-verma-4b4974261/"
-		}
-	},
-	{
-		"name": "Akshat Kumar",
-		"location": "Jhansi, India",
-		"bio": "I've been learning to code for 2 years, after my bachelors in Electronics & Communication. I started with HTML & CSS, but have really found a passion for backend development.",
-		"avatar": "https://github.com/KyloRen04.png",
-		"portfolio": "https://superlative-lily-568543.netlify.app",
-		"skills": [
-			"JavaScript",
-			"Node.js",
-			"React.js",
-			"TypeScript",
-			"HTML",
-			"CSS"
-		],
-		"social": {
-			"GitHub": "https://github.com/KyloRen04",
-			"LinkedIn": "https://www.linkedin.com/in/akshat-kumar-75816b20b"
-		}
-	},
-	{
-		"name": "Munish pathania",
-		"location": "Kangra, India",
-		"bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
-		"avatar": "https://github.com/munish-on-git.png",
-		"portfolio": "https://github.com/munish-on-git",
-		"skills": ["JavaScript", "Html/css", "Java", "Git", "Node.js"],
-		"social": {
-			"GitHub": "https://github.com/munish-on-git",
-			"Twitter": "https://twitter.com/munishtwts",
-			"LinkedIn": "https://www.linkedin.com/in/munish-pathania-0972aa24b/"
-		}
-	},
-	{
-		"name": "Shobhit Gupta",
-		"location": "MP India",
-		"bio": "Dev | Passionate about tech, Web3 & gaming | Exploring the future",
-		"avatar": "https://github.com/shobhitexe.png",
-		"portfolio": "https://github.com/shobhitexe/",
-		"skills": ["NodeJs", "ReactJS", "Solidity"],
-		"social": {
-			"GitHub": "https://github.com/shobhitexe/",
-			"Twitter": "https://twitter.com/shobhitexe",
-			"LinkedIn": "https://www.linkedin.com/in/shobhitx/"
-		}
-	},
-	{
-		"name": "Jay Kumar Gupta",
-		"location": "Durg, India",
-		"bio": "Frontend Developer,Passionate about web development.Currently learing React and DSA in Java",
-		"avatar": "https://avatars.githubusercontent.com/u/100681165?v=4",
-		"portfolio": "https://jaykgupta.netlify.app/",
-		"skills": [
-			"HTML/CSS",
-			"JavaScript",
-			"React.js",
-			"Tailwind CSS",
-			"Git",
-			"DSA"
-		],
-		"social": {
-			"GitHub": "https://github.com/jayk-gupta",
-			"Twitter": "https://twitter.com/jayk_gupta",
-			"LinkedIn": "https://www.linkedin.com/in/jay-kumar-gupta-ba0434201/"
-		}
-	},
-	{
-		"name": "Logan Blangenois",
-		"location": "Belgium",
-		"bio": "I'm Logan, lead front-end developer. I specialize in building beautiful, performant, accessible and responsive (web) applications using modern technologies.",
-		"avatar": "https://github.com/MKlblangenois.png",
-		"portfolio": "https://logan-blangenois.be",
-		"skills": [
-			"ReactJS",
-			"TypeScript",
-			"TailwindCSS",
-			"JavaScript",
-			"HTML",
-			"CSS",
-			"A11y",
-			"Accessibility",
-			"Performance"
-		],
-		"social": {
-			"GitHub": "https://github.com/MKlblangenois",
-			"Twitter": "https://twitter.com/loganblangenois",
-			"LinkedIn": "https://www.linkedin.com/in/logan-blangenois/"
-		}
-	},
-	{
-		"name": "Santosh",
-		"location": "AndraPradesh, India",
-		"bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
-		"avatar": "https://avatars.githubusercontent.com/u/106766496?s=96&v=4",
-		"portfolio": "https://santoshkuchettiportfolio.netlify.app/",
-		"skills": [
-			"ReactJs",
-			"TypeScript",
-			"Java",
-			"Git",
-			"Antdesign",
-			"TailwindCSS",
-			"ContextAPI"
-		],
-		"social": {
-			"GitHub": "https://github.com/santoshkuchetti",
-			"LinkedIn": "https://www.linkedin.com/in/santoshkuchetti/"
-		}
-	}
+  {
+    "name": "Shyam Tawli",
+    "location": "Indore, India",
+    "bio": "As a frontend developer, I am currently honing my skills in ReactJS and actively contributing to open source projects. Alongside, I also have some experience with data structures and algorithms (DSA) in Java.",
+    "avatar": "https://github.com/shyamtawli.png",
+    "portfolio": "https://github.com/shyamtawli",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Java"],
+    "social": {
+      "GitHub": "https://github.com/shyamtawli",
+      "Twitter": "https://twitter.com/shyam_tawli",
+      "LinkedIn": "https://linkedin.com/in/shyamtawli"
+    }
+  },
+  {
+    "name": "John Doe",
+    "location": "New York, USA",
+    "bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
+    "avatar": "https://github.com/johndoe.png",
+    "portfolio": "https://github.com/johndoe",
+    "skills": ["JavaScript", "Node.js", "ReactJS", "MongoDB", "HTML", "CSS"],
+    "social": {
+      "GitHub": "https://github.com/johndoe",
+      "Twitter": "https://twitter.com/johndoe",
+      "LinkedIn": "https://linkedin.com/in/johndoe"
+    }
+  },
+  {
+    "name": "Alice Smith",
+    "location": "London, UK",
+    "bio": "I am a UX/UI Designer with a passion for creating clean and visually appealing user interfaces. I have experience in designing websites and mobile applications for various industries.",
+    "avatar": "https://github.com/alicesmith.png",
+    "portfolio": "https://github.com/alicesmith",
+    "skills": [
+      "(UX) Design",
+      "(UI) Design",
+      "Sketch",
+      "Figma",
+      "InVision",
+      "Adobe XD"
+    ],
+    "social": {
+      "GitHub": "https://github.com/alicesmith",
+      "Twitter": "https://twitter.com/alicesmith",
+      "LinkedIn": "https://linkedin.com/in/alicesmith"
+    }
+  },
+  {
+    "name": "Sudarshan Rai",
+    "location": "Kathmandu, Nepal",
+    "bio": "Hey it's me Sudarshan Rai with 5+ years of web/mobile application development experience. Javascript being my core technical skill, I don't limit within it. I do more study and research to keep updated with the latest technologies",
+    "avatar": "https://github.com/mrsudarshanrai.png",
+    "portfolio": "https://sudarshanrai.com.np/",
+    "skills": ["Typescript", "Rust", "React/Next", "Html/css", "Node.js"],
+    "social": {
+      "GitHub": "https://github.com/mrsudarshanrai",
+      "Twitter": "https://twitter.com/rai_F0x",
+      "LinkedIn": "https://www.linkedin.com/in/mr-sudarshan-rai/"
+    }
+  },
+  {
+    "name": "Monil Prajapati",
+    "location": "Ahmedabad, India",
+    "bio": "I'm Monil Prajapati, A self taught developer. On the way to become full stack developer. Open source enthusiast. Love to solve Real world problems.!!",
+    "avatar": "https://github.com/Monilprajapati.png",
+    "portfolio": "https://github.com/Monilprajapati",
+    "skills": ["HTML/CSS", "JavaScript", "jQuery", "React" , "Java" , "C/C++" , "Firebase"],
+    "social": {
+      "GitHub": "https://github.com/Monilprajapati",
+      "Twitter": "https://twitter.com/monilprajapatii",
+      "LinkedIn": "https://www.linkedin.com/in/monil-prajapati/"
+    }
+  },
+  {
+    "name": "Harshit Malang",
+    "location": "Lucknow, India",
+    "bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
+    "avatar": "https://github.com/hrshtmlng.png",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python"],
+    "social": {
+      "GitHub": "https://github.com/hrshtmlng",
+      "Twitter": "https://twitter.com/hrshtmlng",
+      "LinkedIn": "https://www.linkedin.com/in/harshit-malang-3968011aa/"
+    }
+  },
+  {
+    "name": "Aryan Raj",
+    "location": "Banglore, India",
+    "bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
+    "avatar": "https://github.com/anonymgit.png",
+    "portfolio": "https://github.com/anonymgit",
+    "skills": [
+      "Java",
+      "Springboot",
+      "React",
+      "C++",
+      "HTML",
+      "javaScript",
+      "css"
+    ],
+    "social": {
+      "GitHub": "https://github.com/anonymgit",
+      "Twitter": "https://twitter.com/aryanraj0836",
+      "LinkedIn": "https://linkedin.com/in/aryanraj0836"
+    }
+  },
+  {
+    "name": "Tushar Verma",
+    "location": "Delhi, India",
+    "bio": "16.Frontend Dev.Building Stuff with AI.",
+    "avatar": "https://github.com/tusharverma06.png",
+    "portfolio": "https://www.tusharv.xyz",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS"],
+    "social": {
+      "GitHub": "https://github.com/tusharverma06",
+      "Twitter": "https://twitter.com/tusharrvrma",
+      "LinkedIn": "https://www.linkedin.com/in/tushar-verma-4b4974261/"
+    }
+  },
+  {
+    "name": "Akshat Kumar",
+    "location": "Jhansi, India",
+    "bio": "I've been learning to code for 2 years, after my bachelors in Electronics & Communication. I started with HTML & CSS, but have really found a passion for backend development.",
+    "avatar": "https://github.com/KyloRen04.png",
+    "portfolio": "https://superlative-lily-568543.netlify.app",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "social": {
+      "GitHub": "https://github.com/KyloRen04",
+      "LinkedIn": "https://www.linkedin.com/in/akshat-kumar-75816b20b"
+    }
+  },
+  {
+    "name": "Munish pathania",
+    "location": "Kangra, India",
+    "bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
+    "avatar": "https://github.com/munish-on-git.png",
+    "portfolio": "https://github.com/munish-on-git",
+    "skills": ["JavaScript", "Html/css", "Java", "Git", "Node.js"],
+    "social": {
+      "GitHub": "https://github.com/munish-on-git",
+      "Twitter": "https://twitter.com/munishtwts",
+      "LinkedIn": "https://www.linkedin.com/in/munish-pathania-0972aa24b/"
+    }
+  },
+  {
+    "name": "Shobhit Gupta",
+    "location": "MP India",
+    "bio": "Dev | Passionate about tech, Web3 & gaming | Exploring the future",
+    "avatar": "https://github.com/shobhitexe.png",
+    "portfolio": "https://github.com/shobhitexe/",
+    "skills": ["NodeJs", "ReactJS", "Solidity"],
+    "social": {
+      "GitHub": "https://github.com/shobhitexe/",
+      "Twitter": "https://twitter.com/shobhitexe",
+      "LinkedIn": "https://www.linkedin.com/in/shobhitx/"
+    }
+  },
+  {
+    "name": "Jay Kumar Gupta",
+    "location": "Durg, India",
+    "bio": "Frontend Developer,Passionate about web development.Currently learing React and DSA in Java",
+    "avatar": "https://avatars.githubusercontent.com/u/100681165?v=4",
+    "portfolio": "https://jaykgupta.netlify.app/",
+    "skills": [
+      "HTML/CSS",
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "Git",
+      "DSA"
+    ],
+    "social": {
+      "GitHub": "https://github.com/jayk-gupta",
+      "Twitter": "https://twitter.com/jayk_gupta",
+      "LinkedIn": "https://www.linkedin.com/in/jay-kumar-gupta-ba0434201/"
+    }
+  },
+  {
+    "name": "Logan Blangenois",
+    "location": "Belgium",
+    "bio": "I'm Logan, lead front-end developer. I specialize in building beautiful, performant, accessible and responsive (web) applications using modern technologies.",
+    "avatar": "https://github.com/MKlblangenois.png",
+    "portfolio": "https://logan-blangenois.be",
+    "skills": [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "A11y",
+      "Accessibility",
+      "Performance"
+    ],
+    "social": {
+      "GitHub": "https://github.com/MKlblangenois",
+      "Twitter": "https://twitter.com/loganblangenois",
+      "LinkedIn": "https://www.linkedin.com/in/logan-blangenois/"
+    }
+  },
+  {
+    "name": "Santosh",
+    "location": "AndraPradesh, India",
+    "bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
+    "avatar": "https://avatars.githubusercontent.com/u/106766496?s=96&v=4",
+    "portfolio": "https://santoshkuchettiportfolio.netlify.app/",
+    "skills": [
+      "ReactJs",
+      "TypeScript",
+      "Java",
+      "Git",
+      "Antdesign",
+      "TailwindCSS",
+      "ContextAPI"
+    ],
+    "social": {
+      "GitHub": "https://github.com/santoshkuchetti",
+      "LinkedIn": "https://www.linkedin.com/in/santoshkuchetti/"
+    }
+  }
 ]
