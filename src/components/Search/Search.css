@@ -32,3 +32,13 @@
 .search-icon:hover {
   color: #00a6fb;
 }
+
+@media (max-width: 768px) {
+  .search-bar, .search-bar > input{
+    width: 100%;
+  }
+
+  .search-bar .search-icon {
+    right: 40px;
+  }
+}
