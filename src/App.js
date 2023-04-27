@@ -6,7 +6,8 @@ import datas from "./data/Profile.json";
 
 function App() {
   const [profiles, setProfiles] = useState([]);
-
+  const [searching, setSearching] = useState(false);
+  
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
     const results = [];
@@ -19,7 +20,8 @@ function App() {
         results.push(object);
       }
     }
-
+    
+    setSearching(true);
     setProfiles(results);
   };
 
@@ -37,7 +39,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
-      {profiles.length === 0
+      {(profiles.length === 0 && !searching)
         ? shuffledProfiles.map((profile, index) => {
             return <Profile data={profile} key={index} />;
           })
