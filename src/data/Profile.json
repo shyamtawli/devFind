@@ -169,12 +169,9 @@
     "portfolio": "https://santoshkuchettiportfolio.netlify.app/",
     "skills": [
       "ReactJs",
-      "JavaScript",
       "TypeScript",
-      "Html/css",
       "Java",
       "Git",
-      "GitHub",
       "Antdesign",
       "TailwindCSS",
       "ContextAPI"
