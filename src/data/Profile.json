@@ -39,19 +39,6 @@
 		}
 	},
 	{
-		"name": "CodeMode365 (Pabin)",
-		"location": "Nepal, Kathmandu",
-		"bio": "Full stack developer with expertise in Typescript/Javascript. Development Experience of 3 Years",
-		"avatar": "https://avatars.githubusercontent.com/u/102400760?v=4",
-		"portfolio": "https://pabins-folio.netlify.app/",
-		"skills": ["Nextjs","MongoDB","Express.js","Node.js","Tailwind CSS","React Native", "Redux/Redux toolkit","PS/Illustrator","Figma","Git"],
-		"social": {
-		  "GitHub": "https://github.com/CodeMode365",
-		  "Twitter": "",
-		  "LinkedIn": "https://www.linkedin.com/in/pabin-dhami-ab29b024a/"
-		}
-	  },
-	{
 		"name": "Alice Smith",
 		"location": "London, UK",
 		"bio": "I am a UX/UI Designer with a passion for creating clean and visually appealing user interfaces. I have experience in designing websites and mobile applications for various industries.",
