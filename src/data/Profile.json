@@ -313,5 +313,34 @@
       "Twitter": "https://twitter.com/liza_bhutani",
       "LinkedIn": "https://www.linkedin.com/in/liza-bhutani"
     }
-  }
+  },
+	{
+		"name": "Yash Sehgal",
+		"location": "Indore, India",
+		"bio": "Software Engineer. Design with code",
+		"avatar": "https://github.com/yashsehgal.png",
+		"portfolio": "https://yashsehgal.com",
+		"skills": [
+			"Javascript",
+			"Typescript",
+			"React",
+			"NextJS",
+			"Astro",
+			"Git/GitHub",
+			"Linux",
+			"APIs",
+			"UI Design",
+			"Figma",
+			"CSS/SCSS",
+			"TailwindCSS",
+			"AntDesign",
+			"ChakraUI",
+			"RadixUI"
+		],
+		"social": {
+			"GitHub": "https://github.com/yashsehgal",
+			"Twitter": "https://twitter.com/yashsehgaldev",
+			"LinkedIn": "https://linkedin.com/in/sehgalyash"
+		}
+	}
 ]
