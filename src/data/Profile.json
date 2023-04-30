@@ -5,7 +5,13 @@
     "bio": "As a frontend developer, I am currently honing my skills in ReactJS and actively contributing to open source projects. Alongside, I also have some experience with data structures and algorithms (DSA) in Java.",
     "avatar": "https://github.com/shyamtawli.png",
     "portfolio": "https://github.com/shyamtawli",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Java"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Java"
+    ],
     "social": {
       "GitHub": "https://github.com/shyamtawli",
       "Twitter": "https://twitter.com/shyam_tawli",
@@ -13,18 +19,26 @@
     }
   },
   {
-		"name": "Sampath",
-		"location": "Hyderabad, India",
-		"bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
-		"avatar": "https://github.com/sampath88.png",
-		"portfolio": "https://github.com/sampath88",
-		"skills": ["React", "Flutter", "JavaScript","HTML","CSS","Tailwind CSS","TypeScript"],
-		"social": {
-		  "GitHub": "https://github.com/sampath88",
-		  "Twitter": "https://twitter.com/Sampath_____",
-		  "LinkedIn": "https://in.linkedin.com/in/sampath-reddy-09900918b"
-		}
-	},
+    "name": "Sampath",
+    "location": "Hyderabad, India",
+    "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
+    "avatar": "https://github.com/sampath88.png",
+    "portfolio": "https://github.com/sampath88",
+    "skills": [
+      "React",
+      "Flutter",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "social": {
+      "GitHub": "https://github.com/sampath88",
+      "Twitter": "https://twitter.com/Sampath_____",
+      "LinkedIn": "https://in.linkedin.com/in/sampath-reddy-09900918b"
+    }
+  },
   {
     "name": "Nishant Jangid",
     "location": "Jaipur, India",
@@ -53,7 +67,14 @@
     "bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
     "avatar": "https://github.com/johndoe.png",
     "portfolio": "https://github.com/johndoe",
-    "skills": ["JavaScript", "Node.js", "ReactJS", "MongoDB", "HTML", "CSS"],
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "ReactJS",
+      "MongoDB",
+      "HTML",
+      "CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/johndoe",
       "Twitter": "https://twitter.com/johndoe",
@@ -106,7 +127,13 @@
     "bio": "Hey it's me Sudarshan Rai with 5+ years of web/mobile application development experience. Javascript being my core technical skill, I don't limit within it. I do more study and research to keep updated with the latest technologies",
     "avatar": "https://github.com/mrsudarshanrai.png",
     "portfolio": "https://sudarshanrai.com.np/",
-    "skills": ["Typescript", "Rust", "React/Next", "Html/css", "Node.js"],
+    "skills": [
+      "Typescript",
+      "Rust",
+      "React/Next",
+      "Html/css",
+      "Node.js"
+    ],
     "social": {
       "GitHub": "https://github.com/mrsudarshanrai",
       "Twitter": "https://twitter.com/rai_F0x",
@@ -139,7 +166,13 @@
     "location": "Lucknow, India",
     "bio": "I am student trying to become full stack developer. Currently I'm proficient in frontend development soon in full stack. Apart from that i'm doing DSAA in Python",
     "avatar": "https://github.com/hrshtmlng.png",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Python"
+    ],
     "social": {
       "GitHub": "https://github.com/hrshtmlng",
       "Twitter": "https://twitter.com/hrshtmlng",
@@ -173,7 +206,13 @@
     "bio": "16.Frontend Dev.Building Stuff with AI.",
     "avatar": "https://github.com/tusharverma06.png",
     "portfolio": "https://www.tusharv.xyz",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Tailwind CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/tusharverma06",
       "Twitter": "https://twitter.com/tusharrvrma",
@@ -186,7 +225,14 @@
     "bio": "I develop WordPress pages. I'm currently studying AWS Cloud and Front-End development. I like football, cycling and playing with my kittens.",
     "avatar": "https://github.com/walterowisk.png",
     "portfolio": "https://github.com/walterowisk",
-    "skills": ["WordPress", "AWS", "HTML", "CSS", "JavaScript", "Git"],
+    "skills": [
+      "WordPress",
+      "AWS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git"
+    ],
     "social": {
       "GitHub": "https://github.com/walterowisk",
       "Twitter": "https://twitter.com/seuwalter",
@@ -239,7 +285,13 @@
     "bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
     "avatar": "https://github.com/munish-on-git.png",
     "portfolio": "https://github.com/munish-on-git",
-    "skills": ["JavaScript", "Html/css", "Java", "Git", "Node.js"],
+    "skills": [
+      "JavaScript",
+      "Html/css",
+      "Java",
+      "Git",
+      "Node.js"
+    ],
     "social": {
       "GitHub": "https://github.com/munish-on-git",
       "Twitter": "https://twitter.com/munishtwts",
@@ -252,7 +304,11 @@
     "bio": "Dev | Passionate about tech, Web3 & gaming | Exploring the future",
     "avatar": "https://github.com/shobhitexe.png",
     "portfolio": "https://github.com/shobhitexe/",
-    "skills": ["NodeJs", "ReactJS", "Solidity"],
+    "skills": [
+      "NodeJs",
+      "ReactJS",
+      "Solidity"
+    ],
     "social": {
       "GitHub": "https://github.com/shobhitexe/",
       "Twitter": "https://twitter.com/shobhitexe",
@@ -265,7 +321,14 @@
     "bio": "I'm a Front-end developer specializing in the ReactJS, with experience in building scalable and efficient web applications. I have a keen interest in Back-end too. So, I'm learning NodeJS.",
     "avatar": "https://avatars.githubusercontent.com/u/125730836?s=40&v=4",
     "portfolio": "https://github.com/Madanraj0519",
-    "skills": ["Javascript", "ReactJS", "HTML", "CSS", "Tailwind CSS", "Java"],
+    "skills": [
+      "Javascript",
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Java"
+    ],
     "social": {
       "GitHub": "https://github.com/Madanraj0519",
       "Twitter": "https://twitter.com/Madan__raj",
@@ -278,7 +341,14 @@
     "bio": "I am a Frontend Developer, Always passionate about tech.Currently making my hands dirty in ReactJS.",
     "avatar": "https://github.com/jebarsonponraj.png",
     "portfolio": "https://jebarsonponraj.me/",
-    "skills": ["JavaScript", "Java", "ReactJS", "HTML", "CSS", "Git"],
+    "skills": [
+      "JavaScript",
+      "Java",
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
     "social": {
       "GitHub": "https://github.com/jebarsonponraj",
       "Twitter": "https://twitter.com/jebarsonponraj",
@@ -303,6 +373,24 @@
       "GitHub": "https://github.com/jayk-gupta",
       "Twitter": "https://twitter.com/jayk_gupta",
       "LinkedIn": "https://www.linkedin.com/in/jay-kumar-gupta-ba0434201/"
+    }
+  },
+  {
+    "name": "Leong Chee Fai",
+    "location": "Singapore",
+    "bio": "I am Chee Fai, a software engineer who expertise in web development. I thrive on solving complex problems and enjoy building scalable, high-performance applications",
+    "avatar": "https://github.com/highfaii1050.png",
+    "portfolio": "https://github.com/highfaii1050",
+    "skills": [
+      "Laravel PHP",
+      "MySQL",
+      "JavaScript",
+      "AWS",
+      "TypeScript"
+    ],
+    "social": {
+      "GitHub": "https://github.com/highfaii1050",
+      "LinkedIn": "https://www.linkedin.com/in/leong-chee-fai"
     }
   },
   {
