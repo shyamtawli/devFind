@@ -28,11 +28,7 @@ function Search({ onSearch }) {
 
   const handleSearchButtonClick = () => {
     handleSearch();
-    if (searchValue === "") {
-      setSearchValue("");
-      setPrevSearchValue("");
-      onSearch("");
-    }
+    
   };
 
   // Focus the search input when the component mounts
