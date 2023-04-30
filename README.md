@@ -11,7 +11,7 @@
 + Users can search for developers based on specific skills, making it easy to find developers with expertise in a particular technology or programming language. 
 + This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
-## 🤔 How to add your profile
+## How to add your profile 🤔
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
@@ -50,4 +50,15 @@
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
-Thank you for contributing to our open-source project! We appreciate your support 🚀
+## Contributing 👨‍💻
+Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
+**Any contributions you make are truly appreciated!**
+
+## Contributors 🤝
+<a href="https://github.com/shyamtawli/devFind/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shyamtawli/devFind" />
+</a>
+
+## Support 🙏 
+Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
+Don't forget to leave a star ⭐️
