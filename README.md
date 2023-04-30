@@ -43,7 +43,7 @@
    **`Note:`** Copy the above code, edit your details, and paste it in the middle (not at the top or bottom). It doesn't matter where you add your profile, it will appear randomly on the website.
 7. Save the changes to the **`Profile.json`** file.
 8. Create a new branch for your profile **`git checkout -b add-profile`**
-9. Commit your changes **`git commit -m "Add profile"`**
+9. Commit your changes **`git commit -m "add: <your-name>"`**
 10. Push to the branch **`git push origin add-profile`**
 11. Create a pull request to submit your changes to the main repository.
 12. Wait for the project maintainers to review and merge your changes.
