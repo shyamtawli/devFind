@@ -3,13 +3,15 @@
 </div>
 
 ## About 🚀
-+ **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. 
-+ With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
+
+- **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
+- With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 
 ## Features 💪
-+ One of the key features of **`devFind`** is its powerful search functionality. 
-+ Users can search for developers based on specific skills, making it easy to find developers with expertise in a particular technology or programming language. 
-+ This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
+
+- One of the key features of **`devFind`** is its powerful search functionality.
+- Users can search for developers based on specific skills, locations or name, making it easy to find developers with expertise in a particular technology or programming language.
+- This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
 ## How to add your profile 🤔
 
@@ -23,7 +25,6 @@
 4. Navigate to the **`src/data`** directory.
 5. Open the **`Profile.json`** file.
 6. Add your profile data in the JSON object format, following the existing structure:
-
 
    ```json
    {
@@ -40,7 +41,9 @@
      }
    },
    ```
+
    **`Note:`** Copy the above code, edit your details, and paste it in the middle (not at the top or bottom). It doesn't matter where you add your profile, it will appear randomly on the website.
+
 7. Save the changes to the **`Profile.json`** file.
 8. Create a new branch for your profile **`git checkout -b add-profile`**
 9. Commit your changes **`git commit -m "add: <your-name>"`**
@@ -51,14 +54,17 @@
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
 ## Contributing 👨‍💻
+
 Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
 **Any contributions you make are truly appreciated!**
 
 ## Contributors 🤝
+
 <a href="https://github.com/shyamtawli/devFind/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=shyamtawli/devFind" />
 </a>
 
-## Support 🙏 
+## Support 🙏
+
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
 Don't forget to leave a star ⭐️
