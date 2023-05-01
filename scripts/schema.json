@@ -1,0 +1,54 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "location",
+      "bio",
+      "avatar",
+      "portfolio",
+      "skills",
+      "social"
+    ],
+    "properties": {
+      "name": {"type": "string"},
+      "location": {"type": "string"},
+      "bio": {"type": "string"},
+      "avatar": {
+        "type": "string", 
+        "format": "uri"
+      },
+      "portfolio": {
+        "type": "string", 
+        "format": "uri"
+      },
+      "skills": {
+        "type": "array",
+        "items": {"type": "string"}
+      },
+      "social": {
+        "type": "object",
+        "required": [
+          "GitHub",
+          "Twitter",
+          "LinkedIn"
+        ],
+        "properties": {
+          "GitHub": {
+            "type": "string", 
+            "format": "uri"
+          },
+          "Twitter": {
+            "type": "string", 
+            "format": "uri"
+          },
+          "LinkedIn": {
+            "type": "string", 
+            "format": "uri"
+          }
+        }
+      }
+    }
+  }
+}
