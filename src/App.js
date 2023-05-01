@@ -8,20 +8,26 @@ import "./App.css"
 function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
-  
+
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
     const results = [];
 
     for (const object of datas) {
+      const lowercaseName = object.name.toLowerCase();
+      const lowercaseLocation = object.location.toLowerCase();
       const matchingSkills = object.skills.filter((skill) =>
         skill.toLowerCase().includes(lowercaseSearch)
       );
-      if (matchingSkills.length > 0) {
+      if (
+        matchingSkills.length > 0 ||
+        lowercaseName.includes(lowercaseSearch) ||
+        lowercaseLocation.includes(lowercaseSearch)
+      ) {
         results.push(object);
       }
     }
-    
+
     setSearching(true);
     setProfiles(results);
   };
@@ -40,7 +46,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
-      {(profiles.length === 0 && !searching)
+      {profiles.length === 0 && !searching
         ? shuffledProfiles.map((profile, index) => {
             return <Profile data={profile} key={index} />;
           })
