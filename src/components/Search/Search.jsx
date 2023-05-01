@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from "react";
 import "./Search.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +13,7 @@ function Search({ onSearch }) {
   };
 
   const handleSearch = () => {
-    if ( searchValue !== prevSearchValue) {
+    if (searchValue !== prevSearchValue) {
       onSearch(searchValue);
       setPrevSearchValue(searchValue);
     }
@@ -28,10 +27,8 @@ function Search({ onSearch }) {
 
   const handleSearchButtonClick = () => {
     handleSearch();
-    
   };
 
-  // Focus the search input when the component mounts
   useEffect(() => {
     searchInput.current.focus();
   }, []);
@@ -43,7 +40,7 @@ function Search({ onSearch }) {
         type="text"
         onChange={handleInputChange}
         value={searchValue}
-        placeholder="Find users with specific skills"
+        placeholder="Search user by name, location or skills"
         onKeyDown={handleSearchOnEnter}
       />
       <FontAwesomeIcon
@@ -56,5 +53,3 @@ function Search({ onSearch }) {
 }
 
 export default Search;
-
-
