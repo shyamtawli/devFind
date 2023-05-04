@@ -69,6 +69,7 @@
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   font-size: 14px;
+  white-space: nowrap;
   height: 30px;
   cursor: default;
 }
