@@ -13,6 +13,32 @@
     }
   },
   {
+    "name": "Nguyễn Công Dũng",
+    "location": "Hanoi, Vietnam",
+    "bio": "I am a highly motivated software engineer interested in front-end with a passion to learn and develop projects using modern tech.",
+    "avatar": "https://github.com/DungGramer.png",
+    "portfolio": "https://www.dunggramer.com/",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NextJS",
+      "Redux",
+      "Immer",
+      "Webpack",
+      "NX",
+      "Jest",
+      "Accessibility"
+    ],
+    "social": {
+      "GitHub": "https://github.com/DungGramer",
+      "Twitter": "https://twitter.com/DungGramer",
+      "LinkedIn": "https://www.linkedin.com/in/dunggramer/"
+    }
+  },
+  {
     "name": "Sampath",
     "location": "Hyderabad, India",
     "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
@@ -428,33 +454,33 @@
       "LinkedIn": "https://www.linkedin.com/in/aarab-nishchal"
     }
   },
-	{
-		"name": "Yash Sehgal",
-		"location": "Indore, India",
-		"bio": "Software Engineer. Design with code",
-		"avatar": "https://github.com/yashsehgal.png",
-		"portfolio": "https://yashsehgal.com",
-		"skills": [
-			"Javascript",
-			"Typescript",
-			"React",
-			"NextJS",
-			"Astro",
-			"Git/GitHub",
-			"Linux",
-			"APIs",
-			"UIDesign",
-			"Figma",
-			"CSS/SCSS",
-			"TailwindCSS",
-			"AntDesign",
-			"ChakraUI",
-			"RadixUI"
-		],
-		"social": {
-			"GitHub": "https://github.com/yashsehgal",
-			"Twitter": "https://twitter.com/yashsehgaldev",
-			"LinkedIn": "https://linkedin.com/in/sehgalyash"
-		}
-	}
+  {
+    "name": "Yash Sehgal",
+    "location": "Indore, India",
+    "bio": "Software Engineer. Design with code",
+    "avatar": "https://github.com/yashsehgal.png",
+    "portfolio": "https://yashsehgal.com",
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "NextJS",
+      "Astro",
+      "Git/GitHub",
+      "Linux",
+      "APIs",
+      "UIDesign",
+      "Figma",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "AntDesign",
+      "ChakraUI",
+      "RadixUI"
+    ],
+    "social": {
+      "GitHub": "https://github.com/yashsehgal",
+      "Twitter": "https://twitter.com/yashsehgaldev",
+      "LinkedIn": "https://linkedin.com/in/sehgalyash"
+    }
+  }
 ]
