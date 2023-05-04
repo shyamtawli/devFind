@@ -456,5 +456,20 @@
 			"Twitter": "https://twitter.com/yashsehgaldev",
 			"LinkedIn": "https://linkedin.com/in/sehgalyash"
 		}
-	}
+	},
+  {
+    "name": "Nipun Tharuksha",
+    "location": "Colombo, Sri Lanka",
+    "bio": "Senior Software Engineer. Ceymplon",
+    "avatar": "https://avatars.githubusercontent.com/u/34437801?v=4",
+    "portfolio": "https://medium.com/@nipunth7",
+    "skills": [
+      "LEMP stack"
+    ],
+    "social": {
+      "GitHub": "https://github.com/nipunTharuksha",
+      "Twitter": "https://twitter.com/TharukshaNipun",
+      "LinkedIn": "https://lk.linkedin.com/in/nipun-tharuksha"
+    }
+  }
 ]
