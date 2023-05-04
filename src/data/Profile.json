@@ -239,6 +239,25 @@
     }
   },
   {
+    "name": "Kartik Pal",
+    "location": "Ghaziabad, India",
+    "bio": "Software Engineer | Javascript | React",
+    "avatar": "https://github.com/kartikp962.png",
+    "portfolio": "https://github.com/kartikp962",
+    "skills": [
+      "Java",
+      "HTML", 
+      "CSS",
+      "JavaScript",
+      "ReactJS"
+  ],
+    "social": {
+      "GitHub": "https://github.com/kartikp962",
+      "Twitter": "https://twitter.com/kartikp962",
+      "LinkedIn": "https://www.linkedin.com/in/kartikp962/"
+    }
+  },
+  {
     "name": "Walter J. Silva",
     "location": "Santarém - PA, Brasil",
     "bio": "I develop WordPress pages. I'm currently studying AWS Cloud and Front-End development. I like football, cycling and playing with my kittens.",
