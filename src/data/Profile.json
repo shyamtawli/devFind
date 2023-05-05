@@ -215,6 +215,25 @@
     }
   },
   {
+    "name": "Kartik Pal",
+    "location": "Ghaziabad, India",
+    "bio": "Software Engineer | Javascript | React",
+    "avatar": "https://github.com/kartikp962.png",
+    "portfolio": "https://github.com/kartikp962",
+    "skills": [
+      "Java",
+      "HTML", 
+      "CSS",
+      "JavaScript",
+      "ReactJS"
+  ],
+    "social": {
+      "GitHub": "https://github.com/kartikp962",
+      "Twitter": "https://twitter.com/kartikp962",
+      "LinkedIn": "https://www.linkedin.com/in/kartikp962/"
+    }
+  },
+  {
     "name": "Walter J. Silva",
     "location": "Santarém - PA, Brasil",
     "bio": "I develop WordPress pages. I'm currently studying AWS Cloud and Front-End development. I like football, cycling and playing with my kittens.",
@@ -415,6 +434,105 @@
       "GitHub": "https://github.com/liza-bhutani",
       "Twitter": "https://twitter.com/liza_bhutani",
       "LinkedIn": "https://www.linkedin.com/in/liza-bhutani"
+    }
+  },
+  {
+    "name": "Aarab Nishchal",
+    "location": "Katihar , India",
+    "bio": "Skilled in problem-solving and always eager to learn.",
+    "avatar": "https://github.com/losier.png",
+    "portfolio": "https://github.com/losier",
+    "skills": [
+      "HTML/CSS",
+      "JavaScript/TypeScript",
+      "NodeJs",
+      "ReactJs/NextJs/Vite/VueJs",
+      "C/C++",
+      "Java",
+      "Python",
+      "Git",
+      "PostmanAPI",
+      "MongoDB/MySQL/Firebase"
+    ],
+    "social": {
+      "GitHub": "https://github.com/losier",
+      "Twitter": "https://twitter.com/aarab_ii",
+      "LinkedIn": "https://www.linkedin.com/in/aarab-nishchal"
+    }
+  },
+  {
+    "name": "Habibur Rahman",
+    "location": "Bhopal, India",
+    "bio": "Devops Engineer| FullStack Web Development | AI/ML | Open Source | Flutter | Automation",
+    "avatar": "https://github.com/devhabib429.png",
+    "portfolio": "https://github.com/devhabib429/",
+    "skills": [
+      "Devops Engineer",
+      "FullStack Web Development",
+      "AI/ML",
+      "Open Source",
+      "Flutter",
+      "Automation"
+    ],
+    "social": {
+      "GitHub": "https://github.com/devhabib429",
+      "Twitter": "https://twitter.com/hrahman429",
+      "LinkedIn": "https://www.linkedin.com/in/habibur-rahman-b59038195/"
+    }
+  },
+  {
+    "name": "Nguyễn Công Dũng",
+    "location": "Hanoi, Vietnam",
+    "bio": "I am a highly motivated software engineer interested in front-end with a passion to learn and develop projects using modern tech.",
+    "avatar": "https://github.com/DungGramer.png",
+    "portfolio": "https://www.dunggramer.com/",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NextJS",
+      "Redux",
+      "Immer",
+      "Webpack",
+      "NX",
+      "Jest",
+      "Accessibility"
+    ],
+    "social": {
+      "GitHub": "https://github.com/DungGramer",
+      "Twitter": "https://twitter.com/DungGramer",
+      "LinkedIn": "https://www.linkedin.com/in/dunggramer/"
+    }
+  },
+  {
+    "name": "Yash Sehgal",
+    "location": "Indore, India",
+    "bio": "Software Engineer. Design with code",
+    "avatar": "https://github.com/yashsehgal.png",
+    "portfolio": "https://yashsehgal.com",
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "NextJS",
+      "Astro",
+      "Git/GitHub",
+      "Linux",
+      "APIs",
+      "UIDesign",
+      "Figma",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "AntDesign",
+      "ChakraUI",
+      "RadixUI"
+    ],
+    "social": {
+      "GitHub": "https://github.com/yashsehgal",
+      "Twitter": "https://twitter.com/yashsehgaldev",
+      "LinkedIn": "https://linkedin.com/in/sehgalyash"
     }
   }
 ]

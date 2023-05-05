@@ -40,6 +40,28 @@
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
+  height: 35px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.skills-container:hover {
+  overflow-x: scroll;
+  scroll-behavior: auto;
+}
+
+.skills-container::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+.skills-container::-webkit-scrollbar-track {
+  background: #1e2a47;
+}
+
+.skills-container::-webkit-scrollbar-thumb {
+  background: rgba(20, 29, 47, 0.5);
+  border-radius: 5px;
 }
 
 .skills-container .skill {
@@ -47,6 +69,9 @@
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   font-size: 14px;
+  white-space: nowrap;
+  height: 30px;
+  cursor: default;
 }
 
 .profile-link a {
