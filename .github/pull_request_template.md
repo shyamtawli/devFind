@@ -12,7 +12,7 @@
 
 ## Checklist
 
-- [ ] I have read and followed the [contribution guidelines](CONTRIBUTING.md).
+- [ ] I have read and followed the [Contribution Guidelines](https://github.com/shyamtawli/devFind/blob/master/CONTRIBUTING.md).
 - [ ] All new and existing tests passed.
 - [ ] I have updated the documentation to reflect the changes I've made.
 - [ ] My code follows the code style of this project.
