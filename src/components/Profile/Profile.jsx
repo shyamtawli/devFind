@@ -16,20 +16,6 @@ function Profile({ data }) {
   );
 
   function Card({ data }) {
-    const handleWheel = (event) => {
-      event.preventDefault();
-      const container = event.target;
-      const delta = event.deltaY || event.deltaX;
-      container.scrollLeft += delta;
-    };
-
-    const handleMouseEnter = () => {
-      document.addEventListener("wheel", handleWheel, { passive: false });
-    };
-
-    const handleMouseLeave = () => {
-      document.removeEventListener("wheel", handleWheel);
-    };
 
     return (
       <div className="profile-card">
@@ -47,8 +33,6 @@ function Profile({ data }) {
             </p>
             <div
               className="skills-container"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
             >
               {data.skills.map((skill, index) => {
                 return (
