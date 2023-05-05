@@ -69,6 +69,19 @@
     }
   },
   {
+  "name": "Shubh Sharma",
+  "location": "Bareilly, India",
+  "bio": "Self-taught, Exploring Front-end Web-dev and DevOps, Open Source Advocate, Technical Writer",
+  "avatar": "https://github.com/shubhsharma19.png",
+  "portfolio": "https://github.com/shubhsharma19",
+  "skills": ["HTML", "CSS", "Tailwind", "Java", "Git", "Github", "Linux", "Figma"],
+  "social": {
+    "GitHub": "https://github.com/shubhsharma19",
+    "Twitter": "https://twitter.com/shubhstwt",
+    "LinkedIn": "https://www.linkedin.com/in/shubhsharma19"
+  }
+},
+  {
     "name": "John Doe",
     "location": "New York, USA",
     "bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
