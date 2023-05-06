@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "husky": "^8.0.3",
+    "json-loader": "^0.5.7",
+    "lint-staged": "^13.2.2"
   }
 }
