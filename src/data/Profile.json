@@ -26,6 +26,19 @@
     }
   },
   {
+  "name": "Kshitiz Rana",
+  "bio": " JAVA,Python,OpenSource",
+  "location": "Dehradun",
+  "avatar": "https://github.com/KshitizRana.png",
+  "portfolio": "https://github.com/KshitizRana",
+  "skills": ["HTML", "Python"],
+  "social": {
+    "GitHub": "https://github.com/KshitizRana",
+    "Twitter": "https://twitter.com/Kshitiztwt",
+    "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
+  }
+},
+  {
     "name": "Sampath",
     "location": "Hyderabad, India",
     "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
@@ -271,6 +284,19 @@
       "Twitter": "https://twitter.com/seuwalter",
       "LinkedIn": "https://www.linkedin.com/in/walter-silva"
     }
+  },
+  {
+  "name": "Samrat Ghosh",
+  "location": "Kolkata,India",
+  "bio": "Hey this is Samrat Ghosh I am a sophomore at MSIT (Kolkata) in Computer Science engineering. Currently, I have learning DSA in C++ and backend tech stack. I am also interested in Web Development and want to explore other domains in the future. My hobbies are photography and photo editing.I am always eager to learn new things and share my knowledge with others.",
+  "avatar": "https://github.com/samratghosh291.png",
+  "portfolio": "https://github.com/samratghosh291",
+  "skills": ["HTML","CSS","Node.js","JavaScript","C/C++","php","MySQL"],
+  "social": {
+    "GitHub": "https://github.com/samratghosh291",
+    "Twitter": "https://twitter.com/piku_samrat490",
+    "LinkedIn": "https://www.linkedin.com/in/samratghosh490"
+  }
   },
   {
     "name": "Mayank Meena",
@@ -579,5 +605,32 @@
       "Twitter": "https://twitter.com/Sankalpsalve3",
       "LinkedIn": "https://www.linkedin.com/in/sankalp13/"
     }
+  },
+  {
+  "name": "Priyankar Pal",
+  "location": "India",
+  "bio": "i code to make things better",
+  "avatar": "https://github.com/priyankarpal.png",
+  "portfolio": "https://www.priyank.live",
+  "skills": ["ReactJs", "JavaScript", "NextJs"],
+  "social": {
+    "GitHub": "https://github.com/priyankarpal",
+    "Twitter": "https://twitter.com/priyankarpal",
+    "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
   }
-]
+  },
+
+{
+  "name": "Pranshu Jha",
+  "location": "Chennai, India",
+  "bio": "Full-Stack developer sharing my journey in tech!",
+  "avatar": "https://github.com/pranshuj73.png",
+  "portfolio": "https://linkfree.io/pranshuj73",
+  "skills": ["Full-Stack Web Development", "React", "Linux", "Python", "Android Studio"],
+  "social": {
+    "GitHub": "https://github.com/pranshuj73",
+    "Twitter": "https://twitter.com/pranshuj73",
+    "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
+  }
+  }  
+ ]

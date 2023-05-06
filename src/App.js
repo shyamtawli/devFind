@@ -4,6 +4,7 @@ import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
 import NoResultFound from "./components/NoResultFound/NoResultFound";
 import datas from "./data/Profile.json";
+import "./App.css";
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -46,13 +47,17 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
-      {profiles.length === 0 && searching ? <NoResultFound/> : profiles.length === 0 && !searching
-        ? shuffledProfiles.map((profile, index) => {
-            return <Profile data={profile} key={index} />;
-          })
-        : profiles.map((profile, index) => {
-            return <Profile data={profile} key={index} />;
-          })}
+      {profiles.length === 0 && searching ? (
+        <NoResultFound />
+      ) : profiles.length === 0 && !searching ? (
+        shuffledProfiles.map((profile, index) => {
+          return <Profile data={profile} key={index} />;
+        })
+      ) : (
+        profiles.map((profile, index) => {
+          return <Profile data={profile} key={index} />;
+        })
+      )}
     </div>
   );
 }
