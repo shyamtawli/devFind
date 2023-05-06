@@ -20,6 +20,7 @@
 .profile-card .profile-photo {
   height: 6.1rem;
   width: 6.1rem;
+  flex-shrink: 0;
 }
 
 .profile-photo img {
@@ -30,6 +31,7 @@
 
 .profile-details {
   width: 44rem;
+  overflow: hidden;
 }
 
 .profile-details p {
@@ -41,14 +43,14 @@
   display: flex;
   gap: 1rem;
   height: 35px;
-  overflow: hidden;
+  overflow-x: scroll;
   scroll-behavior: smooth;
 }
 
-.skills-container:hover {
+/* .skills-container:hover {
   overflow-x: scroll;
   scroll-behavior: auto;
-}
+} */
 
 .skills-container::-webkit-scrollbar {
   width: 10px;
@@ -68,9 +70,9 @@
   background-color: rgba(20, 29, 47, 1);
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   white-space: nowrap;
-  height: 30px;
+  height: 2rem;
   cursor: default;
 }
 
