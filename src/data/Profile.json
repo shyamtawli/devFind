@@ -594,6 +594,20 @@
     }
   },
   {
+  "name": "Priyankar Pal",
+  "location": "India",
+  "bio": "i code to make things better",
+  "avatar": "https://github.com/priyankarpal.png",
+  "portfolio": "https://www.priyank.live",
+  "skills": ["ReactJs", "JavaScript", "NextJs"],
+  "social": {
+    "GitHub": "https://github.com/priyankarpal",
+    "Twitter": "https://twitter.com/priyankarpal",
+    "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
+  }
+  },
+
+{
   "name": "Pranshu Jha",
   "location": "Chennai, India",
   "bio": "Full-Stack developer sharing my journey in tech!",
@@ -604,6 +618,6 @@
     "GitHub": "https://github.com/pranshuj73",
     "Twitter": "https://twitter.com/pranshuj73",
     "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
-    }
   }
-]
+  }  
+ ]
