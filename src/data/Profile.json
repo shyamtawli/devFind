@@ -26,6 +26,19 @@
     }
   },
   {
+  "name": "Kshitiz Rana",
+  "bio": " JAVA,Python,OpenSource",
+  "location": "Dehradun",
+  "avatar": "https://github.com/KshitizRana.png",
+  "portfolio": "https://github.com/KshitizRana",
+  "skills": ["HTML", "Python"],
+  "social": {
+    "GitHub": "https://github.com/KshitizRana",
+    "Twitter": "https://twitter.com/Kshitiztwt",
+    "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
+  }
+},
+  {
     "name": "Sampath",
     "location": "Hyderabad, India",
     "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
