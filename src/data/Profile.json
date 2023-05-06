@@ -592,5 +592,18 @@
     "Twitter": "https://twitter.com/pranshuj73",
     "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
     }
+  },
+  {
+  "name": "Prasenjit Nayak",
+  "location": "Cuttack,Odisha",
+  "bio": " I'm a college student and coding enthusiast, always seeking to improve my skills.Currently learing Java",
+  "avatar": "https://github.com/StarKnightt.png",
+  "portfolio": "https://linkfree.io/StarKnightt",
+  "skills": ["Java", "Touch Typing", "Andrioid"],
+  "social": {
+    "GitHub": "https://github.com/StarKnightt",
+    "Twitter": "https://twitter.com/Star_Knight12",
+    "LinkedIn": "https://www.linkedin.com/in/prasenjitnayak/"
   }
+}
 ]
