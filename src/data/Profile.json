@@ -591,7 +591,10 @@
     "GitHub": "https://github.com/priyankarpal",
     "Twitter": "https://twitter.com/priyankarpal",
     "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
-},{
+  }
+  },
+
+{
   "name": "Pranshu Jha",
   "location": "Chennai, India",
   "bio": "Full-Stack developer sharing my journey in tech!",
@@ -602,7 +605,6 @@
     "GitHub": "https://github.com/pranshuj73",
     "Twitter": "https://twitter.com/pranshuj73",
     "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
-    }
   }
   }  
  ]
