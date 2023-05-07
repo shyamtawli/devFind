@@ -60,6 +60,19 @@
     }
   },
   {
+  "name": "Vinay Chaudhary",
+  "location": "Delhi",
+  "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
+  "avatar": "https://github.com/vinaysingh-chaudhary.png",
+  "portfolio": "https://github.com/vinaysingh-chaudhary",
+  "skills": ["ReactJs", "TailwindCSS", "Javascript", "Web Designing", "Figma", "Java"],
+  "social": {
+    "GitHub": "https://github.com/vinaysingh-chaudhary",
+    "Twitter": "https://twitter.com/Viisactive",
+    "LinkedIn": "https://www.linkedin.com/in/vinay-chaudhary-70a633244/"
+  }
+},
+  {
     "name": "Nishant Jangid",
     "location": "Jaipur, India",
     "bio": "I'm a full-stack developer specializing in the MERN stack, with experience in building scalable and efficient web applications. I have a keen interest in cloud computing. So, I'm learning AWS. Also I've a tech community called Dev Hac.",
