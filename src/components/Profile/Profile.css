@@ -43,14 +43,13 @@
   display: flex;
   gap: 1rem;
   height: 35px;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
-/* .skills-container:hover {
+.skills-container:hover {
   overflow-x: scroll;
   scroll-behavior: auto;
-} */
+}
 
 .skills-container::-webkit-scrollbar {
   width: 10px;
@@ -72,7 +71,7 @@
   border-radius: 5px;
   font-size: 0.875rem;
   white-space: nowrap;
-  height: 2rem;
+  height: 30px;
   cursor: default;
 }
 
@@ -102,4 +101,10 @@
 .social-link {
   text-decoration: none;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .skills-container .skill {
+    height: 2rem;
+  }
 }
