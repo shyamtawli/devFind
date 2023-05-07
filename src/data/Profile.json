@@ -12,6 +12,19 @@
       "LinkedIn": "https://linkedin.com/in/vineyrawat"
     }
   },
+{
+  "name": "Vijay Pardhu",
+  "location": "Hyderabad, India",
+  "bio": "I'm Vijay pardhu 🚀, I am currently learning Frontend Development and I am from Hyderabad. I'm passionate about Web Development, Machine Learning",
+  "avatar": "https://avatars.githubusercontent.com/u/91586950?v=4",
+  "portfolio": "https://github.com/vijaynaidu16",
+  "skills": ["HTML", "CSS", "JavaScript","Java"],
+  "social": {
+    "GitHub": "https://github.com/vijaynaidu16",
+    "Twitter": "https://twitter.com/vijaynaidu_16",
+    "LinkedIn": "https://www.linkedin.com/in/vijay-pardhu/"
+  }
+},
   {
     "name": "Shyam Tawli",
     "location": "Indore, India",
