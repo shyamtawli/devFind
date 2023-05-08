@@ -1,4 +1,15 @@
 [
+    {
+    "name": "Sean Kim",
+    "location": "California, USA",
+    "bio": "MERN stack developer, I enjoy coding in general. Currently learning security field",
+    "avatar": "https://github.com/AseanK.png",
+    "portfolio": "https://github.com/AseanK",
+    "skills": ["JavaScript", "Express.js", "MongoDB", "NodeJS", "React"],
+    "social": {
+      "GitHub": "https://github.com/AseanK"
+    }
+  },
   {
     "name": "Vinay Rawat",
     "location": "Faridabad, HR India",
@@ -38,6 +49,18 @@
     "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
   }
 },
+  {
+    "name": "Saba Kharanauli",
+    "location": "Tbilisi, Georgia",
+    "bio": "NodeJS specialist with knowledge of ReactJS. Obsessed with learning and growing. Seeking new opportunities to expand my skills and knowledge",
+    "avatar": "https://github.com/runday198.png",
+    "portfolio": "https://github.com/runday198",
+    "skills": ["NodeJS", "Express.js", "React", "JavaScript", "HTML", "CSS"],
+    "social": {
+    "GitHub": "https://github.com/runday198",
+    "LinkedIn": "https://www.linkedin.com/in/saba-kharanauli-418819253/"
+  }
+  },
   {
     "name": "Sampath",
     "location": "Hyderabad, India",
@@ -207,6 +230,19 @@
       "LinkedIn": "https://www.linkedin.com/in/monil-prajapati/"
     }
   },
+  {
+  "name": "Muhammad Noorani",
+  "location": "Gujarat, India",
+  "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
+  "avatar": "https://github.com/muhammadnoorani.png",
+  "portfolio": "https://github.com/MuhammadNoorani",
+  "skills": ["Linux", "Git", "HTML", "css", "JS"],
+  "social": {
+    "GitHub": "https://github.com/MuhammadNoorani",
+    "Twitter": "https://twitter.com/MuhammadN_twts",
+    "LinkedIn": "https://www.linkedin.com/in/muhammadnoorani"
+  }
+},
 {
   "name": "Shivam Singh",
   "location": "Mumbai,India",
@@ -559,6 +595,19 @@
       "LinkedIn": "https://www.linkedin.com/in/habibur-rahman-b59038195/"
     }
   },
+{
+	"name": "Priyansh Prajapat",
+	"location": "India",
+	"bio": ", I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
+	"avatar": "https://avatars.githubusercontent.com/u/83062406",
+	"portfolio": "https://oyepriyansh.github.io",
+	"skills": ["HTML", "CSS", ".Javascript", "C++", "Tailwind CSS", "Bootstrap"],
+	"social": {
+		"GitHub": "https://github.com/oyepriyansh",
+		"Twitter": "https://twitter.com/oyepriyansh",
+		"LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
+	}
+},
   {
     "name": "Nguyễn Công Dũng",
     "location": "Hanoi, Vietnam",
