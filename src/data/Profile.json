@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "Sean Kim",
     "location": "California, USA",
     "bio": "MERN stack developer, I enjoy coding in general. Currently learning security field",
@@ -37,18 +37,18 @@
     }
   },
   {
-  "name": "Kshitiz Rana",
-  "bio": " JAVA,Python,OpenSource",
-  "location": "Dehradun",
-  "avatar": "https://github.com/KshitizRana.png",
-  "portfolio": "https://github.com/KshitizRana",
-  "skills": ["HTML", "Python"],
-  "social": {
-    "GitHub": "https://github.com/KshitizRana",
-    "Twitter": "https://twitter.com/Kshitiztwt",
-    "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
-  }
-},
+    "name": "Kshitiz Rana",
+    "bio": " JAVA,Python,OpenSource",
+    "location": "Dehradun",
+    "avatar": "https://github.com/KshitizRana.png",
+    "portfolio": "https://github.com/KshitizRana",
+    "skills": ["HTML", "Python"],
+    "social": {
+      "GitHub": "https://github.com/KshitizRana",
+      "Twitter": "https://twitter.com/Kshitiztwt",
+      "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
+    }
+  },
   {
     "name": "Saba Kharanauli",
     "location": "Tbilisi, Georgia",
@@ -57,9 +57,9 @@
     "portfolio": "https://github.com/runday198",
     "skills": ["NodeJS", "Express.js", "React", "JavaScript", "HTML", "CSS"],
     "social": {
-    "GitHub": "https://github.com/runday198",
-    "LinkedIn": "https://www.linkedin.com/in/saba-kharanauli-418819253/"
-  }
+      "GitHub": "https://github.com/runday198",
+      "LinkedIn": "https://www.linkedin.com/in/saba-kharanauli-418819253/"
+    }
   },
   {
     "name": "Sampath",
@@ -83,18 +83,25 @@
     }
   },
   {
-  "name": "Vinay Chaudhary",
-  "location": "Delhi",
-  "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
-  "avatar": "https://github.com/vinaysingh-chaudhary.png",
-  "portfolio": "https://github.com/vinaysingh-chaudhary",
-  "skills": ["ReactJs", "TailwindCSS", "Javascript", "Web Designing", "Figma", "Java"],
-  "social": {
-    "GitHub": "https://github.com/vinaysingh-chaudhary",
-    "Twitter": "https://twitter.com/Viisactive",
-    "LinkedIn": "https://www.linkedin.com/in/vinay-chaudhary-70a633244/"
-  }
-},
+    "name": "Vinay Chaudhary",
+    "location": "Delhi",
+    "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
+    "avatar": "https://github.com/vinaysingh-chaudhary.png",
+    "portfolio": "https://github.com/vinaysingh-chaudhary",
+    "skills": [
+      "ReactJs",
+      "TailwindCSS",
+      "Javascript",
+      "Web Designing",
+      "Figma",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/vinaysingh-chaudhary",
+      "Twitter": "https://twitter.com/Viisactive",
+      "LinkedIn": "https://www.linkedin.com/in/vinay-chaudhary-70a633244/"
+    }
+  },
   {
     "name": "Nishant Jangid",
     "location": "Jaipur, India",
@@ -118,18 +125,27 @@
     }
   },
   {
-  "name": "Shubh Sharma",
-  "location": "Bareilly, India",
-  "bio": "Self-taught, Exploring Front-end Web-dev and DevOps, Open Source Advocate, Technical Writer",
-  "avatar": "https://github.com/shubhsharma19.png",
-  "portfolio": "https://github.com/shubhsharma19",
-  "skills": ["HTML", "CSS", "Tailwind", "Java", "Git", "Github", "Linux", "Figma"],
-  "social": {
-    "GitHub": "https://github.com/shubhsharma19",
-    "Twitter": "https://twitter.com/shubhstwt",
-    "LinkedIn": "https://www.linkedin.com/in/shubhsharma19"
-  }
-},
+    "name": "Shubh Sharma",
+    "location": "Bareilly, India",
+    "bio": "Self-taught, Exploring Front-end Web-dev and DevOps, Open Source Advocate, Technical Writer",
+    "avatar": "https://github.com/shubhsharma19.png",
+    "portfolio": "https://github.com/shubhsharma19",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Java",
+      "Git",
+      "Github",
+      "Linux",
+      "Figma"
+    ],
+    "social": {
+      "GitHub": "https://github.com/shubhsharma19",
+      "Twitter": "https://twitter.com/shubhstwt",
+      "LinkedIn": "https://www.linkedin.com/in/shubhsharma19"
+    }
+  },
   {
     "name": "John Doe",
     "location": "New York, USA",
@@ -231,31 +247,38 @@
     }
   },
   {
-  "name": "Muhammad Noorani",
-  "location": "Gujarat, India",
-  "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
-  "avatar": "https://github.com/muhammadnoorani.png",
-  "portfolio": "https://github.com/MuhammadNoorani",
-  "skills": ["Linux", "Git", "HTML", "css", "JS"],
-  "social": {
-    "GitHub": "https://github.com/MuhammadNoorani",
-    "Twitter": "https://twitter.com/MuhammadN_twts",
-    "LinkedIn": "https://www.linkedin.com/in/muhammadnoorani"
-  }
-},
-{
-  "name": "Shivam Singh",
-  "location": "Mumbai,India",
-  "bio": "I'am shivam singh, currently a web developer.proficient in frontend technology, Learning backend nowdays and just Exploring new technology.!",
-  "avatar": "https://github.com/shivam550.png",
-  "portfolio": "https://github.com/shivam550",
-  "skills": ["HTML","CSS/SCSS","Bootstrap","Javascript","React js","Mysql"],
-  "social": {
-    "GitHub": "https://github.com/shivam550",
-    "Twitter": "https://twitter.com/ThakurShivam516",
-    "LinkedIn": "https://www.linkedin.com/in/shivam-singh-6570b6227/1"
-  }
-},
+    "name": "Muhammad Noorani",
+    "location": "Gujarat, India",
+    "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
+    "avatar": "https://github.com/muhammadnoorani.png",
+    "portfolio": "https://github.com/MuhammadNoorani",
+    "skills": ["Linux", "Git", "HTML", "css", "JS"],
+    "social": {
+      "GitHub": "https://github.com/MuhammadNoorani",
+      "Twitter": "https://twitter.com/MuhammadN_twts",
+      "LinkedIn": "https://www.linkedin.com/in/muhammadnoorani"
+    }
+  },
+  {
+    "name": "Shivam Singh",
+    "location": "Mumbai,India",
+    "bio": "I'am shivam singh, currently a web developer.proficient in frontend technology, Learning backend nowdays and just Exploring new technology.!",
+    "avatar": "https://github.com/shivam550.png",
+    "portfolio": "https://github.com/shivam550",
+    "skills": [
+      "HTML",
+      "CSS/SCSS",
+      "Bootstrap",
+      "Javascript",
+      "React js",
+      "Mysql"
+    ],
+    "social": {
+      "GitHub": "https://github.com/shivam550",
+      "Twitter": "https://twitter.com/ThakurShivam516",
+      "LinkedIn": "https://www.linkedin.com/in/shivam-singh-6570b6227/1"
+    }
+  },
   {
     "name": "Harshit Malang",
     "location": "Lucknow, India",
@@ -308,13 +331,7 @@
     "bio": "Software Engineer | Javascript | React",
     "avatar": "https://github.com/kartikp962.png",
     "portfolio": "https://github.com/kartikp962",
-    "skills": [
-      "Java",
-      "HTML", 
-      "CSS",
-      "JavaScript",
-      "ReactJS"
-  ],
+    "skills": ["Java", "HTML", "CSS", "JavaScript", "ReactJS"],
     "social": {
       "GitHub": "https://github.com/kartikp962",
       "Twitter": "https://twitter.com/kartikp962",
@@ -335,17 +352,17 @@
     }
   },
   {
-  "name": "Samrat Ghosh",
-  "location": "Kolkata,India",
-  "bio": "Hey this is Samrat Ghosh I am a sophomore at MSIT (Kolkata) in Computer Science engineering. Currently, I have learning DSA in C++ and backend tech stack. I am also interested in Web Development and want to explore other domains in the future. My hobbies are photography and photo editing.I am always eager to learn new things and share my knowledge with others.",
-  "avatar": "https://github.com/samratghosh291.png",
-  "portfolio": "https://github.com/samratghosh291",
-  "skills": ["HTML","CSS","Node.js","JavaScript","C/C++","php","MySQL"],
-  "social": {
-    "GitHub": "https://github.com/samratghosh291",
-    "Twitter": "https://twitter.com/piku_samrat490",
-    "LinkedIn": "https://www.linkedin.com/in/samratghosh490"
-  }
+    "name": "Samrat Ghosh",
+    "location": "Kolkata,India",
+    "bio": "Hey this is Samrat Ghosh I am a sophomore at MSIT (Kolkata) in Computer Science engineering. Currently, I have learning DSA in C++ and backend tech stack. I am also interested in Web Development and want to explore other domains in the future. My hobbies are photography and photo editing.I am always eager to learn new things and share my knowledge with others.",
+    "avatar": "https://github.com/samratghosh291.png",
+    "portfolio": "https://github.com/samratghosh291",
+    "skills": ["HTML", "CSS", "Node.js", "JavaScript", "C/C++", "php", "MySQL"],
+    "social": {
+      "GitHub": "https://github.com/samratghosh291",
+      "Twitter": "https://twitter.com/piku_samrat490",
+      "LinkedIn": "https://www.linkedin.com/in/samratghosh490"
+    }
   },
   {
     "name": "Mayank Meena",
@@ -568,7 +585,16 @@
     "bio": "Social Media Systems Student, Webdeveloper with experience in UX Design",
     "avatar": "https://github.com/Hendriksn.png",
     "portfolio": "https://github.com/Hendriksn",
-    "skills": ["HTML", "CSS", "SCSS", "Typescript", "Angular", "PostgreSQL", "MariaDB", "AdobeXD"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Typescript",
+      "Angular",
+      "PostgreSQL",
+      "MariaDB",
+      "AdobeXD"
+    ],
     "social": {
       "GitHub": "https://github.com/Hendriksn",
       "Twitter": "https://twitter.com/https://twitter.com/Hendrik250199",
@@ -595,19 +621,26 @@
       "LinkedIn": "https://www.linkedin.com/in/habibur-rahman-b59038195/"
     }
   },
-{
-	"name": "Priyansh Prajapat",
-	"location": "India",
-	"bio": ", I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
-	"avatar": "https://avatars.githubusercontent.com/u/83062406",
-	"portfolio": "https://oyepriyansh.github.io",
-	"skills": ["HTML", "CSS", ".Javascript", "C++", "Tailwind CSS", "Bootstrap"],
-	"social": {
-		"GitHub": "https://github.com/oyepriyansh",
-		"Twitter": "https://twitter.com/oyepriyansh",
-		"LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
-	}
-},
+  {
+    "name": "Priyansh Prajapat",
+    "location": "India",
+    "bio": ", I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
+    "avatar": "https://avatars.githubusercontent.com/u/83062406",
+    "portfolio": "https://oyepriyansh.github.io",
+    "skills": [
+      "HTML",
+      "CSS",
+      ".Javascript",
+      "C++",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "social": {
+      "GitHub": "https://github.com/oyepriyansh",
+      "Twitter": "https://twitter.com/oyepriyansh",
+      "LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
+    }
+  },
   {
     "name": "Nguyễn Công Dũng",
     "location": "Hanoi, Vietnam",
@@ -669,13 +702,7 @@
     "bio": "I develop user interfaces, web applications and automating software processes using tools like Docker and Jenkins. My expertise in both areas allows me to efficiently deliver high-quality software.",
     "avatar": "https://github.com/xsankalp13.png",
     "portfolio": "https://sankalpsalve.me",
-    "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "Devops Engineer"
-    ],
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Devops Engineer"],
     "social": {
       "GitHub": "https://github.com/xsankalp13",
       "Twitter": "https://twitter.com/Sankalpsalve3",
@@ -683,56 +710,81 @@
     }
   },
   {
-  "name": "Priyankar Pal",
-  "location": "India",
-  "bio": "i code to make things better",
-  "avatar": "https://github.com/priyankarpal.png",
-  "portfolio": "https://www.priyank.live",
-  "skills": ["ReactJs", "JavaScript", "NextJs"],
-  "social": {
-    "GitHub": "https://github.com/priyankarpal",
-    "Twitter": "https://twitter.com/priyankarpal",
-    "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
-  }
+    "name": "Priyankar Pal",
+    "location": "India",
+    "bio": "i code to make things better",
+    "avatar": "https://github.com/priyankarpal.png",
+    "portfolio": "https://www.priyank.live",
+    "skills": ["ReactJs", "JavaScript", "NextJs"],
+    "social": {
+      "GitHub": "https://github.com/priyankarpal",
+      "Twitter": "https://twitter.com/priyankarpal",
+      "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
+    }
   },
 
-{
-  "name": "Pranshu Jha",
-  "location": "Chennai, India",
-  "bio": "Full-Stack developer sharing my journey in tech!",
-  "avatar": "https://github.com/pranshuj73.png",
-  "portfolio": "https://linkfree.io/pranshuj73",
-  "skills": ["Full-Stack Web Development", "React", "Linux", "Python", "Android Studio"],
-  "social": {
-    "GitHub": "https://github.com/pranshuj73",
-    "Twitter": "https://twitter.com/pranshuj73",
-    "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
-  }
+  {
+    "name": "Pranshu Jha",
+    "location": "Chennai, India",
+    "bio": "Full-Stack developer sharing my journey in tech!",
+    "avatar": "https://github.com/pranshuj73.png",
+    "portfolio": "https://linkfree.io/pranshuj73",
+    "skills": [
+      "Full-Stack Web Development",
+      "React",
+      "Linux",
+      "Python",
+      "Android Studio"
+    ],
+    "social": {
+      "GitHub": "https://github.com/pranshuj73",
+      "Twitter": "https://twitter.com/pranshuj73",
+      "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
+    }
   },
   {
-		"name": "David Mwangi Mathenge",
-		"location": "Nairobi, Kenya",
-		"bio": "Senior Software Engineer",
-		"avatar": "https://github.com/brandeddavid.png",
-		"portfolio": "https://linkedin.com/in/brandeddavid",
-		"skills": [
-			"FullStack Web Development",
-			"Javascript",
-			"Typescript",
-			"Python",
-			"React",
-			"NextJS",
-			"AWS",
-			"API Integration",
-			"CSS/SCSS",
-			"TailwindCSS",
-			"Test automation",
-			"Cypress"
-		],
-		"social": {
-			"GitHub": "https://github.com/brandeddavid",
-			"Twitter": "https://twitter.com/brandeddavid",
-			"LinkedIn": "https://linkedin.com/in/brandeddavid"
-		}
-	}
+    "name": "David Mwangi Mathenge",
+    "location": "Nairobi, Kenya",
+    "bio": "Senior Software Engineer",
+    "avatar": "https://github.com/brandeddavid.png",
+    "portfolio": "https://linkedin.com/in/brandeddavid",
+    "skills": [
+      "FullStack Web Development",
+      "Javascript",
+      "Typescript",
+      "Python",
+      "React",
+      "NextJS",
+      "AWS",
+      "API Integration",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "Test automation",
+      "Cypress"
+    ],
+    "social": {
+      "GitHub": "https://github.com/brandeddavid",
+      "Twitter": "https://twitter.com/brandeddavid",
+      "LinkedIn": "https://linkedin.com/in/brandeddavid"
+    }
+  },
+  {
+    "name": "Drew Pate",
+    "location": "Massachusetts, USA",
+    "bio": "A certified full stack developer with a certificate from MIT xPro. I have a background in Fine Art.",
+    "avatar": "https://github.com/drewpate.png",
+    "portfolio": "https://drewpate.github.io/",
+    "skills": [
+      "Adobe Photoshop/Illustrator",
+      "MERN stack",
+      "Firebase",
+      "Bootstrap",
+      "Material UI"
+    ],
+    "social": {
+      "Github": "https://github.com/drewpate",
+      "Twitter": "https://twitter.com/drewpate",
+      "LinkedIn": "https://www.linkedin.com/in/drewpate/"
+    }
+  }
 ]
