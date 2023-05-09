@@ -736,6 +736,45 @@
     }
   },
   {
+    "name": "David Mwangi Mathenge",
+    "location": "Nairobi, Kenya",
+    "bio": "Senior Software Engineer",
+    "avatar": "https://github.com/brandeddavid.png",
+    "portfolio": "https://linkedin.com/in/brandeddavid",
+    "skills": [
+      "FullStack Web Development",
+      "Javascript",
+      "Typescript",
+      "Python",
+      "React",
+      "NextJS",
+      "AWS",
+      "API Integration",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "Test automation",
+      "Cypress"
+    ],
+    "social": {
+      "GitHub": "https://github.com/brandeddavid",
+      "Twitter": "https://twitter.com/brandeddavid",
+      "LinkedIn": "https://linkedin.com/in/brandeddavid"
+    }
+  },
+  {
+    "name": "Abdur Rehman",
+    "location": "Sindh, Pakistan",
+    "bio": "Graduate Software Engineer. A passionate full-stack web developer.",
+    "avatar": "https://github.com/abdurrehmanabbasi.png",
+    "portfolio": "http://abdurrehmanabbasi",
+    "skills": ["Full-Stack Web Development","MERN","TypeScript", "React","MongoDB/MySQL/Firebase","Jest","Express.js","Tailwind CSS"],
+    "social": {
+      "GitHub": "https://github.com/abdurrehmanabbasi",
+      "Twitter": "https://twitter.com/abrehman313",
+      "LinkedIn": "https://www.linkedin.com/in/abdur-rehman313/"
+    }
+  },
+  {
     "name": "Drew Pate",
     "location": "Massachusetts, USA",
     "bio": "A certified full stack developer with a certificate from MIT xPro. I have a background in Fine Art.",
