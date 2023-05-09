@@ -36,6 +36,11 @@
   color: #fff;
 }
 
+.description {
+  color: #fff;
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;
