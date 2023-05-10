@@ -83,6 +83,31 @@
     }
   },
   {
+    "name": "Love Gupta",
+    "location": "Kanpur, Uttar Pradesh India",
+    "bio": "self-taught, Exploring Front-end Web-dev and Blockchain, Open Source best practices, Technical Writer",
+    "avatar": "https://github.com/lovegupta112.png",
+    "portfolio": "https://github.com/Lovegupta112",
+    "skills": [
+      "HTML",
+      "CSS/SCSS",
+      "javaScript",
+      "ReactJs",
+      "Java",
+      "C/C++",
+      "Git",
+      "Github",
+      "Linux",
+      "Figma",
+      "MySQL"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Lovegupta112",
+      "Twitter": "https://twitter.com/melovegupta",
+      "LinkedIn": "https://www.linkedin.com/in/guptalove"
+    }
+  },
+  {
     "name": "Vinay Chaudhary",
     "location": "Delhi",
     "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
