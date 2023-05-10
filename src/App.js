@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -9,6 +9,20 @@ import "./App.css";
 function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
+  const [filteredProfiles, setFilteredProfiles] = useState(profiles);
+
+  const handleTagClick = useCallback(
+    (tag) => {
+      if (filteredProfiles.some((profile) => profile.skills.includes(tag))) {
+        setFilteredProfiles(
+          filteredProfiles.filter((profile) => profile.skills.includes(tag))
+        );
+      } else {
+        setFilteredProfiles(profiles);
+      }
+    },
+    [profiles, filteredProfiles]
+  );
 
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
@@ -45,7 +59,7 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar onTagClick={handleTagClick} />
       <Search onSearch={handleSearch} />
       {profiles.length === 0 && searching ? (
         <NoResultFound />

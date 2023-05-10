@@ -36,6 +36,28 @@
   color: #fff;
 }
 
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.tag {
+  background-color: #00a6fb;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  user-select: none;
+}
+
+.tag.selected {
+  background-color: #ffffff;
+  color: #00a6fb;
+}
+
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;
