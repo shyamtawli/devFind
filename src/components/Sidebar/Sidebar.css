@@ -36,9 +36,20 @@
   color: #fff;
 }
 
+a:visited {
+  color: #ffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .description {
-  color: #fff;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 @media screen and (max-width: 768px) {

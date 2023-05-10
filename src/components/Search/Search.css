@@ -33,11 +33,6 @@
   color: #00a6fb;
 }
 
-.search-suggestions {
-  color: #ffffff;
-  font-family: "Space Mono", sans-serif
-}
-
 @media (max-width: 480px) {
   .search-bar {
     width: 100%;

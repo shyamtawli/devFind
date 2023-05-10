@@ -48,7 +48,6 @@ function Search({ onSearch }) {
               className="search-icon"
               icon={faMagnifyingGlass}
           />
-          <label className="search-suggestions">Try searching "India", "Python" or "ReactJS"</label>
         </div>
   );
 }
