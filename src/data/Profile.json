@@ -646,19 +646,26 @@
       "LinkedIn": "https://www.linkedin.com/in/habibur-rahman-b59038195/"
     }
   },
-{
-	"name": "Priyansh Prajapat",
-	"location": "India",
-	"bio": "I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
-	"avatar": "https://avatars.githubusercontent.com/u/83062406",
-	"portfolio": "https://oyepriyansh.github.io",
-	"skills": ["HTML", "CSS", ".Javascript", "C++", "Tailwind CSS", "Bootstrap"],
-	"social": {
-		"GitHub": "https://github.com/oyepriyansh",
-		"Twitter": "https://twitter.com/oyepriyansh",
-		"LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
-	}
-},
+  {
+    "name": "Priyansh Prajapat",
+    "location": "India",
+    "bio": "I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
+    "avatar": "https://avatars.githubusercontent.com/u/83062406",
+    "portfolio": "https://oyepriyansh.github.io",
+    "skills": [
+      "HTML",
+      "CSS",
+      ".Javascript",
+      "C++",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "social": {
+      "GitHub": "https://github.com/oyepriyansh",
+      "Twitter": "https://twitter.com/oyepriyansh",
+      "LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
+    }
+  },
   {
     "name": "Nguyễn Công Dũng",
     "location": "Hanoi, Vietnam",
@@ -766,7 +773,16 @@
     "bio": "Graduate Software Engineer. A passionate full-stack web developer.",
     "avatar": "https://github.com/abdurrehmanabbasi.png",
     "portfolio": "http://abdurrehmanabbasi",
-    "skills": ["Full-Stack Web Development","MERN","TypeScript", "React","MongoDB/MySQL/Firebase","Jest","Express.js","Tailwind CSS"],
+    "skills": [
+      "Full-Stack Web Development",
+      "MERN",
+      "TypeScript",
+      "React",
+      "MongoDB/MySQL/Firebase",
+      "Jest",
+      "Express.js",
+      "Tailwind CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/abdurrehmanabbasi",
       "Twitter": "https://twitter.com/abrehman313",
@@ -793,31 +809,31 @@
     }
   },
   {
-		"name": "David Mwangi Mathenge",
-		"location": "Nairobi, Kenya",
-		"bio": "Senior Software Engineer",
-		"avatar": "https://github.com/brandeddavid.png",
-		"portfolio": "https://linkedin.com/in/brandeddavid",
-		"skills": [
-			"FullStack Web Development",
-			"Javascript",
-			"Typescript",
-			"Python",
-			"React",
-			"NextJS",
-			"AWS",
-			"API Integration",
-			"CSS/SCSS",
-			"TailwindCSS",
-			"Test automation",
-			"Cypress"
-		],
-		"social": {
-			"GitHub": "https://github.com/brandeddavid",
-			"Twitter": "https://twitter.com/brandeddavid",
-			"LinkedIn": "https://linkedin.com/in/brandeddavid"
-		}
-	},
+    "name": "David Mwangi Mathenge",
+    "location": "Nairobi, Kenya",
+    "bio": "Senior Software Engineer",
+    "avatar": "https://github.com/brandeddavid.png",
+    "portfolio": "https://linkedin.com/in/brandeddavid",
+    "skills": [
+      "FullStack Web Development",
+      "Javascript",
+      "Typescript",
+      "Python",
+      "React",
+      "NextJS",
+      "AWS",
+      "API Integration",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "Test automation",
+      "Cypress"
+    ],
+    "social": {
+      "GitHub": "https://github.com/brandeddavid",
+      "Twitter": "https://twitter.com/brandeddavid",
+      "LinkedIn": "https://linkedin.com/in/brandeddavid"
+    }
+  },
   {
     "name": "Aman Raj",
     "location": "Jaipur, India",
@@ -831,18 +847,40 @@
       "LinkedIn": "https://www.linkedin.com/in/<huamanraj>"
     }
   },
-{
-  "name": "Nicholas Jackman",
-  "location": "Los Angeles,CA",
-  "bio": "An actor turned programmer who knows productivity and spanish.",
-  "avatar": "https://avatars.githubusercontent.com/u/110741503?v=4",
-  "portfolio": "https://github.com/njackman-2344",
-  "skills": ["HTML", "CSS", "Javascript"],
-  "social": {
-    "GitHub": "https://github.com/njackman-2344",
-    "Twitter": "https://twitter.com/NicholasJackm10",
-    "LinkedIn": "https://www.linkedin.com/in/nicholas-jackman-74bb562b/"
-  }
+  {
+    "name": "Nicholas Jackman",
+    "location": "Los Angeles,CA",
+    "bio": "An actor turned programmer who knows productivity and spanish.",
+    "avatar": "https://avatars.githubusercontent.com/u/110741503?v=4",
+    "portfolio": "https://github.com/njackman-2344",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "social": {
+      "GitHub": "https://github.com/njackman-2344",
+      "Twitter": "https://twitter.com/NicholasJackm10",
+      "LinkedIn": "https://www.linkedin.com/in/nicholas-jackman-74bb562b/"
+    }
+  },
+  {
+    "name": "Jovan Jovanovic",
+    "location": "Belgrade, Serbia",
+    "bio": "Frontend Developer with working experience in React, Next.js, TypeScript, etc.",
+    "avatar": "https://avatars.githubusercontent.com/u/30269157?v=4",
+    "portfolio": "https://github.com/jovan6jovan",
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "NextJS",
+      "Node.js",
+      "HTML/CSS",
+      "Material UI",
+      "Jest"
+    ],
+    "social": {
+      "GitHub": "https://github.com/jovan6jovan",
+      "Twitter": "https://twitter.com/jovan6jovan",
+      "LinkedIn": "https://www.linkedin.com/in/jovan6jovan"
+    }
 },
 {
     "name": "Matt Jarrett",
