@@ -1,0 +1,31 @@
+name: ✨ Feature Request
+description: Suggest a feature request
+title: "[Feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request template!
+  - type: textarea
+    id: what-feature
+    attributes:
+      label: What feature?
+      placeholder: Add descriptions
+      value: "I have an idea "
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add screenshots
+      description: Add screenshots to see the demo
+      placeholder: Add screenshots
+      value: "Add screenshots"
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
