@@ -621,19 +621,26 @@
       "LinkedIn": "https://www.linkedin.com/in/habibur-rahman-b59038195/"
     }
   },
-{
-	"name": "Priyansh Prajapat",
-	"location": "India",
-	"bio": "I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
-	"avatar": "https://avatars.githubusercontent.com/u/83062406",
-	"portfolio": "https://oyepriyansh.github.io",
-	"skills": ["HTML", "CSS", ".Javascript", "C++", "Tailwind CSS", "Bootstrap"],
-	"social": {
-		"GitHub": "https://github.com/oyepriyansh",
-		"Twitter": "https://twitter.com/oyepriyansh",
-		"LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
-	}
-},
+  {
+    "name": "Priyansh Prajapat",
+    "location": "India",
+    "bio": "I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
+    "avatar": "https://avatars.githubusercontent.com/u/83062406",
+    "portfolio": "https://oyepriyansh.github.io",
+    "skills": [
+      "HTML",
+      "CSS",
+      ".Javascript",
+      "C++",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "social": {
+      "GitHub": "https://github.com/oyepriyansh",
+      "Twitter": "https://twitter.com/oyepriyansh",
+      "LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
+    }
+  },
   {
     "name": "Nguyễn Công Dũng",
     "location": "Hanoi, Vietnam",
@@ -741,7 +748,16 @@
     "bio": "Graduate Software Engineer. A passionate full-stack web developer.",
     "avatar": "https://github.com/abdurrehmanabbasi.png",
     "portfolio": "http://abdurrehmanabbasi",
-    "skills": ["Full-Stack Web Development","MERN","TypeScript", "React","MongoDB/MySQL/Firebase","Jest","Express.js","Tailwind CSS"],
+    "skills": [
+      "Full-Stack Web Development",
+      "MERN",
+      "TypeScript",
+      "React",
+      "MongoDB/MySQL/Firebase",
+      "Jest",
+      "Express.js",
+      "Tailwind CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/abdurrehmanabbasi",
       "Twitter": "https://twitter.com/abrehman313",
@@ -768,31 +784,31 @@
     }
   },
   {
-		"name": "David Mwangi Mathenge",
-		"location": "Nairobi, Kenya",
-		"bio": "Senior Software Engineer",
-		"avatar": "https://github.com/brandeddavid.png",
-		"portfolio": "https://linkedin.com/in/brandeddavid",
-		"skills": [
-			"FullStack Web Development",
-			"Javascript",
-			"Typescript",
-			"Python",
-			"React",
-			"NextJS",
-			"AWS",
-			"API Integration",
-			"CSS/SCSS",
-			"TailwindCSS",
-			"Test automation",
-			"Cypress"
-		],
-		"social": {
-			"GitHub": "https://github.com/brandeddavid",
-			"Twitter": "https://twitter.com/brandeddavid",
-			"LinkedIn": "https://linkedin.com/in/brandeddavid"
-		}
-	},
+    "name": "David Mwangi Mathenge",
+    "location": "Nairobi, Kenya",
+    "bio": "Senior Software Engineer",
+    "avatar": "https://github.com/brandeddavid.png",
+    "portfolio": "https://linkedin.com/in/brandeddavid",
+    "skills": [
+      "FullStack Web Development",
+      "Javascript",
+      "Typescript",
+      "Python",
+      "React",
+      "NextJS",
+      "AWS",
+      "API Integration",
+      "CSS/SCSS",
+      "TailwindCSS",
+      "Test automation",
+      "Cypress"
+    ],
+    "social": {
+      "GitHub": "https://github.com/brandeddavid",
+      "Twitter": "https://twitter.com/brandeddavid",
+      "LinkedIn": "https://linkedin.com/in/brandeddavid"
+    }
+  },
   {
     "name": "Aman Raj",
     "location": "Jaipur, India",
@@ -806,35 +822,53 @@
       "LinkedIn": "https://www.linkedin.com/in/<huamanraj>"
     }
   },
-{
-  "name": "Nicholas Jackman",
-  "location": "Los Angeles,CA",
-  "bio": "An actor turned programmer who knows productivity and spanish.",
-  "avatar": "https://avatars.githubusercontent.com/u/110741503?v=4",
-  "portfolio": "https://github.com/njackman-2344",
-  "skills": ["HTML", "CSS", "Javascript"],
-  "social": {
-    "GitHub": "https://github.com/njackman-2344",
-    "Twitter": "https://twitter.com/NicholasJackm10",
-    "LinkedIn": "https://www.linkedin.com/in/nicholas-jackman-74bb562b/"
-  }
-},
-{
+  {
+    "name": "Nicholas Jackman",
+    "location": "Los Angeles,CA",
+    "bio": "An actor turned programmer who knows productivity and spanish.",
+    "avatar": "https://avatars.githubusercontent.com/u/110741503?v=4",
+    "portfolio": "https://github.com/njackman-2344",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "social": {
+      "GitHub": "https://github.com/njackman-2344",
+      "Twitter": "https://twitter.com/NicholasJackm10",
+      "LinkedIn": "https://www.linkedin.com/in/nicholas-jackman-74bb562b/"
+    }
+  },
+  {
     "name": "Matt Jarrett",
     "location": "Oak Park, MI, United States",
     "bio": "Deskside Technician Sr. Computer Science student in SNHU learning Full Stack Web Development",
     "avatar": "https://github.com/CyberManMatt.png",
     "portfolio": "https://github.com/CyberManMatt",
-    "skills": [
-      "Python",
-      "C#",
-      "Javascript",
-      "HTML",
-      "CSS"
-    ],
+    "skills": ["Python", "C#", "Javascript", "HTML", "CSS"],
     "social": {
       "GitHub": "https://github.com/CyberManMatt>",
       "LinkedIn": "https://www.linkedin.com/in/matthew-jarrett-33605663/"
     }
- }
+  },
+  {
+    "name": "Hayat ilyas",
+    "location": "Siwan Bihar India",
+    "bio": "As a passionate and ambitious individual, I am excited to pursue a career as a React Developer, JavaScript Developer, Frontend, Backend, and Fullstack Developer. While I may not have any professional experience, I have been developing my skills through personal projects and online courses, and I am eager to apply these skills in a professional setting. My technical skills include proficiency in React, JavaScript, HTML, CSS, Node.js, and various backend technologies. I am constantly seeking to expand my knowledge and stay up-to-date with the latest developments in the industry",
+    "avatar": "https://github.com/hayat4144.png",
+    "portfolio": "https://github.com/hayat4144",
+    "skills": [
+      "React js",
+      "Node.js",
+      "MongoDB",
+      "MySQL",
+      "Linux",
+      "Tailwind CSS",
+      "Express.js",
+      "javaScript",
+      "HTML/CSS",
+      "Git/GitHub"
+    ],
+    "social": {
+      "GitHub": "https://github.com/hayat4144",
+      "Twitter": "https://twitter.com/HayatIlyas22",
+      "LinkedIn": "https://www.linkedin.com/in/hayat-ilyas/"
+    }
+  }
 ]
