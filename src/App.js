@@ -1,37 +1,12 @@
 import { useState } from "react";
-import Profile from "./components/Profile/Profile";
-import Search from "./components/Search/Search";
-import Sidebar from "./components/Sidebar/Sidebar";
-import NoResultFound from "./components/NoResultFound/NoResultFound";
+import { Profile, Search, Sidebar } from "./components/index";
+import { Routes, Route } from "react-router-dom";
+
 import datas from "./data/Profile.json";
 import "./App.css";
 
 function App() {
   const [profiles, setProfiles] = useState([]);
-  const [searching, setSearching] = useState(false);
-
-  const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase();
-    const results = [];
-
-    for (const object of datas) {
-      const lowercaseName = object.name.toLowerCase();
-      const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) =>
-        skill.toLowerCase().includes(lowercaseSearch)
-      );
-      if (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      ) {
-        results.push(object);
-      }
-    }
-
-    setSearching(true);
-    setProfiles(results);
-  };
 
   const shuffleProfiles = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -41,23 +16,35 @@ function App() {
     return array;
   };
 
-  const shuffledProfiles = shuffleProfiles(datas);
+  const handleSearch = (searchValue) => {
+    const lowercaseSearch = searchValue.toLowerCase();
+
+    const filteredSearches = datas.filter((user) => {
+      const lowercaseName = user.name.toLowerCase();
+      const lowercaseLocation = user.location.toLowerCase();
+      const matchingSkills = user.skills.filter((skill) =>
+        skill.toLowerCase().includes(lowercaseSearch)
+      );
+      if (
+        matchingSkills.length > 0 ||
+        lowercaseName.includes(lowercaseSearch) ||
+        lowercaseLocation.includes(lowercaseSearch)
+      ) {
+        return true;
+      }
+      return false;
+    });
+    const shuffledProfiles = shuffleProfiles(filteredSearches);
+    setProfiles(shuffledProfiles);
+  };
 
   return (
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
-      {profiles.length === 0 && searching ? (
-        <NoResultFound />
-      ) : profiles.length === 0 && !searching ? (
-        shuffledProfiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })
-      ) : (
-        profiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })
-      )}
+      <Routes>
+        <Route path="/" element={<Profile shuffledProfiles={profiles} />} />
+      </Routes>
     </div>
   );
 }
