@@ -21,7 +21,7 @@
 
 1. Fork the repository to create a copy in your GitHub account.
 2. Clone the forked repository to your local development environment.
-3. Install dependencies by running **`npm install`**
+3. Install dependencies & run using **`pnpm install`** & **`pnpm start`**.
 4. Navigate to the **`src/data`** directory.
 5. Open the **`Profile.json`** file.
 6. Add your profile data in the JSON object format, following the existing structure:
@@ -67,4 +67,4 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star ⭐️
+Don't forget to leave a star
