@@ -1,0 +1,32 @@
+name: 🔖 Documentation update
+description: Improve Documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this documentation update template!
+  - type: textarea
+    id: improve-docs
+    attributes:
+      label: what's wrong in the documentation?
+      description: which things need to add?
+      placeholder: Add descriptions
+      value: "We need to add "
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add screenshots
+      description: Add screenshots to see the demo
+      placeholder: Add screenshots
+      value: "Add screenshots"
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct

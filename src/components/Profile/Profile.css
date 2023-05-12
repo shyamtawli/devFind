@@ -20,6 +20,7 @@
 .profile-card .profile-photo {
   height: 6.1rem;
   width: 6.1rem;
+  flex-shrink: 0;
 }
 
 .profile-photo img {
@@ -30,6 +31,7 @@
 
 .profile-details {
   width: 44rem;
+  overflow: hidden;
 }
 
 .profile-details p {
@@ -42,7 +44,6 @@
   gap: 1rem;
   height: 35px;
   overflow: hidden;
-  scroll-behavior: smooth;
 }
 
 .skills-container:hover {
@@ -68,7 +69,7 @@
   background-color: rgba(20, 29, 47, 1);
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   white-space: nowrap;
   height: 30px;
   cursor: default;
@@ -100,4 +101,10 @@
 .social-link {
   text-decoration: none;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .skills-container .skill {
+    height: 2rem;
+  }
 }
