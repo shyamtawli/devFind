@@ -10,16 +10,15 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "@vitejs/plugin-react-swc": "^3.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^3.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "preinstall": "npx only-allow pnpm"
   },
   "eslintConfig": {
@@ -41,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "@vitejs/plugin-react": "^4.0.0",
+    "json-loader": "^0.5.7",
+    "vite": "^4.3.5"
   }
 }
