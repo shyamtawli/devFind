@@ -67,4 +67,4 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star ⭐️
+Don't forget to leave a star 
