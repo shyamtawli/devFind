@@ -12,7 +12,13 @@ Once you have installed these dependencies, you can clone the devFind repository
 
 Navigate to the project folder on your terminal and install the dependencies using:
 
-    npm install
+    pnpm install
+
+## **Run the application**
+
+Run the following command to start the application:
+
+    pnpm start
 
 ## **Create a new branch**
 
@@ -30,7 +36,7 @@ Now that you have set up your environment and created a new branch, you can star
 
 Before submitting your changes, it is important to test them thoroughly to make sure they work as expected. Run the following command to test the application:
 
-    npm test
+    pnpm test
 
 This will run all the tests in the project and give you feedback on any failures.
 
