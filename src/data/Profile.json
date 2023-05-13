@@ -1,4 +1,18 @@
-[
+[ {
+  "name": "Swatantra Mishra",
+  "location": "Delhi",
+  "bio": "Fresher at University school of automation and robotics pursuing Artificial intelligence and Data Science degree ",
+  "avatar": "https://github.com/mswat5.png",
+  "portfolio": "https://github.com/mswat5",
+  "skills": [
+  "Python","Javascript","Flask","Solidity","HTML","CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/mswat5",
+    "Twitter": "https://twitter.com/swat14359mishra",
+    "LinkedIn": "https://www.linkedin.com/in/swatantra-m-27b64b242/"
+  }
+},
   {
     "name": "Kiran Dev K",
     "location": "Mysuru, India",
