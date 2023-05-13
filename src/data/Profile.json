@@ -92,6 +92,31 @@
     }
   },
   {
+    "name": "Love Gupta",
+    "location": "Kanpur, Uttar Pradesh India",
+    "bio": "self-taught, Exploring Front-end Web-dev and Blockchain, Open Source best practices, Technical Writer",
+    "avatar": "https://github.com/lovegupta112.png",
+    "portfolio": "https://github.com/Lovegupta112",
+    "skills": [
+      "HTML",
+      "CSS/SCSS",
+      "javaScript",
+      "ReactJs",
+      "Java",
+      "C/C++",
+      "Git",
+      "Github",
+      "Linux",
+      "Figma",
+      "MySQL"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Lovegupta112",
+      "Twitter": "https://twitter.com/melovegupta",
+      "LinkedIn": "https://www.linkedin.com/in/guptalove"
+    }
+  },
+  {
     "name": "Sampath",
     "location": "Hyderabad, India",
     "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
@@ -1029,6 +1054,28 @@
       "GitHub": "https://github.com/hayat4144",
       "Twitter": "https://twitter.com/HayatIlyas22",
       "LinkedIn": "https://www.linkedin.com/in/hayat-ilyas/"
+    }
+  },
+  {
+    "name": "Giri Madhan",
+    "location": "India",
+    "bio": "Frontend developer working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
+    "avatar": "https://avatars.githubusercontent.com/u/87971509?v=4",
+    "portfolio": "https://github.com/giri-madhan",
+    "skills": [
+      "Reactjs",
+      "Typescript",
+      "JavaScript",
+      "HTML/CSS",
+      "SCSS",
+      "JSS",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "social": {
+      "GitHub": "https://github.com/giri-madhan",
+      "Twitter": "https://twitter.com/malleablelife",
+      "LinkedIn": "https://in.linkedin.com/in/gmpgiri"
     }
   }
 ]
