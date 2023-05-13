@@ -92,6 +92,31 @@
     }
   },
   {
+    "name": "Love Gupta",
+    "location": "Kanpur, Uttar Pradesh India",
+    "bio": "self-taught, Exploring Front-end Web-dev and Blockchain, Open Source best practices, Technical Writer",
+    "avatar": "https://github.com/lovegupta112.png",
+    "portfolio": "https://github.com/Lovegupta112",
+    "skills": [
+      "HTML",
+      "CSS/SCSS",
+      "javaScript",
+      "ReactJs",
+      "Java",
+      "C/C++",
+      "Git",
+      "Github",
+      "Linux",
+      "Figma",
+      "MySQL"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Lovegupta112",
+      "Twitter": "https://twitter.com/melovegupta",
+      "LinkedIn": "https://www.linkedin.com/in/guptalove"
+    }
+  },
+  {
     "name": "Sampath",
     "location": "Hyderabad, India",
     "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
@@ -690,6 +715,21 @@
       "LinkedIn": "https://www.linkedin.com/in/hendrik-bruss-b8012a20b/"
     }
   },
+
+  {
+    "name": "Usama Bagwan",
+    "location": "Pune, MH, India",
+    "bio": "A Backend developer aspiring to become a full stack developer. starting my journey in open source contribution",
+    "avatar": "https://github.com/iusamahub.png",
+    "portfolio": "https://github.com/iusamahub",
+    "skills": ["JavaScript","Node.js", "Express.js", "MongoDB", "php", "MySQL", "HTML/CSS", "PostmanAPI", "REST API"],
+    "social": {
+      "GitHub": "https://github.com/iusamahub",
+      "Twitter": "https://twitter.com/usamatwitts",
+      "LinkedIn": "https://www.linkedin.com/in/usama-bagwan"
+    }
+  },
+
   {
     "name": "Habibur Rahman",
     "location": "Bhopal, India",
@@ -1026,6 +1066,28 @@
     "social": {
       "GitHub": "https://github.com/kwansing14",
       "LinkedIn": "https://www.linkedin.com/in/kwansing/"
+    }
+},
+{
+    "name": "Giri Madhan",
+    "location": "India",
+    "bio": "Frontend developer working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
+    "avatar": "https://avatars.githubusercontent.com/u/87971509?v=4",
+    "portfolio": "https://github.com/giri-madhan",
+    "skills": [
+      "Reactjs",
+      "Typescript",
+      "JavaScript",
+      "HTML/CSS",
+      "SCSS",
+      "JSS",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "social": {
+      "GitHub": "https://github.com/giri-madhan",
+      "Twitter": "https://twitter.com/malleablelife",
+      "LinkedIn": "https://in.linkedin.com/in/gmpgiri"
     }
   }
 ]
