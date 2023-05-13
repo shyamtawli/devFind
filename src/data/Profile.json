@@ -1,5 +1,26 @@
 [
-
+  {
+    "name": "Kiran Dev K",
+    "location": "Mysuru, India",
+    "bio": "A newbie frontend developer, passionate to learn new skills and explore the world of open source.",
+    "avatar": "https://github.com/KiranDev12.png",
+    "portfolio": "https://github.com/KiranDev12",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "DSA",
+      "Python",
+      "Kotlin",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/KiranDev12",
+      "Twitter": "https://twitter.com/iamkirandev",
+      "LinkedIn": "https://www.linkedin.com/in/kiran-dev-k-282553227/"
+    }
+  },
   {
     "name": "Yogesh Prabhu",
     "location": "Wisconsin, USA",
@@ -40,18 +61,29 @@
   },
 
   {
-  "name": "Lokos man",
-  "location": "Lagos, Nigeria",
-  "bio": "I am a Mern stack dev expert and problem solver.Skilled in MongoDB, Express, React, Node.js and Python.Have Innovative Mind",
-  "avatar": "https://github.com/lokytech5.png",
-  "portfolio": "https://github.com/lokytech5",
-  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "MongoDB", "MySQL", "Express.js", "Python", "Java"],
-  "social": {
-    "GitHub": "https://github.com/lokytech5",
-    "Twitter": "https://twitter.com/lokosman5",
-    "LinkedIn": "https://www.linkedin.com/in/lokosman-androiddeveloper/"
-  }
-},
+    "name": "Lokos man",
+    "location": "Lagos, Nigeria",
+    "bio": "I am a Mern stack dev expert and problem solver.Skilled in MongoDB, Express, React, Node.js and Python.Have Innovative Mind",
+    "avatar": "https://github.com/lokytech5.png",
+    "portfolio": "https://github.com/lokytech5",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "MySQL",
+      "Express.js",
+      "Python",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/lokytech5",
+      "Twitter": "https://twitter.com/lokosman5",
+      "LinkedIn": "https://www.linkedin.com/in/lokosman-androiddeveloper/"
+    }
+  },
 
   {
     "name": "Shyam Tawli",
@@ -577,22 +609,24 @@
       "LinkedIn": "https://www.linkedin.com/in/logan-blangenois/"
     }
   },
-{
+  {
     "name": "Guchu Kelvin",
     "location": "Nairobi, Kenya",
     "bio": "Front-End Software Engineer, with a pasion to go full stack after I perfect front end",
     "avatar": "https://github.com/kelvinguchu.png",
     "portfolio": "https://github.com/kelvinguchu",
-    "skills": ["HTML",
-                "CSS",
-                "TailwindCSS",
-                "JavaScript",
-                "ReactJS",
-                "NodeJS",
-                "Python",
-                "TypeScript",
-                "Linux",
-                "Git/Github"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "Python",
+      "TypeScript",
+      "Linux",
+      "Git/Github"
+    ],
     "social": {
       "GitHub": "https://github.com/kelvinguchu",
       "Twitter": "https://twitter.com/guchu_ke",
@@ -945,8 +979,8 @@
       "Twitter": "https://twitter.com/jovan6jovan",
       "LinkedIn": "https://www.linkedin.com/in/jovan6jovan"
     }
-},
-{
+  },
+  {
     "name": "Matt Jarrett",
     "location": "Oak Park, MI, United States",
     "bio": "Deskside Technician Sr. Computer Science student in SNHU learning Full Stack Web Development",
@@ -978,20 +1012,20 @@
       "Twitter": "https://twitter.com/Prasannabhursu",
       "LinkedIn": "https://www.linkedin.com/in/prasannakumarbhursu"
     }
- },
- {
-  "name": "Sudipta Pradhan",
-  "location": "Bhubaneswar, Odisha, India",
-  "bio": "Final Year B.Tech Undergrad just on the verge of completing the degree 💁‍♀️ Front-End web developer since 3 years ✨",
-  "avatar": "https://avatars.githubusercontent.com/u/64891121?v=4",
-  "portfolio": "",
-  "skills": ["HTML", "CSS", "Javascript", "Bootstrap", "ReactJS", "NextJS"],
-  "social": {
-    "GitHub": "https://github.com/sudiptapradhan",
-    "Twitter": "https://twitter.com/_SudiptaPradhan",
-    "LinkedIn": "https://www.linkedin.com/in/sudipta-pradhan-33564a1b4/"
-  }
-},
+  },
+  {
+    "name": "Sudipta Pradhan",
+    "location": "Bhubaneswar, Odisha, India",
+    "bio": "Final Year B.Tech Undergrad just on the verge of completing the degree 💁‍♀️ Front-End web developer since 3 years ✨",
+    "avatar": "https://avatars.githubusercontent.com/u/64891121?v=4",
+    "portfolio": "",
+    "skills": ["HTML", "CSS", "Javascript", "Bootstrap", "ReactJS", "NextJS"],
+    "social": {
+      "GitHub": "https://github.com/sudiptapradhan",
+      "Twitter": "https://twitter.com/_SudiptaPradhan",
+      "LinkedIn": "https://www.linkedin.com/in/sudipta-pradhan-33564a1b4/"
+    }
+  },
   {
     "name": "Hayat ilyas",
     "location": "Siwan Bihar India",
