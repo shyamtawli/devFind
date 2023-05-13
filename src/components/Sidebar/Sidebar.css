@@ -36,6 +36,26 @@
   color: #fff;
 }
 
+.links{
+  margin-top: 2em;
+}
+
+.links > ul > li {
+  list-style: none;
+  padding: 0.4em 0;
+  cursor: pointer;
+}
+
+.links > ul > li:hover{
+  color: #00a6fb;
+}
+
+.links > ul > li > .link_url{
+  color: inherit;
+  text-decoration: none;
+}
+
+
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;
