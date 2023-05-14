@@ -17,7 +17,6 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
     "serve": "vite preview",
     "preinstall": "npx only-allow pnpm"
   },
