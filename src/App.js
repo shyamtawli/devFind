@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Search onSearch={handleSearch} />
+      <Search onSearch={handleSearch}  suggestions={datas}/>
       {profiles.length === 0 && searching ? (
         <NoResultFound />
       ) : profiles.length === 0 && !searching ? (

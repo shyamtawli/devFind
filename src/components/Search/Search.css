@@ -32,6 +32,11 @@
 .search-icon:hover {
   color: #00a6fb;
 }
+.suggestion-list{
+  color: white;
+  list-style-type: none;
+
+}
 
 @media (max-width: 480px) {
   .search-bar {
