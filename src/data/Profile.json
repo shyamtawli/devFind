@@ -126,6 +126,19 @@
     }
   },
   {
+    "name": "Abdul Waheed",
+    "location": "Islamabad, Pakistan",
+    "bio": "I am a frontend developer with expertise in ReactJS and a passion for open source projects. I also have experience in Java and C++ for data structures and algorithms (DSA).",
+    "avatar": "https://github.com/captainWaheed.png",
+    "portfolio": "https://captainwaheed.pages.dev",
+    "skills": ["MERN", "NextJS", "Sevelte", "Python", "Java"],
+    "social": {
+      "GitHub": "https://github.com/captainWaheed",
+      "Twitter": "https://twitter.com/captainwaheed43",
+      "LinkedIn": "https://linkedin.com/in/abdul-waheed781"
+    }
+  },
+  {
     "name": "Saba Kharanauli",
     "location": "Tbilisi, Georgia",
     "bio": "NodeJS specialist with knowledge of ReactJS. Obsessed with learning and growing. Seeking new opportunities to expand my skills and knowledge",
@@ -770,7 +783,17 @@
     "bio": "A Backend developer aspiring to become a full stack developer. starting my journey in open source contribution",
     "avatar": "https://github.com/iusamahub.png",
     "portfolio": "https://github.com/iusamahub",
-    "skills": ["JavaScript","Node.js", "Express.js", "MongoDB", "php", "MySQL", "HTML/CSS", "PostmanAPI", "REST API"],
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "php",
+      "MySQL",
+      "HTML/CSS",
+      "PostmanAPI",
+      "REST API"
+    ],
     "social": {
       "GitHub": "https://github.com/iusamahub",
       "Twitter": "https://twitter.com/usamatwitts",
@@ -1122,7 +1145,7 @@
       "Twitter": "https://twitter.com/HayatIlyas22",
       "LinkedIn": "https://www.linkedin.com/in/hayat-ilyas/"
     }
-  }, 
+  },
   {
     "name": "Aayushmaan Soni",
     "location": "Jaipur, India",
@@ -1147,8 +1170,8 @@
       "GitHub": "https://github.com/kwansing14",
       "LinkedIn": "https://www.linkedin.com/in/kwansing/"
     }
-},
-{
+  },
+  {
     "name": "Giri Madhan",
     "location": "India",
     "bio": "Frontend developer working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
