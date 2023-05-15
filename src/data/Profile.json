@@ -1197,7 +1197,7 @@
     "name": "Akshay Bagai",
     "location": "India",
     "bio": "Frontend developer (1+ year) working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
-    "avatar": "https://avatars.githubusercontent.com/u/87971509?v=4",
+    "avatar": "https://avatars.githubusercontent.com/u/100753870?s=40&v=4",
     "portfolio": "akshaybagai.netlify.app",
     "skills": [
       "Reactjs",
@@ -1207,12 +1207,14 @@
       "SCSS/LESS",
       "Backbone.js",
       "Tailwind CSS",
-      "Git"
+      "Git",
+      "Django Templating",
+      "React-three-fiber"
     ],
     "social": {
-      "GitHub": "https://github.com/giri-madhan",
-      "Twitter": "https://twitter.com/malleablelife",
-      "LinkedIn": "https://in.linkedin.com/in/gmpgiri"
+      "GitHub": "https://github.com/Akshaybagai52",
+      "Twitter": "https://twitter.com/AkshayBagai",
+      "LinkedIn": "https://www.linkedin.com/in/akshay-bagai52/"
     }
   }
 ]
