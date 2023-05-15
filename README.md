@@ -17,8 +17,6 @@
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
-**To add your profile data to the project, here are the following steps:**
-
 1. Fork the repository to create a copy in your GitHub account.
 2. Clone the forked repository to your local development environment.
 3. Install dependencies by running **`npm install`**
