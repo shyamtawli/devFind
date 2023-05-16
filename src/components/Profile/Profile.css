@@ -43,7 +43,7 @@
   display: flex;
   gap: 1rem;
   height: 35px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .skills-container:hover {
