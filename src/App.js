@@ -12,9 +12,7 @@ function App() {
 
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
-    const results = [];
-
-    for (const object of datas) {
+    const results = datas.filter((object) => {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
       const matchingSkills = object.skills.filter((skill) =>
@@ -25,9 +23,10 @@ function App() {
         lowercaseName.includes(lowercaseSearch) ||
         lowercaseLocation.includes(lowercaseSearch)
       ) {
-        results.push(object);
+        return true;
       }
-    }
+      return false;
+    });
 
     setSearching(true);
     setProfiles(results);
