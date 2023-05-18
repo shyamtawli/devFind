@@ -128,6 +128,19 @@
     }
   },
   {
+  "name": "Tanbir Ali",
+  "location": "Kolkata, India",
+  "bio": "I am passionate self-taught full - stack developer.",
+  "avatar": "https://avatars.githubusercontent.com/u/124070023?v=4",
+  "portfolio": "https://github.com/tanbirali",
+  "skills": ["Java", "Python", "Django","HTML","JavaScript","Docker","Android Studio"],
+  "social": {
+    "GitHub": "https://github.com/tanbirali",
+    "Twitter": "https://twitter.com/Tanbir_Ali_",
+    "LinkedIn": "https://www.linkedin.com/in/tanbir-ali-0b0ab8246/"
+  }
+},
+  {
     "name": "Vinay Rawat",
     "location": "Faridabad, HR India",
     "bio": "As a full stack developer, I am currently learning and working of Frappe Framework and actively contributing to open source projects.",
