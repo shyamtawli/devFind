@@ -1,5 +1,48 @@
 [
-
+  {
+    "name": "Jaskaran Kamboj",
+    "location": "Delhi",
+    "bio": "A newbie frontend developer, passionate to learn new skills and explore the world of open source.",
+    "avatar": "https://avatars.githubusercontent.com/u/95584564?v=4",
+    "portfolio": "https://github.com/jaskaranl",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "DSA",
+      "Python",
+      "Kotlin",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/jaskaranl",
+      "Twitter": "https://twitter.com/JaskaranKambo19",
+      "LinkedIn": "https://www.linkedin.com/in/jaskaran-kamboj-893b99208/"
+    }
+  },
+  {
+    "name": "Kiran Dev K",
+    "location": "Mysuru, India",
+    "bio": "A newbie frontend developer, passionate to learn new skills and explore the world of open source.",
+    "avatar": "https://github.com/KiranDev12.png",
+    "portfolio": "https://github.com/KiranDev12",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "DSA",
+      "Python",
+      "Kotlin",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/KiranDev12",
+      "Twitter": "https://twitter.com/iamkirandev",
+      "LinkedIn": "https://www.linkedin.com/in/kiran-dev-k-282553227/"
+    }
+  },
   {
     "name": "Yogesh Prabhu",
     "location": "Wisconsin, USA",
@@ -13,7 +56,66 @@
       "LinkedIn": "https://www.linkedin.com/in/yogesh-prabhu-2735521bb/"
     }
   },
-
+  {
+    "name": "Lionel Guaregua",
+    "location": "Caracas, Venezuela",
+    "bio": "I'm Full stack software developer 👨‍💻 with +4 years of experience, ppasionate about learning and contributing in open source projects",
+    "avatar": "https://github.com/guaregua19.png",
+    "portfolio": "Your Portfolio URL or Github URL",
+    "skills": [
+      "Laravel",
+      "Angular",
+      "NodeJS",
+      "NestJs",
+      "Express",
+      "React",
+      "Vue",
+      "Strapi",
+      "Spring Boot Framework",
+      "Basic knowledge",
+      "CSS",
+      "SCSS",
+      "Tailwind CSS",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL",
+      "Docker",
+      "Jenkins",
+      "AWS",
+      "Git",
+      "Postman",
+      "VSCode",
+      "Jupyter"
+  ],
+    "social": {
+      "GitHub": "https://github.com/guaregua19",
+      "Twitter": "https://twitter.com/lguaregua",
+      "LinkedIn": "https://www.linkedin.com/in/lionel-guaregua-b84a2885/"
+    }
+  },
+  {
+    "name": "Nsikak Thomas",
+    "location": "Uyo, Nigeria",
+    "bio": "Software engineer with a focus on lifelong learning and building solutions that go above and beyond.",
+    "avatar": "https://github.com/sika-007.png",
+    "portfolio": "https://nsikakthomas.netlify.app",
+    "skills": [
+      "ReactJS",
+      "Marterial UI",
+      "ThreeJS",
+      "Tailwind CSS",
+      "SCSS/SASS",
+      "JavaScript",
+      "NextJS",
+      "React-Redux"
+    ],
+    "social": {
+      "GitHub": "https://github.com/sika-007",
+      "Twitter": "https://twitter.com/un_sika",
+      "LinkedIn": "https://www.linkedin.com/in/dev-sika"
+    }
+  },
   {
     "name": "Sean Kim",
     "location": "California, USA",
@@ -25,6 +127,19 @@
       "GitHub": "https://github.com/AseanK"
     }
   },
+  {
+  "name": "Tanbir Ali",
+  "location": "Kolkata, India",
+  "bio": "I am passionate self-taught full - stack developer.",
+  "avatar": "https://avatars.githubusercontent.com/u/124070023?v=4",
+  "portfolio": "https://github.com/tanbirali",
+  "skills": ["Java", "Python", "Django","HTML","JavaScript","Docker","Android Studio"],
+  "social": {
+    "GitHub": "https://github.com/tanbirali",
+    "Twitter": "https://twitter.com/Tanbir_Ali_",
+    "LinkedIn": "https://www.linkedin.com/in/tanbir-ali-0b0ab8246/"
+  }
+},
   {
     "name": "Vinay Rawat",
     "location": "Faridabad, HR India",
@@ -38,6 +153,46 @@
       "LinkedIn": "https://linkedin.com/in/vineyrawat"
     }
   },
+
+  {
+    "name": "Lokos man",
+    "location": "Lagos, Nigeria",
+    "bio": "I am a Mern stack dev expert and problem solver.Skilled in MongoDB, Express, React, Node.js and Python.Have Innovative Mind",
+    "avatar": "https://github.com/lokytech5.png",
+    "portfolio": "https://github.com/lokytech5",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "MySQL",
+      "Express.js",
+      "Python",
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/lokytech5",
+      "Twitter": "https://twitter.com/lokosman5",
+      "LinkedIn": "https://www.linkedin.com/in/lokosman-androiddeveloper/"
+    }
+  },
+
+  {
+    "name": "Sonika Nagekar",
+    "location": "Karwar, India",
+    "bio": "Front-End Developer. Open Source Enthusiast. ",
+    "avatar": "https://github.com/nsonika.png",
+    "portfolio": "https://sonika.tech/",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS"],
+    "social": {
+      "GitHub": "https://github.com/nsonika",
+      "Twitter": "https://twitter.com/sonikan_",
+      "LinkedIn": "https://www.linkedin.com/in/sonika-nagekar"
+    }
+  },
+
   {
     "name": "Shyam Tawli",
     "location": "Indore, India",
@@ -65,6 +220,19 @@
     }
   },
   {
+    "name": "Abdul Waheed",
+    "location": "Islamabad, Pakistan",
+    "bio": "I am a frontend developer with expertise in ReactJS and a passion for open source projects. I also have experience in Java and C++ for data structures and algorithms (DSA).",
+    "avatar": "https://github.com/captainWaheed.png",
+    "portfolio": "https://captainwaheed.pages.dev",
+    "skills": ["MERN", "NextJS", "Sevelte", "Python", "Java"],
+    "social": {
+      "GitHub": "https://github.com/captainWaheed",
+      "Twitter": "https://twitter.com/captainwaheed43",
+      "LinkedIn": "https://linkedin.com/in/abdul-waheed781"
+    }
+  },
+  {
     "name": "Saba Kharanauli",
     "location": "Tbilisi, Georgia",
     "bio": "NodeJS specialist with knowledge of ReactJS. Obsessed with learning and growing. Seeking new opportunities to expand my skills and knowledge",
@@ -74,6 +242,31 @@
     "social": {
       "GitHub": "https://github.com/runday198",
       "LinkedIn": "https://www.linkedin.com/in/saba-kharanauli-418819253/"
+    }
+  },
+  {
+    "name": "Love Gupta",
+    "location": "Kanpur, Uttar Pradesh India",
+    "bio": "self-taught, Exploring Front-end Web-dev and Blockchain, Open Source best practices, Technical Writer",
+    "avatar": "https://github.com/lovegupta112.png",
+    "portfolio": "https://github.com/Lovegupta112",
+    "skills": [
+      "HTML",
+      "CSS/SCSS",
+      "javaScript",
+      "ReactJs",
+      "Java",
+      "C/C++",
+      "Git",
+      "Github",
+      "Linux",
+      "Figma",
+      "MySQL"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Lovegupta112",
+      "Twitter": "https://twitter.com/melovegupta",
+      "LinkedIn": "https://www.linkedin.com/in/guptalove"
     }
   },
   {
@@ -162,6 +355,19 @@
     }
   },
   {
+    "name": "Bryan King Pecho",
+    "location": "Cavite, Philippines",
+    "bio": "Software Engineer at #100Devs. Web Wizard, AI Explorer, and Open-Source Advocate. Let's Connect!",
+    "avatar": "https://github.com/bkpecho.png",
+    "portfolio": "https://github.com/bkpecho",
+    "skills": ["Open Source", "JavaScript", "MERN", "Linux"],
+    "social": {
+      "GitHub": "https://github.com/bkpecho",
+      "Twitter": "https://twitter.com/bkpecho",
+      "LinkedIn": "https://www.linkedin.com/in/bkpecho"
+    }
+  },
+  {
     "name": "John Doe",
     "location": "New York, USA",
     "bio": "I am a Full Stack Developer with expertise in JavaScript, Node.js, and MongoDB. I have 5 years of experience in building web applications and love to explore new technologies.",
@@ -172,6 +378,29 @@
       "GitHub": "https://github.com/johndoe",
       "Twitter": "https://twitter.com/johndoe",
       "LinkedIn": "https://linkedin.com/in/johndoe"
+    }
+  },
+  {
+    "name": "Ademola Ogunle",
+    "location": "Kaduna, Nigeria",
+    "bio": "I'm a software engineer interested in front-end with a zeal to learn and develop projects using modern technonlogy.",
+    "avatar": "https://github.com/Adetimmy.png",
+    "portfolio": "https://github.com/Adetimmy",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "SCSS",
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NextJS",
+      "React-Redux"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Adetimmy",
+      "Twitter": "https://twitter.com/Adetimmy_",
+      "LinkedIn": "https://www.linkedin.com/in/ademola-ogunle-29a6191b6"
     }
   },
   {
@@ -527,6 +756,31 @@
     }
   },
   {
+    "name": "Guchu Kelvin",
+    "location": "Nairobi, Kenya",
+    "bio": "Front-End Software Engineer, with a pasion to go full stack after I perfect front end",
+    "avatar": "https://github.com/kelvinguchu.png",
+    "portfolio": "https://github.com/kelvinguchu",
+    "skills": [
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "Python",
+      "TypeScript",
+      "Linux",
+      "Git/Github"
+    ],
+    "social": {
+      "GitHub": "https://github.com/kelvinguchu",
+      "Twitter": "https://twitter.com/guchu_ke",
+      "LinkedIn": "https://www.linkedin.com/in/kelvin-guchu"
+    }
+  },
+
+  {
     "name": "Santosh",
     "location": "AndraPradesh, India",
     "bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
@@ -616,6 +870,31 @@
       "LinkedIn": "https://www.linkedin.com/in/hendrik-bruss-b8012a20b/"
     }
   },
+
+  {
+    "name": "Usama Bagwan",
+    "location": "Pune, MH, India",
+    "bio": "A Backend developer aspiring to become a full stack developer. starting my journey in open source contribution",
+    "avatar": "https://github.com/iusamahub.png",
+    "portfolio": "https://github.com/iusamahub",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "php",
+      "MySQL",
+      "HTML/CSS",
+      "PostmanAPI",
+      "REST API"
+    ],
+    "social": {
+      "GitHub": "https://github.com/iusamahub",
+      "Twitter": "https://twitter.com/usamatwitts",
+      "LinkedIn": "https://www.linkedin.com/in/usama-bagwan"
+    }
+  },
+
   {
     "name": "Habibur Rahman",
     "location": "Bhopal, India",
@@ -735,6 +1014,25 @@
       "GitHub": "https://github.com/priyankarpal",
       "Twitter": "https://twitter.com/priyankarpal",
       "LinkedIn": "https://www.linkedin.com/in/priyankarpal1"
+    }
+  },
+  {
+    "name": "Shauna Empringham",
+    "location": "Simcoe, Ontario, Canada",
+    "bio": "I've pursued programming as a hobby for most of my life, but in January 2022 I decided to go to Lighthouse Labs to learn Full Stack Web Development and entry the industry officially.",
+    "avatar": "https://avatars.githubusercontent.com/u/11382870?v=4",
+    "portfolio": "https://github.com/ShaunaTheDead86",
+    "skills": [
+      "JavaScript/TypeScript",
+      "HTML/CSS",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "Angular"
+    ],
+    "social": {
+      "GitHub": "https://github.com/ShaunaTheDead86",
+      "LinkedIn": "https://www.linkedin.com/in/shauna-empringham"
     }
   },
 
@@ -871,8 +1169,8 @@
       "Twitter": "https://twitter.com/jovan6jovan",
       "LinkedIn": "https://www.linkedin.com/in/jovan6jovan"
     }
-},
-{
+  },
+  {
     "name": "Matt Jarrett",
     "location": "Oak Park, MI, United States",
     "bio": "Deskside Technician Sr. Computer Science student in SNHU learning Full Stack Web Development",
@@ -904,7 +1202,20 @@
       "Twitter": "https://twitter.com/Prasannabhursu",
       "LinkedIn": "https://www.linkedin.com/in/prasannakumarbhursu"
     }
- },
+  },
+  {
+    "name": "Sudipta Pradhan",
+    "location": "Bhubaneswar, Odisha, India",
+    "bio": "Final Year B.Tech Undergrad just on the verge of completing the degree 💁‍♀️ Front-End web developer since 3 years ✨",
+    "avatar": "https://avatars.githubusercontent.com/u/64891121?v=4",
+    "portfolio": "",
+    "skills": ["HTML", "CSS", "Javascript", "Bootstrap", "ReactJS", "NextJS"],
+    "social": {
+      "GitHub": "https://github.com/sudiptapradhan",
+      "Twitter": "https://twitter.com/_SudiptaPradhan",
+      "LinkedIn": "https://www.linkedin.com/in/sudipta-pradhan-33564a1b4/"
+    }
+  },
   {
     "name": "Hayat ilyas",
     "location": "Siwan Bihar India",
@@ -927,6 +1238,146 @@
       "GitHub": "https://github.com/hayat4144",
       "Twitter": "https://twitter.com/HayatIlyas22",
       "LinkedIn": "https://www.linkedin.com/in/hayat-ilyas/"
+    }
+  },
+  {
+    "name": "Navneet Kumar Singh",
+    "location": "Hyderabad, India",
+    "bio": "SDE At BeingZero | Problem Solving enthusiast",
+    "avatar": "https://github.com/navneet7716.png",
+    "portfolio": "https://github.com/navneet7716",
+    "skills": [
+      "React/Next",
+      "JavaScript/TypeScript",
+      "C++",
+      "AWS",
+      "TailwindCSS",
+      "HTML",
+      "SQL",
+      "MongoDB",
+      "MySQL",
+      "Express.js",
+      "NodeJS"
+    ],
+    "social": {
+      "GitHub": "https://github.com/navneet7716",
+      "Twitter": "https://twitter.com/RishiNavneet",
+      "LinkedIn": "https://www.linkedin.com/in/navneet7716"
+    }
+  },
+  {
+    "name": "Aayushmaan Soni",
+    "location": "Jaipur, India",
+    "bio": "Learning Full-Stack Web Developer as a 1st Year Student CS Student, & learning Cyber Security",
+    "avatar": "https://github.com/aayushmaan45.png",
+    "portfolio": "https://github.com/aayushmaan45",
+    "skills": ["Cyber-Security", "Full Stack Web Development"],
+    "social": {
+      "GitHub": "https://github.com/aayushmaan45",
+      "Twitter": "https://twitter.com/soni_aayushmaan",
+      "LinkedIn": "https://www.linkedin.com/in/ams45"
+    }
+  },
+  {
+    "name": "Kwan Sing",
+    "location": "Singapore",
+    "bio": "Eat, sleep, breathe, javascript.",
+    "avatar": "https://github.com/kwansing14.png",
+    "portfolio": "https://kwansing.dev",
+    "skills": ["JavaScript", "TypeScript", "NextJS"],
+    "social": {
+      "GitHub": "https://github.com/kwansing14",
+      "LinkedIn": "https://www.linkedin.com/in/kwansing/"
+    }
+  },
+  {
+    "name": "Giri Madhan",
+    "location": "India",
+    "bio": "Frontend developer working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
+    "avatar": "https://avatars.githubusercontent.com/u/87971509?v=4",
+    "portfolio": "https://github.com/giri-madhan",
+    "skills": [
+      "Reactjs",
+      "Typescript",
+      "JavaScript",
+      "HTML/CSS",
+      "SCSS",
+      "JSS",
+      "Tailwind CSS",
+      "Git"
+    ],
+    "social": {
+      "GitHub": "https://github.com/giri-madhan",
+      "Twitter": "https://twitter.com/malleablelife",
+      "LinkedIn": "https://in.linkedin.com/in/gmpgiri"
+    }
+  },
+  {
+    "name": "Thien Nguyen",
+    "location": "Texas, USA",
+    "bio": "Experienced developer seeking ReactJS, AngularJS, and Node.js job opportunities. Skilled in front-end and back-end technologies.",
+    "avatar": "https://avatars.githubusercontent.com/u/48506100?s=400&u=0e91479bfeb73a0375affa3691b1044e2b77ba8a&v=4",
+    "portfolio": "https://github.com/ThienBNguyen",
+    "skills": [
+      "ReactJS",
+      "AngularJS",
+      "JavaScript",
+      "HTML/CSS",
+      "SCSS",
+      "bootstrap",
+      "NodeJS",
+      "Git"
+    ],
+    "social": {
+      "GitHub": "https://github.com/ThienBNguyen",
+      "Twitter": "https://twitter.com/Thien_NguyenDev",
+      "LinkedIn": "https://www.linkedin.com/in/thienbng/"
+    }
+  },
+  {
+    "name": "Akshay Bagai",
+    "location": "Chandigarh, India",
+    "bio": "Frontend developer (1+ year) working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
+    "avatar": "https://avatars.githubusercontent.com/u/100753870?s=40&v=4",
+    "portfolio": "akshaybagai.netlify.app",
+    "skills": [
+      "Reactjs",
+      "NodeJs",
+      "JavaScript",
+      "HTML/CSS",
+      "SCSS/LESS",
+      "Backbone.js",
+      "Tailwind CSS",
+      "Git",
+      "Django Templating",
+      "React-three-fiber"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Akshaybagai52",
+      "Twitter": "https://twitter.com/AkshayBagai",
+      "LinkedIn": "https://www.linkedin.com/in/akshay-bagai52/"
+    }
+  },
+  {
+    "name": "Aayush Kumar Jha",
+    "location": "Mumbai, India",
+    "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+    "avatar": "https://github.com/Aayush895.png",
+    "portfolio": "https://github.com/Aayush895",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Java",
+      "DSA",
+      "Git/GitHub"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Aayush895",
+      "LinkedIn": "https://www.linkedin.com/in/aayush-jha-6716b018b/"
     }
   }
 ]
