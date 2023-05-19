@@ -40,17 +40,16 @@
 
 .profile-details .skills-container {
   margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
+  display: table;
+  /* gap: 1rem; */
   height: 35px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .skills-container:hover {
   overflow-x: scroll;
   scroll-behavior: auto;
-}
-
+} 
 .skills-container::-webkit-scrollbar {
   width: 10px;
   height: 5px;
@@ -66,6 +65,8 @@
 }
 
 .skills-container .skill {
+  display: inline-block;
+  margin:  0.25rem;
   background-color: rgba(20, 29, 47, 1);
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
