@@ -17,8 +17,6 @@
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
-# Adding Your Profile Data to the Project
-
 ## Prerequisites
 - A GitHub account
 - Git installed on your local development environment
