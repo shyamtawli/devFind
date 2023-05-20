@@ -36,7 +36,7 @@
   color: #fff;
 }
 
-.links{
+.links {
   margin-top: 2em;
 }
 
@@ -46,15 +46,30 @@
   cursor: pointer;
 }
 
-.links > ul > li:hover{
+.links > ul > li:hover {
   color: #00a6fb;
 }
 
-.links > ul > li > .link_url{
+.links > ul > li > .link_url {
   color: inherit;
   text-decoration: none;
 }
 
+a:visited {
+  color: #ffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  padding-top: 25px;
+}
 
 @media screen and (max-width: 768px) {
   .sidebar {
