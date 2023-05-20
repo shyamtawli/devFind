@@ -661,16 +661,22 @@
     }
   },
   {
-    "name": "Munish pathania",
-    "location": "Kangra, India",
-    "bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
-    "avatar": "https://github.com/munish-on-git.png",
-    "portfolio": "https://github.com/munish-on-git",
-    "skills": ["JavaScript", "Html/css", "Java", "Git", "Node.js"],
+    "name": "Akshat Kumar",
+    "location": "Jhansi, India",
+    "bio": "I've been learning to code for 2 years, after my bachelors in Electronics & Communication. I started with HTML & CSS, but have really found a passion for backend development.",
+    "avatar": "https://github.com/KyloRen04.png",
+    "portfolio": "https://superlative-lily-568543.netlify.app",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
     "social": {
-      "GitHub": "https://github.com/munish-on-git",
-      "Twitter": "https://twitter.com/munishtwts",
-      "LinkedIn": "https://www.linkedin.com/in/munish-pathania-0972aa24b/"
+      "GitHub": "https://github.com/KyloRen04",
+      "LinkedIn": "https://www.linkedin.com/in/akshat-kumar-75816b20b"
     }
   },
   {
