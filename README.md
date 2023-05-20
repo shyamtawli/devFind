@@ -28,28 +28,39 @@ Git is a version control system that is used to manage the source code of your p
 To install Git, follow these steps:
 1. Download and install Git from the [Official Website](https://git-scm.com/downloads)
 2. Open the terminal or command prompt on your local development environment
-3. Verify the installation of Git by running the following command: 
+3. Verify the installation of Git by running the following command:
 **`git --version`**
 
 ## How to Install npm
-npm (Node Package Manager) is a package manager for JavaScript programming language and is used to manage the packages that are required by your project. 
+npm (Node Package Manager) is a package manager for JavaScript programming language and is used to manage the packages that are required by your project.
 
 To install npm, follow these steps:
 1. Download and install Node.js from the [Official Website](https://nodejs.org/en/download/)
 2. Open the terminal or command prompt on your local development environment
 3. Verify that npm has been installed by running the command: **`npm -v`**
 
+## How to install pnpm
+With npm installed pnpm can be set up in different ways:
+
+1. Using npm:
+
+- - npm i pnpm
+2. Using one of the official install scripts:
+
+- - Windows (using powershell): **`iwr https://get.pnpm.io/install.ps1 -useb | iex`**
+- - Linux: **`curl -fsSL https://get.pnpm.io/install.sh | sh -`**
+
 ## Steps to Add Your Profile Data
 
 1. Fork the repository: To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
-2. Clone the forked repository: To clone the repository to your local development environment, open the terminal or command prompt and run the following command: 
+2. Clone the forked repository: To clone the repository to your local development environment, open the terminal or command prompt and run the following command:
 **`git clone https://github.com/<your-github-username>/<repository-name>.git`**
 
-3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command: 
+3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command:
 **`pnpm install`**
 4. Navigate to the **`src/data`** directory.
 5. Open the **`Profile.json`** file.
-6. Add your profile data: Copy the following JSON object, edit your details, and paste it in the middle of the **`Profile.json`** file. Make sure to follow the existing structure: 
+6. Add your profile data: Copy the following JSON object, edit your details, and paste it in the middle of the **`Profile.json`** file. Make sure to follow the existing structure:
 
   ```json
    {
@@ -72,9 +83,9 @@ To install npm, follow these steps:
 7. Save the changes to the **`Profile.json`** file.
 8. Create a new branch: To create a new branch for your profile, run the following command:
 **`git checkout -b add-profile`**
-9. Commit your changes: To save your changes to the branch, run the following command: 
+9. Commit your changes: To save your changes to the branch, run the following command:
 **`git commit -m "add: <your-name>"`**
-10. Push to the branch: To push the changes to the remote repository, run the following command: 
+10. Push to the branch: To push the changes to the remote repository, run the following command:
 **`git push origin add-profile`**
 11. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
 12. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
