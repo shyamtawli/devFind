@@ -153,7 +153,19 @@
       "LinkedIn": "https://linkedin.com/in/vineyrawat"
     }
   },
-
+  {
+    "name": "Hirdesh Kumar",
+    "location": "Agra, UP India",
+    "bio": "A Full Stack developer with mastery in developing MERN stack applications. Have developed apps for almost all domains",
+    "avatar": "https://github.com/hirru.png",
+    "portfolio": "https://github.com/hirru",
+    "skills": ["Javascript", "ReactJS", "NextJS", "NodeJS", "HTML", "CSS"],
+    "social": {
+      "GitHub": "https://github.com/hirru",
+      "Twitter": "https://twitter.com/hirdesY",
+      "LinkedIn": "https://www.linkedin.com/in/hirdesh-kumar-498498118/"
+    }
+  },
   {
     "name": "Lokos man",
     "location": "Lagos, Nigeria",
@@ -178,7 +190,6 @@
       "LinkedIn": "https://www.linkedin.com/in/lokosman-androiddeveloper/"
     }
   },
-
   {
     "name": "Sonika Nagekar",
     "location": "Karwar, India",
