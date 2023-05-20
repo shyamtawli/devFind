@@ -46,8 +46,7 @@ To install npm, follow these steps:
 **`git clone https://github.com/<your-github-username>/<repository-name>.git`**
 
 3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command: 
-**`npm install`**
-
+**`pnpm install`**
 4. Navigate to the **`src/data`** directory.
 5. Open the **`Profile.json`** file.
 6. Add your profile data: Copy the following JSON object, edit your details, and paste it in the middle of the **`Profile.json`** file. Make sure to follow the existing structure: 
@@ -97,4 +96,4 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star ⭐️
+Don't forget to leave a star
