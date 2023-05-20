@@ -44,8 +44,8 @@ With npm installed pnpm can be set up in different ways:
 
 1. Using npm:
 
-- - npm i pnpm
-2. Using one of the official install scripts:
+- - npm i -g pnpm
+2. Using one of the official install scripts (https://pnpm.io/installation):
 
 - - Windows (using powershell): **`iwr https://get.pnpm.io/install.ps1 -useb | iex`**
 - - Linux: **`curl -fsSL https://get.pnpm.io/install.sh | sh -`**
