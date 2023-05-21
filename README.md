@@ -21,6 +21,7 @@
 - A GitHub account
 - Git installed on your local development environment
 - Node Package Manager (npm) installed on your local development environment
+- pnpm installed on your local development environment
 
 ## How to Install Git
 Git is a version control system that is used to manage the source code of your project.
@@ -38,6 +39,16 @@ To install npm, follow these steps:
 1. Download and install Node.js from the [Official Website](https://nodejs.org/en/download/)
 2. Open the terminal or command prompt on your local development environment
 3. Verify that npm has been installed by running the command: **`npm -v`**
+
+## How to Install pnpm
+To install project dependencies, please make sure you have pnpm installed on your machine. pnpm is another package manager for Node.js, which is used by this project.
+
+To install pnpm, follow these steps:
+1. Open the terminal or command prompt on your local development environment.
+2. Run the following command: **`npm install -g pnpm`**
+
+Once pnpm is installed, you can navigate to the project directory and run the following command to install the project dependencies: **`pnpm install`**
+
 
 ## Steps to Add Your Profile Data
 
