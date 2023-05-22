@@ -1,0 +1,21 @@
+{
+  "name": "Sampath",
+  "location": "Hyderabad, India",
+  "bio": "I am a frontend developer with expertise in React and Flutter. With over 2 years of experience. Passionate about open source and building intuitive UIs. Constantly learning and growing",
+  "avatar": "https://github.com/sampath88.png",
+  "portfolio": "https://github.com/sampath88",
+  "skills": [
+    "React",
+    "Flutter",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "TypeScript"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sampath88",
+    "Twitter": "https://twitter.com/Sampath_____",
+    "LinkedIn": "https://in.linkedin.com/in/sampath-reddy-09900918b"
+  }
+}

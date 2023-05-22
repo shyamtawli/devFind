@@ -1,0 +1,21 @@
+{
+  "name": "Monil Prajapati",
+  "location": "Ahmedabad, India",
+  "bio": "I'm Monil Prajapati, A self taught developer. On the way to become full stack developer. Open source enthusiast. Love to solve Real world problems.!!",
+  "avatar": "https://github.com/Monilprajapati.png",
+  "portfolio": "https://github.com/Monilprajapati",
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "jQuery",
+    "React",
+    "Java",
+    "C/C++",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Monilprajapati",
+    "Twitter": "https://twitter.com/monilprajapatii",
+    "LinkedIn": "https://www.linkedin.com/in/monil-prajapati/"
+  }
+}

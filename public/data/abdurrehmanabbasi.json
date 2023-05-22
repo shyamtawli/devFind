@@ -1,0 +1,22 @@
+{
+  "name": "Abdur Rehman",
+  "location": "Sindh, Pakistan",
+  "bio": "Graduate Software Engineer. A passionate full-stack web developer.",
+  "avatar": "https://github.com/abdurrehmanabbasi.png",
+  "portfolio": "http://abdurrehmanabbasi",
+  "skills": [
+    "Full-Stack Web Development",
+    "MERN",
+    "TypeScript",
+    "React",
+    "MongoDB/MySQL/Firebase",
+    "Jest",
+    "Express.js",
+    "Tailwind CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/abdurrehmanabbasi",
+    "Twitter": "https://twitter.com/abrehman313",
+    "LinkedIn": "https://www.linkedin.com/in/abdur-rehman313/"
+  }
+}

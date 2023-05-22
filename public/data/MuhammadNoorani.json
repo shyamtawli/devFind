@@ -1,0 +1,13 @@
+{
+  "name": "Muhammad Noorani",
+  "location": "Gujarat, India",
+  "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
+  "avatar": "https://github.com/muhammadnoorani.png",
+  "portfolio": "https://github.com/MuhammadNoorani",
+  "skills": ["Linux", "Git", "HTML", "css", "JS"],
+  "social": {
+    "GitHub": "https://github.com/MuhammadNoorani",
+    "Twitter": "https://twitter.com/MuhammadN_twts",
+    "LinkedIn": "https://www.linkedin.com/in/muhammadnoorani"
+  }
+}

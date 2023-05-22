@@ -1,0 +1,24 @@
+{
+  "name": "Lokos man",
+  "location": "Lagos, Nigeria",
+  "bio": "I am a Mern stack dev expert and problem solver.Skilled in MongoDB, Express, React, Node.js and Python.Have Innovative Mind",
+  "avatar": "https://github.com/lokytech5.png",
+  "portfolio": "https://github.com/lokytech5",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "MongoDB",
+    "MySQL",
+    "Express.js",
+    "Python",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/lokytech5",
+    "Twitter": "https://twitter.com/lokosman5",
+    "LinkedIn": "https://www.linkedin.com/in/lokosman-androiddeveloper/"
+  }
+}

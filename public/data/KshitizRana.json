@@ -1,0 +1,13 @@
+{
+  "name": "Kshitiz Rana",
+  "bio": " JAVA,Python,OpenSource",
+  "location": "Dehradun",
+  "avatar": "https://github.com/KshitizRana.png",
+  "portfolio": "https://github.com/KshitizRana",
+  "skills": ["HTML", "Python"],
+  "social": {
+    "GitHub": "https://github.com/KshitizRana",
+    "Twitter": "https://twitter.com/Kshitiztwt",
+    "LinkedIn": "https://www.linkedin.com/in/kshitiz-rana-264457226/"
+  }
+}

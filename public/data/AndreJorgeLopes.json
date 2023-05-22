@@ -1,0 +1,20 @@
+{
+  "name": "André Lopes",
+  "location": "Lisbon, Portugal",
+  "bio": "I've been coding for as long as I remember and have been working in the area since 2018! I'm currently working as a Fullstack Developer at a fortune500 in Lisbon and trying to learn more everyday about the latest techs.",
+  "avatar": "https://github.com/AndreJorgeLopes.png",
+  "portfolio": "https://github.com/AndreJorgeLopes",
+  "skills": [
+    "Node.js",
+    "React.js",
+    "Vue.js",
+    "TypeScript",
+    "GraphQL",
+    "Redis",
+    "AWS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AndreJorgeLopes",
+    "LinkedIn": "https://www.linkedin.com/in/andr%C3%A9-lopes-a57303206/"
+  }
+}
