@@ -1,0 +1,20 @@
+{
+  "name": "Alice Smith",
+  "location": "London, UK",
+  "bio": "I am a UX/UI Designer with a passion for creating clean and visually appealing user interfaces. I have experience in designing websites and mobile applications for various industries.",
+  "avatar": "https://github.com/alicesmith.png",
+  "portfolio": "https://github.com/alicesmith",
+  "skills": [
+    "(UX) Design",
+    "(UI) Design",
+    "Sketch",
+    "Figma",
+    "InVision",
+    "Adobe XD"
+  ],
+  "social": {
+    "GitHub": "https://github.com/alicesmith",
+    "Twitter": "https://twitter.com/alicesmith",
+    "LinkedIn": "https://linkedin.com/in/alicesmith"
+  }
+}

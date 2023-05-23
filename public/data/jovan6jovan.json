@@ -1,0 +1,22 @@
+{
+  "name": "Jovan Jovanovic",
+  "location": "Belgrade, Serbia",
+  "bio": "Frontend Developer with working experience in React, Next.js, TypeScript, etc.",
+  "avatar": "https://avatars.githubusercontent.com/u/30269157?v=4",
+  "portfolio": "https://github.com/jovan6jovan",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "React",
+    "NextJS",
+    "Node.js",
+    "HTML/CSS",
+    "Material UI",
+    "Jest"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jovan6jovan",
+    "Twitter": "https://twitter.com/jovan6jovan",
+    "LinkedIn": "https://www.linkedin.com/in/jovan6jovan"
+  }
+}

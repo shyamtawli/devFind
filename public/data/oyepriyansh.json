@@ -1,0 +1,13 @@
+{
+  "name": "Priyansh Prajapat",
+  "location": "India",
+  "bio": "I am a passionate Self-taught Front-end developer. I code mainly in HTML, CSS and JavaScript .",
+  "avatar": "https://avatars.githubusercontent.com/u/83062406",
+  "portfolio": "https://oyepriyansh.github.io",
+  "skills": ["HTML", "CSS", ".Javascript", "C++", "Tailwind CSS", "Bootstrap"],
+  "social": {
+    "GitHub": "https://github.com/oyepriyansh",
+    "Twitter": "https://twitter.com/oyepriyansh",
+    "LinkedIn": "https://www.linkedin.com/in/oyepriyansh"
+  }
+}

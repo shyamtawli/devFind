@@ -1,0 +1,12 @@
+{
+  "name": "Matt Jarrett",
+  "location": "Oak Park, MI, United States",
+  "bio": "Deskside Technician Sr. Computer Science student in SNHU learning Full Stack Web Development",
+  "avatar": "https://github.com/CyberManMatt.png",
+  "portfolio": "https://github.com/CyberManMatt",
+  "skills": ["Python", "C#", "Javascript", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/CyberManMatt>",
+    "LinkedIn": "https://www.linkedin.com/in/matthew-jarrett-33605663/"
+  }
+}

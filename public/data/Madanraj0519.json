@@ -1,0 +1,13 @@
+{
+  "name": "Madanraj",
+  "location": "TamilNadu, India",
+  "bio": "I'm a Front-end developer specializing in the ReactJS, with experience in building scalable and efficient web applications. I have a keen interest in Back-end too. So, I'm learning NodeJS.",
+  "avatar": "https://avatars.githubusercontent.com/u/125730836?s=40&v=4",
+  "portfolio": "https://github.com/Madanraj0519",
+  "skills": ["Javascript", "ReactJS", "HTML", "CSS", "Tailwind CSS", "Java"],
+  "social": {
+    "GitHub": "https://github.com/Madanraj0519",
+    "Twitter": "https://twitter.com/Madan__raj",
+    "LinkedIn": "https://www.linkedin.com/in/madan-raj-7b8b23232/"
+  }
+}

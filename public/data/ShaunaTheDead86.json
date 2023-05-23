@@ -1,0 +1,19 @@
+{
+  "name": "Shauna Empringham",
+  "location": "Simcoe, Ontario, Canada",
+  "bio": "I've pursued programming as a hobby for most of my life, but in January 2022 I decided to go to Lighthouse Labs to learn Full Stack Web Development and entry the industry officially.",
+  "avatar": "https://avatars.githubusercontent.com/u/11382870?v=4",
+  "portfolio": "https://github.com/ShaunaTheDead86",
+  "skills": [
+    "JavaScript/TypeScript",
+    "HTML/CSS",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "Angular"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ShaunaTheDead86",
+    "LinkedIn": "https://www.linkedin.com/in/shauna-empringham"
+  }
+}

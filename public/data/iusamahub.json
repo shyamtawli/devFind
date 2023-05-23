@@ -1,0 +1,23 @@
+{
+  "name": "Usama Bagwan",
+  "location": "Pune, MH, India",
+  "bio": "A Backend developer aspiring to become a full stack developer. starting my journey in open source contribution",
+  "avatar": "https://github.com/iusamahub.png",
+  "portfolio": "https://github.com/iusamahub",
+  "skills": [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "php",
+    "MySQL",
+    "HTML/CSS",
+    "PostmanAPI",
+    "REST API"
+  ],
+  "social": {
+    "GitHub": "https://github.com/iusamahub",
+    "Twitter": "https://twitter.com/usamatwitts",
+    "LinkedIn": "https://www.linkedin.com/in/usama-bagwan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Aman Raj",
+  "location": "Jaipur, India",
+  "bio": "practicing Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps, as a 2nd Year Student CS Student ",
+  "avatar": "https://github.com/huamanraj.png",
+  "portfolio": "https://github.com/huamanraj",
+  "skills": ["JavaScript", "React", "MongoDB", "node", "Web3"],
+  "social": {
+    "GitHub": "https://github.com/<huamanraj>",
+    "Twitter": "https://twitter.com/<huamanraj>",
+    "LinkedIn": "https://www.linkedin.com/in/<huamanraj>"
+  }
+}

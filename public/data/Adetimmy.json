@@ -1,0 +1,23 @@
+{
+  "name": "Ademola Ogunle",
+  "location": "Kaduna, Nigeria",
+  "bio": "I'm a software engineer interested in front-end with a zeal to learn and develop projects using modern technonlogy.",
+  "avatar": "https://github.com/Adetimmy.png",
+  "portfolio": "https://github.com/Adetimmy",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "SCSS",
+    "JavaScript",
+    "TypeScript",
+    "ReactJS",
+    "NextJS",
+    "React-Redux"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Adetimmy",
+    "Twitter": "https://twitter.com/Adetimmy_",
+    "LinkedIn": "https://www.linkedin.com/in/ademola-ogunle-29a6191b6"
+  }
+}
