@@ -1,15 +1,17 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
 import NoResultFound from "./components/NoResultFound/NoResultFound";
 import datas from "./data/Profile.json";
 import "./App.css";
+import { ThemeContext } from "./Context/ThemeContext";
 
 function App() {
-  const [profiles, setProfiles] = useState([]);
+  const { theme } = useContext(ThemeContext);
   const [searching, setSearching] = useState(false);
 
+  const [profiles, setProfiles] = useState([]);
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
     const results = [];
@@ -44,7 +46,15 @@ function App() {
   const shuffledProfiles = shuffleProfiles(datas);
 
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        background: theme.background,
+        color: theme.color,
+        buttonBgColor: theme.button.buttonBgColor,
+        buttonColor: theme.button.buttonColor,
+      }}
+    >
       <Sidebar />
       <Search onSearch={handleSearch} />
       {profiles.length === 0 && searching ? (

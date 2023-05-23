@@ -25,7 +25,7 @@
 }
 
 .title .dev {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .title .find {
@@ -33,7 +33,7 @@
 }
 
 .headline {
-  color: #fff;
+  /* color: #fff; */
 }
 
 @media screen and (max-width: 768px) {
