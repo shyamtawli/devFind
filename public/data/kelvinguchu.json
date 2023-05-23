@@ -1,0 +1,24 @@
+{
+  "name": "Guchu Kelvin",
+  "location": "Nairobi, Kenya",
+  "bio": "Front-End Software Engineer, with a pasion to go full stack after I perfect front end",
+  "avatar": "https://github.com/kelvinguchu.png",
+  "portfolio": "https://github.com/kelvinguchu",
+  "skills": [
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "Python",
+    "TypeScript",
+    "Linux",
+    "Git/Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/kelvinguchu",
+    "Twitter": "https://twitter.com/guchu_ke",
+    "LinkedIn": "https://www.linkedin.com/in/kelvin-guchu"
+  }
+}

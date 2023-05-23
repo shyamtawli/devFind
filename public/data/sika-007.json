@@ -1,0 +1,22 @@
+{
+  "name": "Nsikak Thomas",
+  "location": "Uyo, Nigeria",
+  "bio": "Software engineer with a focus on lifelong learning and building solutions that go above and beyond.",
+  "avatar": "https://github.com/sika-007.png",
+  "portfolio": "https://nsikakthomas.netlify.app",
+  "skills": [
+    "ReactJS",
+    "Marterial UI",
+    "ThreeJS",
+    "Tailwind CSS",
+    "SCSS/SASS",
+    "JavaScript",
+    "NextJS",
+    "React-Redux"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sika-007",
+    "Twitter": "https://twitter.com/un_sika",
+    "LinkedIn": "https://www.linkedin.com/in/dev-sika"
+  }
+}

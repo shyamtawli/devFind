@@ -1,0 +1,13 @@
+{
+  "name": "Vinay Rawat",
+  "location": "Faridabad, HR India",
+  "bio": "As a full stack developer, I am currently learning and working of Frappe Framework and actively contributing to open source projects.",
+  "avatar": "https://github.com/vineyrawat.png",
+  "portfolio": "https://github.com/vineyrawat",
+  "skills": ["JavaScript", "ReactJS", "Dart", "Flutter", "NodeJS", "Python"],
+  "social": {
+    "GitHub": "https://github.com/vineyrawat",
+    "Twitter": "https://twitter.com/Vinayrawat09",
+    "LinkedIn": "https://linkedin.com/in/vineyrawat"
+  }
+}

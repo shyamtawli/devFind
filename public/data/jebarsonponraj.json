@@ -1,0 +1,13 @@
+{
+  "name": "Jebarson Ponraj",
+  "location": "Chennai, India",
+  "bio": "I am a Frontend Developer, Always passionate about tech.Currently making my hands dirty in ReactJS.",
+  "avatar": "https://github.com/jebarsonponraj.png",
+  "portfolio": "https://jebarsonponraj.me/",
+  "skills": ["JavaScript", "Java", "ReactJS", "HTML", "CSS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/jebarsonponraj",
+    "Twitter": "https://twitter.com/jebarsonponraj",
+    "LinkedIn": "https://www.linkedin.com/in/jebarson-ponraj-9aba19183/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shyam Tawli",
+  "location": "Indore, India",
+  "bio": "As a frontend developer, I am currently honing my skills in ReactJS and actively contributing to open source projects. Alongside, I also have some experience with data structures and algorithms (DSA) in Java.",
+  "avatar": "https://github.com/shyamtawli.png",
+  "portfolio": "https://github.com/shyamtawli",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Java"],
+  "social": {
+    "GitHub": "https://github.com/shyamtawli",
+    "Twitter": "https://twitter.com/shyam_tawli",
+    "LinkedIn": "https://linkedin.com/in/shyamtawli"
+  }
+}

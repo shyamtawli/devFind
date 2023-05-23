@@ -1,0 +1,20 @@
+{
+  "name": "Vinay Chaudhary",
+  "location": "Delhi",
+  "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
+  "avatar": "https://github.com/vinaysingh-chaudhary.png",
+  "portfolio": "https://github.com/vinaysingh-chaudhary",
+  "skills": [
+    "ReactJs",
+    "TailwindCSS",
+    "Javascript",
+    "Web Designing",
+    "Figma",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/vinaysingh-chaudhary",
+    "Twitter": "https://twitter.com/Viisactive",
+    "LinkedIn": "https://www.linkedin.com/in/vinay-chaudhary-70a633244/"
+  }
+}

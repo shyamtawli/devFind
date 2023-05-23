@@ -58,11 +58,11 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 
 3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command: 
 **`pnpm install`**
-4. Navigate to the **`src/data`** directory.
-5. Open the **`Profile.json`** file.
-6. Add your profile data: Copy the following JSON object, edit your details, and paste it in the middle of the **`Profile.json`** file. Make sure to follow the existing structure: 
-
-  ```json
+4. Navigate to the **`public/data`** folder in your project directory.
+5. Create a new JSON file named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
+7. Add the following JSON object, replacing the placeholder values with your own details:
+    
+    ```json
    {
      "name": "Your Name",
      "location": "Your Location",
@@ -77,11 +77,19 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
      }
    },
    ```
+8. Save the **`your_github_username.json`** file.
+9. Navigate to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
+11. Add your JSON filename (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
+    ```json
+    [
+      "filename1.json",
+      "filename2.json",
+      "your_github_username.json"
+    ]
 
-   **`Note:`** Copy the above code, edit your details, and paste it in the middle (not at the top or bottom). It doesn't matter where you add your profile, it will appear randomly on the website.
-
-7. Save the changes to the **`Profile.json`** file.
-8. Create a new branch: To create a new branch for your profile, run the following command:
+    ```
+12. Save the **`ProfileLists.json`** file. 
+13. Create a new branch: To create a new branch for your profile, run the following command:
 **`git checkout -b add-profile`**
 9. Commit your changes: To save your changes to the branch, run the following command: 
 **`git commit -m "add: <your-name>"`**
@@ -107,4 +115,4 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star
+Don't forget to leave a star 

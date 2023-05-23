@@ -1,0 +1,22 @@
+{
+  "name": "Nishant Jangid",
+  "location": "Jaipur, India",
+  "bio": "I'm a full-stack developer specializing in the MERN stack, with experience in building scalable and efficient web applications. I have a keen interest in cloud computing. So, I'm learning AWS. Also I've a tech community called Dev Hac.",
+  "avatar": "https://github.com/1010nishant.png",
+  "portfolio": "https://github.com/1010nishant",
+  "skills": [
+    "AWS",
+    "Javascript",
+    "Node.js",
+    "MongoDB",
+    "ReactJS",
+    "Express.js",
+    "HTML",
+    "CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/1010nishant",
+    "Twitter": "https://twitter.com/1010nishant",
+    "LinkedIn": "https://www.linkedin.com/in/1010nishant"
+  }
+}
