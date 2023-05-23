@@ -1,0 +1,12 @@
+{
+  "name": "Kwan Sing",
+  "location": "Singapore",
+  "bio": "Eat, sleep, breathe, javascript.",
+  "avatar": "https://github.com/kwansing14.png",
+  "portfolio": "https://kwansing.dev",
+  "skills": ["JavaScript", "TypeScript", "NextJS"],
+  "social": {
+    "GitHub": "https://github.com/kwansing14",
+    "LinkedIn": "https://www.linkedin.com/in/kwansing/"
+  }
+}

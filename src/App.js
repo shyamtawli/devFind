@@ -1,22 +1,55 @@
 import { useState, useContext } from "react";
+=======
+import { useState, useEffect } from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
 import NoResultFound from "./components/NoResultFound/NoResultFound";
-import datas from "./data/Profile.json";
 import "./App.css";
 import { ThemeContext } from "./Context/ThemeContext";
+=======
+import filenames from "./ProfilesList.json";
 
 function App() {
   const { theme } = useContext(ThemeContext);
   const [searching, setSearching] = useState(false);
+  const [combinedData, setCombinedData] = useState([]);
+
+  useEffect(() => {
+    // Function to fetch data from a JSON file
+    const fetchData = async (file) => {
+      try {
+        const response = await fetch(file);
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        return [];
+      }
+    };
+
+    // Function to combine data from multiple JSON files
+    const combineData = async () => {
+      try {
+        const promises = filenames.map((file) => fetchData(`/data/${file}`));
+        const combinedData = await Promise.all(promises);
+
+        setCombinedData(combinedData);
+      } catch (error) {
+        console.error("Error combining data:", error);
+        setCombinedData([]);
+      }
+    };
+
+    combineData();
+  }, []);
 
   const [profiles, setProfiles] = useState([]);
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
     const results = [];
 
-    for (const object of datas) {
+    for (const object of combinedData) {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
       const matchingSkills = object.skills.filter((skill) =>
@@ -43,7 +76,7 @@ function App() {
     return array;
   };
 
-  const shuffledProfiles = shuffleProfiles(datas);
+  const shuffledProfiles = shuffleProfiles(combinedData);
 
   return (
     <div

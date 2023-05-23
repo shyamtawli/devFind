@@ -36,6 +36,22 @@
   /* color: #fff; */
 }
 
+a:visited {
+  color: #ffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;

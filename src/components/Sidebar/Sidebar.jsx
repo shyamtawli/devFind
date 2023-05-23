@@ -29,6 +29,9 @@ function Sidebar() {
           {theme.icon}
         </button>
       </div>
+        <div className="description">
+            <a href="https://github.com/shyamtawli/devFind" target="_blank" rel="noreferrer">Add your profile?</a>
+        </div>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Aayush Kumar Jha",
+  "location": "Mumbai, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://github.com/Aayush895.png",
+  "portfolio": "https://github.com/Aayush895",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Java",
+    "DSA",
+    "Git/GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Aayush895",
+    "LinkedIn": "https://www.linkedin.com/in/aayush-jha-6716b018b/"
+  }
+}

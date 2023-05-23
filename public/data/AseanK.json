@@ -1,0 +1,11 @@
+{
+  "name": "Sean Kim",
+  "location": "California, USA",
+  "bio": "MERN stack developer, I enjoy coding in general. Currently learning security field",
+  "avatar": "https://github.com/AseanK.png",
+  "portfolio": "https://github.com/AseanK",
+  "skills": ["JavaScript", "Express.js", "MongoDB", "NodeJS", "React"],
+  "social": {
+    "GitHub": "https://github.com/AseanK"
+  }
+}

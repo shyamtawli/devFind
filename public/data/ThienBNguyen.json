@@ -1,0 +1,22 @@
+{
+  "name": "Thien Nguyen",
+  "location": "Texas, USA",
+  "bio": "Experienced developer seeking ReactJS, AngularJS, and Node.js job opportunities. Skilled in front-end and back-end technologies.",
+  "avatar": "https://avatars.githubusercontent.com/u/48506100?s=400&u=0e91479bfeb73a0375affa3691b1044e2b77ba8a&v=4",
+  "portfolio": "https://github.com/ThienBNguyen",
+  "skills": [
+    "ReactJS",
+    "AngularJS",
+    "JavaScript",
+    "HTML/CSS",
+    "SCSS",
+    "bootstrap",
+    "NodeJS",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ThienBNguyen",
+    "Twitter": "https://twitter.com/Thien_NguyenDev",
+    "LinkedIn": "https://www.linkedin.com/in/thienbng/"
+  }
+}

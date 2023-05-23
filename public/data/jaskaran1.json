@@ -1,0 +1,22 @@
+{
+  "name": "Jaskaran Kamboj",
+  "location": "Delhi",
+  "bio": "A newbie frontend developer, passionate to learn new skills and explore the world of open source.",
+  "avatar": "https://avatars.githubusercontent.com/u/95584564?v=4",
+  "portfolio": "https://github.com/jaskaranl",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "DSA",
+    "Python",
+    "Kotlin",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jaskaranl",
+    "Twitter": "https://twitter.com/JaskaranKambo19",
+    "LinkedIn": "https://www.linkedin.com/in/jaskaran-kamboj-893b99208/"
+  }
+}

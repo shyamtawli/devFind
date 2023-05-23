@@ -1,0 +1,13 @@
+{
+  "name": "Munish pathania",
+  "location": "Kangra, India",
+  "bio": "Full-Stack Developer,Passionate about technology and always eager to learn new things. This tech enthusiast has a strong background in HTML, CSS, and JavaScript, and is also skilled in DSA Java.Open source enthusiast ,footballer",
+  "avatar": "https://github.com/munish-on-git.png",
+  "portfolio": "https://github.com/munish-on-git",
+  "skills": ["JavaScript", "Html/css", "Java", "Git", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/munish-on-git",
+    "Twitter": "https://twitter.com/munishtwts",
+    "LinkedIn": "https://www.linkedin.com/in/munish-pathania-0972aa24b/"
+  }
+}

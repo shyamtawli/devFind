@@ -1,0 +1,22 @@
+{
+  "name": "Shubh Sharma",
+  "location": "Bareilly, India",
+  "bio": "Self-taught, Exploring Front-end Web-dev and DevOps, Open Source Advocate, Technical Writer",
+  "avatar": "https://github.com/shubhsharma19.png",
+  "portfolio": "https://github.com/shubhsharma19",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind",
+    "Java",
+    "Git",
+    "Github",
+    "Linux",
+    "Figma"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shubhsharma19",
+    "Twitter": "https://twitter.com/shubhstwt",
+    "LinkedIn": "https://www.linkedin.com/in/shubhsharma19"
+  }
+}

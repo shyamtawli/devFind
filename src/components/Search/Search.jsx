@@ -34,21 +34,21 @@ function Search({ onSearch }) {
   }, []);
 
   return (
-    <div className="search-bar">
-      <input
-        ref={searchInput}
-        type="text"
-        onChange={handleInputChange}
-        value={searchValue}
-        placeholder="Search user by name, location or skills"
-        onKeyDown={handleSearchOnEnter}
-      />
-      <FontAwesomeIcon
-        onClick={handleSearchButtonClick}
-        className="search-icon"
-        icon={faMagnifyingGlass}
-      />
-    </div>
+        <div className="search-bar">
+          <input
+              ref={searchInput}
+              type="text"
+              onChange={handleInputChange}
+              value={searchValue}
+              placeholder="Search user by name, location or skills"
+              onKeyDown={handleSearchOnEnter}
+          />
+          <FontAwesomeIcon
+              onClick={handleSearchButtonClick}
+              className="search-icon"
+              icon={faMagnifyingGlass}
+          />
+        </div>
   );
 }
 

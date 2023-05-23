@@ -1,0 +1,19 @@
+{
+  "name": "Pranshu Jha",
+  "location": "Chennai, India",
+  "bio": "Full-Stack developer sharing my journey in tech!",
+  "avatar": "https://github.com/pranshuj73.png",
+  "portfolio": "https://linkfree.io/pranshuj73",
+  "skills": [
+    "Full-Stack Web Development",
+    "React",
+    "Linux",
+    "Python",
+    "Android Studio"
+  ],
+  "social": {
+    "GitHub": "https://github.com/pranshuj73",
+    "Twitter": "https://twitter.com/pranshuj73",
+    "LinkedIn": "https://www.linkedin.com/in/pranshuj73"
+  }
+}
