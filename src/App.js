@@ -3,8 +3,8 @@ import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
 import NoResultFound from "./components/NoResultFound/NoResultFound";
-// import datas from "./data/Profile.json";
 import "./App.css";
+import filenames from "./ProfilesList.json";
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -27,10 +27,7 @@ function App() {
     // Function to combine data from multiple JSON files
     const combineData = async () => {
       try {
-        const filesResponse = await fetch("/ProfilesList.json");
-        const filesData = await filesResponse.json();
-
-        const promises = filesData.map((file) => fetchData(`/data/${file}`));
+        const promises = filenames.map((file) => fetchData(`/data/${file}`));
         const combinedData = await Promise.all(promises);
 
         setCombinedData(combinedData);
