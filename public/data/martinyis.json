@@ -1,0 +1,30 @@
+{
+  "name": "Martin Babak",
+  "location": "San Jose, CA",
+  "bio": "UNH student specializing in Full-Stack development, with a primary focus on the MERN stack.",
+  "avatar": "https://github.com/martinyis.png",
+  "portfolio": "https://martinyis.github.io/Mb-Portfoio/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "REACT JS",
+    "REDUX",
+    "FIGMA",
+    "JAVA",
+    "PYTHON",
+    "C",
+    "NODE JS",
+    "EXPRESS JS",
+    "MONGO DB",
+    "Tailwind CSS",
+    "Material UI",
+    "SASS",
+    "GIT"
+  ],
+  "social": {
+    "GitHub": "https://github.com/martinyis",
+    "Twitter": "https://twitter.com/none",
+    "LinkedIn": "https://www.linkedin.com/in/martin-babak-116850244"
+  }
+}
