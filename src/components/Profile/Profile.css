@@ -42,7 +42,7 @@
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
-  height: 35px;
+  padding: 0.45rem;
   overflow: hidden;
 }
 
