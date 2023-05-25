@@ -29,7 +29,6 @@ function App() {
       try {
         const promises = filenames.map((file) => fetchData(`/data/${file}`));
         const combinedData = await Promise.all(promises);
-
         setCombinedData(combinedData);
       } catch (error) {
         console.error("Error combining data:", error);
@@ -41,24 +40,27 @@ function App() {
   }, []);
 
   const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase();
+  const searchTerms = searchValue.toLowerCase().split(" ");
     const results = [];
-
     for (const object of combinedData) {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) =>
-        skill.toLowerCase().includes(lowercaseSearch)
-      );
-      if (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      ) {
-        results.push(object);
+      // For each search term, check if it matches any skills, name, or location
+      for (const term of searchTerms) {
+        const matchingSkills = object.skills.filter((skill) =>
+          skill.toLowerCase().includes(term)
+        );
+        if (
+          matchingSkills.length > 0 ||
+          lowercaseName.includes(term) ||
+          lowercaseLocation.includes(term)
+        ) {
+          results.push(object);
+          // After a match, break the loop to avoid pushing the same object multiple times
+          break;
+        }
       }
     }
-
     setSearching(true);
     setProfiles(results);
   };
