@@ -1,0 +1,12 @@
+{
+  "name": "Saba Kharanauli",
+  "location": "Tbilisi, Georgia",
+  "bio": "NodeJS specialist with knowledge of ReactJS. Obsessed with learning and growing. Seeking new opportunities to expand my skills and knowledge",
+  "avatar": "https://github.com/runday198.png",
+  "portfolio": "https://github.com/runday198",
+  "skills": ["NodeJS", "Express.js", "React", "JavaScript", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/runday198",
+    "LinkedIn": "https://www.linkedin.com/in/saba-kharanauli-418819253/"
+  }
+}

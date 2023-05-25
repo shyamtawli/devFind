@@ -1,0 +1,19 @@
+{
+  "name": "Drew Pate",
+  "location": "Massachusetts, USA",
+  "bio": "A certified full stack developer with a certificate from MIT xPro. I have a background in Fine Art.",
+  "avatar": "https://github.com/drewpate.png",
+  "portfolio": "https://drewpate.github.io/",
+  "skills": [
+    "Adobe Photoshop/Illustrator",
+    "MERN stack",
+    "Firebase",
+    "Bootstrap",
+    "Material UI"
+  ],
+  "social": {
+    "Github": "https://github.com/drewpate",
+    "Twitter": "https://twitter.com/drewpate",
+    "LinkedIn": "https://www.linkedin.com/in/drewpate/"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Giri Madhan",
+  "location": "India",
+  "bio": "Frontend developer working with Reactjs & Typescript :) . Looking for good remote roles. Lets talk!",
+  "avatar": "https://avatars.githubusercontent.com/u/87971509?v=4",
+  "portfolio": "https://github.com/giri-madhan",
+  "skills": [
+    "Reactjs",
+    "Typescript",
+    "JavaScript",
+    "HTML/CSS",
+    "SCSS",
+    "JSS",
+    "Tailwind CSS",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/giri-madhan",
+    "Twitter": "https://twitter.com/malleablelife",
+    "LinkedIn": "https://in.linkedin.com/in/gmpgiri"
+  }
+}

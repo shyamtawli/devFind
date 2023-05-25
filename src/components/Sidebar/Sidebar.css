@@ -28,12 +28,33 @@
   color: #fff;
 }
 
+a.titlelink:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .title .find {
   color: #00a6fb;
 }
 
 .headline {
   color: #fff;
+}
+
+a:visited {
+  color: #ffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  padding-top: 25px;
 }
 
 @media screen and (max-width: 768px) {

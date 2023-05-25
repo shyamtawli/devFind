@@ -1,0 +1,13 @@
+{
+  "name": "Aryan Raj",
+  "location": "Banglore, India",
+  "bio": "Aspiring Java Full Stack Developer eager to build innovative web applications using Java-based technologies. Continuously learning and expanding my skill set to create high-quality and efficient solutions.",
+  "avatar": "https://github.com/anonymgit.png",
+  "portfolio": "https://github.com/anonymgit",
+  "skills": ["Java", "Springboot", "React", "C++", "HTML", "javaScript", "css"],
+  "social": {
+    "GitHub": "https://github.com/anonymgit",
+    "Twitter": "https://twitter.com/aryanraj0836",
+    "LinkedIn": "https://linkedin.com/in/aryanraj0836"
+  }
+}

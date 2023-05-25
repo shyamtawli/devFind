@@ -1,0 +1,22 @@
+{
+  "name": "Hendrik Bruss",
+  "location": "Gießen Germany",
+  "bio": "Social Media Systems Student, Webdeveloper with experience in UX Design",
+  "avatar": "https://github.com/Hendriksn.png",
+  "portfolio": "https://github.com/Hendriksn",
+  "skills": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Typescript",
+    "Angular",
+    "PostgreSQL",
+    "MariaDB",
+    "AdobeXD"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Hendriksn",
+    "Twitter": "https://twitter.com/https://twitter.com/Hendrik250199",
+    "LinkedIn": "https://www.linkedin.com/in/hendrik-bruss-b8012a20b/"
+  }
+}

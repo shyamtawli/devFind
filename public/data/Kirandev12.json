@@ -1,0 +1,22 @@
+{
+  "name": "Kiran Dev K",
+  "location": "Mysuru, India",
+  "bio": "A newbie frontend developer, passionate to learn new skills and explore the world of open source.",
+  "avatar": "https://github.com/KiranDev12.png",
+  "portfolio": "https://github.com/KiranDev12",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "DSA",
+    "Python",
+    "Kotlin",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/KiranDev12",
+    "Twitter": "https://twitter.com/iamkirandev",
+    "LinkedIn": "https://www.linkedin.com/in/kiran-dev-k-282553227/"
+  }
+}

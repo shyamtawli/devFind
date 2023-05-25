@@ -1,0 +1,21 @@
+{
+  "name": "Mayank Meena",
+  "location": "Rajasthan,India",
+  "bio": "Hi, I am Mayank Meena, a developer who is passionate about tech, Web3 and gaming. I enjoy exploring new technologies and building innovative solutions for the future. I am always eager to learn new things and share my knowledge with others.",
+  "avatar": "https://github.com/dcryptoniun.png",
+  "portfolio": "https://mayank-meena.vercel.app/",
+  "skills": [
+    "JavaScript",
+    "React/Next/Vite",
+    "Ethers",
+    "Web3",
+    "HTML",
+    "Tailwind CSS",
+    "CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dcryptoniun",
+    "Twitter": "https://twitter.com/0xmynk",
+    "LinkedIn": "https://www.linkedin.com/in/mayankmeena/"
+  }
+}

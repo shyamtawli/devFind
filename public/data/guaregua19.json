@@ -1,0 +1,38 @@
+{
+  "name": "Lionel Guaregua",
+  "location": "Caracas, Venezuela",
+  "bio": "I'm Full stack software developer 👨‍💻 with +4 years of experience, ppasionate about learning and contributing in open source projects",
+  "avatar": "https://github.com/guaregua19.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": [
+    "Laravel",
+    "Angular",
+    "NodeJS",
+    "NestJs",
+    "Express",
+    "React",
+    "Vue",
+    "Strapi",
+    "Spring Boot Framework",
+    "Basic knowledge",
+    "CSS",
+    "SCSS",
+    "Tailwind CSS",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "GraphQL",
+    "Docker",
+    "Jenkins",
+    "AWS",
+    "Git",
+    "Postman",
+    "VSCode",
+    "Jupyter"
+  ],
+  "social": {
+    "GitHub": "https://github.com/guaregua19",
+    "Twitter": "https://twitter.com/lguaregua",
+    "LinkedIn": "https://www.linkedin.com/in/lionel-guaregua-b84a2885/"
+  }
+}

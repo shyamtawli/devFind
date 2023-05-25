@@ -1,0 +1,13 @@
+{
+  "name": "Yogesh Prabhu",
+  "location": "Wisconsin, USA",
+  "bio": "Full-Stack developer starting my journey in open source!",
+  "avatar": "https://github.com/Yogesh914.png",
+  "portfolio": "https://github.com/Yogesh914",
+  "skills": ["JavaScript", "ReactJS", "NodeJS", "Python", "PyTorch"],
+  "social": {
+    "GitHub": "https://github.com/Yogesh914",
+    "Twitter": "https://twitter.com/yogeshprabhu03",
+    "LinkedIn": "https://www.linkedin.com/in/yogesh-prabhu-2735521bb/"
+  }
+}
