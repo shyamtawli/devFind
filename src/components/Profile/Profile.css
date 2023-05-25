@@ -112,18 +112,18 @@
 
 .social-container {
   width: 200px;
-  margin: 0px;
-  text-align: center;
+  margin: -10px;
+  text-align: left;
 }
 
 .social-icons {
-  padding: 0;
+  padding: 1px 0px 0px 0px;
   list-style: none;
-  margin: 1em;
+  margin: 0;
 }
 .social-icons li {
   display: inline-block;
-  margin: 3px;
+  margin: 0;
   position: relative;
   font-size: 1.2em;
 }
@@ -134,9 +134,7 @@
   left: 16.75px;
   transition: all 265ms ease-out;
 }
-.social-icons a {
-  display: inline-block;
-}
+
 .social-icons a:before {
   transform: scale(.5);
   -ms-transform: scale(.5);
