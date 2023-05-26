@@ -1,0 +1,13 @@
+{
+  "name": "Sankalp Salve",
+  "location": "Pune, India",
+  "bio": "I develop user interfaces, web applications and automating software processes using tools like Docker and Jenkins. My expertise in both areas allows me to efficiently deliver high-quality software.",
+  "avatar": "https://github.com/xsankalp13.png",
+  "portfolio": "https://sankalpsalve.me",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Devops Engineer"],
+  "social": {
+    "GitHub": "https://github.com/xsankalp13",
+    "Twitter": "https://twitter.com/Sankalpsalve3",
+    "LinkedIn": "https://www.linkedin.com/in/sankalp13/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tushar Verma",
+  "location": "Delhi, India",
+  "bio": "16.Frontend Dev.Building Stuff with AI.",
+  "avatar": "https://github.com/tusharverma06.png",
+  "portfolio": "https://www.tusharv.xyz",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS"],
+  "social": {
+    "GitHub": "https://github.com/tusharverma06",
+    "Twitter": "https://twitter.com/tusharrvrma",
+    "LinkedIn": "https://www.linkedin.com/in/tushar-verma-4b4974261/"
+  }
+}
