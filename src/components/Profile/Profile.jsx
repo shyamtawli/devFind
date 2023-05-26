@@ -67,49 +67,40 @@ function Profile({ data }) {
         </div>
         <div className="bottom-container">
           <div className="about">{data.bio}</div>
-          <div className="social">
-            <div className="github">
-              <a
-                className="social-link"
+          <div className="social-container">
+            <ul className="social-icons">
+              <li>
+                <a
                 href={data.social.GitHub}
                 target="_blank"
                 rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faGithubSquare}
-                  size="xl"
-                  style={{ color: "#00a6fb" }}
-                />
-              </a>
-            </div>
-            <div className="twitter">
-              <a
-                className="social-link"
+                >
+                  <i className="fa fa-github">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a
                 href={data.social.Twitter}
                 target="_blank"
                 rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faTwitterSquare}
-                  size="xl"
-                  style={{ color: "#00a6fb" }}
-                />
-              </a>
-            </div>
-            <div className="linkedin">
-              <a
-                className="social-link"
+                >
+                  <i className="fa fa-twitter">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a
                 href={data.social.LinkedIn}
                 target="_blank"
                 rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  size="xl"
-                  style={{ color: "#00a6fb" }}
-                />
-              </a>
-            </div>
+                >
+                  <i className="fa fa-linkedin">
+                  </i>
+                </a>
+              </li>
+
+            </ul>
           </div>
         </div>
       </div>
