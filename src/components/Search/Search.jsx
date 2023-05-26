@@ -10,7 +10,7 @@ function Search({ onSearch }) {
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
-    handleSearch();
+    onSearch(event.target.value);
   };
 
   const handleSearch = () => {
