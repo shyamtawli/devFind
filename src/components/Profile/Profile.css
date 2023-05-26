@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .profile-container {
   margin-left: 20rem;
   padding: 0rem 1.5rem;
@@ -7,7 +8,7 @@
   border-radius: 10px;
   background: #1e2a47;
   margin-bottom: 1.5rem;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   height: auto;
   color: #fff;
 }
@@ -107,4 +108,57 @@
   .skills-container .skill {
     height: 2rem;
   }
+}
+
+.social-container {
+  width: 200px;
+  margin: -10px;
+  text-align: left;
+}
+
+.social-icons {
+  padding: 1px 0px 0px 0px;
+  list-style: none;
+  margin: 0;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 16px;
+  left: 16.75px;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:before {
+  transform: scale(.5);
+  -ms-transform: scale(.5);
+  -webkit-transform: scale(.5);
+  content: " ";
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  display: block;
+  background: linear-gradient(45deg, #195c6c,#2727ff);
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.25);
+  -ms-transform: scale(2.25);
+  -webkit-transform: scale(2.25);
+  color: #0031b9;
+  background: -webkit-linear-gradient(45deg, #1b58c9, #0daae9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
 }
