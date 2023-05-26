@@ -44,6 +44,7 @@
   display: flex;
   gap: 1rem;
   padding: 0.45rem;
+  height: 3rem;
   overflow: hidden;
 }
 
