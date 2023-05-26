@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -9,7 +9,14 @@ import filenames from "./ProfilesList.json";
 function App() {
 	const [profiles, setProfiles] = useState([]);
 	const [searching, setSearching] = useState(false);
+	const [defaultSearchQuery, setDefaultSearchQuery] = useState('');
 	const [combinedData, setCombinedData] = useState([]);
+
+	const getSearchQuery = useCallback(() => {
+		const search = window.location.search;
+		const searchParams = new URLSearchParams(search);
+		return searchParams.get("search-query") || '';
+	}, []);
 
 	useEffect(() => {
 		// Function to fetch data from a JSON file
@@ -32,6 +39,10 @@ function App() {
 				);
 				const combinedData = await Promise.all(promises);
 
+				const searchQuery = getSearchQuery();
+				
+				setDefaultSearchQuery(searchQuery);
+				handleSearch(searchQuery, combinedData);
 				setCombinedData(combinedData);
 			} catch (error) {
 				console.error("Error combining data:", error);
@@ -42,7 +53,7 @@ function App() {
 		combineData();
 	}, []);
 
-	const handleSearch = (searchValue) => {
+	const handleSearch = (searchValue, existingResults = null) => {
     // if the searchvalue is empty we dont need to search anything
 		if (searchValue.trim() == "") {
       // to avoid setting to empty bcz initally the data will be empty. 
@@ -54,8 +65,9 @@ function App() {
 		}
 		const lowercaseSearch = searchValue.toLowerCase();
 		const results = [];
+		const existingData = existingResults ? existingResults : combinedData;
 
-		for (const object of combinedData) {
+		for (const object of existingData) {
 			const lowercaseName = object.name.toLowerCase();
 			const lowercaseLocation = object.location.toLowerCase();
 			const matchingSkills = object.skills.filter((skill) =>
@@ -86,7 +98,7 @@ function App() {
 	return (
 		<div className="App">
 			<Sidebar />
-			<Search onSearch={handleSearch} />
+			<Search onSearch={handleSearch} defaultSearchQuery={defaultSearchQuery} />
 			{profiles.length === 0 && searching ? (
 				<NoResultFound />
 			) : profiles.length === 0 && !searching ? (
