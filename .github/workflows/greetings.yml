@@ -1,4 +1,4 @@
-name: 'Greetings'
+name: Greetings
 
 on:
   fork:
@@ -10,13 +10,14 @@ on:
     types: [opened]
 
 jobs:
-  welcome:
+  greetings:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
-      - uses: actions/checkout@v1
-      - uses: EddieHubCommunity/gh-action-community/src/welcome@main 
+      - uses: actions/first-interaction@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{secrets.GITHUB_TOKEN}}
           issue-message: "<h3>Welcome, @${{ github.actor }}! Your issue is like a spark that ignites innovation. We're thrilled to dive into it and work together to find a solution.<h3>"
           pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for opening a pull request. Your contribution is valuable and we appreciate your efforts to improve our project.<h3>"
-          footer: "Soon the maintainers/owers will review it and provide you with feedback/suggestions."
