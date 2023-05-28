@@ -1,0 +1,25 @@
+name: Greeting
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue Greeting
+        if: github.event_name == 'issues'
+        run: |
+          echo "Hello, ${{ github.actor }}! Thank you for opening an issue."
+          echo "Soon the maintainers/owners will review it and provide you with feedback/suggestions."
+          echo "If you think it's something urgent, feel free to reach out on our social handles."
+
+      - name: Pull Request Greeting
+        if: github.event_name == 'pull_request_target'
+        run: |
+          echo "Hello, ${{ github.actor }}! Thank you for raising a pull request."
+          echo "Soon the maintainers/owners will review it and provide you with feedback/suggestions."
+          echo "If you think it's something urgent, feel free to reach out on our social handles."
