@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main 
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "<h3>Welcome, @${{ github.actor }}! Your issue is like a spark that ignites innovation. We're thrilled to dive into it and work together to find a solution.<h3>"
