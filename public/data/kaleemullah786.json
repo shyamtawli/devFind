@@ -1,0 +1,22 @@
+{
+    "name": "Kaleem Ullah",
+    "location": "Lahore, Pakistan",
+    "bio": "Full-stack Developer | AI/ML | Reactjs | Nextjs | Nodejs | Python | JavaScript | C++ | Ambassador @GDSC-PUCIT",
+    "avatar": "https://github.com/kaleemullah786.png",
+    "portfolio": "https://github.com/kaleemullah786",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Nextjs",
+        "Nodejs",
+        "Python",
+        "C/C++"
+    ],
+    "social": {
+        "GitHub": "https://github.com/kaleemullah786",
+        "Twitter": "",
+        "LinkedIn": "https://www.linkedin.com/in/kaleem-ullah-548010209"
+    }
+}
