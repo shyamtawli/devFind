@@ -1,0 +1,12 @@
+{
+  "name": "Nikola Golubovic",
+  "location": "Kragujevac, Serbia",
+  "bio": "I am interested in both frontend and backend web development, but I have more experience with frontend. I have been working in the industry for one year. The frameworks that I have used are: react, express, nestjs.",
+  "avatar": "https://github.com/nikolagolubovic.png",
+  "portfolio": "https://www.nikolagolubovic.site/",
+  "skills": ["javascript", "typescript"],
+  "social": {
+    "GitHub": "https://github.com/nikolagolubovic",
+    "Twitter": "https://twitter.com/neosudjivac"
+  }
+}
