@@ -1,4 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 .profile-container {
   margin-left: 20rem;
   padding: 0rem 1.5rem;
@@ -121,12 +122,14 @@
   list-style: none;
   margin: 0;
 }
+
 .social-icons li {
   display: inline-block;
   margin: 0;
   position: relative;
   font-size: 1.2em;
 }
+
 .social-icons i {
   color: #fff;
   position: absolute;
@@ -144,13 +147,15 @@
   height: 50px;
   border-radius: 15%;
   display: block;
-  background: linear-gradient(45deg, #195c6c,#2727ff);
+  background: linear-gradient(45deg, #195c6c, #2727ff);
   transition: all 265ms ease-out;
 }
+
 .social-icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
 }
+
 .social-icons a:hover i {
   transform: scale(2.25);
   -ms-transform: scale(2.25);
@@ -161,4 +166,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
+}
+
+@media only screen and (max-width: 478px) {
+  .social-icons i{
+    top: 19px;
+    left: 19.75px;
+  }
 }
