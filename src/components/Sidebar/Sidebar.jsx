@@ -14,10 +14,10 @@ function Sidebar() {
             style={{ color: "#ffffff" }}
           />
         </div>
-        <div className="title">
+        <a href="https://dev-find.vercel.app/" className="titlelink"><div className="title">
           <p className="dev">dev</p>
           <p className="find">Find</p>
-        </div>
+        </div></a>
       </div>
       <div className="headline">
         Discover and Connect with Skilled Developers.
