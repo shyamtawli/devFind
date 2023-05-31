@@ -28,6 +28,11 @@
   color: #fff;
 }
 
+a.titlelink:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .title .find {
   color: #00a6fb;
 }
