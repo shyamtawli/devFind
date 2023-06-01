@@ -1,0 +1,25 @@
+{
+    "name": "Aftab Sadiq",
+    "location": "Faisalabad, Pakistan",
+    "bio": "Experienced Frondend web developer from Faisalabad, Pakistan. Graduated in Software Engineering. Passionate about creating performant websites with exceptional user experiences. Coding enthusiast with a focus on remarkable projects.",
+    "avatar": "https://github.com/aftab515.png",
+    "portfolio": "https://aftab-sadiq-portfolio.vercel.app/",
+    "skills": [
+    "Node.js",
+    "Javascript",
+    "Nextjs",
+    "MongoDB",
+    "React",
+    "GitHub",
+    "Git",
+    "Tailwind",
+    "Bootstrap",
+    "Android",
+    "HTML",
+    "CSS"],
+    "social": {
+      "GitHub": "https://github.com/aftab515",
+      "Twitter": "https://twitter.com/AlphaDev01",
+      "LinkedIn": "https://www.linkedin.com/in/aftab-sadiq-alpha0009/"
+    }
+   }
