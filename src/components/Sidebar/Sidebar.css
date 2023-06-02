@@ -28,29 +28,21 @@
   color: #fff;
 }
 
-a.titlelink:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .title .find {
   color: #00a6fb;
+}
+
+.titlelink {
+  text-decoration: none;
 }
 
 .headline {
   color: #fff;
 }
 
-a:visited {
-  color: #ffff;
-}
-
-a:link {
+.description a {
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 
 .description {
