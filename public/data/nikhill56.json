@@ -1,0 +1,13 @@
+{
+  "name": "Nikhil K Rajput",
+  "location": "India",
+  "bio": "Budding tech enthusiast who likes to create and build applications",
+  "avatar": "https://github.com/nikhill56.png",
+  "portfolio": "https://portfolio-oyi6.onrender.com/",
+  "skills": ["HTML", "CSS", "JavaScript", "React"],
+  "social": {
+    "GitHub": "https://github.com/nikhill56",
+    "Twitter": "https://twitter.com/rajputtnikhill",
+    "LinkedIn": "https://www.linkedin.com/in/nikhil-rajput-59575a218/"
+  }
+}
