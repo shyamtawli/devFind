@@ -91,12 +91,14 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 12. Save the **`ProfileLists.json`** file. 
 13. Create a new branch: To create a new branch for your profile, run the following command:
 **`git checkout -b add-profile`**
-9. Commit your changes: To save your changes to the branch, run the following command: 
+9. Add your changed files to the stage by running the following command:
+**`git add .`**
+10. Commit your changes: To save your changes to the branch, run the following command: 
 **`git commit -m "add: <your-name>"`**
-10. Push to the branch: To push the changes to the remote repository, run the following command: 
+11. Push to the branch: To push the changes to the remote repository, run the following command: 
 **`git push origin add-profile`**
-11. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
-12. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
+12. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
+13. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
 
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
@@ -115,4 +117,4 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star 
+Don't forget to leave a star ⭐

@@ -16,10 +16,12 @@ function Sidebar() {
             // style={{ color: "#ffffff" }}
           />
         </div>
-        <div className="title">
-          <p className="dev">dev</p>
-          <p className="find">Find</p>
-        </div>
+        <a href="https://dev-find.vercel.app/" className="titlelink">
+          <div className="title">
+            <p className="dev">dev</p>
+            <p className="find">Find</p>
+          </div>
+        </a>
       </div>
       <div className="headline">
         Discover and Connect with Skilled Developers.
@@ -32,6 +34,15 @@ function Sidebar() {
         <div className="description">
             <a href="https://github.com/shyamtawli/devFind" target="_blank" rel="noreferrer">Add your profile?</a>
         </div>
+      <div className="description">
+        <a
+          href="https://github.com/shyamtawli/devFind"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Add your profile?
+        </a>
+      </div>
     </div>
   );
 }

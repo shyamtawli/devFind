@@ -32,20 +32,17 @@
   color: #00a6fb;
 }
 
+.titlelink {
+  text-decoration: none;
+}
+
 .headline {
   /* color: #fff; */
 }
 
-a:visited {
-  color: #ffff;
-}
-
-a:link {
+.description a {
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 
 .description {
