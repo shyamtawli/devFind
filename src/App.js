@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect , Route} from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -39,6 +39,14 @@ function App() {
 
     combineData();
   }, []);
+
+  const NotFound = () => {
+    useEffect(() => {
+      window.location.replace('/404'); // Redirect to the error page
+    }, []);
+
+    return null; // This component doesn't render anything
+  };
 
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
@@ -88,6 +96,7 @@ function App() {
           return <Profile data={profile} key={index} />;
         })
       )}
+      <Route />
     </div>
   );
 }
