@@ -23,7 +23,7 @@
     "preinstall": "npx only-allow pnpm",
     "format": "prettier --write .",
     "precommit": "lint-staged",
-    "build": "prettier --write . && npm run build"
+    "build": "prettier --write . && pnpm run build"
   },
   "lint-staged": {
     "*.js": [
