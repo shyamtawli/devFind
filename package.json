@@ -20,7 +20,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "format": "prettier --write .",
+    "precommit": "lint-staged",
+    "build": "prettier --write . && npm run build"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format",
+      "git add"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +50,9 @@
     ]
   },
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "husky": "^8.0.3",
+    "json-loader": "^0.5.7",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
   }
 }

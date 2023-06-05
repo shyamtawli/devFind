@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
-import Profile from "./components/Profile/Profile";
-import Search from "./components/Search/Search";
-import Sidebar from "./components/Sidebar/Sidebar";
-import NoResultFound from "./components/NoResultFound/NoResultFound";
-import "./App.css";
-import filenames from "./ProfilesList.json";
+import { useState, useEffect } from 'react';
+import Profile from './components/Profile/Profile';
+import Search from './components/Search/Search';
+import Sidebar from './components/Sidebar/Sidebar';
+import NoResultFound from './components/NoResultFound/NoResultFound';
+import './App.css';
+import filenames from './ProfilesList.json';
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -19,7 +19,7 @@ function App() {
         const data = await response.json();
         return data;
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error('Error fetching data:', error);
         return [];
       }
     };
@@ -32,7 +32,7 @@ function App() {
 
         setCombinedData(combinedData);
       } catch (error) {
-        console.error("Error combining data:", error);
+        console.error('Error combining data:', error);
         setCombinedData([]);
       }
     };

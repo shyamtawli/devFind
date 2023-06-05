@@ -3,7 +3,7 @@ name: JSON check
 on:
   push:
     paths:
-      - "**.json"
+      - '**.json'
   pull_request:
 
 jobs:
