@@ -1,16 +1,18 @@
-import { useState, useEffect } from 'react';
-import Profile from './components/Profile/Profile';
-import Search from './components/Search/Search';
-import Sidebar from './components/Sidebar/Sidebar';
-import NoResultFound from './components/NoResultFound/NoResultFound';
-import './App.css';
-import filenames from './ProfilesList.json';
+import { useState, useEffect } from "react";
+import Profile from "./components/Profile/Profile";
+import Search from "./components/Search/Search";
+import Sidebar from "./components/Sidebar/Sidebar";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
+import NoResultFound from "./components/NoResultFound/NoResultFound";
+import "./App.css";
+import filenames from "./ProfilesList.json";
+
 
 function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
-
+  const currentUrl = window.location.pathname
   useEffect(() => {
     // Function to fetch data from a JSON file
     const fetchData = async (file) => {
@@ -72,22 +74,25 @@ function App() {
   };
 
   const shuffledProfiles = shuffleProfiles(combinedData);
-
   return (
     <div className="App">
       <Sidebar />
-      <Search onSearch={handleSearch} />
-      {profiles.length === 0 && searching ? (
-        <NoResultFound />
-      ) : profiles.length === 0 && !searching ? (
-        shuffledProfiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })
-      ) : (
-        profiles.map((profile, index) => {
-          return <Profile data={profile} key={index} />;
-        })
-      )}
+      {currentUrl === '/' ? <>
+        <Search onSearch={handleSearch} />
+        {profiles.length === 0 && searching ? (
+          <NoResultFound />
+        ) : profiles.length === 0 && !searching ? (
+          shuffledProfiles.map((profile, index) => {
+            return <Profile data={profile} key={index} />;
+          })
+        ) : (
+          profiles.map((profile, index) => {
+            return <Profile data={profile} key={index} />;
+          })
+        )}
+      </> : <ErrorPage />}
+
+
     </div>
   );
 }
