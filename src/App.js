@@ -1,3 +1,5 @@
+import { useState, useContext } from "react";
+=======
 import { useState, useEffect } from "react";
 import Profile from "./components/Profile/Profile";
 import Search from "./components/Search/Search";
@@ -5,10 +7,12 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import NoResultFound from "./components/NoResultFound/NoResultFound";
 import "./App.css";
+import { ThemeContext } from "./Context/ThemeContext";
+=======
 import filenames from "./ProfilesList.json";
 
 function App() {
-  const [profiles, setProfiles] = useState([]);
+  const { theme } = useContext(ThemeContext);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
   const currentUrl = window.location.pathname
@@ -41,6 +45,7 @@ function App() {
     combineData();
   }, []);
 
+  const [profiles, setProfiles] = useState([]);
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase();
     const results = [];
@@ -74,7 +79,15 @@ function App() {
 
   const shuffledProfiles = shuffleProfiles(combinedData);
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        background: theme.background,
+        color: theme.color,
+        buttonBgColor: theme.button.buttonBgColor,
+        buttonColor: theme.button.buttonColor,
+      }}
+    >
       <Sidebar />
       {currentUrl === '/' ? <>
         <Search onSearch={handleSearch} />
