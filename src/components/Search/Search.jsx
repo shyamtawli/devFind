@@ -21,6 +21,7 @@ function Search({ onSearch }) {
   };
 
   const handleSearchOnEnter = (e) => {
+    onSearch(e.target.value)
     if (e.keyCode === 13) {
       handleSearch();
     }
