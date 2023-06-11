@@ -1,7 +1,7 @@
 name: 👯‍♂️ Style Changing Request
 description: Suggest a style designs
-title: "[style]: "
-labels: ["enhancement"]
+title: '[style]: '
+labels: ['enhancement']
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
     attributes:
       label: What's the style idea?
       placeholder: Add descriptions
-      value: "We need to improve  "
+      value: 'We need to improve  '
     validations:
       required: true
   - type: textarea
@@ -21,7 +21,7 @@ body:
       label: Add screenshots
       description: Add screenshots to see the demo
       placeholder: Add screenshots
-      value: "Add screenshots"
+      value: 'Add screenshots'
   - type: checkboxes
     id: terms
     attributes:

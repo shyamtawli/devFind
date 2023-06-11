@@ -4,15 +4,7 @@
   "bio": "I am passionate self-taught full - stack developer.",
   "avatar": "https://avatars.githubusercontent.com/u/124070023?v=4",
   "portfolio": "https://github.com/tanbirali",
-  "skills": [
-    "Java",
-    "Python",
-    "Django",
-    "HTML",
-    "JavaScript",
-    "Docker",
-    "Android Studio"
-  ],
+  "skills": ["Java", "Python", "Django", "HTML", "JavaScript", "Docker", "Android Studio"],
   "social": {
     "GitHub": "https://github.com/tanbirali",
     "Twitter": "https://twitter.com/Tanbir_Ali_",

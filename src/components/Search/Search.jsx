@@ -1,11 +1,11 @@
-import React, { useState, useRef, useEffect } from "react";
-import "./Search.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import React, { useState, useRef, useEffect } from 'react';
+import './Search.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 function Search({ onSearch }) {
-  const [searchValue, setSearchValue] = useState("");
-  const [prevSearchValue, setPrevSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState('');
+  const [prevSearchValue, setPrevSearchValue] = useState('');
   const searchInput = useRef(null);
 
   const handleInputChange = (event) => {
@@ -44,11 +44,7 @@ function Search({ onSearch }) {
         placeholder="Search user by name, location or skills"
         onKeyDown={handleSearchOnEnter}
       />
-      <FontAwesomeIcon
-        onClick={handleSearchButtonClick}
-        className="search-icon"
-        icon={faMagnifyingGlass}
-      />
+      <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
     </div>
   );
 }

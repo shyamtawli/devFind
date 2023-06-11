@@ -1,17 +1,17 @@
-import { useState, useEffect } from "react";
-import Profile from "./components/Profile/Profile";
-import Search from "./components/Search/Search";
-import Sidebar from "./components/Sidebar/Sidebar";
-import ErrorPage from "./components/ErrorPage/ErrorPage";
-import NoResultFound from "./components/NoResultFound/NoResultFound";
-import "./App.css";
-import filenames from "./ProfilesList.json";
+import { useState, useEffect } from 'react';
+import Profile from './components/Profile/Profile';
+import Search from './components/Search/Search';
+import Sidebar from './components/Sidebar/Sidebar';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import NoResultFound from './components/NoResultFound/NoResultFound';
+import './App.css';
+import filenames from './ProfilesList.json';
 
 function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
-  const currentUrl = window.location.pathname
+  const currentUrl = window.location.pathname;
   useEffect(() => {
     // Function to fetch data from a JSON file
     const fetchData = async (file) => {
@@ -20,7 +20,7 @@ function App() {
         const data = await response.json();
         return data;
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error('Error fetching data:', error);
         return [];
       }
     };
@@ -33,7 +33,7 @@ function App() {
 
         setCombinedData(combinedData);
       } catch (error) {
-        console.error("Error combining data:", error);
+        console.error('Error combining data:', error);
         setCombinedData([]);
       }
     };
@@ -48,9 +48,7 @@ function App() {
     for (const object of combinedData) {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) =>
-        skill.toLowerCase().includes(lowercaseSearch)
-      );
+      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
       if (
         matchingSkills.length > 0 ||
         lowercaseName.includes(lowercaseSearch) ||
@@ -76,22 +74,24 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      {currentUrl === '/' ? <>
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? (
-          <NoResultFound />
-        ) : profiles.length === 0 && !searching ? (
-          shuffledProfiles.map((profile, index) => {
-            return <Profile data={profile} key={index} />;
-          })
-        ) : (
-          profiles.map((profile, index) => {
-            return <Profile data={profile} key={index} />;
-          })
-        )}
-      </> : <ErrorPage />}
-
-
+      {currentUrl === '/' ? (
+        <>
+          <Search onSearch={handleSearch} />
+          {profiles.length === 0 && searching ? (
+            <NoResultFound />
+          ) : profiles.length === 0 && !searching ? (
+            shuffledProfiles.map((profile, index) => {
+              return <Profile data={profile} key={index} />;
+            })
+          ) : (
+            profiles.map((profile, index) => {
+              return <Profile data={profile} key={index} />;
+            })
+          )}
+        </>
+      ) : (
+        <ErrorPage />
+      )}
     </div>
   );
 }
