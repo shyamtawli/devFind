@@ -1,12 +1,12 @@
-import React from "react";
-import "./Profile.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import './Profile.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import {
   faTwitterSquare,
   faLinkedin,
   faGithubSquare,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 
 function Profile({ data }) {
   return (
@@ -24,11 +24,11 @@ function Profile({ data }) {
     };
 
     const handleMouseEnter = () => {
-      document.addEventListener("wheel", handleWheel, { passive: false });
+      document.addEventListener('wheel', handleWheel, { passive: false });
     };
 
     const handleMouseLeave = () => {
-      document.removeEventListener("wheel", handleWheel);
+      document.removeEventListener('wheel', handleWheel);
     };
 
     return (
@@ -40,7 +40,7 @@ function Profile({ data }) {
           <div className="profile-details">
             <h3>{data.name}</h3>
             <p>
-              <span style={{ marginRight: "0.5rem" }}>
+              <span style={{ marginRight: '0.5rem' }}>
                 <FontAwesomeIcon icon={faLocationDot} />
               </span>
               {data.location}
@@ -70,36 +70,20 @@ function Profile({ data }) {
           <div className="social-container">
             <ul className="social-icons">
               <li>
-                <a
-                href={data.social.GitHub}
-                target="_blank"
-                rel="noreferrer"
-                >
-                  <i className="fa fa-github">
-                  </i>
+                <a href={data.social.GitHub} target="_blank" rel="noreferrer">
+                  <i className="fa fa-github"></i>
                 </a>
               </li>
               <li>
-                <a
-                href={data.social.Twitter}
-                target="_blank"
-                rel="noreferrer"
-                >
-                  <i className="fa fa-twitter">
-                  </i>
+                <a href={data.social.Twitter} target="_blank" rel="noreferrer">
+                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a
-                href={data.social.LinkedIn}
-                target="_blank"
-                rel="noreferrer"
-                >
-                  <i className="fa fa-linkedin">
-                  </i>
+                <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
+                  <i className="fa fa-linkedin"></i>
                 </a>
               </li>
-
             </ul>
           </div>
         </div>

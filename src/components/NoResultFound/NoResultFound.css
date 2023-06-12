@@ -16,8 +16,6 @@
   display: flex;
   gap: 1rem;
 }
-.no-results .text{
- margin-top: 16px;
+.no-results .text {
+  margin-top: 16px;
 }
-
-
