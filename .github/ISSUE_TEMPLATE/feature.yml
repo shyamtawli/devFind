@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest a feature request
-title: "[Feat]: "
-labels: ["enhancement"]
+title: '[Feat]: '
+labels: ['enhancement']
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
     attributes:
       label: What feature?
       placeholder: Add descriptions
-      value: "I have an idea "
+      value: 'I have an idea '
     validations:
       required: true
   - type: textarea
@@ -21,7 +21,7 @@ body:
       label: Add screenshots
       description: Add screenshots to see the demo
       placeholder: Add screenshots
-      value: "Add screenshots"
+      value: 'Add screenshots'
   - type: checkboxes
     id: terms
     attributes:

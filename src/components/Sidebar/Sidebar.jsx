@@ -1,7 +1,7 @@
-import React from "react";
-import "./Sidebar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import './Sidebar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
   return (
@@ -11,7 +11,7 @@ function Sidebar() {
           <FontAwesomeIcon
             icon={faCode}
             size="2xl"
-            style={{ color: "#ffffff" }}
+            style={{ color: '#ffffff' }}
           />
         </div>
         <a href="https://dev-find.vercel.app/" className="titlelink">
