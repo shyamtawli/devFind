@@ -1,7 +1,7 @@
 name: 🐞 Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug"]
+title: '[Bug]: '
+labels: ['bug']
 body:
   - type: markdown
     attributes:
@@ -13,7 +13,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Add descriptions
-      value: "I found a BUG 🐞"
+      value: 'I found a BUG 🐞'
     validations:
       required: true
   - type: textarea
@@ -22,7 +22,7 @@ body:
       label: Add screenshots
       description: Add screenshots to see the problems
       placeholder: Add screenshots
-      value: "Add screenshots"
+      value: 'Add screenshots'
   - type: dropdown
     id: browsers
     attributes:
