@@ -139,10 +139,10 @@
 }
 
 .social-icons a:before {
-  transform: scale(.5);
-  -ms-transform: scale(.5);
-  -webkit-transform: scale(.5);
-  content: " ";
+  transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  content: ' ';
   width: 50px;
   height: 50px;
   border-radius: 15%;
@@ -169,7 +169,7 @@
 }
 
 @media only screen and (max-width: 478px) {
-  .social-icons i{
+  .social-icons i {
     top: 19px;
     left: 19.75px;
   }
