@@ -44,11 +44,7 @@ function Search({ onSearch }) {
         placeholder="Search user by name, location or skills"
         onKeyDown={handleSearchOnEnter}
       />
-      <FontAwesomeIcon
-        onClick={handleSearchButtonClick}
-        className="search-icon"
-        icon={faMagnifyingGlass}
-      />
+      <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
     </div>
   );
 }

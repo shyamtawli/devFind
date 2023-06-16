@@ -21,7 +21,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "preinstall": "npx only-allow pnpm",
-    "prettier": "prettier --write \"**/*\""
+    "prettier": "prettier --write \"**/*\"",
+    "prepare": "husky install",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "husky": "^8.0.3",
     "json-loader": "^0.5.7",
     "prettier": "^2.8.8"
   }

@@ -4,14 +4,7 @@
   "bio": "Building Frontend UIs that can handle APIs - ReactJs and Tailwind 💻 - Learning Web Designing 🎨",
   "avatar": "https://github.com/vinaysingh-chaudhary.png",
   "portfolio": "https://github.com/vinaysingh-chaudhary",
-  "skills": [
-    "ReactJs",
-    "TailwindCSS",
-    "Javascript",
-    "Web Designing",
-    "Figma",
-    "Java"
-  ],
+  "skills": ["ReactJs", "TailwindCSS", "Javascript", "Web Designing", "Figma", "Java"],
   "social": {
     "GitHub": "https://github.com/vinaysingh-chaudhary",
     "Twitter": "https://twitter.com/Viisactive",
