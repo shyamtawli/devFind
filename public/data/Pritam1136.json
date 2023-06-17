@@ -4,14 +4,7 @@
   "bio": "A MERN stack developer and an open source enthusiast",
   "avatar": "https://github.com/Pritam1136.png",
   "portfolio": "https://pritam1136.github.io/LandingPage/",
-  "skills": [
-    "ReactJS",
-    "TailwindCSS",
-    "ExpressJS",
-    "NodeJS",
-    "git & github",
-    "MongoDB"
-  ],
+  "skills": ["ReactJS", "TailwindCSS", "ExpressJS", "NodeJS", "git & github", "MongoDB"],
   "social": {
     "GitHub": "https://github.com/Pritam1136",
     "Twitter": "https://twitter.com/Pritam_1296",

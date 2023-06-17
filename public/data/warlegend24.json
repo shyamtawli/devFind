@@ -4,13 +4,7 @@
   "bio": "Passionate software developer with an ever learning mindset",
   "avatar": "https://github.com/warlegend24.png",
   "portfolio": "https://github.com/warlegend24",
-  "skills": [
-    "Node.js",
-    "mongoose",
-    "html",
-    "css",
-    "Data Structures and Algorithms"
-  ],
+  "skills": ["Node.js", "mongoose", "html", "css", "Data Structures and Algorithms"],
   "social": {
     "GitHub": "https://github.com/warlegend24",
     "Twitter": "https://twitter.com/all_rounder_69",
