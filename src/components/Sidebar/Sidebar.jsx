@@ -8,11 +8,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="logo-title">
         <div className="logo">
-          <FontAwesomeIcon
-            icon={faCode}
-            size="2xl"
-            style={{ color: '#ffffff' }}
-          />
+          <FontAwesomeIcon icon={faCode} size="2xl" style={{ color: '#ffffff' }} />
         </div>
         <a href="https://dev-find.vercel.app/" className="titlelink">
           <div className="title">
@@ -21,15 +17,9 @@ function Sidebar() {
           </div>
         </a>
       </div>
-      <div className="headline">
-        Discover and Connect with Skilled Developers.
-      </div>
+      <div className="headline">Discover and Connect with Skilled Developers.</div>
       <div className="description">
-        <a
-          href="https://github.com/shyamtawli/devFind"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/shyamtawli/devFind" target="_blank" rel="noreferrer">
           Add your profile?
         </a>
       </div>

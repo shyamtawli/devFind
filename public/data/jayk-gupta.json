@@ -4,14 +4,7 @@
   "bio": "Frontend Developer,Passionate about web development.Currently learing React and DSA in Java",
   "avatar": "https://avatars.githubusercontent.com/u/100681165?v=4",
   "portfolio": "https://jaykgupta.netlify.app/",
-  "skills": [
-    "HTML/CSS",
-    "JavaScript",
-    "React.js",
-    "Tailwind CSS",
-    "Git",
-    "DSA"
-  ],
+  "skills": ["HTML/CSS", "JavaScript", "React.js", "Tailwind CSS", "Git", "DSA"],
   "social": {
     "GitHub": "https://github.com/jayk-gupta",
     "Twitter": "https://twitter.com/jayk_gupta",
