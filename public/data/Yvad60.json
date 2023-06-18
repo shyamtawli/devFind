@@ -1,0 +1,13 @@
+{
+  "name": "Ivad Yves HABIMANA",
+  "location": "Kigali, Rwanda",
+  "bio": "Software developer with an open mindset, content creator, psychologist",
+  "avatar": "https://github.com/Yvad60.png",
+  "portfolio": "https://github.com/Yvad60",
+  "skills": ["JavaScript", "TypeScript", "ReactJs", "Node"],
+  "social": {
+    "GitHub": "https://github.com/Yvad60",
+    "Twitter": "https://twitter.com/ivadyhabimana",
+    "LinkedIn": "https://www.linkedin.com/in/ivadyhabimana"
+  }
+}
