@@ -52,5 +52,14 @@
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;
+    background-color: rgba(20, 29, 47, 1);
+  }
+
+  .sidebar.active {
+    display: block;
+    z-index: 9 !important;
+    height: 100% !important;
+    margin-top: 0;
+    padding-top: 2rem;
   }
 }

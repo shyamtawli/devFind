@@ -3,9 +3,9 @@ import './Sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
-function Sidebar() {
+function Sidebar({ isOpen }) {
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${isOpen ? 'active' : ''}`}>
       <div className="logo-title">
         <div className="logo">
           <FontAwesomeIcon icon={faCode} size="2xl" style={{ color: '#ffffff' }} />

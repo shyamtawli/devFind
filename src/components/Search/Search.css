@@ -33,17 +33,33 @@
   color: #00a6fb;
 }
 
+.search-bar .toggle-icon {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .search-bar {
     width: 100%;
   }
 
   .search-bar input {
-    width: 100%;
+    width: 85%;
   }
 
   .search-bar .search-icon {
-    right: 30px;
+    right: 45px;
     top: 13px;
+  }
+
+  .search-bar .toggle-icon {
+    display: block;
+    position: absolute;
+    right: 19px;
+    top: 13px;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  .search-bar .toggle-icon:hover {
+    color: #00a6fb;
   }
 }

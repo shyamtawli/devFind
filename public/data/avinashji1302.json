@@ -1,13 +1,13 @@
 {
-    "name": "Avinash Gupta",
-    "location": "Delhi",
-    "bio": "Hii ! This is Avinash Gupta working as full Stack Intern at shipgig company",
-    "avatar": "https://github.com/avinashji1302.png",
-    "portfolio": "https://github.com/avinashji1302",
-    "skills": ["JavaScript", "Angular", "SCSS" ,"HTML"],
-    "social": {
-      "GitHub": "https://github.com/avinashji1302",
-      "Twitter": "https://twitter.com/avi_gupta1302",
-      "LinkedIn": "https://www.linkedin.com/in/avinash"
-    }
-   }
+  "name": "Avinash Gupta",
+  "location": "Delhi",
+  "bio": "Hii ! This is Avinash Gupta working as full Stack Intern at shipgig company",
+  "avatar": "https://github.com/avinashji1302.png",
+  "portfolio": "https://github.com/avinashji1302",
+  "skills": ["JavaScript", "Angular", "SCSS", "HTML"],
+  "social": {
+    "GitHub": "https://github.com/avinashji1302",
+    "Twitter": "https://twitter.com/avi_gupta1302",
+    "LinkedIn": "https://www.linkedin.com/in/avinash"
+  }
+}

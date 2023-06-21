@@ -1,0 +1,27 @@
+{
+  "name": "Aziz Limonu",
+  "location": "Bali, Indonesia",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://avatars.githubusercontent.com/u/106480374?v=4",
+  "portfolio": "https://github.com/azizlimonu",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Next JS",
+    "MONGO DB",
+    "Git/GitHub",
+    "Prisma",
+    "Typescript",
+    "Node Js",
+    "Express Js",
+    "Cypress"
+  ],
+  "social": {
+    "GitHub": "https://github.com/azizlimonu",
+    "LinkedIn": "https://www.linkedin.com/in/azizlimonu/"
+  }
+}
