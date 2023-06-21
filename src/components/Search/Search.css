@@ -62,4 +62,7 @@
   .search-bar .toggle-icon:hover {
     color: #00a6fb;
   }
+  .search-bar input {
+    font-size: 0.9rem;
+  }
 }
