@@ -1,0 +1,33 @@
+{
+  "name": "Anshul",
+  "location": "Gurgaon, Haryana",
+  "bio": "I am a Fullstack Developer with keen interest in AWS Cloud Services and Devops. I worked with various AWS and container services like AWS EC2, AWS S3, AWS Cloudfront, AWS VPC, Docker etc. alongside learning K8s. I work with API integration and building applications in ReactJS and NodeJS mostly. Looking forward for internships opportunities and open source contributions.",
+  "avatar": "https://github.com/ansisme.png",
+  "portfolio": "https://github.com/ansisme",
+  "skills": [
+    "AWS Cloud",
+    "ReactJS",
+    "Node.js",
+    "Express.js",
+    "Fullstack developer",
+    "MERN Stack Developer",
+    "Firebase",
+    "JWT Auth",
+    "REST APIs and Integration",
+    "OpenAI Integration",
+    "Tailwind CSS",
+    "Typescript",
+    "Flutter Beginner",
+    "MongoDB/MySQL",
+    "Linux CLI",
+    "Google Cloud Maps",
+    "Docker Containers",
+    "C++ Programming",
+    "Flask"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ansisme",
+    "Twitter": "https://twitter.com/anshullstwt",
+    "LinkedIn": "https://www.linkedin.com/in/anshul-s-4246a8223/"
+  }
+}
