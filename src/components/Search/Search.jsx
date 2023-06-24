@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-function Search({ onSearch }) {
+function Search({ onSearch, setIsOpen }) {
   const [searchValue, setSearchValue] = useState('');
   const [prevSearchValue, setPrevSearchValue] = useState('');
   const searchInput = useRef(null);
@@ -34,6 +35,10 @@ function Search({ onSearch }) {
     searchInput.current.focus();
   }, []);
 
+  const handleToggleSidebar = () => {
+    setIsOpen((prev) => !prev);
+  };
+
   return (
     <div className="search-bar">
       <input
@@ -45,6 +50,7 @@ function Search({ onSearch }) {
         onKeyDown={handleSearchOnEnter}
       />
       <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
+      <FontAwesomeIcon onClick={handleToggleSidebar} className="toggle-icon" icon={faBars} />
     </div>
   );
 }

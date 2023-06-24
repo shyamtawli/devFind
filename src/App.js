@@ -11,6 +11,7 @@ function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
+  const [isOpen, setIsOpen] = useState(true);
   const currentUrl = window.location.pathname;
   useEffect(() => {
     // Function to fetch data from a JSON file
@@ -73,10 +74,10 @@ function App() {
   const shuffledProfiles = shuffleProfiles(combinedData);
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar isOpen={isOpen} />
       {currentUrl === '/' ? (
         <>
-          <Search onSearch={handleSearch} />
+          <Search onSearch={handleSearch} setIsOpen={setIsOpen} />
           {profiles.length === 0 && searching ? (
             <NoResultFound />
           ) : profiles.length === 0 && !searching ? (
