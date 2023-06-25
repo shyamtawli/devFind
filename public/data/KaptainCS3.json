@@ -1,0 +1,13 @@
+{
+  "name": "Leonard Appelgryn",
+  "location": "Buea, Cameroon",
+  "bio": "I am a self-motivated individual who is always eager to learn new technologies and approaches to programming.In my free time, enjoys reading about the latest trends in software development and experimenting with new coding techniques",
+  "avatar": "https://github.com/KaptainCS3.png",
+  "portfolio": "https://github.com/KaptainCS3",
+  "skills": ["HTML", "CSS", "Tailwind", "Javascript", "ReactJS", "Git", "Github", "MySQL", "Figma", "UML"],
+  "social": {
+    "GitHub": "https://github.com/KaptainCS3",
+    "Twitter": "https://twitter.com/KaptainCS3",
+    "LinkedIn": "https://www.linkedin.com/in/leonard_appelgryn_>"
+  }
+}
