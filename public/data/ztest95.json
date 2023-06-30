@@ -1,0 +1,11 @@
+{
+  "name": "Ztest95",
+  "location": "Manila, Philippines",
+  "bio": "Computer Science Student, specializing in whatever is cool / fun",
+  "avatar": "https://github.com/ztest95.png",
+  "portfolio": "https://github.com/ztest95",
+  "skills": ["HTML", "CSS", "Javascript", "Django", "Python", "Git"],
+  "social": {
+    "GitHub": "https://github.com/ztest95"
+  }
+}

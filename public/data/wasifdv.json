@@ -1,0 +1,13 @@
+{
+  "name": "Wasif Akram",
+  "location": "Jamshedpur",
+  "bio": "I am a web developer",
+  "avatar": "https://github.com/wasifdv.png",
+  "portfolio": "https://github.com/wasifdv",
+  "skills": ["Web Developer", "DSA"],
+  "social": {
+    "GitHub": "https://github.com/wasifdv",
+    "Twitter": "https://twitter.com/wasifdv",
+    "LinkedIn": "https://www.linkedin.com/in/wasif-akram-5297a2220/"
+  }
+}
