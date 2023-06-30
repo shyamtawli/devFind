@@ -14,17 +14,15 @@ function Profile({ data }) {
   function Card({ data }) {
     const handleWheel = (event) => {
       event.preventDefault();
-      const container = event.target;
-      const delta = event.deltaY || event.deltaX;
+      let container = event.target;
+      if (!container) return false;
+
+      while (!container.classList.contains("skills-container")) {
+        container = container.parentNode;
+      }
+
+      const delta = event.deltaX || event.deltaY;
       container.scrollLeft += delta;
-    };
-
-    const handleMouseEnter = () => {
-      document.addEventListener('wheel', handleWheel, { passive: false });
-    };
-
-    const handleMouseLeave = () => {
-      document.removeEventListener('wheel', handleWheel);
     };
 
     return (
@@ -41,7 +39,7 @@ function Profile({ data }) {
               </span>
               {data.location}
             </p>
-            <div className="skills-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className="skills-container" onWheel={handleWheel}>
               {data.skills.map((skill, index) => {
                 return (
                   <div className="skill" key={index}>

@@ -48,11 +48,6 @@
   overflow: hidden;
 }
 
-.skills-container:hover {
-  overflow-x: scroll;
-  scroll-behavior: auto;
-}
-
 .skills-container::-webkit-scrollbar {
   width: 10px;
   height: 5px;
@@ -75,6 +70,7 @@
   white-space: nowrap;
   height: 30px;
   cursor: default;
+  display: inline;
 }
 
 .profile-link a {
