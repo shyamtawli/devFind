@@ -48,6 +48,11 @@
   overflow: hidden;
 }
 
+.skills-container {
+  overflow-x: scroll;
+  scroll-behavior: auto;
+}
+
 .skills-container::-webkit-scrollbar {
   width: 10px;
   height: 5px;
