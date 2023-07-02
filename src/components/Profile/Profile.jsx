@@ -12,7 +12,9 @@ function Profile({ data }) {
   );
 
   function Card({ data }) {
+    const cardRef = React.useRef();
     const handleWheel = (event) => {
+      event.stopPropagation();
       event.preventDefault();
       let container = event.target;
       if (!container) return false;
@@ -24,6 +26,10 @@ function Profile({ data }) {
       const delta = event.deltaX || event.deltaY;
       container.scrollLeft += delta;
     };
+
+    React.useEffect(() => {
+      cardRef.current.addEventListener('wheel', handleWheel, { passive: false })
+    }, []);
 
     return (
       <div className="profile-card">
@@ -39,7 +45,7 @@ function Profile({ data }) {
               </span>
               {data.location}
             </p>
-            <div className="skills-container" onWheel={handleWheel}>
+            <div className="skills-container" ref={cardRef}>
               {data.skills.map((skill, index) => {
                 return (
                   <div className="skill" key={index}>
