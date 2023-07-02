@@ -48,7 +48,7 @@
   overflow: hidden;
 }
 
-.skills-container {
+.skills-container:hover {
   overflow-x: scroll;
   scroll-behavior: auto;
 }
