@@ -1,0 +1,23 @@
+{
+  "name": "Mohammad Fahad Rahman",
+  "location": "Bhubaneswar India",
+  "bio": "Experienced Full Stack Developer specializing in React, Node.js, Express, PostgreSQL, and REST API. Passionate about innovating web solutions, contributing to open source, and staying versatile in the ever-evolving tech landscape.",
+  "avatar": "https://github.com/roc102.png",
+  "portfolio": "https://github.com/roc102",
+  "skills": [
+    "JavaScript",
+    "ReactJS",
+    "NextJS",
+    "NodeJs",
+    "ExpressJs",
+    "PostgreSQL",
+    "Tailwind",
+    "Redux",
+    "Tachyons",
+    "RestAPI"
+  ],
+  "social": {
+    "GitHub": "https://github.com/roc102",
+    "LinkedIn": "https://www.linkedin.com/in/mohammad-fahad-rahman-a41a92233/"
+  }
+}
