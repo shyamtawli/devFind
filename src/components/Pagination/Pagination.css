@@ -1,0 +1,34 @@
+.pagination {
+  margin-left: 12rem;
+  padding: 1rem 1rem 1rem 1rem;
+  height: auto;
+  text-align: center;
+}
+
+.pagination-button {
+  background-color: inherit;
+  padding: 1rem;
+  margin-left: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: none;
+  width: 60px;
+}
+
+.pagination-text {
+  color: white;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pagination-text:hover {
+  color: #00a6fb;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

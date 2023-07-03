@@ -12,20 +12,24 @@ function Profile({ data }) {
   );
 
   function Card({ data }) {
+    const cardRef = React.useRef();
     const handleWheel = (event) => {
+      event.stopPropagation();
       event.preventDefault();
-      const container = event.target;
-      const delta = event.deltaY || event.deltaX;
+      let container = event.target;
+      if (!container) return false;
+
+      while (!container.classList.contains("skills-container")) {
+        container = container.parentNode;
+      }
+
+      const delta = event.deltaX || event.deltaY;
       container.scrollLeft += delta;
     };
 
-    const handleMouseEnter = () => {
-      document.addEventListener('wheel', handleWheel, { passive: false });
-    };
-
-    const handleMouseLeave = () => {
-      document.removeEventListener('wheel', handleWheel);
-    };
+    React.useEffect(() => {
+      cardRef.current.addEventListener('wheel', handleWheel, { passive: false })
+    }, []);
 
     return (
       <div className="profile-card">
@@ -41,7 +45,7 @@ function Profile({ data }) {
               </span>
               {data.location}
             </p>
-            <div className="skills-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className="skills-container" ref={cardRef}>
               {data.skills.map((skill, index) => {
                 return (
                   <div className="skill" key={index}>
