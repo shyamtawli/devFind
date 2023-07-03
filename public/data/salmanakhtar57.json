@@ -1,0 +1,13 @@
+{
+  "name": "Salman Akhtar",
+  "location": "Pakistan",
+  "bio": "Python developer and Machine Learning enthusiast. I love to work on new ideas and projects.",
+  "avatar": "https://github.com/salmanakhtar57.png",
+  "portfolio": "https://github.com/salmanakhtar57",
+  "skills": ["Python", "Machine Learning", "Open Source"],
+  "social": {
+    "GitHub": "https://github.com/salmanakhtar57",
+    "Twitter": "https://twitter.com/salman_codes",
+    "LinkedIn": "https://www.linkedin.com/in/salman-akhtar-09a210198/"
+  }
+}

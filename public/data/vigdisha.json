@@ -1,0 +1,13 @@
+{
+  "name": "Disha Vig",
+  "location": "Chandigarh, India",
+  "bio": "I am a full stack developer and a data anlaytics enthusiast",
+  "avatar": "https://github.com/vigdisha.png",
+  "portfolio": "https://github.com/vigdisha/portfolio",
+  "skills": ["HTML", "CSS", "JS", "React", "Nodejs", "mongodb"],
+  "social": {
+    "GitHub": "https://github.com/vigdisha",
+    "Twitter": "https://twitter.com/coffeebreath18",
+    "LinkedIn": "https://www.linkedin.com/in/disha-vig"
+  }
+}
