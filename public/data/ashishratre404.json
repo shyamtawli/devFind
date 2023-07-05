@@ -1,0 +1,13 @@
+{
+  "name": "Ashish Ratre",
+  "location": "Pune, India",
+  "bio": "Fresh graduate having over a year internship exprience",
+  "avatar": "https://github.com/ashishratre404.png",
+  "portfolio": "https://ashishratre.netlify.app/",
+  "skills": ["React.js", "Node.js", "MongoDB", "Express.js", "Python", "JavaScript", "TypeScript", "Next.js"],
+  "social": {
+    "GitHub": "https://github.com/ashishratre404",
+    "Twitter": "https://twitter.com/_akratre",
+    "LinkedIn": "https://www.linkedin.com/in/ashish-ratre/"
+  }
+}
