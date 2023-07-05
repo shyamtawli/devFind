@@ -1,0 +1,13 @@
+{
+  "name": "Sagar Bawanthade",
+  "location": "Pune,India",
+  "bio": "Open source Contributor a MERN Stack Developer currently learning DevOps",
+  "avatar": "https://github.com/SagarBawanthade.png",
+  "portfolio": "https://github.com/SagarBawanthade",
+  "skills": ["Java", "Python", "MERN Stack", "GIT", "GITHUB", "DevOps"],
+  "social": {
+    "GitHub": "https://github.com/SagarBawanthade",
+    "Twitter": "https://twitter.com/s__bawanthade",
+    "LinkedIn": "https://www.linkedin.com/in/sagar-bawanthade-99450b27b"
+  }
+}

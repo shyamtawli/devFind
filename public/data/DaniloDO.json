@@ -1,0 +1,12 @@
+{
+  "name": "Danilo Donado",
+  "location": "Lara, Venezuela",
+  "bio": " A self thought developer who wants to improve as a software engineer. Interested in full-stack initiatives and projects, always willing to learn.",
+  "avatar": "https://github.com/DaniloDO.png",
+  "portfolio": "https://github.com/DaniloDO?tab=repositories",
+  "skills": ["HTML/CSS", "JavaScript/TypeScript", "NodeJS", "ReactJS", "MySQL", "Python", "Laravel/PHP"],
+  "social": {
+    "GitHub": "https://github.com/DaniloDO",
+    "LinkedIn": "https://www.linkedin.com/in/danilo-donado-4a5655168/?locale=en_US"
+  }
+}
