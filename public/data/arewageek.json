@@ -1,0 +1,24 @@
+{
+    "name": "Austin Ameh",
+    "location": "Abuja, Nigeria",
+    "bio": "Experienced Full-Stack web developer with expertise in React, Laravel, and NodeJS. Passionate about crafting seamless user experiences. Let's Connect",
+    "avatar": "https://github.com/arewageek.png",
+    "portfolio": "https://github.com/arewageek",
+    "skills": [
+        "Laravel", 
+        "React", 
+        "Core PHP", 
+        "Express JS", 
+        "REST API", 
+        "Tailwind CSS", 
+        "Git", 
+        "JSON", 
+        "MongoDB/MySQL", 
+        "Firebase"],
+    "social": {
+      "GitHub": "https://github.com/arewageek",
+      "Twitter": "https://twitter.com/arewageek",
+      "LinkedIn": "https://www.linkedin.com/in/austin-ameh-a2315b165",
+      "Instagram": "https://instagram.com/arewageek"
+    }
+}
