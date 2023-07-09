@@ -44,7 +44,8 @@
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
-  height: 35px;
+  padding: 0.45rem;
+  height: 3rem;
   overflow: hidden;
 }
 
