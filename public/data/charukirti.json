@@ -1,0 +1,13 @@
+{
+  "name": "Charukirt Chougule",
+  "location": "Sangli, Maharashtra",
+  "bio": "An aspiring frontend developer, currently learning JavaScript and TypeScript",
+  "avatar": "https://github.com/charukirti.png",
+  "portfolio": "https://github.com/charukirti",
+  "skills": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "TypeScript"],
+  "social": {
+    "GitHub": "https://github.com/charukirti",
+    "Twitter": "https://twitter.com/charukirtitwts",
+    "LinkedIn": "https://www.linkedin.com/in/charukirti-chougule"
+  }
+}
