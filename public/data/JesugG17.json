@@ -1,0 +1,13 @@
+{
+  "name": "Jesus Gastelum",
+  "location": "Sinaloa, México",
+  "bio": "Web developer who loves face new challenges and learn new things everyday.",
+  "avatar": "https://github.com/JesugG17.png",
+  "portfolio": "https://github.com/JesugG17",
+  "skills": ["Javascript", "Typescript", "NodeJs", "React", "SQL", "NoSQL"],
+  "social": {
+    "GitHub": "https://github.com/JesugG17",
+    "Twitter": "https://twitter.com/iRollingZ",
+    "LinkedIn": "https://www.linkedin.com/in/jesus-gastelum-433795225"
+  }
+}
