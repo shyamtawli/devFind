@@ -1,0 +1,13 @@
+{
+  "name": "Kshitij Shrivastava",
+  "location": "Bhopal, M.P, India",
+  "bio": "👋 I'm having 2+ years of Industry Experience and working as a Java Developer right now. I’m interested in Full Stack Developement. I’m looking to collaborate on Freelance Projects and Open Source Projects as well.",
+  "avatar": "https://github.com/idevkshitij.png",
+  "portfolio": "https://www.linkedin.com/in/kshitij-shrivastava-/",
+  "skills": ["Java", "SpringBoot", "Docker", "HTML", "CSS", "Javascript", "ReactJS", "Bootstrap", "MUI"],
+  "social": {
+    "GitHub": "https://github.com/idevkshitij",
+    "Twitter": "https://twitter.com/idevkshitij",
+    "LinkedIn": "https://www.linkedin.com/in/kshitij-shrivastava-/"
+  }
+}
