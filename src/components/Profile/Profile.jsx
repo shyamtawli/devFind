@@ -19,7 +19,7 @@ function Profile({ data }) {
       let container = event.target;
       if (!container) return false;
 
-      while (!container.classList.contains("skills-container")) {
+      while (!container.classList.contains('skills-container')) {
         container = container.parentNode;
       }
 
@@ -28,7 +28,7 @@ function Profile({ data }) {
     };
 
     React.useEffect(() => {
-      cardRef.current.addEventListener('wheel', handleWheel, { passive: false })
+      cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
     }, []);
 
     return (
