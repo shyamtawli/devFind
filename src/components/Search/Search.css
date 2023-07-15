@@ -33,9 +33,9 @@
   color: #00a6fb;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .search-bar {
-    width: 100%;
+    width: 95%;
   }
 
   .search-bar input {

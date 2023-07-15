@@ -41,8 +41,14 @@
 }
 
 .description a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #fff;
+  transition: color 0.2s ease;
+}
+
+.description a:hover {
+  text-decoration: underline;
+  color: #00a6fb;
 }
 
 .description {
@@ -51,6 +57,8 @@
 
 @media screen and (max-width: 768px) {
   .sidebar {
-    display: none;
+    position: relative;
+    width: auto;
+    height: auto;
   }
 }
