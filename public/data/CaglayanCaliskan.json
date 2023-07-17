@@ -1,0 +1,12 @@
+{
+  "name": "Caglayan Caliskan",
+  "location": "Izmir, Turkey",
+  "bio": "Frontend developer (2+ year) working with Reactjs & Typescript also Python and Backend :) Looking for good remote roles. Lets talk!",
+  "avatar": "https://avatars.githubusercontent.com/u/96074949?s=400&u=8e43ee128a0a30bfc8dbe36ed887d766541ada4a&v=4",
+  "portfolio": "https://www.linkedin.com/in/caglayan-caliskan/",
+  "skills": ["JavaScript", "Python", "Reactjs", "NodeJs", "HTML/CSS", "Tailwind CSS", "Django Templating"],
+  "social": {
+    "GitHub": "https://github.com/CaglayanCaliskan",
+    "LinkedIn": "https://www.linkedin.com/in/caglayan-caliskan/"
+  }
+}
