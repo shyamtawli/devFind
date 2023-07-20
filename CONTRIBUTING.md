@@ -6,7 +6,7 @@ To contribute to devFind, you will need to have Node.js and Git installed on you
 
 Once you have installed these dependencies, you can clone the devFind repository to your local machine by running the following command in your terminal:
 
-    git clone https://github.com/devFind-io/devFind.git
+    git clone https://github.com/shyamtawli/devFind.git
 
 ## **Install `pnpm`**
 
