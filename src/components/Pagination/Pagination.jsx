@@ -16,9 +16,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
   return (
     <div className="pagination">
       <button onClick={handlePrevPage} disabled={currentPage === 1} className="pagination-button">
-        <span href="#" className="pagination-text">
-          Previous
-        </span>
+        <span className="pagination-text">Previous</span>
       </button>
       <button
         onClick={handleNextPage}
@@ -26,9 +24,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
         disabled={currentPage === totalPages}
         className="pagination-button "
       >
-        <span href="#" className="pagination-text">
-          Next
-        </span>
+        <span className="pagination-text">Next</span>
       </button>
     </div>
   );
