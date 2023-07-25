@@ -1,21 +1,22 @@
-.no-result-container {
-  margin-left: 20rem;
-  padding: 0rem 1.5rem;
+.no-result {
+  margin-top: 2.5rem;
 }
 
 .no-result-card {
-  border-radius: 10px;
-  background: transparent;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem 0;
+
   color: #fff;
+  text-align: center;
 }
 
-.no-result-card .top-container {
+.no-result-card-content {
   display: flex;
-  gap: 1rem;
-}
-.no-results .text {
-  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.25rem 0;
 }
