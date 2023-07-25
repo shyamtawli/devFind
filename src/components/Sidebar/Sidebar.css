@@ -1,64 +1,60 @@
 .sidebar {
   font-family: 'Space Mono', monospace, sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 0px 30px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 20rem;
-  height: 90vh;
-  border-right: 2px solid rgba(194, 183, 183, 0.1);
+
+  max-width: 20rem;
+  padding: 1.5rem;
 }
 
-.logo-title {
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0;
+  max-width: 20rem;
+
+  color: #fff;
+}
+
+.sidebar-logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 3rem;
 }
 
-.title {
+.sidebar-content {
   display: flex;
-  font-weight: bold;
+  flex-direction: column;
+  gap: 1rem 0;
+}
+
+.sidebar-cta {
+  color: inherit;
+  text-underline-offset: 2px;
+
+  transition: color 150ms;
+}
+
+.sidebar-cta:hover {
+  color: #00a6fb;
+}
+
+.sidebar-title {
   font-size: 2rem;
-}
-
-.title .dev {
-  color: #fff;
-}
-
-.title .find {
-  color: #00a6fb;
-}
-
-.titlelink {
+  font-weight: bold;
   text-decoration: none;
-}
-
-.headline {
   color: #fff;
 }
 
-.description a {
-  text-decoration: underline;
-  color: #fff;
-  transition: color 0.2s ease;
-}
-
-.description a:hover {
-  text-decoration: underline;
+.highlighted {
   color: #00a6fb;
 }
 
-.description {
-  padding-top: 25px;
-}
-
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
   .sidebar {
-    position: relative;
-    width: auto;
-    height: auto;
+    border-right: 2px solid rgba(194, 183, 183, 0.1);
+  }
+
+  .sidebar-container {
+    position: sticky;
+    top: 1.5rem;
   }
 }
