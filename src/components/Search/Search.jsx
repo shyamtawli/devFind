@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+
+import './Search.css';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -31,6 +33,21 @@ function Search({ onSearch }) {
 
   return (
     <div className="search-bar">
+      <div className="search-bar-container">
+        <input
+          ref={searchInput}
+          type="text"
+          onChange={handleInputChange}
+          value={searchValue}
+          placeholder="Search..."
+          onKeyDown={handleSearchOnEnter}
+          className="search-bar-input"
+        />
+        <div className="info">
+          <FontAwesomeIcon icon={faInfoCircle} />
+          <p>You can search user by name, location or skills.</p>
+        </div>
+      </div>
     </div>
   );
 }
