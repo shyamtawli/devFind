@@ -1,0 +1,12 @@
+{
+  "name": "Jay Knowles",
+  "location": "The Bahamas",
+  "bio": "Full Stack Software Engineer that believes in collobration and communication. I love connecting with other developers and networking in general!",
+  "avatar": "https://github.com/jayrkyd.png",
+  "portfolio": "jknowles.dev",
+  "skills": ["React", "Javascript", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/jayrkyd",
+    "Twitter": "https://twitter.com/jayrcodes"
+  }
+}
