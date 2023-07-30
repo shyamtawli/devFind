@@ -1,0 +1,13 @@
+{
+  "name": "Piyush Kumar",
+  "location": "Raipur, Chhattisgarh",
+  "bio": "I am a programmer by passion. Looking for new and interesting ideas to work on.",
+  "avatar": "https://github.com/Piyush-onGIT.png",
+  "portfolio": "https://github.com/Piyush-onGIT",
+  "skills": ["C++", "Backend Development", "NodeJS", "Python", "Django"],
+  "social": {
+    "GitHub": "https://github.com/Piyush-onGIT",
+    "Twitter": "https://twitter.com/tweetAtPiyush",
+    "LinkedIn": "https://www.linkedin.com/in/piyush-in"
+  }
+}
