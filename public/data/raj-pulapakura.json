@@ -1,0 +1,31 @@
+{
+  "name": "Raj Pulapakura",
+  "location": "Melbourne, Australia",
+  "bio": "I am a 15-year-old proficient in full-stack web and mobile development and artificial intelligence. I am focusing on mastering machine learning, deep learning, and data science, with a specialized focus on computer vision.",
+  "avatar": "https://github.com/raj-pulapakura.png",
+  "portfolio": "https://github.com/raj-pulapakura",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "Image Processing",
+    "Full Stack Web Development",
+    "Mobile Development",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Flutter & Dart",
+    "React.js",
+    "Next.js",
+    "AWS",
+    "Node.js",
+    "Flask"
+  ],
+  "social": {
+    "GitHub": "https://github.com/raj.pulapakura",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/raj-pulapakura-9b2348234/"
+  }
+}
