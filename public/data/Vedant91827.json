@@ -1,0 +1,13 @@
+{
+  "name": "Vedant More",
+  "location": "Pune , India",
+  "bio": "Full stack web and Desktop application Developer , Research and Development Intern at PTC Software Pvt. Ltd. ",
+  "avatar": "https://github.com/Vedant91827.png",
+  "portfolio": "https://vedantt.me",
+  "skills": ["MERN", "C/C++", "Java", "JavaScript", "CAD", "MongoDB", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/Vedant91827",
+    "Twitter": "https://twitter.com/Vedant3927",
+    "LinkedIn": "https://linkedin.com/in/vedant-more-722a23201"
+  }
+}
