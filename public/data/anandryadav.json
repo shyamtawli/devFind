@@ -1,0 +1,14 @@
+{
+    "name": "Anand Yadav",
+    "location": "Mumbai/Pune/Delhi India",
+    "bio": "👋 Hey there, fellow coding adventurer! 🚀 I'm a spirited technophile with a dynamic journey spanning over 9 years in the captivating realm of technology. From my humble beginnings in the enchanting world of Java, PHP, and JavaScript, I've evolved into a Python aficionado, steering my way into the captivating domains of Data Science and Machine Learning.",
+    "avatar": "https://github.com/anandryadav.png",
+    "portfolio": "https://github.com/anandryadav",
+    "skills": ["Java", "JavaScript","python","php","AWS","GCP"],
+    "social": {
+      "GitHub": "https://github.com/anandryadav",
+      "Twitter": "https://twitter.com/anandryadav",
+      "LinkedIn": "https://www.linkedin.com/in/anand-yadav-68b79134/"
+    }
+   },
+   
