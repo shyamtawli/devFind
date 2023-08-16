@@ -1,0 +1,24 @@
+{
+  "name": "DoonOnthon",
+  "location": "Netherlands",
+  "bio": "Passionate software developer with expertise in PHP, Java, and .NET and C# Enthusiastic problem solver and lifelong learner, dedicated to crafting innovative solutions.",
+  "avatar": "https://github.com/DoonOnthon.png",
+  "portfolio": "https://github.com/DoonOnthon",
+  "skills": [
+    "PHP Development",
+    "Java Programming",
+    ".NET Framework",
+    "Python Scripting",
+    "C# Development",
+    "C++ Programming",
+    "Problem Solving",
+    "Full Stack Development",
+    "Web Development",
+    "SQL",
+    "MS SQL Server"
+  ],
+  "social": {
+    "GitHub": "https://github.com/DoonOnthon",
+    "LinkedIn": "https://www.linkedin.com/in/DeanA30"
+  }
+}
