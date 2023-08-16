@@ -1,0 +1,13 @@
+{
+  "name": "Ahsan khalid",
+  "location": "Islamabad, Pakistan",
+  "bio": "💻 Front-end Developer | Experienced in JavaScript(ES-6) & React 💫| Responsive user experience with CSS3, Bootstrap5 & Tailwind-CSS 🌈| Firebase & Git 🗝️|",
+  "avatar": "https://github.com/Ahsankhalid618.png",
+  "portfolio": "https://github.com/Ahsankhalid618",
+  "skills": ["JavaScript", "React.js", "Bootstrap5", "CSS3", "Firebase"],
+  "social": {
+    "GitHub": "https://github.com/Ahsankhalid618",
+    "Twitter": "https://twitter.com/Ahsankhalid23",
+    "LinkedIn": "https://www.linkedin.com/in/ahsankhalid22"
+  }
+}
