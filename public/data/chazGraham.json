@@ -1,0 +1,12 @@
+{
+  "name": "Chaz Graham",
+  "location": "Texas, United States of America",
+  "bio": "I'm a Full-Stack Developer with expertise in React and Node.js, I am currently looking to apply my skills in the professional setting.",
+  "avatar": "https://avatars.githubusercontent.com/u/108297629?s=400&u=dea8bc33787045efe51f815c75ff843abd733751&v=4",
+  "portfolio": "http://chazgraham.github.io/Chazs-React-Portfolio",
+  "skills": ["React", "Node.js", "MERN", "GraphQl", "JavaScript", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/chazgraham",
+    "LinkedIn": "https://www.linkedin.com/in/chaz-graham/"
+  }
+}
