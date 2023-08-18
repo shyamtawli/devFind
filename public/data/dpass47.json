@@ -1,0 +1,13 @@
+{
+  "name": "Dante Passalacqua",
+  "location": "Colorado, USA",
+  "bio": "Front-End Developer with a passion for creating simple, beautiful user experiences.",
+  "avatar": "https://github.com/dpass47.png",
+  "portfolio": "https://devdante.com",
+  "skills": ["HTML", "CSS", "Sass", "JavaScipt", "ReactJS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/dpass47",
+    "Twitter": "https://twitter.com/dpass47",
+    "LinkedIn": "https://www.linkedin.com/in/dpass47"
+  }
+}
