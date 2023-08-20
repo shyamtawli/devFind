@@ -1,0 +1,13 @@
+{
+  "name": "Vansh Gandhi",
+  "location": "Gujarat",
+  "bio": "I am passionate MERN Stack developer, Love to build things.",
+  "avatar": "https://github.com/VanshVg.png",
+  "portfolio": "https://github.com/VanshVg",
+  "skills": ["NodeJS", "ReactJS", "ExpressJS", "JavaScript", "C++"],
+  "social": {
+    "GitHub": "https://github.com/VanshVg",
+    "Twitter": "https://twitter.com/Vansh__Vg",
+    "LinkedIn": "https://www.linkedin.com/in/vansh-gandhi10"
+  }
+}

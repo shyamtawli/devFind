@@ -1,0 +1,22 @@
+{
+  "name": "Omanshu",
+  "location": "India",
+  "bio": "I a high school programming enthusiast interested in Machine Learning, Game Development and App Development",
+  "avatar": "https://github.com/Omanshu209.png",
+  "portfolio": "https://github.com/Omanshu209",
+  "skills": [
+    "Python",
+    "C++",
+    "Java",
+    "JavaScript",
+    "HTML",
+    "Arduino(Robotics)",
+    "Pygame(Game Dev)",
+    "Kivy(App Dev)",
+    "Scikit-Learn(ML)",
+    "KivyMD(App Dev)"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Omanshu209"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Niko Hoffrén",
+  "location": "Finland",
+  "bio": "Software developer & Music producer. In my spare time i like to spend time with my son, play video games and code something interesting.",
+  "avatar": "https://github.com/nikohoffren.png",
+  "portfolio": "https://nikohoffren.com",
+  "skills": ["React", "JavaScript", "TypeScript"],
+  "social": {
+    "GitHub": "https://github.com/nikohoffren",
+    "Twitter": "https://twitter.com/nikohoffren86",
+    "LinkedIn": "https://www.linkedin.com/in/nikohoffren"
+  }
+}

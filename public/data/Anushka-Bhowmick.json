@@ -1,0 +1,13 @@
+{
+  "name": "Anushka Bhowmick",
+  "location": "Kolkata, India",
+  "bio": "A full stack web developer and an open source enthusiast. On a mission to build something great.",
+  "avatar": "https://github.com/Anushka-Bhowmick.png",
+  "portfolio": "https://github.com/Anushka-Bhowmick",
+  "skills": ["JAVA", "JavaScript", "React", "Python", "C++", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Anushka-Bhowmick",
+    "Twitter": "https://twitter.com/Anushkalien",
+    "LinkedIn": "https://www.linkedin.com/in/anushkabhowmick"
+  }
+}

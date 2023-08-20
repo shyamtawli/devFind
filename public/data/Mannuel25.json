@@ -1,0 +1,13 @@
+{
+  "name": "Emmanuel Tanimowo",
+  "location": "Nigeria",
+  "bio": "Backend Developer, Open-Source Enthusiast",
+  "avatar": "https://github.com/mannuel25.png",
+  "portfolio": "https://github.com/mannuel25",
+  "skills": ["Python", "Django", "REST APIs", "Git"],
+  "social": {
+    "GitHub": "https://github.com/mannuel25",
+    "Twitter": "https://twitter.com/emma_tanimowo",
+    "LinkedIn": "https://www.linkedin.com/in/emmanuel-tanimowo-6122291aa"
+  }
+}

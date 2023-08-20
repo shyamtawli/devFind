@@ -1,0 +1,13 @@
+{
+  "name": "Samuel Kalu",
+  "location": "Nigeria",
+  "bio": "Pythonista and AI Enthusiast , enjoys contributing to open source projects ",
+  "avatar": "https://github.com/eskayML.png",
+  "portfolio": "https://github.com/eskayML",
+  "skills": ["Python", "JavaScript", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/eskayML",
+    "Twitter": "https://twitter.com/eskayML",
+    "LinkedIn": "https://www.linkedin.com/in/samuel-kalu-3374b1248"
+  }
+}

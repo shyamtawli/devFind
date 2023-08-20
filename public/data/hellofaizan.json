@@ -1,0 +1,13 @@
+{
+  "name": "Hello Faizan",
+  "location": "Kashmir, India",
+  "bio": "Chess♟️ Coding☕ Football⚽ Tech🧑‍💻. I do random stuff just to make other person laugh. Find me => https://hellofaizan.me/",
+  "avatar": "https://github.com/hellofaizan.png",
+  "portfolio": "https://hellofaizan.me",
+  "skills": ["Kotlin", "JavaScript", "TypeScript", "Next JS", "Android Development", "Python", "Rust", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/hellofaizan",
+    "Twitter": "https://twitter.com/hellofaizaan",
+    "LinkedIn": "https://www.linkedin.com/in/hellofaizan"
+  }
+}

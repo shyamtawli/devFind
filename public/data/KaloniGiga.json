@@ -1,0 +1,13 @@
+{
+  "name": "Dipak kalauni",
+  "location": "Kathmandu, nepal",
+  "bio": "I am a full stack developer with 1+ year of experience in Reactjs, Nextjs, Nodejs, Nestjs",
+  "avatar": "https://github.com/KaloniGiga.png",
+  "portfolio": "https://github.com/KaloniGiga.",
+  "skills": ["Reactjs", "Nextjs", "Nodejs", "Nestjs", "MongoDB", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/KaloniGiga",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/dipak-kalauni-04510125a"
+  }
+}
