@@ -1,0 +1,13 @@
+{
+    "name": "Navaneeth Shaji",
+    "location": "India",
+    "bio": "I am a young student developer from Kerala,India. I enjoy doing web development and practicing DSA problems for fun.",
+    "avatar": "https://github.com/TheMockingJay1013.png",
+    "portfolio": "https://themockingjay1013.github.io/",
+    "skills": ["C++", "Python", "javascript","Django","React","Nodejs"],
+    "social": {
+      "GitHub": "https://github.com/TheMockingJay1013",
+      "Twitter": "https://twitter.com/<twitter-username>",
+      "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+    }
+   },
