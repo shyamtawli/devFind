@@ -1,0 +1,13 @@
+{
+  "name": "Esther Lonyangapuo",
+  "location": "Nairobi, Kenya",
+  "bio": "FullStack Developer with a passion for Engineering and Design",
+  "avatar": "https://github.com/athenacats.png",
+  "portfolio": "https://github.com/athenacats",
+  "skills": ["Javascript", "Typescript", "NodeJs", "React", "Angular", "SCSS"],
+  "social": {
+    "GitHub": "https://github.com/athenacats",
+    "Twitter": "https://twitter.com/CLonya",
+    "LinkedIn": "https://www.linkedin.com/in/esther-lonyangapuo/"
+  }
+}
