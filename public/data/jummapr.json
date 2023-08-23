@@ -1,0 +1,28 @@
+{
+  "name": "Jumma",
+  "location": "India",
+  "bio": "Full stack web developer and mobile app developer",
+  "avatar": "https://github.com/jummapr.png",
+  "portfolio": "https://github.com/jummapr",
+  "skills": [
+    "JavaScript",
+    "Typescript",
+    "HTMl",
+    "Css",
+    "Tailwindcss",
+    "ReactJs",
+    "NextJs",
+    "React Native",
+    "Node Js",
+    "expressJs",
+    "Supabase",
+    "Firebase",
+    "Prisma",
+    "GraphQl"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jummapr",
+    "Twitter": "https://twitter.com/HingorjaJumma",
+    "LinkedIn": "https://www.linkedin.com/in/jumma-hingorja-897819252/"
+  }
+}
