@@ -10,12 +10,22 @@
   padding: 1rem;
   height: auto;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .no-result-card .top-container {
   display: flex;
   gap: 1rem;
 }
+.no-results{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .no-results .text {
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
