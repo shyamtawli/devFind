@@ -1,0 +1,13 @@
+{
+  "name": "Jared Caprio",
+  "location": "Saint Petersburg, FL",
+  "bio": "I'm a web developer with experience in react, typeScript, next.js, node.js, express.js, mongodb, etc. ",
+  "avatar": "https://github.com/JaredCaprio.png",
+  "portfolio": "https://jared-caprio.netlify.app/",
+  "skills": ["javascript", "react", "nodejs", "HTML", "CSS", "SASS", "mongodb", "express", "typeScript", "nextjs"],
+  "social": {
+    "GitHub": "https://github.com/JaredCaprio",
+    "Twitter": "https://twitter.com/Jaredcaprio",
+    "LinkedIn": "https://www.linkedin.com/in/jared-caprio/"
+  }
+}

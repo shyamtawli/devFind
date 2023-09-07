@@ -1,0 +1,12 @@
+{
+  "name": "Raghav Singh",
+  "location": "Varanasi, India",
+  "bio": "An astrophile who is new to the world of open-source trying to connect the dots.",
+  "avatar": "https://github.com/RaghavSaptam.png",
+  "portfolio": "https://github.com/RaghavSaptam",
+  "skills": ["HTML", "CSS", "JavaScript", "Java", "Python", "Bash", "Git"],
+  "social": {
+    "GitHub": "https://github.com/RaghavSaptam",
+    "LinkedIn": "https://www.linkedin.com/in/raghav-saptam"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Daim Bin Khalid",
+  "location": "Pakistan",
+  "bio": "Rust enthusiast working in side projects, web apps and learning game development",
+  "avatar": "https://github.com/daimbk.png",
+  "portfolio": "https://github.com/daimbk",
+  "skills": ["Rust", "Python", "C++"],
+  "social": {
+    "GitHub": "https://github.com/daimbk",
+    "LinkedIn": "https://www.linkedin.com/in/daimbinkhalid"
+  }
+}
