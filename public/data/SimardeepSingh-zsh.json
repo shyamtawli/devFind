@@ -1,0 +1,11 @@
+{
+    "name": "Simardeep Singh",
+    "location": "Calgary,AB",
+    "bio": "Cybersecurity professional focused on Cloud Security excellence.",
+    "avatar": "https://github.com/<SimardeepSingh-zsh>.png",
+    "skills": ["Docker", "Terraform", "AWSCloudWatch"],
+    "social": {
+      "GitHub": "https://github.com/<SimardeepSingh-zsh>",
+      "LinkedIn": "https://www.linkedin.com/in/simardeep-singh-9b24b3217/<>"
+    }
+   }
