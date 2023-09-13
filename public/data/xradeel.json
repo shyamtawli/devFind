@@ -1,0 +1,27 @@
+{
+  "name": "Muhammad Adeel",
+  "location": "Sahiwal, Pakistan ",
+  "bio": "I'm a 2nd-year undergrad doing Computer science as a major. I find myself curious about the low-level details of high-level technologies. Besides that, I love to be a part of programming conferences, hackathons, and communities.",
+  "avatar": "https://media.licdn.com/dms/image/C4D03AQFKms0KlqUz8w/profile-displayphoto-shrink_200_200/0/1660378308757?e=1700092800&v=beta&t=X_UsUS5-AcjsppcFSxuUVnbksczNfVC4jlu_P3nKj_E",
+  "portfolio": "https://github.com/xradeel",
+  "skills": [
+    "Javascript",
+    "React",
+    "React native",
+    "Three.js",
+    "Express.js",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "Communication skills",
+    "Networking",
+    "Marketing"
+  ],
+  "social": {
+    "GitHub": "https://github.com/xradeel",
+    "Twitter": "https://twitter.com/xr_adeel",
+    "LinkedIn": "https://linkedin.com/in/xr-adeel/"
+  }
+}
