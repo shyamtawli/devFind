@@ -4,7 +4,7 @@
     "bio": "console.log('Just let me Cook.');",
     "avatar": "https://github.com/Tiensuperman.png",
     "portfolio": "https://github.com/Tiensuperman.png",
-    "skills": ["Your Skill 1", "Your Skill 2", "..."],
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Git", "Bootstrap"],
     "social": {
       "GitHub": "https://github.com/<Tiensuperman",
       "Twitter": "https://twitter.com/Tiensuperman"
