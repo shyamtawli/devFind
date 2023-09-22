@@ -1,0 +1,13 @@
+{
+  "name": "Aman Chauhan",
+  "location": "New Delhi, India",
+  "bio": "An Aspiring Full-Stack Developer hustling with the journey of Coding and technology",
+  "avatar": "https://github.com/AmanChauhan29.png",
+  "portfolio": "https://github.com/AmanChauhan29/",
+  "skills": ["HTML", "CSS", "JavaScript", "Express.js", "MongoDB", "NodeJS", "C++", "DSA", "Web-technology"],
+  "social": {
+    "GitHub": "https://github.com/AmanChauhan29",
+    "Twitter": "https://twitter.com/i_aman2",
+    "LinkedIn": "https://www.linkedin.com/in/aman-chauhan7"
+  }
+}
