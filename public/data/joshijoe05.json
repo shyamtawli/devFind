@@ -1,0 +1,27 @@
+{
+  "name": "Madugula Joshi",
+  "location": "Visakhapatnam",
+  "bio": "Highly motivated Flutter Developer with strong problem-solving skills and a passion for creating innovative mobile applications. Experienced in developing user-friendly interfaces and responsive layouts.Also having expertise in Backend development with NodeJS and Django. Interested in BlockChain and Data Science.",
+  "avatar": "https://github.com/joshijoe05.png",
+  "portfolio": "https://github.com/joshijoe05",
+  "skills": [
+    "Flutter",
+    "Firebase",
+    "Dart",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Django",
+    "SQLite",
+    "Python",
+    "C++",
+    "C",
+    "Java",
+    "Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/joshijoe05",
+    "Twitter": "https://x.com/im_joshi5?s=08",
+    "LinkedIn": "https://www.linkedin.com/in/madugula-joshi-594535255"
+  }
+}
