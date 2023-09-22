@@ -1,0 +1,13 @@
+{
+  "name": "Anurag Roy",
+  "location": "India",
+  "bio": "Finding & fixing BUG, Open Source dev, CPer, Mentor",
+  "avatar": "https://github.com/NextThread.png",
+  "portfolio": "https://anurag-dev.vercel.app/",
+  "skills": ["Javascript", "Typescript", "Node", "C++", "C", "Python", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/NextThread",
+    "Twitter": "https://twitter.com/NextThread__",
+    "LinkedIn": "https://www.linkedin.com/in/anurag31oct"
+  }
+}

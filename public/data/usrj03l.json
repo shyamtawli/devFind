@@ -1,0 +1,12 @@
+{
+  "name": "Joel Reji",
+  "location": "Kochi, India",
+  "bio": "I'm an MCA final year student with a fervent passion for software development and a vision for building innovative web solutions.",
+  "avatar": "https://github.com/usrj03l.png",
+  "portfolio": "https://github.com/usrj03l",
+  "skills": ["Angular", "HTML/CSS", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/usrj03l",
+    "LinkedIn": "https://www.linkedin.com/in/joel-reji-a121a21a0"
+  }
+}

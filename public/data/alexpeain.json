@@ -1,0 +1,13 @@
+{
+  "name": "Alex Peain",
+  "location": "Myanmar",
+  "bio": "I am an aspiring Junior Backend Developer",
+  "avatar": "https://github.com/alexpeain.png",
+  "portfolio": "https://github.com/alexpeain",
+  "skills": ["Python", "Django", "SQL", "Javascript", "Git", "Linux"],
+  "social": {
+    "GitHub": "https://github.com/alexpeain",
+    "Twitter": "https://twitter.com/alexdocoding",
+    "LinkedIn": "https://www.linkedin.com/in/this-is-nang-seng-lean-peain"
+  }
+}
