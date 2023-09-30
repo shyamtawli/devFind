@@ -1,0 +1,12 @@
+{
+  "name": "Vedant Vaidya",
+  "location": "Pune, MH, India",
+  "bio": "Full stack web developer & Japanese language expert, having 2+ years of experience as frontend React developer.",
+  "avatar": "https://github.com/vedant-28.png",
+  "portfolio": "https://github.com/vedant-28",
+  "skills": ["HTML", "CSS", "Sass", "JavaScript", "ReactJS"],
+  "social": {
+    "GitHub": "https://github.com/vedant-28",
+    "LinkedIn": "www.linkedin.com/in/vedant-vaidya2810"
+  }
+}
