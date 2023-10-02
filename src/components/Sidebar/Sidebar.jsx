@@ -2,7 +2,6 @@ import React from 'react';
 import './Sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-// import styled from 'styled-components';
 
 function Sidebar() {
   return (
