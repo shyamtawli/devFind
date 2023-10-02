@@ -20,7 +20,6 @@ function Sidebar() {
       <div className="headline">Discover and Connect with Skilled Developers.</div>
       <div className="description">
         <a href=" https://github.com/shyamtawli/devFind#how-to-add-your-profile-" target="_blank" rel="noreferrer">
-          {/* Add your profile */}
           <button class="link_button"> Add your profile </button>
         </a>
       </div>
