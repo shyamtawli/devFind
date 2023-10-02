@@ -54,6 +54,22 @@
 .description {
   padding-top: 25px;
 }
+.link_button{
+  background-color: #00a6fb;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.link_button:hover {
+  background-color: white; 
+  color: #00a6fb;
+}
 
 @media screen and (max-width: 768px) {
   .sidebar {
