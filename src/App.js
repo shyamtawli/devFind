@@ -56,15 +56,8 @@ function App() {
   };
 
   const handleSearch = (searchValue) => {
-    // console.log(searchValue);
     const lowercaseSearch = searchValue.toLowerCase();
-    // console.log(lowercaseSearch);
     const results = combinedData.filter((object) => {
-      const name = object.name;
-      console.log(typeof(name));
-      if(name===undefined){
-        return [];
-      }
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
       const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
