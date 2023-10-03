@@ -4,7 +4,7 @@
   justify-content: end;
   padding: 2rem 1.5rem;
   position: sticky;
-  top: -1px;
+  top: -2px;
   z-index: 1;
   background-color: rgba(20, 29, 47, 1);
 }
@@ -35,6 +35,9 @@
 }
 
 @media (max-width: 768px) {
+  .search-bar {
+    padding: 1rem 1.5rem;
+  }
   .search-bar input {
     width: 100%;
   }
