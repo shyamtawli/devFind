@@ -1,5 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.card-container {
+  z-index: 0;
+}
+
 @media (max-width: 768px) {
-  .App > div {
-    margin-left: 0px;
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    height: 82vh;
   }
 }

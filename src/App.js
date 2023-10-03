@@ -108,20 +108,22 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Search onSearch={handleSearch} />
-      {currentUrl === '/' ? (
-        <>
-          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        </>
-      ) : (
-        <ErrorPage />
-      )}
+      <div className="container">
+        <Search onSearch={handleSearch} />
+        {currentUrl === '/' ? (
+          <div className="card-container">
+            {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+            <Pagination
+              currentPage={currentPage}
+              totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+              onNextPage={handleNextPage}
+              onPrevPage={handlePrevPage}
+            />
+          </div>
+        ) : (
+          <ErrorPage />
+        )}
+      </div>
     </div>
   );
 }
