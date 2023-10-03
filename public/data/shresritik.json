@@ -1,0 +1,13 @@
+{
+  "name": "Ritik Shrestha",
+  "location": "Kathmandu, Nepal",
+  "bio": "I am a tech enthusiast proficient in web develpoment",
+  "avatar": "https://github.com/shresritik.png",
+  "portfolio": "https://github.com/shresritik/",
+  "skills": ["NodeJs", "ReactJS", "Machine Learning", "Deep Learning", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/shresritik/",
+    "Twitter": "https://twitter.com/shresritik",
+    "LinkedIn": "https://www.linkedin.com/in/ritik-shrestha-35043627b/"
+  }
+}
