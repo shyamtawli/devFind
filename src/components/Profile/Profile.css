@@ -175,3 +175,9 @@
     left: 19.75px;
   }
 }
+
+@media only screen and (max-width:755px) {
+  .profile-container {
+    margin-left: 0px;
+  }
+}

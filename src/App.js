@@ -8,6 +8,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
+import { useRef } from 'react';
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -16,6 +17,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const recordsPerPage = 20;
+  const overFlowingContainerRef = useRef(null);
 
   const currentUrl = window.location.pathname;
 
@@ -87,10 +89,10 @@ function App() {
   };
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    const currentTop = overFlowingContainerRef.current.scrollTop;
+    if (currentTop !== 0) {
+      overFlowingContainerRef.current.scrollTop = 0;
+    }
   }, [currentPage]);
 
   const getPaginatedData = () => {
@@ -111,7 +113,13 @@ function App() {
       <Search onSearch={handleSearch} />
       {currentUrl === '/' ? (
         <>
-          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+          {profiles.length === 0 && searching ? (
+            <NoResultFound />
+          ) : (
+            <div ref={overFlowingContainerRef} className="main-profile-container">
+              {renderProfiles()}
+            </div>
+          )}
           <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}

@@ -1,8 +1,10 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faTwitterSquare, faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import dummyProfileLogo from '../../assets/dummyLogo.jpg';
+
 
 function Profile({ data }) {
   return (
@@ -13,6 +15,7 @@ function Profile({ data }) {
 
   function Card({ data }) {
     const cardRef = React.useRef();
+    const [cardImg,setCardImg] = useState(data?.avatar)
     const handleWheel = (event) => {
       event.stopPropagation();
       event.preventDefault();
@@ -35,7 +38,7 @@ function Profile({ data }) {
       <div className="profile-card">
         <div className="top-container">
           <div className="profile-photo">
-            <img src={data.avatar} alt="User logo" />
+            <img src={cardImg} onError={() => setCardImg(dummyProfileLogo)} alt="User logo" />
           </div>
           <div className="profile-details">
             <h3>{data.name}</h3>

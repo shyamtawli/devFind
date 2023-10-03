@@ -2,4 +2,15 @@
   .App > div {
     margin-left: 0px;
   }
+
+  .profile-container {
+    margin-left: 0px;
+  }
+}
+
+/* Overflowing profile cards container  */
+.main-profile-container {
+  overflow-y: scroll;
+  height: 75vh;
+  scroll-behavior: smooth;
 }
