@@ -1,0 +1,13 @@
+{
+  "name": "Ahsan Ahmad",
+  "location": "india",
+  "bio": "programmer ",
+  "avatar": "https://github.com/ahsan-abc.png",
+  "portfolio": "https://ahsan-abc.web.app",
+  "skills": ["react", "next js"],
+  "social": {
+    "GitHub": "https://github.com/ahsan-abc",
+    "Twitter": "https://twitter.com/Ahsana0015",
+    "LinkedIn": "https://www.linkedin.com/in/ahsan-abc"
+  }
+}

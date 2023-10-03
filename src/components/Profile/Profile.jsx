@@ -29,6 +29,10 @@ function Profile({ data }) {
 
     React.useEffect(() => {
       cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
+
+      if (data.portfolio == 'Your Portfolio URL or Github URL') {
+        data.portfolio = null;
+      }
     }, []);
 
     return (
@@ -55,11 +59,15 @@ function Profile({ data }) {
               })}
             </div>
           </div>
-          <div className="profile-link">
-            <a href={data.portfolio} target="_blank" rel="noreferrer">
-              View Profile &#8594;
-            </a>
-          </div>
+          {data.portfolio ? (
+            <div className="profile-link">
+              <a href={data.portfolio} target="_blank" rel="noreferrer">
+                View Profile &#8594;
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
         <div className="bottom-container">
           <div className="about">{data.bio}</div>
