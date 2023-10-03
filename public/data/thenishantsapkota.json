@@ -1,0 +1,26 @@
+{
+  "name": "Nishant Sapkota",
+  "location": "Damak, Jhapa, Nepal",
+  "bio": "I am a passionate, self-taught and aspiring full-stack developer as well as a proficient Back-End Developer working in Acid Integrations Pvt. Ltd.",
+  "avatar": "https://avatars.githubusercontent.com/u/60746512?v=4",
+  "portfolio": "https://github.com/thenishantsapkota",
+  "skills": [
+    "Java",
+    "Python",
+    "Django",
+    "HTML",
+    "JavaScript",
+    "Docker",
+    "Flutter",
+    "TypeScript",
+    "NestJS",
+    "Express",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/thenishantsapkota",
+    "Twitter": "https://twitter.com/snishant306",
+    "LinkedIn": "https://www.linkedin.com/in/thenishanttsapkota"
+  }
+}
