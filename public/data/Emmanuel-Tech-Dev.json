@@ -1,0 +1,13 @@
+{
+  "name": "Emmanuel Kusi",
+  "location": "Ghana",
+  "bio": "I am a passionate product enthusiast, finding joy in crafting experiences that resonate with consumers. Witnessing people delight in my creations is my ultimate satisfaction",
+  "avatar": "https://github.com/Emmanuel-Tech-Dev.png",
+  "portfolio": "https://github.com/Emmanuel-Tech-Dev/Em-manuel-Tech-Dev",
+  "skills": ["ReactJs", "Tailwind", "Sass", "Html", "Javascript", "Css"],
+  "social": {
+    "GitHub": "https://github.com/Emmanuel-Tech-Dev",
+    "Twitter": "https://twitter.com/_Mr_Emma",
+    "LinkedIn": "https://www.linkedin.com/in/Emmanuel Kusi"
+  }
+}
