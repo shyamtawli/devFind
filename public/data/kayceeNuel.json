@@ -1,0 +1,13 @@
+{
+  "name": "Kenechukw Emmanuel",
+  "location": "Enugu, Nigeria",
+  "bio": "I just make Software",
+  "avatar": "https://github.com/kayceeNuel.png",
+  "portfolio": "https://github.com/kayceeNuel",
+  "skills": ["JavaScript", "CSS", "ReactJS", "HTML", "Node.JS", "express.js"],
+  "social": {
+    "GitHub": "https://github.com/kayceeNuel",
+    "Twitter": "https://twitter.com/kayceenuel",
+    "LinkedIn": "https://www.linkedin.com/in/kaycee-nuel"
+  }
+}
