@@ -1,0 +1,12 @@
+{
+  "name": "Diyouf Kv",
+  "location": "Kerala, India",
+  "bio": "I am a dedicated Full-Stack Web Developer with a strong ability to produce production-ready code, leveraging a robust skill set that includes expertise in Node.js, Express, MongoDB, Angular, NgRx, and JavaScript.",
+  "avatar": "https://avatars.githubusercontent.com/u/111433069?v=4",
+  "portfolio": "https://diyouf.github.io/Personal-Website-/",
+  "skills": ["Mongo DB", "Express JS", "Angular", "Node Js", "NgRx", "JavaScript", "Type Script", "Nest js"],
+  "social": {
+    "GitHub": "https://github.com/Diyouf",
+    "LinkedIn": "https://www.linkedin.com/in/diyouf-kv-96b053247/"
+  }
+}
