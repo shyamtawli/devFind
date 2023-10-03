@@ -56,9 +56,11 @@ function Profile({ data }) {
             </div>
           </div>
           <div className="profile-link">
-            <a href={data.portfolio} target="_blank" rel="noreferrer">
-              View Profile &#8594;
-            </a>
+            {data.portfolio && (
+              <a href={data.portfolio} target="_blank" rel="noreferrer">
+                View Profile &#8594;
+              </a>
+            )}
           </div>
         </div>
         <div className="bottom-container">
