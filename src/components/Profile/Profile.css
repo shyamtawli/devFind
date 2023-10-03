@@ -155,6 +155,7 @@
 .social-icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
+  -webkit-tap-highlight-color: transparent; /* Add the WebKit-specific property to remove the border in safari browser*/
 }
 
 .social-icons a:hover i {
@@ -173,5 +174,12 @@
   .social-icons i {
     top: 19px;
     left: 19.75px;
+  }
+}
+
+/* Add this CSS to specifically target Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .social-icons i {
+    -webkit-backface-visibility : hidden;
   }
 }
