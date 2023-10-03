@@ -15,7 +15,7 @@ function Profile({ data }) {
 
   function Card({ data }) {
     const cardRef = React.useRef();
-    const [cardImg,setCardImg] = useState(data?.avatar)
+    const [cardImg,setCardImg] = useState(data?.avatar) // Save image in state and later update if there is an error.
     const handleWheel = (event) => {
       event.stopPropagation();
       event.preventDefault();
