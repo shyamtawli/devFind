@@ -1,0 +1,12 @@
+{
+  "name": "Samaresh Das",
+  "location": "Burdwan, West Bengal, India",
+  "bio": "MERN Stack developer, DevOPS lover, actively looking for jobs, MCA student",
+  "avatar": "https://github.com/Samaresh-Das.png",
+  "portfolio": "https://portfolio-2-tau-sable.vercel.app/",
+  "skills": ["React", "NextJS", "Express", "MongoDB", "Express", "Typescript", "Java", "AWS", "Tailwind"],
+  "social": {
+    "GitHub": "https://github.com/Samaresh-Das",
+    "LinkedIn": "https://www.linkedin.com/in/samaresh-d-ab9621212/"
+  }
+}
