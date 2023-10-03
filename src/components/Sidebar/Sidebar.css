@@ -54,11 +54,15 @@
 .description {
   padding-top: 25px;
 }
-.link_button{
+.link_button {
   background-color: #00a6fb;
+  font-family: 'Poppins';
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 500ms;
   border: none;
   color: white;
-  border-radius: 2px;
   padding: 5px 15px;
   text-align: center;
   text-decoration: none;
@@ -67,7 +71,7 @@
 }
 
 .link_button:hover {
-  background-color: white; 
+  background-color: white;
   color: #00a6fb;
 }
 
