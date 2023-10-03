@@ -21,6 +21,9 @@
   color: #fff;
   font-family: 'Space Mono', sans-serif;
 }
+input::placeholder{
+  color: #fff;
+}
 
 .search-bar .search-icon {
   position: absolute;

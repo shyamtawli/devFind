@@ -32,58 +32,48 @@ function Profile({ data }) {
     }, []);
 
     return (
-      <div className="profile-card">
-        <div className="top-container">
-          <div className="profile-photo">
-            <img src={data.avatar} alt="User logo" />
+      <>
+      <div class="box1 box">
+        <div class="content">
+          <div class="image">
+            <img src={data.avatar} alt="Profile Image"/>
           </div>
-          <div className="profile-details">
-            <h3>{data.name}</h3>
-            <p>
+          <div class="text">
+            <p class="name">{data.name}</p>
+            <p class="job_title">
               <span style={{ marginRight: '0.5rem' }}>
                 <FontAwesomeIcon icon={faLocationDot} />
               </span>
-              {data.location}
+            {data.location}
             </p>
-            <div className="skills-container" ref={cardRef}>
-              {data.skills.map((skill, index) => {
-                return (
-                  <div className="skill" key={index}>
-                    {skill}
-                  </div>
-                );
-              })}
-            </div>
+            <p class="job_discription">{data.bio.length>100?`${data.bio.slice(0,100)}....`:data.bio}</p>
           </div>
-          <div className="profile-link">
-            <a href={data.portfolio} target="_blank" rel="noreferrer">
-              View Profile &#8594;
+          <div className="level skills-container" ref={cardRef}>
+            {data.skills.map((skill, index) => {
+              return (
+                <p className="skill" key={index}>{skill}</p>
+                  );
+              })}
+          </div>
+          <div class="icons">
+            <a href={data.social.GitHub} target="_blank" rel="noreferrer">
+              <i className="fa fa-github"></i>
+            </a>
+            <a href={data.social.Twitter} target="_blank" rel="noreferrer">
+              <i className="fa fa-twitter"></i>
+            </a>
+            <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
+              <i className="fa fa-linkedin"></i>
             </a>
           </div>
-        </div>
-        <div className="bottom-container">
-          <div className="about">{data.bio}</div>
-          <div className="social-container">
-            <ul className="social-icons">
-              <li>
-                <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-                  <i className="fa fa-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-                  <i className="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
+          <div class="button">
+            <div>
+              <a href={data.portfolio} class="connect btn" type="button">View Profile</a>
+            </div>
           </div>
         </div>
       </div>
+    </>
     );
   }
 }

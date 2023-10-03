@@ -109,19 +109,21 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
+      <div className='profiles-container'>
       {currentUrl === '/' ? (
         <>
           {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-          <Pagination
+        </>
+      ) : (
+        <ErrorPage />
+      )}
+      </div>
+      <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
             onNextPage={handleNextPage}
             onPrevPage={handlePrevPage}
           />
-        </>
-      ) : (
-        <ErrorPage />
-      )}
     </div>
   );
 }

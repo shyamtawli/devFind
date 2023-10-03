@@ -3,3 +3,10 @@
     margin-left: 0px;
   }
 }
+.profiles-container{
+  margin-left: 20rem;
+  padding: 0rem 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
