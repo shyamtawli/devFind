@@ -1,0 +1,12 @@
+{
+  "name": "Raunak Giri",
+  "location": "Guwahati, India",
+  "bio": "A Passionate Javascript Developer",
+  "avatar": "https://avatars.githubusercontent.com/u/53823257?v=4",
+  "portfolio": "https://portfolio-raunakgiri21.vercel.app/",
+  "skills": ["JavaScript", "React", "Node", "Tailwind", "Git", "C/C++"],
+  "social": {
+    "GitHub": "https://github.com/raunakgiri21",
+    "LinkedIn": "https://www.linkedin.com/in/raunakgiri21"
+  }
+}

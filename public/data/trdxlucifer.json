@@ -1,0 +1,13 @@
+{
+  "name": "Deependra Singh",
+  "location": "Delhi, India",
+  "bio": "I'm Deependra Singh currently pursuing b.tech from Nsut in ECE branch.",
+  "avatar": "https://github.com/trdxlucifer.png",
+  "portfolio": "https://github.com/trdxlucifer",
+  "skills": ["HTML", "CSS", "Javascript", "React", "Firebase", "Supabase", "React Query", "Redux", "TailwindCss"],
+  "social": {
+    "GitHub": "https://github.com/trdxlucifer",
+    "Twitter": "https://twitter.com/singhdepu566",
+    "LinkedIn": "https://www.linkedin.com/in/deependra-singh-14a33720a/"
+  }
+}
