@@ -1,0 +1,12 @@
+{
+    "name": "Madhabi Singh",
+    "location": "Kathmandu Nepal",
+    "bio": "An emerging MERN stack enthusiast, crafts compelling web solutions using MongoDB, Express.js, React, and Node.js. Dive into creative journey at https://github.com/singhmadhabi ",
+    "avatar": "https://github.com/singhmadhabi.png",
+    "portfolio": "https://github.com/singhmadhabi",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Nodejs", "Mongodb", "Open Source"],
+    "social": {
+      "GitHub": "https://github.com/singhmadhabi",
+      "LinkedIn": "https://www.linkedin.com/in/madhabi-singh-42ab74283/"
+    }
+}
