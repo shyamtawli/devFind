@@ -2,9 +2,7 @@ import React , {useState} from 'react';
 import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faTwitterSquare, faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import dummyProfileLogo from '../../assets/dummyLogo.jpg';
-
 
 function Profile({ data }) {
   return (
@@ -49,7 +47,7 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container" ref={cardRef}>
-              {data.skills.map((skill, index) => {
+              {data.skills && data.skills.map((skill, index) => {
                 return (
                   <div className="skill" key={index}>
                     {skill}
