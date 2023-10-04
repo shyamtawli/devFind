@@ -74,11 +74,6 @@
   color: #00a6fb;
   border: solid 2px #00a6fb;
 }
-/* add animation when toogle theme click */
-.theme-button:focus {
-  outline: none;
-  animation: pulse 1s infinite;
-}
 
 @media screen and (max-width: 768px) {
   .sidebar {

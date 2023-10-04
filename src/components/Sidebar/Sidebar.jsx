@@ -21,9 +21,9 @@ function Sidebar() {
         <div className="theme">
           <button type="button" className="theme-button" onClick={toogleTheme}>
             {theme === 'light' ? (
-              <FontAwesomeIcon icon={faSun} style={{ fontSize: '1rem' }} />
+              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             ) : (
-              <FontAwesomeIcon icon={faMoon} style={{ fontSize: '1.15rem' }} />
+              <FontAwesomeIcon icon={faSun} fontSize="1rem" />
             )}
           </button>
         </div>
