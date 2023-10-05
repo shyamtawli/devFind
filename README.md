@@ -71,7 +71,7 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
    {
      "name": "Your Name",
      "location": "Your Location",
-     "bio": "Your Bio should be 20-30 words not more then that",
+     "bio": "Your Bio should be 20-30 words not more than that",
      "avatar": "https://github.com/<your-github-username>.png",
      "portfolio": "Your Portfolio URL or Github URL",
      "skills": ["Your Skill 1", "Your Skill 2", "..."],
