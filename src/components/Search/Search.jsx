@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import useDebounce from '../../hooks/useDebouncer';
 import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -10,8 +11,17 @@ function Search({ onSearch }) {
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
-    onSearch(event.target.value);
   };
+
+  const debouncedValue = useDebounce(searchValue, 500);
+
+  useEffect(() => {
+    if (searchValue !== prevSearchValue) {
+      onSearch(debouncedValue);
+      setPrevSearchValue(searchValue);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedValue]);
 
   const handleSearch = () => {
     if (searchValue !== prevSearchValue) {
