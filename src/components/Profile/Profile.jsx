@@ -45,13 +45,14 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container" ref={cardRef}>
-              {data.skills && data.skills.map((skill, index) => {
-                return (
-                  <div className="skill" key={index}>
-                    {skill}
-                  </div>
-                );
-              })}
+              {data.skills &&
+                data.skills.map((skill, index) => {
+                  return (
+                    <div className="skill" key={index}>
+                      {skill}
+                    </div>
+                  );
+                })}
             </div>
           </div>
           <div className="profile-link">
