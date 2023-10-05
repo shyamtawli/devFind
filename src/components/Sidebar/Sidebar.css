@@ -3,6 +3,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 0px 30px;
+  max-width: 20rem;
   min-width: 20rem;
   height: 90vh;
   border-right: 2px solid rgba(194, 183, 183, 0.1);
@@ -58,5 +59,7 @@
     top: 0;
     width: auto;
     height: auto;
+    max-width: none;
+    min-width: none;
   }
 }

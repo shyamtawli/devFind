@@ -87,7 +87,7 @@ function App() {
   };
 
   useEffect(() => {
-    window.scrollTo({
+    document.getElementById('scroll').scrollTo({
       top: 0,
       behavior: 'smooth',
     });
@@ -108,7 +108,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <div className="container">
+      <div className="container" id="scroll">
         <Search onSearch={handleSearch} />
         {currentUrl === '/' ? (
           <div className="card-container">
