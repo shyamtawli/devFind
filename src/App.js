@@ -55,17 +55,41 @@ function App() {
     return array;
   };
 
+  const sanitizedSearchValue = (searchValue) => {
+    if (searchValue.trim().length === 0) return searchValue;
+
+    const sanitizedValue = searchValue
+      .trim()
+      .replace(/^,*(.*?),*$/, '$1')
+      .replace(/\s{2,}/g, ' ')
+      .replace(/,(?!\s)/g, ', ')
+      .toLowerCase();
+
+    return sanitizedValue;
+  };
+
+  const getSearchKeywords = (searchValue) => {
+    return sanitizedSearchValue(searchValue).split(', ').filter(Boolean);
+  };
+
   const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase();
+    const searchKeywords = getSearchKeywords(searchValue);
+    const lowercaseSearch = searchKeywords.length === 0 ? searchValue.trim().toLowerCase() : searchKeywords[0];
+
     const results = combinedData.filter((object) => {
-      const lowercaseName = object.name.toLowerCase();
-      const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
-      return (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
+      const { name, location, skills } = object;
+
+      const lowercaseName = name.toLowerCase();
+      const matchingLocations = searchKeywords.some((keyword) => location.toLowerCase().includes(keyword));
+      const matchingSkills = skills.some((skill) =>
+        searchKeywords.some((keyword) => skill.toLowerCase().includes(keyword)),
       );
+
+      return matchingSkills || lowercaseName.includes(lowercaseSearch) || matchingLocations;
+
+      // const lowercaseLocation = object.location.toLowerCase();
+      // const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
+      // return matchingSkills || lowercaseName.includes(lowercaseSearch) || lowercaseLocation.includes(lowercaseSearch);
     });
 
     setSearching(true);
