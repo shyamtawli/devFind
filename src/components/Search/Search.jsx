@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import useDebounce from '../../hooks/useDebouncer';
 import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -40,6 +40,15 @@ function Search({ onSearch }) {
     handleSearch();
   };
 
+  const handleDeleteButtonClick = () => {
+    if (searchValue) {
+      setSearchValue('');
+      setPrevSearchValue('');
+      onSearch('');
+      searchInput.current.focus();
+    }
+  };
+
   useEffect(() => {
     searchInput.current.focus();
   }, []);
@@ -69,6 +78,7 @@ function Search({ onSearch }) {
         onKeyDown={handleSearchOnEnter}
       />
       <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
+      {searchValue && <FontAwesomeIcon onClick={handleDeleteButtonClick} className="delete-icon" icon={faXmark} />}
     </div>
   );
 }
