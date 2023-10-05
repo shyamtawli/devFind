@@ -1,0 +1,13 @@
+{
+  "name": "Sakshi",
+  "location": "Gwalior Madhya Pradesh",
+  "bio": "Experienced Full Stack Developer specializing in React, Node.js, Express, PostgreSQL, MongoDB, and REST API. Passionate about innovating web solutions, contributing to open source, and staying versatile in the ever-evolving tech landscape.",
+  "avatar": "https://github.com/Sakshi29G.png",
+  "portfolio": "https://github.com/Sakshi29G",
+  "skills": ["React/Redux", "JavaScript", "Typescript", "HTML/CSS", "Bootstrap", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/Sakshi29G",
+    "Twitter": "https://twitter.com/sakshi_goyat",
+    "LinkedIn": "https://www.linkedin.com/in/sakshi-goyat/"
+  }
+}
