@@ -15,16 +15,13 @@
 
 
 @media (max-width: 768px) {
-  /* .App > div {
-    margin-left: 0px;
-  } */
 
   .App {
     flex-direction: column;
   }
 
-  .profile-container {
-    margin-left: 0px;
+  .container {
+    height: 70vh;
   }
 }
 
