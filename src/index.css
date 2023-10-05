@@ -20,8 +20,8 @@ html {
 
 /* light theme */
 html.light {
-  --primary-color: #f1f5f9;
-  --secondary-color: #e2e8f0;
+  --primary-color: rgb(243, 244, 246); 
+  --secondary-color: white;
   --border-color: rgba(20, 29, 47, 0.1);
   --text-color: rgba(20, 29, 47, 1);
 }
