@@ -1,0 +1,25 @@
+{
+  "name": "Vijay V",
+  "location": "Bengaluru, India",
+  "bio": "DSA | Problem Solving | Web Dev | Passionate Software Developer.",
+  "avatar": "https://github.com/vijayv18.png",
+  "portfolio": "http://github.com/vijayv18",
+  "skills": [
+    "Core Java",
+    "C++",
+    "Python",
+    "Javascript",
+    "NodeJs",
+    "ExpressJs",
+    "Bootstrap",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "Microsoft Office Tools"
+  ],
+  "social": {
+    "GitHub": "https://github.com/vijayv18",
+    "Twitter": "https://twitter.com/vijayv16",
+    "LinkedIn": "https://www.linkedin.com/in/vijayv18"
+  }
+}
