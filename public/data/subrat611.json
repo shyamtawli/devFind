@@ -1,0 +1,30 @@
+{
+  "name": "Subrat Kumar Jena",
+  "location": "Odisha, India",
+  "bio": "Subrat Jena is a front-end web/mobile applications developer skilled in Nuxt JS, React Js, and React Native.",
+  "avatar": "https://github.com/subrat611.png",
+  "portfolio": "https://subrat-jena.vercel.app",
+  "skills": [
+    "React JS",
+    "Next JS",
+    "Vue JS",
+    "Nuxt JS",
+    "JavaScript",
+    "Material UI",
+    "REST api",
+    "WebSocket",
+    "Redux",
+    "Redux-toolkit",
+    "HTML",
+    "CSS",
+    "Firebase",
+    "Bootstrap",
+    "C++",
+    "SCSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/subrat611",
+    "Twitter": "https://twitter.com/nikhil88950",
+    "LinkedIn": "https://www.linkedin.com/in/subratkumarjena"
+  }
+}
