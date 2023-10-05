@@ -69,18 +69,18 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 6. Add the following JSON object, replacing the placeholder values with your own details:
    ```json
    {
-    "name": "Your Name",
-    "location": "Your Location",
-    "bio": "Your Bio should be 20-30 words not more then that",
-    "avatar": "https://github.com/<your-github-username>.png",
-    "portfolio": "Your Portfolio URL or Github URL",
-    "skills": ["Your Skill 1", "Your Skill 2", "..."],
-    "social": {
-      "GitHub": "https://github.com/<github-username>",
-      "Twitter": "https://twitter.com/<twitter-username>",
-      "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
-    }
-   },
+     "name": "Your Name",
+     "location": "Your Location",
+     "bio": "Your Bio should be 20-30 words not more then that",
+     "avatar": "https://github.com/<your-github-username>.png",
+     "portfolio": "Your Portfolio URL or Github URL",
+     "skills": ["Your Skill 1", "Your Skill 2", "..."],
+     "social": {
+       "GitHub": "https://github.com/<github-username>",
+       "Twitter": "https://twitter.com/<twitter-username>",
+       "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+     }
+   }
    ```
 7. Save the **`your_github_username.json`** file.
 8. Navigate to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
