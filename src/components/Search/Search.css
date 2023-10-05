@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  margin-left: 20rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 0px 1.5rem;
-  position: relative;
+  padding: 2rem 1.5rem;
+  background-color: #141d2f;
+  position: sticky;
+  top: -2px;
+  z-index: 1;
 }
 
 .search-bar input {

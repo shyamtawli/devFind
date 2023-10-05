@@ -1,19 +1,22 @@
 .pagination {
-  margin-left: 12rem;
-  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
   height: auto;
   text-align: center;
+  position: sticky;
+  bottom: -18px;
+  background-color: #141d2f;
+  z-index: 2;
 }
 
 .pagination-button {
   background-color: inherit;
   padding: 1rem;
-  margin-left: 3rem;
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
   border: none;
-  width: 60px;
 }
 
 .pagination-text {

@@ -110,26 +110,28 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Search onSearch={handleSearch} />
-      {currentUrl === '/' ? (
-        <>
-          {profiles.length === 0 && searching ? (
-            <NoResultFound />
-          ) : (
-            <div ref={overFlowingContainerRef} className="main-profile-container">
-              {renderProfiles()}
-            </div>
-          )}
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        </>
-      ) : (
-        <ErrorPage />
-      )}
+      <div className="container" ref={overFlowingContainerRef} >
+        <Search onSearch={handleSearch} />
+        {currentUrl === '/' ? (
+          <>
+            {profiles.length === 0 && searching ? (
+              <NoResultFound />
+            ) : (
+              <div className="main-profile-container">
+                {renderProfiles()}
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+                  onNextPage={handleNextPage}
+                  onPrevPage={handlePrevPage}
+                />
+              </div>
+            )}
+          </>
+        ) : (
+          <ErrorPage />
+        )}
+      </div>
     </div>
   );
 }
