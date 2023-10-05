@@ -1,0 +1,26 @@
+{
+  "name": "Raktim Shrestha",
+  "location": "Kathmandu, Nepal",
+  "bio": "Skilled full-stack developer with experience in front-end and back-end technologies. I specialize in developing end-to-end applications that provide an optimal user experience",
+  "avatar": "https://github.com/rakimsth.png",
+  "portfolio": "https://github.com/rakimsth",
+  "skills": [
+    "JavaScript",
+    "React",
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "NextJS",
+    "Redux",
+    "REST APIs",
+    "Node.js",
+    "Git",
+    "Solidity",
+    "Web3"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rakimsth",
+    "Twitter": "https://twitter.com/RaktimShrestha",
+    "LinkedIn": "https://www.linkedin.com/in/raktim-shrestha-63a780109"
+  }
+}

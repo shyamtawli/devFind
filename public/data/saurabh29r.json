@@ -1,0 +1,24 @@
+{
+  "name": "Saurabh R",
+  "location": "Mumbai, India",
+  "bio": "I am a Frontend Developer with specialized in Reactjs, I love to work with js, I always try to build user friendly UI.",
+  "avatar": "https://github.com/saurabh29r.png",
+  "portfolio": "https://github.com/saurabh29r",
+  "skills": [
+    "ReactJS",
+    "Node.js",
+    "javaScript",
+    "CSS",
+    "Bootstrap",
+    "JWT Auth",
+    "REST APIs",
+    "Tailwind CSS",
+    "Typescript",
+    "sqlite",
+    "python"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ansisme",
+    "Twitter": "https://github.com/saurabh29r"
+  }
+}
