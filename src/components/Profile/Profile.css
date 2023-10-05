@@ -83,6 +83,11 @@
   color: #00a6fb;
 }
 
+.profile-link-disabled a {
+  text-decoration: none;
+  pointer-events: none;
+}
+
 .bottom-container {
   margin-top: 1rem;
 }
@@ -178,8 +183,8 @@
 }
 
 /* Add this CSS to specifically target Safari */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   .social-icons i {
-    -webkit-backface-visibility : hidden;
+    -webkit-backface-visibility: hidden;
   }
 }

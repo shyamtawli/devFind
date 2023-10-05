@@ -45,21 +45,20 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container" ref={cardRef}>
-              {data.skills && data.skills.map((skill, index) => {
-                return (
-                  <div className="skill" key={index}>
-                    {skill}
-                  </div>
-                );
-              })}
+              {data.skills &&
+                data.skills.map((skill, index) => {
+                  return (
+                    <div className="skill" key={index}>
+                      {skill}
+                    </div>
+                  );
+                })}
             </div>
           </div>
-          <div className="profile-link">
-            {data.portfolio && (
-              <a href={data.portfolio} target="_blank" rel="noreferrer">
-                View Profile &#8594;
-              </a>
-            )}
+          <div className={`${data.portfolio ? 'profile-link' : 'profile-link-disabled'}`}>
+            <a href={data.portfolio} target="_blank" rel="noreferrer">
+              View Profile &#8594;
+            </a>
           </div>
         </div>
         <div className="bottom-container">
