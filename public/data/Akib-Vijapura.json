@@ -1,0 +1,24 @@
+{
+  "name": "Akib Vijapura",
+  "location": "India",
+  "bio": "A Software developer with good problem-solving skills. And also able to perform well in a team with good communication skills and leadership skills. And looking forward for open source contribution.",
+  "avatar": "https://github.com/Akib-Vijapura.png",
+  "portfolio": "https://github.com/Akib-Vijapura",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB",
+    "RDBMS",
+    "C++",
+    "DSA",
+    "Git/GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Akib-Vijapura",
+    "Twitter": "https://twitter.com/akib_vijapura",
+    "LinkedIn": "https://www.linkedin.com/in/akib-vijapura/"
+  }
+}
