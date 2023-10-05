@@ -45,7 +45,7 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container" ref={cardRef}>
-              {data.skills.map((skill, index) => {
+              {data.skills && data.skills.map((skill, index) => {
                 return (
                   <div className="skill" key={index}>
                     {skill}
