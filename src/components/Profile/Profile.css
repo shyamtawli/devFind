@@ -85,7 +85,9 @@
 
 .profile-link-disabled a {
   text-decoration: none;
-  pointer-events: none;
+  color: #00a6fb;
+  filter: brightness(70%);
+  cursor: not-allowed;
 }
 
 .bottom-container {
