@@ -1,0 +1,12 @@
+{
+  "name": "Rabin Prajapati",
+  "location": "Bhaktapur, Nepal",
+  "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
+  "avatar": "https://github.com/rabinprajapati.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["HTML", "CSS", "JavaScript", "PHP", "Node", "Reactjs"],
+  "social": {
+    "GitHub": "https://github.com/rabinprajapati",
+    "LinkedIn": "https://www.linkedin.com/in/rabin-prajapati-79865610a"
+  }
+}

@@ -34,6 +34,18 @@
   color: #00a6fb;
 }
 
+.search-bar .delete-icon {
+  position: absolute;
+  margin-right: 40px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.delete-icon:hover {
+  color: #00a6fb;
+}
+
 @media (max-width: 768px) {
   .search-bar input {
     width: 100%;

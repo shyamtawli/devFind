@@ -75,7 +75,6 @@ function App() {
   const handleSearch = (searchValue) => {
     const searchKeywords = getSearchKeywords(searchValue);
     const lowercaseSearch = searchKeywords.length === 0 ? searchValue.trim().toLowerCase() : searchKeywords[0];
-
     const results = combinedData.filter((object) => {
       const { name, location, skills } = object;
 

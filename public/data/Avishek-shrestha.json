@@ -1,0 +1,25 @@
+{
+  "name": "Avishek Shrestha",
+  "location": "Kathmandu, Nepal",
+  "bio": "Full stack web developer using MERN stack to build good web applications",
+  "avatar": "https://github.com/Avishek-sth.png",
+  "portfolio": "https://github.com/Avishek-sth",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JavaScript",
+    "React",
+    "Express",
+    "MongoDB",
+    "NodeJS",
+    "C",
+    "C++",
+    "FullStack Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Avishek-sth",
+    "Twitter": "https://twitter.com/Avishek_sth",
+    "LinkedIn": "https://www.linkedin.com/in/Avishek-sth"
+  }
+}
