@@ -11,6 +11,9 @@
   margin-bottom: 1.5rem;
   padding: 1rem 1rem 0rem 1rem;
   height: auto;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .profile-card .top-container {
@@ -178,8 +181,8 @@
 }
 
 /* Add this CSS to specifically target Safari */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   .social-icons i {
-    -webkit-backface-visibility : hidden;
+    -webkit-backface-visibility: hidden;
   }
 }
