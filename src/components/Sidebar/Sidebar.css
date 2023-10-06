@@ -69,10 +69,11 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  border: 2px solid #00a6fb;
 }
 
 .link_button:hover {
-  background-color: white;
+  background-color: transparent;
   color: #00a6fb;
 }
 
