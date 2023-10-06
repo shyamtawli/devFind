@@ -53,20 +53,6 @@ function Search({ onSearch }) {
     searchInput.current.focus();
   }, []);
 
-  useEffect(() => {
-    const onKeyDownHandler = (e) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-        e.preventDefault();
-        searchInput.current.focus();
-      }
-    };
-    document.addEventListener('keydown', onKeyDownHandler);
-
-    return () => {
-      document.addEventListener('keydown', onKeyDownHandler);
-    };
-  }, []);
-
   return (
     <div className="search-bar">
       <input
