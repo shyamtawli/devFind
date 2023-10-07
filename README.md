@@ -60,7 +60,7 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 
 1. Fork the repository: To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
 2. Clone the forked repository: To clone the repository to your local development environment, open the terminal or command prompt and run the following command:
-   **`git clone https://github.com/<your-github-username>/<repository-name>.git`**
+   **`git clone https://github.com/<your-github-username>/devFind.git`**
 
 3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command:
    **`pnpm install`**
