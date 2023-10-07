@@ -1,0 +1,13 @@
+{
+  "name": "Raushan Sharma",
+  "location": "Delhi, India",
+  "bio": "I'm a computer science student who loves creating websites. I live for challenges and learning on the go.",
+  "avatar": "https://github.com/Rawshansharma.png",
+  "portfolio": "https://raushan.vercel.app/",
+  "skills": ["React.js", "Next.js", "Node.js", "Express.js", "C++"],
+  "social": {
+    "GitHub": "https://github.com/Rawshansharma",
+    "Twitter": "https://twitter.com/Raushan89754506",
+    "LinkedIn": "https://www.linkedin.com/in/raushan-sharma-3067851b1/"
+  }
+}
