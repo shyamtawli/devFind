@@ -72,7 +72,7 @@ function Profile({ data }) {
               </li>
               <li>
                 <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                  <i className="fa fa-twitter"></i>
+                <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
                 </a>
               </li>
               <li>
