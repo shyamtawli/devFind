@@ -55,7 +55,7 @@ function Profile({ data }) {
                 })}
             </div>
           </div>
-          <div className="profile-link">
+          <div className={`${data.portfolio ? 'profile-link' : 'profile-link-disabled'}`}>
             <a href={data.portfolio} target="_blank" rel="noreferrer">
               View Profile &#8594;
             </a>
