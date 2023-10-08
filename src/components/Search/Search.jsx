@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
+import useDebounce from '../../hooks/useDebouncer';
 import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -10,8 +11,17 @@ function Search({ onSearch }) {
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
-    onSearch(event.target.value);
   };
+
+  const debouncedValue = useDebounce(searchValue, 500);
+
+  useEffect(() => {
+    if (searchValue !== prevSearchValue) {
+      onSearch(debouncedValue);
+      setPrevSearchValue(searchValue);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedValue]);
 
   const handleSearch = () => {
     if (searchValue !== prevSearchValue) {
@@ -30,6 +40,15 @@ function Search({ onSearch }) {
     handleSearch();
   };
 
+  const handleDeleteButtonClick = () => {
+    if (searchValue) {
+      setSearchValue('');
+      setPrevSearchValue('');
+      onSearch('');
+      searchInput.current.focus();
+    }
+  };
+
   useEffect(() => {
     searchInput.current.focus();
   }, []);
@@ -45,6 +64,7 @@ function Search({ onSearch }) {
         onKeyDown={handleSearchOnEnter}
       />
       <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
+      {searchValue && <FontAwesomeIcon onClick={handleDeleteButtonClick} className="delete-icon" icon={faXmark} />}
     </div>
   );
 }

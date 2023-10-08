@@ -1,0 +1,30 @@
+{
+  "name": "Mridul Panda",
+  "location": "Kolkata, India 🇮🇳",
+  "bio": "A developer passionate about building products and solving problems. I love to learn new things and work on projects that challenge me to push my boundaries.",
+  "avatar": "https://pbs.twimg.com/profile_images/1374245123395964929/YcUKpmKs_400x400.jpg",
+  "portfolio": "https://www.mridul.tech",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next.Js",
+    "React Native",
+    "MUI",
+    "Bootstrap",
+    "Tailwind CSS",
+    "MySQL",
+    "PostgreSQL",
+    "Git",
+    "REST APIs",
+    "GraphQL",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/mridul2820",
+    "Twitter": "https://twitter.com/i_mridul",
+    "LinkedIn": "https://www.linkedin.com/in/mridul2820"
+  }
+}

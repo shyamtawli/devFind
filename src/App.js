@@ -55,7 +55,7 @@ function App() {
   };
 
   const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase();
+    const lowercaseSearch = searchValue.toLowerCase().trim();
     const results = combinedData.filter((object) => {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
