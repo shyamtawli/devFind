@@ -86,6 +86,13 @@
   color: #00a6fb;
 }
 
+.profile-link-disabled a {
+  text-decoration: none;
+  color: #00a6fb;
+  filter: brightness(70%);
+  cursor: not-allowed;
+}
+
 .bottom-container {
   margin-top: 1rem;
 }
