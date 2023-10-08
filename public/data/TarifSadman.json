@@ -1,0 +1,13 @@
+{
+    "name": "Tarif Sadman",
+    "location": "Dhaka, Bangladesh",
+    "bio": "Passionate entry-level React developer with a strong foundation in JavaScript, HTML, and CSS. Committed to crafting intuitive user interfaces and eager to contribute to web development projects.",
+    "avatar": "https://github.com/<your-github-username>.png",
+    "portfolio": "tarif-sadman.netlify.app",
+    "skills": ["React", "JavaScript", "HTML", "CSS", "SCSS", "Git", "Node.Js"],
+    "social": {
+      "GitHub": "https://github.com/TarifSadman",
+      "Twitter": "https://twitter.com/SadmanTaha_FPL",
+      "LinkedIn": "https://www.linkedin.com/in/tarif-sadman-9808211b5/"
+    }
+  }
