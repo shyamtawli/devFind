@@ -7,11 +7,13 @@
 
 .profile-card {
   border-radius: 10px;
-  background: #1e2a47;
+  background: var(--secondary-color);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem 0rem 1rem;
   height: auto;
-  color: #fff;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .profile-card .top-container {
@@ -59,11 +61,11 @@
 }
 
 .skills-container::-webkit-scrollbar-track {
-  background: #1e2a47;
+  background: var(--secondary-color);
 }
 
 .skills-container::-webkit-scrollbar-thumb {
-  background: rgba(20, 29, 47, 0.5);
+  background: var(--primary-color);
   border-radius: 5px;
 }
 
@@ -76,6 +78,7 @@
   height: 30px;
   cursor: default;
   display: inline;
+  color: #fff;
 }
 
 .profile-link a {
