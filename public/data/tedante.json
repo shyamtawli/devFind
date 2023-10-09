@@ -1,0 +1,13 @@
+{
+  "name": "Teddy K",
+  "location": "Jakarta, Indonesia",
+  "bio": "I am backend developer and teacher.",
+  "avatar": "https://avatars.githubusercontent.com/u/23611745?v=4",
+  "portfolio": "https://github.com/tedante",
+  "skills": ["HTML", "JavaScript", "Docker", "NodeJS", "PHP", "Laravel"],
+  "social": {
+    "GitHub": "https://github.com/tedante",
+    "Twitter": "https://twitter.com/tedante_",
+    "LinkedIn": "https://www.linkedin.com/in/teddy-koerniadi/"
+  }
+}
