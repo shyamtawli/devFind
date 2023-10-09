@@ -8,14 +8,15 @@
   left: 0;
   width: 20rem;
   height: 90vh;
-  border-right: 2px solid rgba(194, 183, 183, 0.1);
+  border-right: 2px solid var(--border-color);
 }
 
-.logo-title {
+.header {
   display: flex;
   align-items: center;
   gap: 10px;
   height: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -25,7 +26,7 @@
 }
 
 .title .dev {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .title .find {
@@ -37,12 +38,12 @@
 }
 
 .headline {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .description a {
   text-decoration: underline;
-  color: #fff;
+  color: var(--text-color);
   transition: color 0.2s ease;
 }
 
@@ -68,11 +69,31 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  border: 2px solid #00a6fb;
 }
 
 .link_button:hover {
-  background-color: white;
+  background-color: transparent;
   color: #00a6fb;
+}
+
+.theme {
+  margin-left: auto;
+}
+
+.theme-button {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  color: var(--text-color);
+  border: solid 2px var(--border-color);
+  background-color: var(--secondary-color);
+  transition: all 0.2s ease;
+}
+
+.theme-button:hover {
+  color: #00a6fb;
+  border: solid 2px #00a6fb;
 }
 
 @media screen and (max-width: 768px) {
