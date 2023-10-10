@@ -1,0 +1,13 @@
+{
+  "name": "Ayush Rakesh",
+  "location": "Madhya Pradesh ,India",
+  "bio": "I am 3rd year IT student studying at IIITM Gwalior. I am tech lover, and Devops enthusiast looking forward to work in production.",
+  "avatar": "https://github.com/ayushrakesh.png",
+  "portfolio": "https://github.com/ayushrakesh",
+  "skills": ["C", "C++", "Dart", "Flutter", "GitHub", "VS-code","Figma","Firebase","Cloud Firestore"],
+  "social": {
+    "GitHub": "https://github.com/ayushrakesh",
+    "Twitter": "https://twitter.com/AyushRakes29428",
+    "LinkedIn": "https://www.linkedin.com/in/ayush-rakesh-005b55228/"
+  }
+}
