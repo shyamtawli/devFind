@@ -11,13 +11,29 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: rgba(20, 29, 47, 1);
+  --secondary-color: #1e2a47;
+  --border-color: rgba(194, 183, 183, 0.1);
+  --text-color: #fff;
+}
+
+/* light theme */
+html.light {
+  --primary-color: rgb(243, 244, 246);
+  --secondary-color: white;
+  --border-color: rgba(20, 29, 47, 0.1);
+  --text-color: rgba(20, 29, 47, 1);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(20, 29, 47, 1);
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 code {

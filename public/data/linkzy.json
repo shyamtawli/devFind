@@ -1,0 +1,13 @@
+{
+  "name": "LinKzy",
+  "location": "Brazil",
+  "bio": "Working with web development since 2005, .NET, C#, SQL, Javascript, Git.",
+  "avatar": "https://github.com/linkzy.png",
+  "portfolio": "https://github.com/linkzy",
+  "skills": [".NET", "C#", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/linkzy",
+    "Twitter": "https://twitter.com/daniloc_",
+    "LinkedIn": "https://www.linkedin.com/in/danilo-cavalcante-dev/"
+  }
+}

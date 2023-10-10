@@ -1,0 +1,13 @@
+{
+  "name": "Animesh Gupta",
+  "location": "Aurangabad, Bihar",
+  "bio": "Learn new tech and Implement in new project. Always ready to help",
+  "avatar": "https://github.com/aniimessh.png",
+  "portfolio": "https://github.com/aniimessh",
+  "skills": ["HTML", "CSS", "Javascript", "ReactJs", "Tailwind CSS", "MongoDB", "ExpressJS"],
+  "social": {
+    "GitHub": "https://github.com/aniimessh",
+    "Twitter": "https://twitter.com/aniimessh_1209",
+    "LinkedIn": "https://www.linkedin.com/in/aniimessh-gupta/"
+  }
+}

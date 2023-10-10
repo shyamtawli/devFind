@@ -7,7 +7,7 @@
 
 .error-page-content {
   text-align: center;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .error-page-content h1 {
