@@ -1,0 +1,13 @@
+{
+  "name": "Bilal Mirza",
+  "location": "India",
+  "bio": "Frontend developer working with Reactjs Typescript & AI/ML :) . Looking for good remote roles. Lets talk!",
+  "avatar": "https://avatars.githubusercontent.com/u/84387676?v=4",
+  "portfolio": "https://github.com/bilalmirza74",
+  "skills": ["Reactjs", "Typescript", "JavaScript", "HTML/CSS", "SCSS", "JSS", "Tailwind CSS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/bilalmirza74",
+    "Twitter": "https://twitter.com/BilalMi33913430",
+    "LinkedIn": "https://in.linkedin.com/"
+  }
+}
