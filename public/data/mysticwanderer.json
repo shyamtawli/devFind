@@ -1,0 +1,11 @@
+{
+  "name": "Shubham",
+  "location": "Delhi, India",
+  "bio": "I am a final Year  student who is pursuing Btech in Computer Engineering Branch",
+  "avatar": "https://github.com/mysticwanderer142.png",
+  "portfolio": "https://github.com/mysticwanderer142",
+  "skills": ["Web Developement", "Open Source", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/mysticwanderer142",
+  }
+}
