@@ -1,0 +1,13 @@
+{
+  "name": "Aditya Garg",
+  "location": "Ghaziabad, Uttar Pradesh, India",
+  "bio": "I'm a software engineer interested in front-end with a zeal to learn and develop projects using modern technonlogy.",
+  "avatar": "https://avatars.githubusercontent.com/u/110886184?v=4",
+  "portfolio": "https://github.com/aditya7302",
+  "skills": ["HTML", "CSS", "Tailwind CSS", "SCSS", "JavaScript", "TypeScript", "ReactJS", "NextJS", "React-Redux"],
+  "social": {
+    "GitHub": "https://github.com/aditya7302",
+    "Twitter": "",
+    "LinkedIn": ""
+  }
+}
