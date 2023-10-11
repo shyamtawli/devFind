@@ -1,0 +1,12 @@
+{
+  "name": "Nirajkumar Patel",
+  "location": "Rajasthan, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://avatars.githubusercontent.com/u/128296263?s=400&v=4",
+  "portfolio": "https://github.com/btrezzy",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Bootstrap", "Java", "DSA", "Git/GitHub"],
+  "social": {
+    "GitHub": "https://github.com/btrezzy",
+    "LinkedIn": "https://www.linkedin.com/in/niraj-patel-a23987247/"
+  }
+}
