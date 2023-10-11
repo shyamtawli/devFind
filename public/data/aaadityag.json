@@ -1,0 +1,13 @@
+{
+    "name": "Aditya Gaikwad",
+    "location": "Pune, Maharashtra",
+    "bio": "Hii I am Fullstack developer.",
+    "avatar": "https://github.com/<your-github-username>.png",
+    "portfolio": "https://github.com/aaadityaG",
+    "skills": ["HTML5", "CSS3", "JS", "ReactJs"],
+    "social": {
+      "GitHub": "https://github.com/aaadityag",
+      "Twitter": "https://twitter.com/DEV-ADITYAG",
+      "LinkedIn": "https://www.linkedin.com/in/aditya--gaikwad"
+    }
+  }
