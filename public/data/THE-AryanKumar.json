@@ -1,0 +1,28 @@
+{
+  "name": "Aryan Kumar",
+  "location": "Patna",
+  "bio": "I am Full Stack developer and competitive programmer. Small secret, i'm memes developer too. Love to binge watch web series and anime",
+  "avatar": "https://github.com/THE-AryanKumar.png",
+  "portfolio": "https://github.com/THE-AryanKumar",
+  "skills": [
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
+    "ExpressJS",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "FireBase",
+    "MongoDB",
+    "REST API",
+    "Git/Github",
+    "Bootstrap",
+    "Tailwind",
+    "C++"
+  ],
+  "social": {
+    "GitHub": "https://github.com/THE-AryanKumar",
+    "Twitter": "https://twitter.com/The_AryanKr",
+    "LinkedIn": "https://www.linkedin.com/in/aryankumar11ak/"
+  }
+}
