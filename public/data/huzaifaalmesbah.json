@@ -1,0 +1,15 @@
+{
+    "name": "Huzaifa Al Mesbah",
+    "location": "Bangladesh",
+    "bio": "Hello! I’m Huzaifa Al Mesbah, and I work as a WordPress Developer. I love what I do, and I’m always learning and growing to stay on top of the latest trends in web development.",
+    "avatar": "https://github.com/huzaifaalmesbah.png",
+    "portfolio": "https://huzaifa.im",
+    "skills": ["WordPress", "Elementor", "JavaScript", "PHP", "HTML5", "CSS3", "Bootstrap"],
+    "social": {
+      "GitHub": "https://github.com/huzaifaalmesbah",
+      "Wordpress": "https://profiles.wordpress.org/huzaifaalmesbah",
+      "Twitter": "https://twitter.com/huzaifav2",
+      "LinkedIn": "https://www.linkedin.com/in/huzaifaalmesbah"
+    }
+  }
+  
