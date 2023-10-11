@@ -1,0 +1,14 @@
+{
+  "name": "Digvijay Singh",
+  "location": "New Delhi, India",
+  "bio": "Hello there,I am Digvijay Singh, a Cybersecurity undergrad student.",
+  "avatar": "https://github.com/digvijaysinghh.png",
+  "portfolio": "https://github.com/digvijaysinghh",
+  "skills": ["Cybersecurity", "Open Source", "Git", "C/C++", "Linux", "Penetration-Testing"],
+  "social": {
+    "GitHub": "https://github.com/digvijaysinghh",
+    "Twitter": "https://twitter.com/digvijaysinghhh",
+    "LinkedIn": "https://www.linkedin.com/in/digvijaysinghh/",
+    "BioDrop": "https://www.biodrop.io/digvijaysinghh"
+  }
+}

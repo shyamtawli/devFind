@@ -19,7 +19,6 @@ function App() {
   const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
-
   useEffect(() => {
     const fetchData = async (file) => {
       try {
