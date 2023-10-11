@@ -1,0 +1,11 @@
+{
+  "name": "Priyanshu Varshney",
+  "location": "India",
+  "bio": "A Web Programmer",
+  "skills": ["Html", "CSS", "javaScript", "React", "Python", "Django"],
+  "social": {
+    "GitHub": "https://github.com/harshhere905",
+    "Twitter": "https://twitter.com/@Priyanshu905",
+    "LinkedIn": "https://www.linkedin.com/in/priyanshu-varshney"
+  }
+}
