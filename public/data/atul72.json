@@ -1,0 +1,12 @@
+{
+    "name": "Atul Rai",
+    "location": "Jhansi India",
+    "bio": "MERN stack developer, I enjoy coding in general. Currently learning security field",
+    "avatar": "https://github.com/Atul72.png",
+    "portfolio": "https://github.com/Atul72",
+    "skills": ["JavaScript", "Express.js", "MongoDB", "NodeJS", "React"],
+    "social": {
+      "GitHub": "https://github.com/Atul72"
+    }
+  }
+  
