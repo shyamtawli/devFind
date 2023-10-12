@@ -72,7 +72,7 @@ function Profile({ data }) {
               </li>
               <li>
                 <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+                  <img src="https://edent.github.io/SuperTinyIcons/images/svg/x.svg" alt="X">
                 </a>
               </li>
               <li>
