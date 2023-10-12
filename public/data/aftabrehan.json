@@ -1,0 +1,13 @@
+{
+  "name": "Aftab Rehan",
+  "location": "Multan, Pakistan",
+  "bio": "Passionate about pixels | Building web experiences that inspire 🚀 | Contributing to opensource",
+  "avatar": "https://github.com/aftabrehan.png",
+  "portfolio": "https://aftabrehan.com",
+  "skills": ["JavaScript", "React", "Next.js", "Tailwind", "Sass", "UI/UX"],
+  "social": {
+    "GitHub": "https://github.com/aftabrehan",
+    "Twitter": "https://twitter.com/aftabrehan_",
+    "LinkedIn": "https://www.linkedin.com/in/aftabrehan"
+  }
+}
