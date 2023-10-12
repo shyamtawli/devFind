@@ -3,3 +3,20 @@
     margin-left: 0px;
   }
 }
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  background:  inherit;
+}
+body::-webkit-scrollbar-track:hover {
+  background:  #213155;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(#2E4374 ,#176B87,#64CCC5);
+height: 30vh;
+}
+
