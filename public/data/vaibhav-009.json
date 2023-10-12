@@ -1,0 +1,13 @@
+{
+  "name": "Vaibhav",
+  "location": "Delhi, India",
+  "bio": "I am a senior year student pursuing btech in CSE. I am a full stack developer with experience in MERN stack.",
+  "avatar": "https://github.com/vaibhav-009.png",
+  "portfolio": "https://github.com/vaibhav-009",
+  "skills": ["Data structures", "Java", "C++", "Javascript", "React", "Angular", "Node", "MongoDB", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/vaibhav-009",
+    "Twitter": "https://twitter.com/Vaibhavk69p",
+    "LinkedIn": "https://www.linkedin.com/in/vaibhav-84120122a/"
+  }
+}
