@@ -4,9 +4,16 @@
   margin-left: 20rem;
   padding: 0rem 1.5rem;
 }
+.profile-card:hover {
+ background-color: inherit;
+ transition: 200ms;
+ opacity: 1;
+
+}
 
 .profile-card {
   border-radius: 10px;
+  opacity: 0.6;
   background: var(--secondary-color);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem 0rem 1rem;
