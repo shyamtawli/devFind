@@ -1,0 +1,12 @@
+{
+  "name": "Siddhi Shah",
+  "location": "Mumbai, India",
+  "bio": "I've pursued programming as a hobby for most of my life, I am currently in my third year.",
+  "avatar": "https://avatars.githubusercontent.com/u/117711125?s=400&v=44",
+  "portfolio": "https://github.com/siddhishah109",
+  "skills": ["JavaScript/TypeScript", "HTML/CSS", "Node.js", "Express.js", "React.js", "Angular"],
+  "social": {
+    "GitHub": "https://github.com/siddhishah109",
+    "LinkedIn": "https://www.linkedin.com/in/siddhi-shah-1148a824b/"
+  }
+}
