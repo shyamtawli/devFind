@@ -89,6 +89,7 @@
   border: solid 2px var(--border-color);
   background-color: var(--secondary-color);
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .theme-button:hover {
