@@ -7,13 +7,16 @@
 .profile-card:hover {
  background-color: inherit;
  transition: 200ms;
- opacity: 1;
+ transform: translate(2px , -2px);
+ box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.4);
 
 }
 
 .profile-card {
   border-radius: 10px;
-  opacity: 0.6;
+  opacity: 1;
   background: var(--secondary-color);
   margin-bottom: 1.5rem;
   padding: 1rem 1rem 0rem 1rem;
