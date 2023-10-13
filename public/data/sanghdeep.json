@@ -1,0 +1,13 @@
+{
+  "name": "Sanghdeep Ganvir ",
+  "location": "Nagpur, India",
+  "bio": "Aspiring Web Developer and Software Developer",
+  "avatar": "https://github.com/sangdeepganvir.png",
+  "portfolio": "https://portfoliosg.pages.dev/",
+  "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/sangdeepganvir",
+    "Twitter": "https://twitter.com/sangdeepganvir",
+    "LinkedIn": "https://linkedin.com/in/sanghdeep-ganvir-b2016a173"
+  }
+}
