@@ -9,7 +9,9 @@ const doesMatchExists = ({ searchKeyword, attribute }) => {
 };
 
 const doMatchingSkillsExist = ({ searchKeywords, skills }) => {
-  return searchKeywords.every((keyword) => skills.some((skill) => sanitizeString(skill) === keyword));
+  return searchKeywords.every((keyword) =>
+    skills.some((skill) => sanitizeString(skill).includes(keyword) || keyword.includes(sanitizeString(skill))),
+  );
 };
 
 const getSearchResult = ({ searchValue, combinedData }) => {

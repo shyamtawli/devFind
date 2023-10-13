@@ -12,7 +12,10 @@ const sanitizedSearchValue = (searchValue) => {
 };
 
 const getSearchKeywords = (searchValue) => {
-  return sanitizedSearchValue(searchValue).split(', ').filter(Boolean);
+  return sanitizedSearchValue(searchValue)
+    .split(', ')
+    .map((keyword) => keyword.trim())
+    .filter(Boolean);
 };
 
 export default getSearchKeywords;
