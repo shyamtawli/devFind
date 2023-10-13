@@ -40,16 +40,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-/* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #00a6fb;
   border-radius: 2px;
 }
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #00a7fb71;
 }
