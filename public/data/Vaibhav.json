@@ -1,0 +1,23 @@
+{
+    "name": "Vaibhav",
+    "location": "Ahmednager, India",
+    "bio": "I am A BSC(Comp.Sci)Student.I am a Frontend Web Developer.",
+    "avatar": "https://github.com/vaibhav3022/vaibhav.png",
+    "portfolio": "https://github.com/vaibhav3022",
+    "skills": ["HTML",
+               "CSS",
+               "Bootstrap",
+               "Javascript", 
+               "React",
+               "SQL",
+               "Java",
+               "PHP",
+               "Python",
+               "c"],
+    "social": {
+      "GitHub": "https://github.com/vaibhav3022",
+      "Twitter": "https://twitter.com/Vaibhav53044941",
+      "LinkedIn": "https://www.linkedin.com/in/vaibhav-dhotre-96b83a224/"
+    }
+  }
+  
