@@ -2,6 +2,24 @@
 <h1>👩‍💻 devFind - Discover and Connect with Skilled Developers!</h1>
 </div>
 
+<p align="center">
+   <a href="https://github.com/shyamtawli/devFind/blob/master/LICENSE" target="blank">
+   <img src="https://img.shields.io/github/license/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="License" />
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/fork" target="blank">
+   <img src="https://img.shields.io/github/forks/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="Forks"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/stargazers" target="blank">
+   <img src="https://img.shields.io/github/stars/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="Star"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/issues" target="blank">
+   <img src="https://img.shields.io/github/issues/shyamtawli/devFind.svg?style=for-the-badge&logo=appveyor" alt="Click Vote Issue"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/pulls" target="blank">
+   <img src="https://img.shields.io/github/issues-pr/shyamtawli/devFind.svg?style=for-the-badge&logo=appveyor" alt="Click Vote Open Pull Request"/>
+   </a>
+</p>
+
 ## About 🚀
 - devFind - [Website](https://dev-find.vercel.app/)
 - **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
