@@ -1,0 +1,29 @@
+{
+  "name": "Ashish Bhardwaj",
+  "location": "Barauni",
+  "bio": "I am a passionate full stack developer with a knack of problem-solving and a love for coding. ",
+  "avatar": "https://github.com/ashish5433.png",
+  "portfolio": "https://github.com/ashish5433",
+  "skills": [
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
+    "ExpressJS",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "FireBase",
+    "MongoDB",
+    "REST API",
+    "Git/Github",
+    "Bootstrap",
+    "Python",
+
+    "C++"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ashish5433",
+    "Twitter": "https://twitter.com/ashishs9a8",
+    "LinkedIn": "https://www.linkedin.com/in/ashish-bhardwaj-98b961231/"
+  }
+}
