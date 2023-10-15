@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 function Profile({ data }) {
-  return (
-    <div className="profile-container">
-      <Card data={data} />
-    </div>
-  );
+    return (
+      <div className="profile-container">
+        <Card data={data} />
+      </div>
+     );
 
   function Card({ data }) {
     const cardRef = React.useRef();

@@ -15,7 +15,8 @@ function App() {
   const [combinedData, setCombinedData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
-  const recordsPerPage = 20;
+  // const [results, setResults]=useState();
+  const recordsPerPage = 2;
 
   const currentUrl = window.location.pathname;
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       try {
         const response = await fetch(file);
         const data = await response.json();
+        
         return data;
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -36,6 +38,7 @@ function App() {
         const combinedData = await Promise.all(promises);
         setCombinedData(combinedData);
         setShuffledProfiles(shuffleProfiles(combinedData));
+        setProfiles(combinedData)
       } catch (error) {
         console.error('Error combining data:', error);
         setCombinedData([]);
@@ -98,9 +101,10 @@ function App() {
     const endIndex = startIndex + recordsPerPage;
     return data.slice(startIndex, endIndex);
   };
-
+  
   const renderProfiles = () => {
     const paginatedData = getPaginatedData();
+    // setResults(paginatedData.length);
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
@@ -111,6 +115,7 @@ function App() {
       {currentUrl === '/' ? (
         <>
           {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+          <div style={{"text-align":"right", "margin-right":"2rem"}}>Total Results: {profiles.length}</div>
           <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
