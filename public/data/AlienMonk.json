@@ -1,0 +1,13 @@
+{
+  "name": "Mahesh",
+  "location": "Delhi, India",
+  "bio": "I a full stack developer and love to create new projects",
+  "avatar": "https://github.com/AlienMonk.png",
+  "portfolio": "https://github.com/AlienMonk",
+  "skills": ["html", "css", "javascript", "react.js", "node.js"],
+  "social": {
+    "GitHub": "https://github.com/AlienMonk",
+    "Twitter": "https://twitter.com/mklamba2001",
+    "LinkedIn": "https://www.linkedin.com/in/mahesh-lamba-27a34a20a/"
+  }
+}
