@@ -20,11 +20,19 @@ function Sidebar() {
         </a>
         <div className="theme">
           <button type="button" className="theme-button" onClick={toogleTheme}>
-            {theme === 'light' ? (
-              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
-            ) : (
-              <FontAwesomeIcon icon={faSun} fontSize="1rem" />
-            )}
+            <FontAwesomeIcon
+              icon={faMoon}
+              fontSize="1rem"
+              className="theme-button-icon icon-moon"
+              style={{ visibility: theme === 'light' ? 'hidden' : 'visible' }}
+            />
+
+            <FontAwesomeIcon
+              icon={faSun}
+              fontSize="1rem"
+              className="theme-button-icon icon-sun"
+              style={{ display: theme === 'dark' ? 'none' : 'block' }}
+            />
           </button>
         </div>
       </div>
