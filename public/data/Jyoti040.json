@@ -1,0 +1,12 @@
+{
+  "name": "Jyoti",
+  "location": "India",
+  "bio": "I'm aspiring software engineer and a web developer ",
+  "avatar": "https://github.com/<your-github-username>.png",
+  "portfolio": "https://github.com/Jyoti040",
+  "skills":["HTML", "CSS", "Javascript","C++"],
+  "social": {
+    "GitHub": "https://github.com/Jyoti040",
+
+  }
+}
