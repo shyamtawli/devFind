@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Profile from './components/Profile/Profile';
+import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
 import Sidebar from './components/Sidebar/Sidebar';
 import ErrorPage from './components/ErrorPage/ErrorPage';
@@ -15,6 +16,7 @@ function App() {
   const [combinedData, setCombinedData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
+  const [loadingProfiles, setLoadingProfiles] = useState(false);
   const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
@@ -31,6 +33,7 @@ function App() {
     };
 
     const combineData = async () => {
+      setLoadingProfiles(true);
       try {
         const promises = filenames.map((file) => fetchData(`/data/${file}`));
         const combinedData = await Promise.all(promises);
@@ -41,6 +44,7 @@ function App() {
         setCombinedData([]);
         setShuffledProfiles([]);
       }
+      setLoadingProfiles(false);
     };
 
     combineData();
@@ -100,6 +104,9 @@ function App() {
   };
 
   const renderProfiles = () => {
+    if(loadingProfiles) {
+      return <>{ Array(5).fill('profile-skeleton').map((item, index) => <ProfileSkeleton key={index} />) }</>;    
+    }
     const paginatedData = getPaginatedData();
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
