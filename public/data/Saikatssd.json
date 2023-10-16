@@ -1,0 +1,24 @@
+{
+  "name": "Saikat Sundar Das",
+  "location": "Kolkata",
+  "bio": "Web Developer | Mern Stack Developer | Web Lead GDSC | Hactoberfest2022 | HackSquad2022 | Open Source Enthusiast",
+  "avatar": "https://github.com/Saikatssd.png",
+  "portfolio": "https://saikatssd.github.io/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "Express.js",
+    "MongoDB",
+    "Nodejs",
+    "ReactJS",
+    "NextJS",
+    "React-Redux"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Saikatssd",
+    "Twitter": "https://twitter.com/sundar_saikat",
+    "LinkedIn": "https://www.linkedin.com/in/saikat-sundar-das/"
+  }
+}
