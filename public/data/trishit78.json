@@ -4,8 +4,7 @@
     "bio": "I'm a highly motivated Front-End Developer with a passion for crafting exceptional user experiences and contributing to open source projects.",
     "avatar": "https://avatars.githubusercontent.com/u/90523629?s=400&u=d08fbc32e6698d7e452bdcbad2a2c6a10910a466&v=4",
     "portfolio": "https://github.com/trishit78",
-    "skills": ["ReactJs", "C++", "Typescript","CSS",
-    "HTML",
+    "skills": ["ReactJs", "C++", "Typescript","CSS","HTML",
     "REST APIs",
     "Git",
     "Github",
@@ -13,7 +12,6 @@
     "Photoshop",
     "Figma"
 ],
-
     "social": {
       "GitHub": "https://github.com/trishit78",
       "Twitter": "https://twitter.com/trishit_bhowmik",
