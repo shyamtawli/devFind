@@ -3,6 +3,7 @@
 </div>
 
 ## About 🚀
+
 - devFind - [Website](https://dev-find.vercel.app/)
 - **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
 - With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
