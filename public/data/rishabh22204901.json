@@ -1,0 +1,13 @@
+{
+  "name": "Rishabh Kumar",
+  "location": "Patna, India",
+  "bio": "A full stack Web developer, currently pursuing my bachelor's degree",
+  "avatar": "https://github.com/rishabh22204901.png",
+  "portfolio": "https://github.com/rishabh22204901",
+  "skills": ["HTML", "CSS", "Tailwind", "SCSS", "JavaScript", "ReactJS"],
+  "social": {
+    "GitHub": "https://github.com/rishabh22204901",
+    "Twitter": "https://twitter.com/rishabh22204901",
+    "LinkedIn": "https://www.linkedin.com/in/rishabh-kumar-952152275/"
+  }
+}
