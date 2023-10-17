@@ -1,0 +1,13 @@
+{
+    "name": "Bratajit Das",
+    "location": "West Bengal, India",
+    "bio": "CSE Undergrad",
+    "portfolio": "https://github.com/bratajit-03",
+    "skills": ["Python", "JavaScript", "ML", "Linux"],
+    "social": {
+      "GitHub": "https://github.com/bratajit-03",
+      "Twitter": "https://twitter.com/bratajit",
+      "LinkedIn": "https://www.linkedin.com/in/bratajit"
+    }
+  }
+  
