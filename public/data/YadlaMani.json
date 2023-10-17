@@ -1,0 +1,13 @@
+{
+  "name": "Mani Yadla",
+  "location": "Hyderabad",
+  "bio": "I am currently pursuing B.Tech in CVR College of Engineering. Technology excites me and I am always in awe of the change it drives in the world. Certain skills that I have worked with include Data Structures and Algorithms (C++), Web Development (HTML, CSS) & Linux OS. And what I might lack in skills I make up for with my determination to learn. I am passionate about problem-solving and enjoy participating in competitive programming contests.",
+  "avatar": "https://github.com/YadlaMani.png",
+  "portfolio": "https://github.com/YadlaMani",
+  "skills": ["Full stack Web Development", "DSA", "MERN Stack"],
+  "social": {
+    "GitHub": "https://github.com/YadlaMani",
+    "Twitter": "https://twitter.com/mani_yadla",
+    "LinkedIn": "https://www.linkedin.com/in/yadla-mani"
+  }
+}
