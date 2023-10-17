@@ -3,3 +3,18 @@
     margin-left: 0px;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(20, 29, 47, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 58, 88);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+}
