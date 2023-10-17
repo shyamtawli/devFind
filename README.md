@@ -3,6 +3,7 @@
 </div>
 
 ## About 🚀
+
 - devFind - [Website](https://dev-find.vercel.app/)
 - **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
 - With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
@@ -114,6 +115,20 @@ Contributions make the open source community such an amazing place to learn, ins
 <a href="https://github.com/shyamtawli/devFind/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=shyamtawli/devFind" />
 </a>
+
+## License
+
+<table>
+  <tr>
+     <td>
+       <p align="center"> <img src="https://github.com/malivinayak/malivinayak/blob/main/LICENSE-Logo/MIT.png?raw=true" width="80%"></img>
+    </td>
+    <td> 
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/> <br> 
+This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
+    </td>
+  </tr>
+</table>
 
 ## Support 🙏
 
