@@ -1,0 +1,13 @@
+{
+  "name": "Your Name",
+  "location": "Your Location",
+  "bio": "Your Bio should be 20-30 words not more then that",
+  "avatar": "https://github.com/Atharv0003.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Your Skill 1", "Your Skill 2", "..."],
+  "social": {
+    "GitHub": "https://github.com/Atharv0003",
+    "Twitter": "https://twitter.com/AtharvC85960764",
+    "LinkedIn": "https://www.linkedin.com/in/Atharv Chavan"
+  }
+}
