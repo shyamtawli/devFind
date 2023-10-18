@@ -1,0 +1,25 @@
+{
+  "name": "Nishant Sapkota",
+  "location": "Damak, Nepal",
+  "bio": "Hello, I'm Nishant, an aspiring full stack developer with roots in Python and TypeScript",
+  "avatar": "https://avatars.githubusercontent.com/u/60746512?v=4",
+  "portfolio": "https://snishant.com.np",
+  "skills": [
+    "Python",
+    "TypeScript",
+    "Flutter",
+    "AWS",
+    "JavaScript",
+    "Docker",
+    "NestJS",
+    "express",
+    "Postgresql",
+    "MySQL",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/thenishantsapkota",
+    "Twitter": "https://twitter.com/snishant306",
+    "LinkedIn": "https://linkedin.com/in/thenishanttsapkota"
+  }
+}
