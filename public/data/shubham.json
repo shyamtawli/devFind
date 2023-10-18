@@ -1,0 +1,13 @@
+{
+    "name": "Shubham",
+    "location": "Ranchi,India",
+    "bio": "I'm a FrontEnd Developer with expertise in Vanilla JS,React,HTML,CSS",
+    "avatar": "https://github.com/",
+    "portfolio": "https://shubham1450.netlify.app/",
+    "skills": ["React", "JS", "HTML","Node","C++],
+    "social": {
+      "GitHub": "https://github.com/Shubham1450",
+      "Twitter": "https://twitter.com/Shubham65370758",
+      "LinkedIn": "https://www.linkedin.com/in/"
+    }
+  }
