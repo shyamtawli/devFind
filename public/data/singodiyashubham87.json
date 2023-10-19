@@ -1,0 +1,13 @@
+{
+  "name": "Shubham Singodiya",
+  "location": "Alwar, Rajasthan",
+  "bio": "Full Stack React Developer and Open Source Enthusiast",
+  "avatar": "https://github.com/singodiyashubham87.png",
+  "portfolio": "https://singodiyashubham87.github.io/Personal-Website/",
+  "skills": ["ReactJS", "JavaScript", "HTML", "CSS", "Git", "Github", "NodeJS", "ExpressJS", "Postman"],
+  "social": {
+    "GitHub": "https://github.com/singodiyashubham87",
+    "Twitter": "https://twitter.com/_master_mickey",
+    "LinkedIn": "https://www.linkedin.com/in/singodiyashubham87"
+  }
+}
