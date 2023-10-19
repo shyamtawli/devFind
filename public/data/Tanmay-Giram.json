@@ -1,0 +1,13 @@
+{
+  "name": "Tanmay Giram",
+  "location": "Mumbai",
+  "bio": "Passionate Web DEveloper .I have experience in developing both Frontend and Backend Applications.I also love Machine Learning & Artificial Intelligence. At first i tried App Dev , but i didn't liked it .",
+  "avatar": "https://github.com/Tanmay-Giram.png",
+  "portfolio": "https://github.com/Tanmay-Giram",
+  "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Tanmay-Giram",
+    "Twitter": "https://twitter.com/ozix6_tanmay",
+    "LinkedIn": "https://www.linkedin.com/in/tanmay-giram/"
+  }
+}
