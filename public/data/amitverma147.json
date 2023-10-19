@@ -1,0 +1,13 @@
+{
+  "name": "Amit verma",
+  "location": "Delhi",
+  "bio": "Tech lover, memes are life.",
+  "avatar": "https://github.com/amitverma147.png",
+  "portfolio": "https://github.com/amitverma147",
+  "skills": ["Web Developer", "design", "..."],
+  "social": {
+    "GitHub": "https://github.com/amitverma147",
+    "Twitter": "https://twitter.com/amit_v6",
+    "LinkedIn": "https://www.linkedin.com/in/amit-verma-883150109"
+  }
+}
