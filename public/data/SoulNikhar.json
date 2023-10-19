@@ -1,10 +1,10 @@
 {
     "name": "Nikhar Behera",
     "location": "Odisha, India",
-    "bio": "Your Bio should be 20-30 words not more then that",
+    "bio": "I'm a full-stack developer specializing in the MERN stack, with experience in building scalable and efficient web applications. I have a keen interest in cloud computing.",
     "avatar": "https://github.com/SoulNikhar.png",
     "portfolio": "https://github.com/SoulNikhar",
-    "skills": ["Your Skill 1", "Your Skill 2", "..."],
+    "skills": [ "Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
     "social": {
       "GitHub": "https://github.com/SoulNikhar",
       "Twitter": "https://twitter.com/Hydraso51942691",
