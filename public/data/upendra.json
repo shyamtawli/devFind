@@ -1,0 +1,13 @@
+{
+  "name": "Upendra",
+  "location": "India",
+  "bio": "A passionate web developer and graphic designer!",
+  "avatar": "https://github.com/Upendra2003.png",
+  "portfolio": "https://upendra-portfolio.netlify.app/",
+  "skills": ["Python", "Django", "React"],
+  "social": {
+    "GitHub": "https://github.com/Upendra2003",
+    "Twitter": "https://www.linkedin.com/in/karimi-upendra-b56b81262/",
+    "LinkedIn": "https://www.instagram.com/upendra.10/"
+  }
+}
