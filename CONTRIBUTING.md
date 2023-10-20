@@ -18,6 +18,7 @@ To install `pnpm` use this command.
 
 Navigate to the project folder on your terminal and install the dependencies using:
 
+    cd devFind
     pnpm install
 
 ## **Run the application**

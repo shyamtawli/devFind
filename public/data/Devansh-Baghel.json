@@ -1,0 +1,13 @@
+{
+  "name": "Devansh Baghel",
+  "location": "Noida, India",
+  "bio": "CS student at NIET, working and exploring the JavaScript ecosystem",
+  "avatar": "https://github.com/Devansh-Baghel.png",
+  "portfolio": "https://github.com/Devansh-Baghel",
+  "skills": ["React", "JavaScript", "Tailwind", "NodeJS", "Linux"],
+  "social": {
+    "GitHub": "https://github.com/Devansh-Baghel",
+    "Twitter": "https://twitter.com/DevanshBaghel5",
+    "LinkedIn": "https://www.linkedin.com/in/devanshbaghel"
+  }
+}
