@@ -86,6 +86,10 @@
   color: #00a6fb;
 }
 
+.profile-link a:hover {
+  text-decoration: underline;
+}
+
 .profile-link-disabled a {
   text-decoration: none;
   color: #00a6fb;
