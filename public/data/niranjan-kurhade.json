@@ -1,0 +1,27 @@
+{
+  "name": "Niranjan Kurhade",
+  "location": "Mumbai",
+  "bio": "Open Source Enthusiast, MERN Stack Developer",
+  "avatar": "https://github.com/niranjan-kurhade.png",
+  "portfolio": "https://github.com/niranjan-kurhade",
+  "skills": [
+    "MERN Stack",
+    "JavaScript",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+    "MySQL",
+    "Tailwind",
+    "Bootstrap",
+    "Git/Github",
+    "HTML",
+    "CSS",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/niranjan-kurhade",
+    "Twitter": "https://twitter.com/niranjandk03",
+    "LinkedIn": "https://www.linkedin.com/in/niranjankurhade"
+  }
+}
