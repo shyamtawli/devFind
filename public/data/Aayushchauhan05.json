@@ -1,0 +1,13 @@
+{
+    "name": "Aayush chauhan",
+    "location": "noida",
+    "bio": "i am an web developer",
+    "avatar": "https://github.com/Aayushchauhan05.png",
+    "portfolio": "",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Bootstrap"],
+    "social": {
+      "GitHub": "https://github.com/Aayushchauhan05",
+      "Twitter": "https://twitter.com/<twitter-username>",
+      "LinkedIn": "https://www.linkedin.com/in/aayush-chauhan-9b8182238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+  }
