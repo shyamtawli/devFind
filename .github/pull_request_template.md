@@ -1,14 +1,14 @@
 ## Description
 
-[Include a brief description of the changes you've made]
+<!--- Include a brief description of the changes you've made --->
 
 ## Related Issues
 
-[Include any related issues or pull requests that this PR addresses or is related to. Use GitHub's shorthand syntax to link to them, like #1234.]
+<!--- Include any related issues or pull requests that this PR addresses or is related to. Use GitHub's shorthand syntax to link to them, like #1234. --->
 
 ## Changes Proposed
 
-[Describe the changes you've made in detail. Be specific and include any relevant code snippets.]
+<!--- Describe the changes you've made in detail. Be specific and include any relevant code snippets. --->
 
 ## Checklist
 
