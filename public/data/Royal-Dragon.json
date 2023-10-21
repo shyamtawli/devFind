@@ -1,0 +1,13 @@
+{
+  "name": "Abhiram Royals",
+  "location": "INDIA",
+  "bio": "I am a young tech inthusiast and a video editor ",
+  "avatar": "https://github.com/Royal-Dragon.png",
+  "portfolio": "https://royal-dragon.github.io/My-Portfolio/",
+  "skills": ["full stack dev", "film making", "Graphic designing"],
+  "social": {
+    "GitHub": "https://github.com/Royal-Dragon",
+    "Twitter": "https://twitter.com/royal-004",
+    "LinkedIn": "https://www.linkedin.com/in/abhiramroyals"
+  }
+}
