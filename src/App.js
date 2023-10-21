@@ -104,8 +104,16 @@ function App() {
   };
 
   const renderProfiles = () => {
-    if(loadingProfiles) {
-      return <>{ Array(5).fill('profile-skeleton').map((item, index) => <ProfileSkeleton key={index} />) }</>;    
+    if (loadingProfiles) {
+      return (
+        <>
+          {Array(5)
+            .fill('profile-skeleton')
+            .map((item, index) => (
+              <ProfileSkeleton key={index} />
+            ))}
+        </>
+      );
     }
     const paginatedData = getPaginatedData();
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
