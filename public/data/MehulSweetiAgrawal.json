@@ -1,0 +1,12 @@
+{
+  "name": "Mehul Sweeti Agrawal",
+  "location": "India",
+  "bio": "I like learning new technologies and programming languages.",
+  "avatar": "https://github.com/MehulSweetiAgrawal.png",
+  "portfolio": "https://github.com/MehulSweetiAgrawal",
+  "skills": ["Full Stack Web Development", "ML", "BlockChain"],
+  "social": {
+    "GitHub": "https://github.com/MehulSweetiAgrawal",
+    "LinkedIn": "https://www.linkedin.com/in/mehul-sweeti-agrawal-3a7ba6220"
+  }
+}
