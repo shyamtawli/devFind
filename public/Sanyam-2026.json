@@ -1,0 +1,13 @@
+{
+  "name": "Sanyam Jain",
+  "location": "Indore India",
+  "bio": "Pre Final year Btech student , Aspiring to get job in CLoud Role",
+  "avatar": "https://github.com/Sanyam-2026.png",
+  "portfolio": "https://github.com/Sanyam-2026",
+  "skills": ["Google Cloud Platform", "Docker", "C++"],
+  "social": {
+    "GitHub": "https://github.com/Sanyam-2026",
+    "Twitter": "https://twitter.com/IasSanyamJain",
+    "LinkedIn": "https://www.linkedin.com/in/sanyam-jain-874892201/"
+  }
+}
