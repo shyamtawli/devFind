@@ -1,0 +1,61 @@
+/* Footer styling */
+footer {
+  background-color: #7ccef7; /* Background color for the footer */
+  color: #fff; /* Text color */
+  text-align: center; /* Center-align the text */
+  padding: 20px 0; /* Padding for top and bottom */
+}
+
+.footer-content {
+  font-size: 18px;
+}
+
+/* Style the copyright symbol */
+p::before {
+  content: '\00a9'; /* Unicode character for the copyright symbol */
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Style the link color (if needed) */
+a {
+  color: black; /* Link color in the footer */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Define the default style for the GitHub icon */
+.github-icon {
+  transition: color 0.3s;
+  font-size: 25px;
+  padding: 5px;
+  /* Smooth transition effect for the color change */
+}
+
+/* Add the hover effect to change the color on hover */
+.github-icon:hover {
+  color: #4078c0;
+  transform: scale(10.5rem);
+  -ms-transform: scale(0.5);
+  /* Change the color to your desired hover color */
+}
+
+/* Center-align the title */
+.title {
+  display: flex;
+  font-weight: bold;
+  font-size: 2rem;
+  justify-content: center; /* Center-align the title horizontally */
+  align-items: center; /* Center-align the title vertically */
+}
+
+.title .dev {
+  color: var(--text-color);
+}
+
+.title .find {
+  color: #00a6fb;
+}
+
+.titlelink {
+  text-decoration: none;
+}

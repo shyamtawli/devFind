@@ -9,6 +9,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -136,6 +137,7 @@ function App() {
       ) : (
         <ErrorPage />
       )}
+      <Footer />
     </div>
   );
 }
