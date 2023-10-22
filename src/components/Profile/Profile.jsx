@@ -2,6 +2,7 @@ import React from 'react';
 import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { RiTwitterXLine } from 'react-icons/ri';
 
 function Profile({ data }) {
   return (
@@ -72,7 +73,10 @@ function Profile({ data }) {
               </li>
               <li>
                 <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                  <i className="fa fa-twitter"></i>
+                  <i>
+                    <RiTwitterXLine className="fa fa-twitter" />
+                  </i>
+                  {/* fa fa-twitter */}
                 </a>
               </li>
               <li>
