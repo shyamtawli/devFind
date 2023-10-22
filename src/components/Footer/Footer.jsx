@@ -13,7 +13,7 @@ function Footer() {
           devFind <br />
           {currentYear} All Rights Reserved.
           <br />
-          <a href="https://github.com/yourusername" target="_blank">
+          <a href="https://github.com/shyamtawli/devFind" target="_blank">
             <FontAwesomeIcon className="github-icon" icon={faGithub} />
           </a>
         </p>
