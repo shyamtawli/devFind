@@ -1,0 +1,14 @@
+{
+    "name": "Trishit Bhowmik",
+    "location": "Kolkata, India",
+    "bio": "I'm Trishit, currently pursuing b.tech from AOT in CSE branch.",
+    "avatar": "https://github.com/trishit78.png",
+    "portfolio": "https://github.com/trishit78",
+    "skills": ["HTML", "CSS", "Javascript", "React", "Firebase", "Supabase", "React Query", "Redux", "TailwindCss"],
+    "social": {
+      "GitHub": "https://github.com/trishit78",
+      "Twitter": "https://twitter.com/trishit_bhowmik",
+      "LinkedIn": "https://www.linkedin.com/in/trishit-bhowmik-a0117421b/"
+    }
+  }
+  
