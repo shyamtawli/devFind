@@ -1,0 +1,28 @@
+{
+  "name": "Saket Gupta",
+  "location": "Gujarat, India 🇮🇳",
+  "bio": "A developer passionate about building systems for the web 🌐 and also develop games 🎮 in my free time.",
+  "portfolio": "https://github.com/saket0x07",
+  "skills": [
+    "C#",
+    "Javascript",
+    "Typescript",
+    "Asp.Net Core",
+    "React",
+    "Next.Js",
+    "Unity",
+    "ServiceNow",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/saket0x07",
+    "Twitter": "https://twitter.com/saketgupta/",
+    "LinkedIn": "https://linkedin.com/in/saket0x07/"
+  }
+}
