@@ -1,0 +1,14 @@
+{
+    "name": "Trishit Bhowmik",
+    "location": "Kolkata",
+    "bio": "Passionate Web DEveloper .I have experience in developing both Frontend and Backend Applications.I also love Machine Learning & Artificial Intelligence. At first i tried App Dev , but i didn't liked it .",
+    "avatar": "https://github.com/trishit78.png",
+    "portfolio": "https://github.com/trishit78",
+    "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+    "social": {
+      "GitHub": "https://github.com/trishit78",
+      "Twitter": "https://twitter.com/trishit_bhowmik",
+      "LinkedIn": "https://www.linkedin.com/in/trishit-bhowmik-a0117421b/"
+    }
+  }
+  
