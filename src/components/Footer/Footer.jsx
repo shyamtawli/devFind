@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <p>
+        <p style={{ color: 'black' }}>
           devFind <br />
           {currentYear} All Rights Reserved.
           <br />
