@@ -1,0 +1,12 @@
+{
+  "name": "Avi Kathuria",
+  "location": "Chandigarh, India",
+  "bio": "Experienced Professional working as developer for an Investment Banking website having certifications of Oracle Architect Associate and Safe Agilist. Also having experience working on developing Alexa Skills.",
+  "avatar": "https://github.com/Kathuria.png",
+  "portfolio": "https://github.com/Kathuria",
+  "skills": ["React", "Typescript", "Javascript", "Node", "Mobx", "Alexa"],
+  "social": {
+    "GitHub": "https://github.com/Kathuria",
+    "LinkedIn": "https://www.linkedin.com/in/avi-kathuria-6b222763"
+  }
+}
