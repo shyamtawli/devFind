@@ -1,0 +1,13 @@
+{
+  "name": "Sandesh GC",
+  "location": "Butwal, Nepal",
+  "bio": "Primarily a MERN stack developer, I love solving problems and learning new things. Besides coding, I like playing games, riding bikes, swimming, and travelling to new places.",
+  "avatar": "https://github.com/SandeshGC.png",
+  "portfolio": "https://gcsandesh.com.np",
+  "skills": ["React.js", "Express.js", "MongoDB", "MySQL", "Node.js", "Next.js", "JavaScript", "CSS", "HTML"],
+  "social": {
+    "GitHub": "https://github.com/SandeshGC",
+    "Twitter": "https://twitter.com/gcsandesh01",
+    "LinkedIn": "https://www.linkedin.com/in/sandesh-gc-8236b2195/"
+  }
+}
