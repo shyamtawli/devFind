@@ -21,14 +21,14 @@
 </p>
 
 ## Table of Contents
-- [About](#about)
-- [Features](#features)
+- [About](#about-🚀)
+- [Features](#features-💪)
 - [Prerequisites](#prerequisites)
-- [How to Add Your Profile Data](#how-to-add-your-profile-data)
-- [Contributing](#contributing)
-- [Contributors](#contributors)
+- [How to Add Your Profile Data](#how-to-add-your-profile-data-🤔)
+- [Contributing](#contributing-👨‍💻)
+- [Contributors](#contributors-🤝)
 - [License](#license)
-- [Support](#support)
+- [Support](#support-🙏)
 
 ## About 🚀
 
