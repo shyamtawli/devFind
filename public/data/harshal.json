@@ -1,0 +1,25 @@
+{
+  "name": "Harshal Honde",
+  "location": "Nagpur, Maharashtra, India",
+  "bio": "MERN Stack developer having 2+ years of experience of developement in javascript develop dozen of projects and I am open source contributor",
+  "avatar": "https://avatars.githubusercontent.com/u/105191619?s=400&u=f49900ced232090b57330e511a66c60b5eabd5e9&v=4",
+  "portfolio": "https://harshalwebfolio.netlify.app",
+  "skills": [
+    "c",
+    "c++",
+    "HTML",
+    "CSS",
+    "NODE.JS",
+    "REACT JS",
+    "Express.js",
+    "Three.js",
+    "partical.js",
+    "Problem solving",
+    "Javascript"
+  ],
+  "social": {
+    "GitHub": "https://github.com/harshalhonde21",
+    "Twitter": "https://twitter.com/harshal_honde21",
+    "LinkedIn": "https://www.linkedin.com/in/harshalhonde/"
+  }
+}
