@@ -1,0 +1,29 @@
+{
+  "name": "Poulav Bhowmick",
+  "location": "Kolkata",
+  "bio": "Full Stack Web Developer, Blockchain developer and open source enthusiast",
+  "avatar": "https://avatars.githubusercontent.com/u/133862694?v=4",
+  "portfolio": "https://github.com/PoulavBhowmick03",
+  "skills": [
+    "Javascript",
+    "React js",
+    "Next.js",
+    "Solidity",
+    "zk",
+    "C++",
+    "C",
+    "Node JS",
+    "Express JS",
+    "Mongo DB",
+    "Postman",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    ],
+  "social": {
+    "GitHub": "https://github.com/PoulavBhowmick03",
+    "Twitter": "https://twitter.com/impoulav",
+    "LinkedIn": "https://www.linkedin.com/in/poulav-bhowmick-12445624a/"
+  }
+}
