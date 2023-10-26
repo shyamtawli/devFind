@@ -1,0 +1,13 @@
+{
+  "name": "Gaurav Giri",
+  "location": "Kathmandu, Nepal",
+  "bio": "I am a full stack developer and a machine learning advocate. I love to work on new technologies and build new things.",
+  "avatar": "https://github.com/gaurovgiri.png",
+  "portfolio": "https://gauravgiri.com.np/",
+  "skills": ["Django", "Flask", "Flutter", "Selenium", "C/C++", "Qt", "React", "Node", "Tensorflow", "PyTorch", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/gaurovgiri",
+    "Twitter": "https://twitter.com/gaurovgiri",
+    "LinkedIn": "https://www.linkedin.com/in/gaurovgiri"
+  }
+}
