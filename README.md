@@ -123,7 +123,7 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
    ["filename1.json", "filename2.json", "your_github_username.json"]
    ```
 
-10. Save the **`ProfilesLists.json`** file.
+10. Save the **`ProfilesList.json`** file.
 11. Create a new branch: To create a new branch for your profile, run the following command:
     **`git checkout -b add-profile`**
 12. Add your changed files to the stage by running the following command:
