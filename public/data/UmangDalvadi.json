@@ -1,0 +1,13 @@
+{
+  "name": "Umang Dalvadi",
+  "location": "Gujarat",
+  "bio": "Hello! I am Umang Dalvadi from Gujarat. currently I am doing Bachelor of Engineering in Information Technology in GEC Bhavnagar. I like to do solving Problems and Errors, currently focusing on learning new Skills and practising them.",
+  "avatar": "https://github.com/UmangDalvadi.png",
+  "portfolio": "https://github.com/UmangDalvadi",
+  "skills": ["CPP", "JAVA", "JavaScript", "TailwindCss", "React", "PHP", "SQL", "NodeJS"],
+  "social": {
+    "GitHub": "https://github.com/UmangDalvadi",
+    "Twitter": "https://twitter.com/umang_dalvadi",
+    "LinkedIn": "https://www.linkedin.com/in/umang-dalvadi-15425b205/"
+  }
+}
