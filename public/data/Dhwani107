@@ -1,0 +1,13 @@
+{
+  "name": "Dhwani",
+  "locatio":"kolkata",
+  "bio": "I am a first year student persuing btech in computer sci. The name of my college is Techno India University",
+  "avatar": "https://github.com/Dhwani107.png",
+  "portfolio": "https://github.com/Dhwani107",
+  "skills": ["Painting", "guitar", "timepass"],
+  "social": {
+    "GitHub": "https://github.com/Dhwani107",
+    "Twitter": "https://twitter.com/Dhwani107",
+    "LinkedIn": "https://www.linkedin.com/in/dhwani-chauhan-aaa5ab280"
+  }
+}
