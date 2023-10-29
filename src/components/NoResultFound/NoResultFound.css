@@ -9,7 +9,8 @@
   margin-bottom: 1.5rem;
   padding: 1rem;
   height: auto;
-  color: #fff;
+  color: var(--text-color);
+  text-align: center;
 }
 
 .no-result-card .top-container {

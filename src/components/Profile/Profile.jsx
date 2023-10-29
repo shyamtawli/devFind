@@ -37,7 +37,7 @@ function Profile({ data }) {
             <img src={data.avatar} alt="User logo" />
           </div>
           <div className="profile-details">
-            <h3>{data.name}</h3>
+            <h3><a className="profile-name" href={data.portfolio} target="_blank" rel="noreferrer">{data.name}</a></h3>
             <p>
               <span style={{ marginRight: '0.5rem' }}>
                 <FontAwesomeIcon icon={faLocationDot} />
@@ -55,7 +55,7 @@ function Profile({ data }) {
                 })}
             </div>
           </div>
-          <div className="profile-link">
+          <div className={`${data.portfolio ? 'profile-link' : 'profile-link-disabled'}`}>
             <a href={data.portfolio} target="_blank" rel="noreferrer">
               View Profile &#8594;
             </a>

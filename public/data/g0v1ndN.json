@@ -1,0 +1,13 @@
+{
+  "name": "Govind S Nair",
+  "location": "India",
+  "bio": "Aspiring data analyst studying at Amrita University with a passion for web development and a drive for data-driven insights.",
+  "avatar": "https://github.com/g0v1ndN.png",
+  "portfolio": "https://govindsnair.netlify.app",
+  "skills": ["Python", "Java", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/g0v1ndN",
+    "Twitter": "https://twitter.com/govinds_nair",
+    "LinkedIn": "https://www.linkedin.com/in/govind-s-nair"
+  }
+}

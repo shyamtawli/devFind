@@ -1,0 +1,29 @@
+{
+  "name": "Biplob Sutradhar",
+  "location": "Dhaka, Bangladesh",
+  "bio": "Slightly approaching the goal line",
+  "avatar": "https://avatars.githubusercontent.com/u/43641536",
+  "portfolio": "https://github.com/biplobsd",
+  "skills": [
+    "Next.js",
+    "Tailwind",
+    "Flutter",
+    "flutter_bloc",
+    "GetX",
+    "Selenium",
+    "Google Colab",
+    "Git",
+    "Github",
+    "Github Actions",
+    "Firebase",
+    "Basic Linux command",
+    "Visual Studio Code",
+    "stellar-sdk",
+    "Kivy",
+    "KivyMD"
+  ],
+  "social": {
+    "GitHub": "https://github.com/biplobsd",
+    "LinkedIn": "https://www.linkedin.com/in/biplob-sutradhar"
+  }
+}

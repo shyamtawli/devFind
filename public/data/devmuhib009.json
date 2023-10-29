@@ -1,0 +1,14 @@
+{
+  "name": "Muhibul Haque",
+  "location": "Kishoreganj, Bangladesh",
+  "bio": "WordPress Developer with Block Development Skill.",
+  "avatar": "https://github.com/devmuhib009.png",
+  "portfolio": "https://github.com/devmuhib009",
+  "skills": ["WordPress", "Block Theme Development", "Gutenberg Development", "React Js"],
+  "social": {
+    "GitHub": "https://github.com/devmuhib009",
+    "Facebook": "https://facebook.com/muhib.ullah1",
+    "LinkedIn": "https://www.linkedin.com/in/muhibul-haque",
+    "WordPress": "https://profiles.wordpress.org/devmuhib/"
+  }
+}

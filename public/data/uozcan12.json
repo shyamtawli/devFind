@@ -1,0 +1,13 @@
+{
+  "name": "Uğur özcan",
+  "location": "Turkey",
+  "bio": "I am a Computer Engineer and live in Turkey",
+  "avatar": "https://github.com/uozcan12.png",
+  "portfolio": "https://github.com/uozcan12",
+  "skills": ["Python", "Javascript", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/uozcan12",
+    "Twitter": "https://twitter.com/uozcan12",
+    "LinkedIn": "https://tr.linkedin.com/in/u%C4%9Fur-%C3%B6zcan-5093a8b3"
+  }
+}

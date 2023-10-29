@@ -1,0 +1,13 @@
+{
+  "name": "Avinav chatterjee",
+  "location": "India",
+  "bio": "I am a CSE undergraduate experienced in Web Development",
+  "avatar": "https://avatars.githubusercontent.com/u/96583409",
+  "portfolio": "https://github.com/AvinavCHATTERJEE2103028",
+  "skills": ["HTML", "CSS", "Javascript", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/AvinavCHATTERJEE2103028/",
+    "Twitter": "https://twitter.com/avinavchatterjee",
+    "LinkedIn": "https://www.linkedin.com/in/avinavchatterjee"
+  }
+}

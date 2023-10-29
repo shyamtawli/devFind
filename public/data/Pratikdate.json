@@ -1,0 +1,13 @@
+{
+  "name": "Pratik Date",
+  "location": "Maharashtra, India",
+  "bio": "Iam a ML product developer , currently on learning new ai revolutionary technology",
+  "avatar": "https://avatars.githubusercontent.com/u/91735895?s=400&u=49514692d8177001b2a9b8489e604486c61bf3ed&v=4",
+  "portfolio": "https://pratikdate.github.io/",
+  "skills": ["HTML", "CSS/SCSS", "JavaScript", "Python", "ML and Computer Vision", "Django", "SQL", "React"],
+  "social": {
+    "GitHub": "https://github.com/Pratikdate",
+    "Discord": "https://discord.com/invite/Pratik0396",
+    "LinkedIn": "https://www.linkedin.com/in/pratik-date-883023244"
+  }
+}

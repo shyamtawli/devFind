@@ -1,0 +1,13 @@
+{
+  "name": "Subhayu Dutta",
+  "location": "India",
+  "bio": "I am Btech Computer Science and engineering student. I am a Machine Learning Developer and coder.",
+  "avatar": "https://avatars.githubusercontent.com/u/97235543",
+  "portfolio": "https://subhayudutta.github.io/",
+  "skills": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Internet of Things"],
+  "social": {
+    "GitHub": "https://github.com/subhayudutta",
+    "Twitter": "https://twitter.com/subhayudutta0",
+    "LinkedIn": "https://www.linkedin.com/in/subhayudutta"
+  }
+}

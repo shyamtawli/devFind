@@ -1,0 +1,12 @@
+{
+  "name": "Yash Salunke",
+  "location": "Maharashtra, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://avatars.githubusercontent.com/u/115371305?v=4",
+  "skills": ["HTML", "CSS", "JavaScript", "Node.js", "Docker", "Bootstrap"],
+  "social": {
+    "GitHub": "https://github.com/YashSalunke12",
+    "Twitter": "https://twitter.com/Yashtwt12",
+    "LinkedIn": "https://www.linkedin.com/in/yashsalunke12/"
+  }
+}
