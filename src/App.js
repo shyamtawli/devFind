@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
+import GoToTop from './components/GoToTop/GotoTop';
 import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
@@ -123,6 +124,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
+      <GoToTop />
       {currentUrl === '/' ? (
         <>
           {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
