@@ -38,7 +38,7 @@
   margin-right: 40px;
   font-size: 1.25rem;
   cursor: pointer;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .delete-icon:hover {

@@ -1,0 +1,13 @@
+{
+  "name": "Om Lokhande",
+  "location": "Lucknow, India",
+  "bio": "Pre-final year student at Indian Institute of Information Technology, Lucknow. Passionate about frontend development and Open source software",
+  "avatar": "https://github.com/nincompup.png",
+  "portfolio": "https://omlokhande.vercel.app/",
+  "skills": ["Javascript", "React", "Redux", "NodeJs/ExpressJs", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/nincompup",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/om-lokhande-78669a22a/"
+  }
+}

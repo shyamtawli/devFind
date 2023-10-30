@@ -1,0 +1,30 @@
+{
+  "name": "Rishabh Varshney",
+  "location": "Gurugram, Haryana, India",
+  "bio": "Full Stack Developer and Designer",
+  "avatar": "https://avatars.githubusercontent.com/u/65810355?v=4",
+  "portfolio": "http://rishabhvarshney.co/",
+  "skills": [
+    "C",
+    "C++",
+    "Javascript",
+    "Python",
+    "ReactJS",
+    "NextJS",
+    "NodeJS",
+    "Firebase",
+    "Docker",
+    "ExpressJS",
+    "MongoDB",
+    "MySQL",
+    "Flask",
+    "Android Studio",
+    "Flutter",
+    "Git and Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/var-rishabh/",
+    "Twitter": "https://twitter.com/var_rishabh/",
+    "LinkedIn": "https://www.linkedin.com/in/rishabh-builds/"
+  }
+}

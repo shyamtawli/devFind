@@ -1,0 +1,13 @@
+{
+  "name": "Chandra Mouli",
+  "location": "Andhra Pradesh, India",
+  "bio": "I'm a full-stack developer specializing in the MERN stack, with experience in building scalable and efficient web applications. I have a keen interest in cloud computing. So, I'm learning AWS.",
+  "avatar": "https://avatars.githubusercontent.com/u/143725284?v=4",
+  "portfolio": "https://github.com/Mouli-3542",
+  "skills": ["AWS", "Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Mouli-3542",
+    "Twitter": "https://twitter.com/Mouli3542",
+    "LinkedIn": "https://www.linkedin.com/in/moulinemana/"
+  }
+}

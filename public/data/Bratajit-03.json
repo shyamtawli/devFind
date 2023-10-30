@@ -1,0 +1,13 @@
+{
+  "name": "Bratajit Das",
+  "location": "India",
+  "bio": "CSE Undergraduate passionate about web development and competetive coding.",
+  "avatar": "https://github.com/Bratajit-03.png",
+  "portfolio": "https://github.com/Bratajit-03",
+  "skills": ["Python", "Java", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/Bratajit-03",
+    "Twitter": "https://twitter.com/bratajit03",
+    "LinkedIn": "https://www.linkedin.com/in/bratajit03"
+  }
+}

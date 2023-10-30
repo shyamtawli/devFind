@@ -2,10 +2,44 @@
 <h1>👩‍💻 devFind - Discover and Connect with Skilled Developers!</h1>
 </div>
 
+<p align="center">
+   <a href="https://github.com/shyamtawli/devFind/blob/master/LICENSE" target="blank">
+   <img src="https://img.shields.io/github/license/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="License" />
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/fork" target="blank">
+   <img src="https://img.shields.io/github/forks/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="Forks"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/stargazers" target="blank">
+   <img src="https://img.shields.io/github/stars/shyamtawli/devFind?style=for-the-badge&logo=appveyor" alt="Star"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/issues" target="blank">
+   <img src="https://img.shields.io/github/issues/shyamtawli/devFind.svg?style=for-the-badge&logo=appveyor" alt="Click Vote Issue"/>
+   </a>
+   <a href="https://github.com/shyamtawli/devFind/pulls" target="blank">
+   <img src="https://img.shields.io/github/issues-pr/shyamtawli/devFind.svg?style=for-the-badge&logo=appveyor" alt="Click Vote Open Pull Request"/>
+   </a>
+</p>
+
+## Table of Contents
+
+- [About 🚀](#about)
+- [Features 💪](#features)
+- [Prerequisites](#prerequisites)
+- [How to Add Your Profile Data 🤔](#how-to-add-your-profile-data)
+- [Contributing 👨‍💻](#contributing)
+- [Contributors 🤝](#contributors)
+- [License](#license)
+- [Support 🙏](#support)
+
+<a id="about"></a>
+
 ## About 🚀
+
 - devFind - [Website](https://dev-find.vercel.app/)
 - **`devFind`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
 - With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
+
+<a id="features"></a>
 
 ## Features 💪
 
@@ -13,9 +47,13 @@
 - Users can search for developers based on specific skills, locations or name, making it easy to find developers with expertise in a particular technology or programming language.
 - This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
-## How to add your profile 🤔
+<a id="how-to-add-your-profile-data"></a>
+
+## How to add your profile Data 🤔
 
 > Thank you for your interest in contributing to our open-source project! <br>
+
+<a id="prerequisites"></a>
 
 ## Prerequisites
 
@@ -104,16 +142,38 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
+<a id="contributing"></a>
+
 ## Contributing 👨‍💻
 
 Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
 **Any contributions you make are truly appreciated!**
+
+<a id="contributors"></a>
 
 ## Contributors 🤝
 
 <a href="https://github.com/shyamtawli/devFind/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=shyamtawli/devFind" />
 </a>
+
+<a id="license"></a>
+
+## License
+
+<table>
+  <tr>
+     <td>
+       <p align="center"> <img src="https://github.com/malivinayak/malivinayak/blob/main/LICENSE-Logo/MIT.png?raw=true" width="80%"></img>
+    </td>
+    <td> 
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/> <br> 
+This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
+    </td>
+  </tr>
+</table>
+
+<a id="support"></a>
 
 ## Support 🙏
 

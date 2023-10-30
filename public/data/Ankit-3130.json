@@ -1,0 +1,13 @@
+{
+  "name": "Ankit Singh Shekhawat",
+  "location": "India",
+  "bio": "An Aspiring Full-Stack Developer hustling with the journey of Coding and technology",
+  "avatar": "https://github.com/Ankit-3130.png",
+  "portfolio": "https://github.com/Ankit-3130",
+  "skills": ["Mongo DB", "Express JS", "React js", "Node Js", "JavaScript", "Postman"],
+  "social": {
+    "GitHub": "https://github.com/Ankit-3130",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}

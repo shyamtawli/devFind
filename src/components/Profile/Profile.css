@@ -33,6 +33,15 @@
   border-radius: 50%;
 }
 
+.profile-name {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile-name:hover {
+  color: #00a6fb;
+}
+
 .profile-details {
   width: 44rem;
   overflow: hidden;
@@ -84,6 +93,10 @@
 .profile-link a {
   text-decoration: none;
   color: #00a6fb;
+}
+
+.profile-link a:hover {
+  text-decoration: underline;
 }
 
 .profile-link-disabled a {

@@ -1,0 +1,23 @@
+{
+  "name": "Kritika Gupta",
+  "location": "Jaipur, Rajasthan, India",
+  "bio": "👋 Hi, I'm Kritika Gupta, a final-year CS student passionate about MERN stack web development. I've interned in frontend, mentored, and love open source. Let's connect and create! 🚀 Connect on GitHub and LinkedIn.",
+  "avatar": "https://github.com/Kritika30032002.png",
+  "portfolio": "https://github.com/Kritika30032002",
+  "skills": [
+    "ReactJS",
+    "Redux",
+    "Javascript",
+    "APIs",
+    "Tailwind CSS",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "HTML",
+    "CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Kritika30032002",
+    "LinkedIn": "https://www.linkedin.com/in/kritika-gupta-343458212/"
+  }
+}

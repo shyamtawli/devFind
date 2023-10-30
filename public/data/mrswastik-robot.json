@@ -1,0 +1,13 @@
+{
+  "name": "Swastik Patel",
+  "location": "Noida, India",
+  "bio": "See you GSoC next year.",
+  "avatar": "https://avatars.githubusercontent.com/u/107865087?v=4",
+  "portfolio": "https://github.com/mrswastik-robot",
+  "skills": ["C", "C++", "HTML", "CSS", "Javascript", "React", "NextJs", "TailwindCSS", "Firebase"],
+  "social": {
+    "GitHub": "https://github.com/mrswastik-robot",
+    "Twitter": "https://twitter.com/Swastik48315357",
+    "LinkedIn": "https://www.linkedin.com/in/swastik-patel-9b1254232/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Ram Tyagi",
+  "location": "Agra, India",
+  "bio": "Skilled front-end developer and learning back-end technologies. I specialize in developing end-to-end applications that provide an optimal user experience",
+  "avatar": "https://github.com/Ram-tyagi.png",
+  "portfolio": "https://github.com/Ram-tyagi",
+  "skills": [
+    "JavaScript",
+    "React",
+    "HTML",
+    "CSS",
+    "NextJS",
+    "Redux",
+    "REST APIs",
+    "Git",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "Netlify"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Ram-tyagi",
+    "Twitter": "https://twitter.com/rambhaiy4",
+    "LinkedIn": "https://www.linkedin.com/in/Ramtyagi04"
+  }
+}

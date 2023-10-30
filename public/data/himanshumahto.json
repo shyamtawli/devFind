@@ -1,0 +1,13 @@
+{
+  "name": "Himanshu Kumar Mahto",
+  "location": "India",
+  "bio": "A beginner to the world of open source and an android enthuiastic",
+  "avatar": "https://github.com/himanshumahto.png",
+  "portfolio": "https://github.com/himanshumahto",
+  "skills": ["Android developement", "ML", "Java", "Kotlin"],
+  "social": {
+    "GitHub": "https://github.com/HimanshuMahto",
+    "Twitter": "https://twitter.com/HimanshuMahto_",
+    "LinkedIn": "https://www.linkedin.com/in/himanshumahto/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Pratap Parui",
+  "location": "Mumbai, India",
+  "bio": "Full Stack Dev | Open source & cloud Enthusiast",
+  "avatar": "https://avatars.githubusercontent.com/u/52885495?v=4",
+  "portfolio": "https://github.com/pratap360/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Node Js",
+    "React Js",
+    "Material css",
+    "Python",
+    "Flask",
+    "Django",
+    "Postgresql",
+    "MySQL",
+    "Google Cloud"
+  ],
+  "social": {
+    "GitHub": "https://github.com/pratap360/",
+    "Twitter": "https://twitter.com/parui_pratap",
+    "LinkedIn": "hhttps://linkedin.com/in/pratap-parui-mr-sumbuddy"
+  }
+}

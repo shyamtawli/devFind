@@ -1,0 +1,13 @@
+{
+  "name": "Vijay KV",
+  "location": "Kerala, India",
+  "bio": "I'm a Passionate learner who's trying to explorethe endless possibilities of the digital world, one code at a time..",
+  "avatar": "https://avatars.githubusercontent.com/u/94985341?v=4",
+  "portfolio": "",
+  "skills": ["React.js", "Tailwind CSS", "Next.js", "Node.js", "Express.js", "MongoDb"],
+  "social": {
+    "GitHub": "https://github.com/Vijaykv5",
+    "Twitter": "https://twitter.com/Vijaykv555",
+    "LinkedIn": "https://www.linkedin.com/in/vijaykv555/"
+  }
+}

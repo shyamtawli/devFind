@@ -1,0 +1,12 @@
+{
+  "name": "Hana Hasanah",
+  "location": "Indonesia",
+  "bio": "Informatics Management Student | Back End Developer",
+  "avatar": "https://github.com/codeOraaange.png",
+  "portfolio": "https://github.com/codeOraaange",
+  "skills": ["REST API", "Microservices", "PHP", "Javascript", "MySQL", "SQLite", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/codeOraaange",
+    "Twitter": "https://twitter.com/hasanah11_hana"
+  }
+}
