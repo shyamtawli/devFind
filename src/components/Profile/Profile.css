@@ -33,12 +33,12 @@
   border-radius: 50%;
 }
 
-.profile-name{
+.profile-name {
   color: inherit;
   text-decoration: none;
 }
 
-.profile-name:hover{
+.profile-name:hover {
   color: #00a6fb;
 }
 

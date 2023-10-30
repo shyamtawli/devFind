@@ -1,0 +1,24 @@
+{
+  "name": "Shashank Pandey",
+  "location": "India, Internet",
+  "bio": "A high school student passionate about programming/Hardware/Android/VR!",
+  "avatar": "https://github.com/shashankx86.png",
+  "portfolio": "http://shashankx86.0x.no/",
+  "skills": [
+    "C++",
+    "Python",
+    "Shell Scripting",
+    "Graphic Designing",
+    "Hardware Reverse Engineering",
+    "Powershell",
+    "Git/Github",
+    "PostgreSQL",
+    "Electron",
+    ""
+  ],
+  "social": {
+    "GitHub": "https://github.com/shashankx86",
+    "Twitter": "https://twitter.com/shashankx86",
+    "LinkedIn": "https://www.linkedin.com/in/shashankx86"
+  }
+}
