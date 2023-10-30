@@ -1,0 +1,13 @@
+{
+  "name": "Akhil Mahajan",
+  "location": "Jammu, Jammu Kashmir",
+  "bio": "A Petroleum Engineer by qualification and a Full Stack Developer by ambition.",
+  "avatar": "https://github.com/akhil30-08.png",
+  "portfolio": "https://github.com/akhil30-08",
+  "skills": ["JavaScript", "React", "Node", "MongoDb", "Redux"],
+  "social": {
+    "GitHub": "https://github.com/akhil30-08",
+    "Twitter": "https://twitter.com/akhilm_jmu",
+    "LinkedIn": "https://www.linkedin.com/in/akhil-mahajan-b37a64249"
+  }
+}
