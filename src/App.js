@@ -9,6 +9,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
+import GoToTop from './components/GoToTop/GotoTop';
 
 function App() {
   const [profiles, setProfiles] = useState([]);
@@ -123,6 +124,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <Search onSearch={handleSearch} />
+      <GoToTop />
       {currentUrl === '/' ? (
         <>
           {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}

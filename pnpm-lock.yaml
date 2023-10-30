@@ -4,51 +4,55 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@fortawesome/fontawesome-svg-core':
-    specifier: ^6.4.0
-    version: 6.4.0
-  '@fortawesome/free-brands-svg-icons':
-    specifier: ^6.4.0
-    version: 6.4.0
-  '@fortawesome/free-solid-svg-icons':
-    specifier: ^6.4.0
-    version: 6.4.0
-  '@fortawesome/react-fontawesome':
-    specifier: ^0.2.0
-    version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
-  '@testing-library/jest-dom':
-    specifier: ^5.17.0
-    version: 5.17.0
-  '@testing-library/react':
-    specifier: ^14.0.0
-    version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
-  '@testing-library/user-event':
-    specifier: ^14.4.3
-    version: 14.4.3(@testing-library/dom@9.2.0)
-  react:
-    specifier: ^18.2.0
-    version: 18.2.0
-  react-dom:
-    specifier: ^18.2.0
-    version: 18.2.0(react@18.2.0)
-  react-scripts:
-    specifier: 5.0.1
-    version: 5.0.1(@babel/plugin-syntax-flow@7.21.4)(@babel/plugin-transform-react-jsx@7.21.5)(eslint@8.40.0)(react@18.2.0)(typescript@5.0.4)
-  web-vitals:
-    specifier: ^3.3.1
-    version: 3.3.1
-
-devDependencies:
-  husky:
-    specifier: ^8.0.3
-    version: 8.0.3
-  json-loader:
-    specifier: ^0.5.7
-    version: 0.5.7
-  prettier:
-    specifier: ^3.0.0
-    version: 3.0.0
+importers:
+  .:
+    dependencies:
+      '@fortawesome/fontawesome-svg-core':
+        specifier: ^6.4.0
+        version: 6.4.0
+      '@fortawesome/free-brands-svg-icons':
+        specifier: ^6.4.0
+        version: 6.4.0
+      '@fortawesome/free-solid-svg-icons':
+        specifier: ^6.4.0
+        version: 6.4.0
+      '@fortawesome/react-fontawesome':
+        specifier: ^0.2.0
+        version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: ^5.17.0
+        version: 5.17.0
+      '@testing-library/react':
+        specifier: ^14.0.0
+        version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
+      '@testing-library/user-event':
+        specifier: ^14.4.3
+        version: 14.4.3(@testing-library/dom@9.2.0)
+      pnpm:
+        specifier: ^8.8.0
+        version: 8.10.0
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-scripts:
+        specifier: 5.0.1
+        version: 5.0.1(@babel/plugin-syntax-flow@7.21.4)(@babel/plugin-transform-react-jsx@7.21.5)(eslint@8.40.0)(react@18.2.0)(typescript@5.0.4)
+      web-vitals:
+        specifier: ^3.3.1
+        version: 3.3.1
+    devDependencies:
+      husky:
+        specifier: ^8.0.3
+        version: 8.0.3
+      json-loader:
+        specifier: ^0.5.7
+        version: 0.5.7
+      prettier:
+        specifier: ^3.0.0
+        version: 3.0.0
 
 packages:
   /@adobe/css-tools@4.2.0:
@@ -8310,6 +8314,13 @@ packages:
     engines: { node: '>=8' }
     dependencies:
       find-up: 3.0.0
+    dev: false
+
+  /pnpm@8.10.0:
+    resolution:
+      { integrity: sha512-nCy4Pyts9qJdjFgwC/mRl8fvO+hM8+dm8pBUtAuDtC+Kq6b8wxSp7PJ8APfOgKdXu0xgiADnrb4tKdxccFb1vg== }
+    engines: { node: '>=16.14' }
+    hasBin: true
     dev: false
 
   /postcss-attribute-case-insensitive@5.0.2(postcss@8.4.23):
