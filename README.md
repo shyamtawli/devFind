@@ -21,6 +21,7 @@
 </p>
 
 ## Table of Contents
+
 - [About 🚀](#about)
 - [Features 💪](#features)
 - [Prerequisites](#prerequisites)
@@ -31,6 +32,7 @@
 - [Support 🙏](#support)
 
 <a id="about"></a>
+
 ## About 🚀
 
 - devFind - [Website](https://dev-find.vercel.app/)
@@ -38,6 +40,7 @@
 - With **`devFind`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 
 <a id="features"></a>
+
 ## Features 💪
 
 - One of the key features of **`devFind`** is its powerful search functionality.
@@ -45,11 +48,13 @@
 - This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
 <a id="how-to-add-your-profile-data"></a>
+
 ## How to add your profile Data 🤔
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
 <a id="prerequisites"></a>
+
 ## Prerequisites
 
 - A GitHub account
@@ -138,12 +143,14 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
 <a id="contributing"></a>
+
 ## Contributing 👨‍💻
 
 Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
 **Any contributions you make are truly appreciated!**
 
 <a id="contributors"></a>
+
 ## Contributors 🤝
 
 <a href="https://github.com/shyamtawli/devFind/graphs/contributors">
@@ -151,6 +158,7 @@ Contributions make the open source community such an amazing place to learn, ins
 </a>
 
 <a id="license"></a>
+
 ## License
 
 <table>
@@ -166,6 +174,7 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
 </table>
 
 <a id="support"></a>
+
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
