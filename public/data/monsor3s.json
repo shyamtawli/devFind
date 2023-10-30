@@ -1,0 +1,13 @@
+{
+  "name": "Marlon Monsores",
+  "location": "Rio de Janeiro, BR",
+  "bio": "An enthusiast in the art of the front-end",
+  "avatar": "https://github.com/monsor3s.png",
+  "portfolio": "https://monsor3s.vercel.app/",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Styled-Components"],
+  "social": {
+    "GitHub": "https://github.com/monsor3s",
+    "Twitter": "https://twitter.com/monsoresdev",
+    "LinkedIn": "https://www.linkedin.com/in/marlon-monsores-380408b2"
+  }
+}
