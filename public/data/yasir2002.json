@@ -1,0 +1,19 @@
+{
+    "name": "Yasir Nawaz",
+    "location": "Lodhran, Punjab, Pakistan",
+    "bio": "MERN developer adept at building robust, user-centric web applications. Passionate about creating seamless digital experiences with expertise in MERN.",
+    "avatar": "https://github.com/yasir2002.png",
+    "portfolio": "https://yasir2002.github.io/",
+    "skills": [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "JavaScript"
+    ],
+    "social": {
+        "GitHub": "https://github.com/yasir2002/",
+        "Twitter": "https://twitter.com/stfuyasir",
+        "LinkedIn": "https://www.linkedin.com/in/yasirnawaz24"
+    }
+}
