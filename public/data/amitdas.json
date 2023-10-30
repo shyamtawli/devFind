@@ -1,0 +1,12 @@
+{
+  "name": "Amit Das",
+  "location": "Kolkata, India",
+  "bio": "I am an aspiring Software Engineer, learning Frontend and React",
+  "avatar": "https://github.com/das-amit.png",
+  "portfolio": "https://github.com/das-amit",
+  "skills": ["Javascript", "React", "Java"],
+  "social": {
+    "GitHub": "https://github.com/das-amit>",
+    "LinkedIn": "https://www.linkedin.com/in/amit-das-ad"
+  }
+}
