@@ -1,0 +1,13 @@
+{
+  "name": "Tapan Dabhi",
+  "location": "Canada",
+  "bio": "Full-stack developer weaving digital magic with code.",
+  "avatar": "https://github.com/dabhitapan.png",
+  "portfolio": "https://www.dabhitapan.com/",
+  "skills": ["Full-Stack", "AI/ML"],
+  "social": {
+    "GitHub": "https://github.com/dabhitapan",
+    "Twitter": "https://twitter.com/dabhitapan",
+    "LinkedIn": "https://www.linkedin.com/in/tapan-dabhi"
+  }
+}

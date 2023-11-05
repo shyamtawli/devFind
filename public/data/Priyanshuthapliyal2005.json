@@ -1,0 +1,13 @@
+{
+  "name": "Priyanshu Thapliyal",
+  "location": "INDIA",
+  "bio": "Passionate developer interested in web technologies. Enthusiastic about open source and community-driven projects.",
+  "avatar": "https://github.com/Priyanshuthapliyal2005.png",
+  "portfolio": "https://github.com/Priyanshuthapliyal2005",
+  "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Priyanshuthapliyal2005",
+    "Twitter": "https://twitter.com/PriyanshuT",
+    "LinkedIn": "https://www.linkedin.com/in/priyanshuthapliyal"
+  }
+}

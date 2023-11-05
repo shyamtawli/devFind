@@ -1,0 +1,13 @@
+{
+  "name": "Parth Dwivedi",
+  "location": "Kanpur,Uttar Pradesh,India",
+  "bio": "A Web Developer with two years of experience specializing in HTML5, JavaScript, database design, and front-end frameworks",
+  "avatar": "https://github.com/Parth4git.png",
+  "portfolio": "https://github.com/Parth4git",
+  "skills": ["Front end frameworks expertise", "AWS associate level certified", "..."],
+  "social": {
+    "GitHub": "https://github.com/Parth4git",
+    "Twitter": "https://twitter.com/@_Parth_Dwivedi_",
+    "LinkedIn": "https://www.linkedin.com/in/parth-dwivedi-98b2b3220"
+  }
+}

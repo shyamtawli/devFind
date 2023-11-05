@@ -1,0 +1,13 @@
+{
+  "name": "Sahil Karwani",
+  "location": "Jaipur, Rajasthan , INDIA",
+  "bio": "I am a passionate developer who loves to learn the technology and have a keen interest to implement the technology",
+  "avatar": "https://github.com/Sahil-K123.png",
+  "portfolio": "https://github.com/Sahil-K123",
+  "skills": ["HTML", "CSS", "Javascript", "React JS"],
+  "social": {
+    "GitHub": "https://github.com/Sahil-K123",
+    "Twitter": "https://twitter.com/sahil_0213",
+    "LinkedIn": "https://www.linkedin.com/in/sahil-karwani-b38584234/"
+  }
+}
