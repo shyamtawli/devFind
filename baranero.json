@@ -1,0 +1,12 @@
+{
+  "name": "Jakub Baran",
+  "location": "Kalisz, PL",
+  "bio": "Countless hours of learning frontend.",
+  "avatar": "https://github.com/baranero.png",
+  "portfolio": "https://jakubbaran.dev",
+  "skills": ["HTML", "CSS", "Typescript", "React", "Redux", "Next.js"],
+  "social": {
+    "GitHub": "https://github.com/baranero",
+    "LinkedIn": "https://www.linkedin.com/in/jakub-baran-42a00522b/"
+  }
+}
