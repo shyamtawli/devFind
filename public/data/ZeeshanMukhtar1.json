@@ -1,0 +1,13 @@
+{
+  "name": "Zeeshan Mukhtar",
+  "location": "Bahawalpur Pakistan",
+  "bio": "MERN Stack Magician | IT Enthusiast | Open Source Evangelis",
+  "avatar": "https://github.com/ZeeshanMukhtar1.png",
+  "portfolio": "https://zeeshan-resume.netlify.app/",
+  "skills": ["React.Js", "Node.Js", "Express.Js", "MongoDB", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/ZeeshanMukhtar1",
+    "Twitter": "https://twitter.com/ZeshanMukhtar01",
+    "LinkedIn": "https://www.linkedin.com/in/zeeshanmukhtar1/"
+  }
+}

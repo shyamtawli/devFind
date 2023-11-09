@@ -1,0 +1,24 @@
+{
+  "name": "Vivek Kumar",
+  "location": "Meerut",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source.",
+  "avatar": "https://media.licdn.com/dms/image/D4D03AQHvSMSB16dU3A/profile-displayphoto-shrink_400_400/0/1697997180193?e=1703721600&v=beta&t=liwDJXhqvB50taRHZ01TFl41UymYqFYJOFiPGOMJtHE",
+  "portfolio": "https://github.com/vivekBoii",
+  "skills": [
+    "C++",
+    "ReactJS",
+    "Python",
+    "C",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "Handlebars",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/vivekBoii",
+    "LinkedIn": "https://www.linkedin.com/in/vivek-kumar-b65a81270/"
+  }
+}

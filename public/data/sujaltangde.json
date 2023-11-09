@@ -1,0 +1,25 @@
+{
+  "name": "Sujal Tangde",
+  "location": "Nagpur, India",
+  "bio": "I'm a full-stack developer, with experience in building scalable and efficient web applications.",
+  "avatar": "https://github.com/sujaltangde.png",
+  "portfolio": "https://sujal-tangde.netlify.app/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Tailwind CSS",
+    "React.js",
+    "Redux",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "React Native",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sujaltangde",
+    "Twitter": "https://twitter.com/SujalTangde",
+    "LinkedIn": "https://www.linkedin.com/in/sujal-tangde/"
+  }
+}
