@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -9,17 +9,25 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
+import { useSearchParams } from 'react-router-dom';
 
 function App() {
+  const [searchParams] = useSearchParams();
+  const search = searchParams.get('search') || '';
   const [profiles, setProfiles] = useState([]);
-  const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
   const recordsPerPage = 20;
 
+  const MemoizedProfile = React.memo(Profile);
+
   const currentUrl = window.location.pathname;
+
+  console.log(search);
+  console.log(search.length !== 0);
+
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -39,16 +47,19 @@ function App() {
         const combinedData = await Promise.all(promises);
         setCombinedData(combinedData);
         setShuffledProfiles(shuffleProfiles(combinedData));
+        setLoadingProfiles(false);
       } catch (error) {
         console.error('Error combining data:', error);
         setCombinedData([]);
         setShuffledProfiles([]);
+        setLoadingProfiles(false);
       }
-      setLoadingProfiles(false);
     };
 
-    combineData();
-  }, []);
+    combineData(); // Fetch data on component mount
+  }, [search]);
+
+  console.log(profiles);
 
   const shuffleProfiles = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -58,26 +69,35 @@ function App() {
     return array;
   };
 
-  const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase().trim();
-    const results = combinedData.filter((object) => {
-      const lowercaseName = object.name.toLowerCase();
-      const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
-      return (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      );
-    });
+  const handleSearch = useCallback(
+    (searchValue) => {
+      const lowercaseSearch = searchValue.toLowerCase().trim();
+      const results = combinedData.filter((object) => {
+        const lowercaseName = object.name.toLowerCase();
+        const lowercaseLocation = object.location.toLowerCase();
+        const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
+        return (
+          matchingSkills.length > 0 ||
+          lowercaseName.includes(lowercaseSearch) ||
+          lowercaseLocation.includes(lowercaseSearch)
+        );
+      });
 
-    setSearching(true);
-    setProfiles(results);
-    setCurrentPage(1);
-  };
+      setProfiles(results);
+      setCurrentPage(1);
+    },
+    [combinedData],
+  );
+
+  useEffect(() => {
+    if (search.length !== 0 && profiles.length === 0) {
+      // Trigger search only when there is a search query and no profiles
+      handleSearch(search);
+    }
+  }, [search, profiles, handleSearch]);
 
   const handleNextPage = () => {
-    const totalPages = Math.ceil((searching ? profiles.length : combinedData.length) / recordsPerPage);
+    const totalPages = Math.ceil((search.length !== 0 ? profiles.length : combinedData.length) / recordsPerPage);
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
@@ -97,7 +117,7 @@ function App() {
   }, [currentPage]);
 
   const getPaginatedData = () => {
-    const data = searching ? profiles : shuffledProfiles;
+    const data = search.length !== 0 ? profiles : shuffledProfiles;
     const startIndex = (currentPage - 1) * recordsPerPage;
     const endIndex = startIndex + recordsPerPage;
     return data.slice(startIndex, endIndex);
@@ -115,8 +135,12 @@ function App() {
         </>
       );
     }
+
+    if (profiles.length === 0 && search.length !== 0) {
+      return <NoResultFound />;
+    }
     const paginatedData = getPaginatedData();
-    return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
+    return paginatedData.map((currentRecord, index) => <MemoizedProfile data={currentRecord} key={index} />);
   };
 
   return (
@@ -125,10 +149,10 @@ function App() {
       <Search onSearch={handleSearch} />
       {currentUrl === '/' ? (
         <>
-          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+          {renderProfiles()}
           <Pagination
             currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+            totalPages={Math.ceil((search.length !== 0 ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
             onNextPage={handleNextPage}
             onPrevPage={handlePrevPage}
           />

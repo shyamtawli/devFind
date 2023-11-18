@@ -3,11 +3,14 @@ import useDebounce from '../../hooks/useDebouncer';
 import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { useSearchParams } from 'react-router-dom';
 
 function Search({ onSearch }) {
-  const [searchValue, setSearchValue] = useState('');
-  const [prevSearchValue, setPrevSearchValue] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const prevSearchValue = searchParams.get('search') || '';
   const searchInput = useRef(null);
+  const setPrevSearchValue = (val) => setSearchParams({ search: val });
+  const [searchValue, setSearchValue] = useState(prevSearchValue);
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -43,7 +46,7 @@ function Search({ onSearch }) {
   const handleDeleteButtonClick = () => {
     if (searchValue) {
       setSearchValue('');
-      setPrevSearchValue('');
+      setSearchParams({ search: '' });
       onSearch('');
       searchInput.current.focus();
     }
