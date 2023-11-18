@@ -25,9 +25,6 @@ function App() {
 
   const currentUrl = window.location.pathname;
 
-  console.log(search);
-  console.log(search.length !== 0);
-
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -58,8 +55,6 @@ function App() {
 
     combineData(); // Fetch data on component mount
   }, [search]);
-
-  console.log(profiles);
 
   const shuffleProfiles = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
