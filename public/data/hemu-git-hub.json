@@ -1,0 +1,12 @@
+{
+  "name": "Hemanth Reddy",
+  "location": "United States",
+  "bio": "I am a FullStack Developer who likes to code",
+  "avatar": "https://github.com/hemu-git-hub.png",
+  "portfolio": "https://github.com/hemu-git-hub",
+  "skills": ["Java", "JavaScript", "C", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/hemu-git-hub",
+    "LinkedIn": "https://www.linkedin.com/in/hemanth-reddy2001/"
+  }
+}
