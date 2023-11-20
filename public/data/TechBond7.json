@@ -1,0 +1,11 @@
+{
+  "name": "Tech Bond",
+  "location": "Earth",
+  "bio": "Senior Full-Stack Engineer",
+  "avatar": "https://github.com/TechBond7.png",
+  "portfolio": "https://github.com/TechBond7",
+  "skills": ["Python", "JavaScript", "TypeScript", "PHP", "C#", "Ruby", "GoLang", "Rust", "AI/ML", "C++"],
+  "social": {
+    "GitHub": "https://github.com/TechBond7"
+  }
+}
