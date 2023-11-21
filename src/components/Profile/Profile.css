@@ -43,7 +43,7 @@
 }
 
 .profile-details {
-  width: 36rem;
+  width: -webkit-fill-available;
   overflow: hidden;
 }
 
@@ -88,6 +88,10 @@
   cursor: default;
   display: inline;
   color: #fff;
+}
+
+.profile-link, .profile-link-disabled {
+  width: 10rem;
 }
 
 .profile-link a {
