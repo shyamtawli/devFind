@@ -90,7 +90,8 @@
   color: #fff;
 }
 
-.profile-link, .profile-link-disabled {
+.profile-link,
+.profile-link-disabled {
   width: 10rem;
 }
 
