@@ -66,7 +66,7 @@
 
 .skills-container::-webkit-scrollbar {
   width: 10px;
-  height: 5px;
+  height: 3px;
 }
 
 .skills-container::-webkit-scrollbar-track {
@@ -90,7 +90,8 @@
   color: #fff;
 }
 
-.profile-link, .profile-link-disabled {
+.profile-link,
+.profile-link-disabled {
   width: 10rem;
 }
 
