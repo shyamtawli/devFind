@@ -1,0 +1,25 @@
+{
+  "name": "Subodh",
+  "location": "Uttar Pradesh, India",
+  "bio": "Dedicated MERN (MongoDB, Express.js, React, Node.js) developer with a knack for crafting efficient and scalable web applications. Proficient in full-stack development, committed to delivering seamless user experiences.",
+  "avatar": "https://avatars.githubusercontent.com/u/76460142?s=400&u=5ee46e57aa9487870be0757197f5592786ae8e8c&v=4",
+  "portfolio": "https://github.com/Subodh1911",
+  "skills": [
+    "ReactJs",
+    "NextJs",
+    "NodeJs",
+    "ExpressJs",
+    "ElectronJs",
+    "MongoDB",
+    "MySQL",
+    "TalwindCSS",
+    "PHP",
+    "Python",
+    "HTML"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Subodh1911",
+    "Twitter": "https://twitter.com/Subodh2285",
+    "LinkedIn": "https://www.linkedin.com/in/subodh-kumar-7a43a1202/"
+  }
+}
