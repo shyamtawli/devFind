@@ -1,0 +1,13 @@
+{
+  "name": "Pedro Alberto",
+  "location": "Luanda, Angola",
+  "bio": "I'm Software Developer and an Open Source enthusiast, I love learn new things and solve challenges.",
+  "avatar": "https://github.com/Edlavio.png",
+  "portfolio": "https://edlavio.eu.org",
+  "skills": ["Web Development", "Javascript", "Typescript", "React", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/Edlavio",
+    "Twitter": "https://twitter.com/edlavio_",
+    "LinkedIn": "https://www.linkedin.com/in/edlavio"
+  }
+}
