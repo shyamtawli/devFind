@@ -1,0 +1,26 @@
+{
+  "name": "Iboi Osezele Ejemen",
+  "location": "Edo State, Nigeria",
+  "bio": "Front-end engineer with 2+ years of experience building responsive and user-friendly web applications. Expertise in Semantic HTML, CSS, JavaScript, and React and Front-end frameworks.",
+  "avatar": "https://github.com/AJ1732.png",
+  "portfolio": "https://github.com/AJ1732",
+  "skills": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Bootstrap",
+    "JavaScript",
+    "TailwindCSS",
+    "React",
+    "Responsive Design",
+    "User Experience (UX)/User Interface (UI)",
+    "Version Control Systems (Git)",
+    "Data Structures and Algorithms",
+    "Agile Development Methodologies"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AJ1732",
+    "Twitter": "https://twitter.com/ejemeniboi",
+    "LinkedIn": "https://www.linkedin.com/in/osezeleiboi"
+  }
+}
