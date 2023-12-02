@@ -161,17 +161,9 @@ Contributions make the open source community such an amazing place to learn, ins
 
 ## License
 
-<table>
-  <tr>
-     <td>
-       <p align="center"> <img src="https://github.com/malivinayak/malivinayak/blob/main/LICENSE-Logo/MIT.png?raw=true" width="80%"></img>
-    </td>
-    <td> 
-      <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/> <br> 
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
 This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
-    </td>
-  </tr>
-</table>
+
 
 <a id="support"></a>
 
