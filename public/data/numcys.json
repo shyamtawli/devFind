@@ -1,0 +1,13 @@
+{
+  "name": "Naman Sharma",
+  "location": "Udaipur, Rajasthan",
+  "bio": "Techie and code enthusiast, finding solace in development. I am part of a rare gen which wants to get their hands dirty in every tech.😁",
+  "avatar": "https://github.com/numcys.png",
+  "portfolio": "https://www.numcys.xyz/",
+  "skills": ["GoLang", "MERN", "DevOps", "Kubernetes", "Terraform"],
+  "social": {
+    "GitHub": "https://github.com/numcys",
+    "Twitter": "https://twitter.com/curios_sloth",
+    "LinkedIn": "https://www.linkedin.com/in/numcys"
+  }
+}
