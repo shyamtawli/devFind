@@ -14,7 +14,7 @@ html {
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --primary-color: rgba(20, 29, 47, 1);
   --secondary-color: #1e2a47;
   --border-color: rgba(194, 183, 183, 0.1);
@@ -22,14 +22,13 @@ html {
 }
 
 /* light theme */
-html.light {
+/* html.light {
   --primary-color: rgb(243, 244, 246);
   --secondary-color: white;
   --border-color: rgba(20, 29, 47, 0.1);
   --text-color: rgba(20, 29, 47, 1);
-}
-
-body {
+} */
+*/ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;

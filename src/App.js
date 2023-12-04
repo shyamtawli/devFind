@@ -120,22 +120,24 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
-      <Search onSearch={handleSearch} />
-      {currentUrl === '/' ? (
-        <>
-          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        </>
-      ) : (
-        <ErrorPage />
-      )}
+      <div className="w-full md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7">
+        <Search onSearch={handleSearch} />
+        {currentUrl === '/' ? (
+          <>
+            {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+            <Pagination
+              currentPage={currentPage}
+              totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+              onNextPage={handleNextPage}
+              onPrevPage={handlePrevPage}
+            />
+          </>
+        ) : (
+          <ErrorPage />
+        )}
+      </div>
     </div>
   );
 }
