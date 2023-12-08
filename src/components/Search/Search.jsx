@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import useDebounce from '../../hooks/useDebouncer';
-import './Search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -54,8 +53,9 @@ function Search({ onSearch }) {
   }, []);
 
   return (
-    <div className="search-bar">
+    <div className="relative mb-8 flex items-center justify-end pb-6">
       <input
+        className="h-12 w-full rounded-md border-2 border-borderSecondary bg-primaryColor px-4 py-3 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         ref={searchInput}
         type="text"
         onChange={handleInputChange}
@@ -63,8 +63,18 @@ function Search({ onSearch }) {
         placeholder="Search user by name, location or skills"
         onKeyDown={handleSearchOnEnter}
       />
-      <FontAwesomeIcon onClick={handleSearchButtonClick} className="search-icon" icon={faMagnifyingGlass} />
-      {searchValue && <FontAwesomeIcon onClick={handleDeleteButtonClick} className="delete-icon" icon={faXmark} />}
+      <FontAwesomeIcon
+        onClick={handleSearchButtonClick}
+        className="absolute mr-2.5 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+        icon={faMagnifyingGlass}
+      />
+      {searchValue && (
+        <FontAwesomeIcon
+          onClick={handleDeleteButtonClick}
+          className="absolute mr-10 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary  "
+          icon={faXmark}
+        />
+      )}
     </div>
   );
 }

@@ -122,7 +122,7 @@ function App() {
   return (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
-      <div className="w-full md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7">
+      <div className="w-full px-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7">
         <Search onSearch={handleSearch} />
         {currentUrl === '/' ? (
           <>
