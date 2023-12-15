@@ -1,0 +1,13 @@
+{
+  "name": "Prashant Kaushal",
+  "location": "Bihar, India",
+  "bio": "I am a student exploring the world of coding and opensource.",
+  "avatar": "https://avatars.githubusercontent.com/u/113375255?s=400&u=81bc7e001d52ce5745e948f734eff66f7dec3f12&v=4",
+  "portfolio": "https://github.com/prkaushal",
+  "skills": ["HTML", "CSS/SCSS", "JavaScript", "Figma"],
+  "social": {
+    "GitHub": "https://github.com/prkaushal",
+    "Twitter": "https://twitter.com/P_Kaushal9712",
+    "LinkedIn": "https://www.linkedin.com/in/prashant-kaushal/"
+  }
+}
