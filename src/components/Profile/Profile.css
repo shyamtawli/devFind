@@ -16,6 +16,12 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.profile-card:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
+}
+
 .profile-card .top-container {
   display: flex;
   gap: 1rem;
@@ -183,7 +189,8 @@
 .social-icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
-  -webkit-tap-highlight-color: transparent; /* Add the WebKit-specific property to remove the border in safari browser*/
+  -webkit-tap-highlight-color: transparent;
+  /* Add the WebKit-specific property to remove the border in safari browser*/
 }
 
 .social-icons a:hover i {
