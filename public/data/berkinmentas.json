@@ -1,0 +1,25 @@
+{
+  "name": "Berkin Mentas",
+  "location": "Turkey",
+  "bio": "I'm a web developer with experience in node.js, express.js, PHP, Laravel, react,  reactnative, flutter, etc.",
+  "avatar": "https://github.com/berkinmentas.png",
+  "portfolio": "https://github.com/berkinmentas",
+  "skills": [
+    "backend",
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "php",
+    "laravel",
+    "html",
+    "css",
+    "react",
+    "mongodb",
+    "mysql"
+  ],
+  "social": {
+    "GitHub": "https://github.com/berkinmentas",
+    "Twitter": "https://twitter.com/berknms",
+    "LinkedIn": "https://www.linkedin.com/in/berkinmentas"
+  }
+}
