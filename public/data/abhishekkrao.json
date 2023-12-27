@@ -1,0 +1,23 @@
+{
+  "name": "Abhishek Rao",
+  "location": "Delhi, India",
+  "bio": "Experienced Full Stack Developer specializing in React, Next.js, Node.js, Express, and REST API. Passionate about innovating web solutions, contributing to open source, and staying versatile in the ever-evolving tech landscape.",
+  "avatar": "https://github.com/abhishekkrao.png",
+  "portfolio": "https://abhishekkomarraju.vercel.app/",
+  "skills": [
+    "React JS",
+    "Next JS",
+    "Node JS",
+    "JavaScript/ TypeScript",
+    "TailwindCSS",
+    "Express JS",
+    "HTML/CSS",
+    "MongoDB",
+    "SQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AbhishekkRao/",
+    "Twitter": "https://twitter.com/Arkkk29",
+    "LinkedIn": "https://www.linkedin.com/in/abhishekkrao/"
+  }
+}
