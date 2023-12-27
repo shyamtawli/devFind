@@ -1,0 +1,13 @@
+{
+    "name": "Thomas Starzynski",
+    "location": "Switzerland",
+    "bio": "Indie Hacker with a passion to build and ship beautiful products from scratch. Also interested in Bitcoin, decentralization and Holochain.",
+    "avatar": "https://github.com/dcts.png",
+    "portfolio": "https://dcts.dev",
+    "skills": ["react", "node", "firebase", "c++", "protobuf", "git+github", "ruby on rails", "rust", "java", "matlab"],
+    "social": {
+      "GitHub": "https://github.com/dcts",
+      "Twitter": "https://twitter.com/dcts_dev",
+      "LinkedIn": "https://www.linkedin.com/in/thomas-starzynski"
+    }
+}
