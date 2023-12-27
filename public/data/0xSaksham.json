@@ -1,0 +1,28 @@
+{
+  "name": "Saksham Gupta",
+  "location": "New Delhi,India",
+  "bio": "Full Stack Blockchain Developer proficient in Rust 🦀",
+  "avatar": "https://github.com/0xSaksham.png",
+  "portfolio": "https://0xSaksham.co",
+  "skills": [
+    "Rust",
+    "ReactJS",
+    "Solidity",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "HTML/CSS",
+    "REST API",
+    "GraphQL",
+    "Docker",
+    "Kubernetes",
+    "Postgresql"
+  ],
+  "social": {
+    "GitHub": "https://github.com/0xSaksham",
+    "Twitter": "https://twitter.com/0xSaksham",
+    "LinkedIn": "https://www.linkedin.com/in/saksham-gupta-00a98221a/"
+  }
+}
