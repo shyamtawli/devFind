@@ -1,0 +1,13 @@
+{
+  "name": "Tarif Al Hasan",
+  "location": "Rangpur,Bangladesh",
+  "bio": "🚀 Passionate Full Stack Developer | MERN Stack Aficionado | React Native Enthusiast",
+  "avatar": "https://github.com/<your-github-username>.png",
+  "portfolio": "https://tarifalhasan.vercel.app/",
+  "skills": ["React.Js", "Next.Js", "React Native", "Node.js", "TypeScript", "Prisma", "Tailwind CSS"],
+  "social": {
+    "GitHub": "https://www.facebook.com/photo?fbid=1311949703531100&set=a.104896847569731",
+    "Twitter": "https://twitter.com/tarifalh",
+    "LinkedIn": "https://www.linkedin.com/in/tarif-al-hasan/"
+  }
+}
