@@ -1,6 +1,7 @@
-import React from 'react';
 import './Profile.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 function Profile({ data }) {
@@ -49,14 +50,13 @@ function Profile({ data }) {
               {data.location}
             </p>
             <div className="skills-container" ref={cardRef}>
-              {data.skills &&
-                data.skills.map((skill, index) => {
-                  return (
-                    <div className="skill" key={index}>
-                      {skill}
-                    </div>
-                  );
-                })}
+              {data.skills?.filter(Boolean)?.map((skill, index) => {
+                return (
+                  <div className="skill" key={index}>
+                    {skill}
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className={`${data.portfolio ? 'profile-link' : 'profile-link-disabled'}`}>
