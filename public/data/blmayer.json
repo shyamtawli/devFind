@@ -1,0 +1,11 @@
+{
+  "name": "Brian Mayer",
+  "location": "São Paulo",
+  "bio": "Full satack developer with a passion for simplicity and mathematics",
+  "avatar": "https://github.com/blmayer.png",
+  "portfolio": "https://myr.sh",
+  "skills": ["Golang", "Shell", "C", "Linux", "Python"],
+  "social": {
+    "GitHub": "https://github.com/blmayer"
+  }
+}
