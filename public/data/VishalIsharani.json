@@ -1,0 +1,13 @@
+{
+  "name": "Vishal Isharani",
+  "location": "Gujarat, India",
+  "bio": "Senior Software Engineer who loves to build web and mobile applications. I am a tech enthusiast and love to learn new technologies.",
+  "avatar": "https://github.com/Vishal-Isharani.png",
+  "portfolio": "https://github.com/Vishal-Isharani",
+  "skills": ["ReactJS", "React Native", "Angular", "NextJS", "NestJS", "VueJS"],
+  "social": {
+    "GitHub": "https://github.com/Vishal-Isharani",
+    "Twitter": "https://twitter.com/Vishal_isharani",
+    "LinkedIn": "https://www.linkedin.com/in/vishal-isharani/"
+  }
+}
