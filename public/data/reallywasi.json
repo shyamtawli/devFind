@@ -1,1 +1,31 @@
-
+{
+  "name": "Mohammad Wasi",
+  "location": "Dehradun, Uttarakhand, India",
+  "bio": "Full Stack Web Developer | Aspiring software engineer | Freelancer | Web3 aficionado |",
+  "avatar": "https://github.com/<your-github-username>.png",
+  "portfolio": "https://reallywasi.github.io/Portfolio_Website/",
+"skills": [
+    "JavaServer Pages (JSP)",
+    "Express.js",
+    "Git",
+    "Tailwind CSS",
+    "Node.js",
+    "HTML",
+    "Java Database Connectivity (JDBC)",
+    "SCSS",
+    "Microsoft Visual Studio Code",
+    "Bootstrap (Framework)",
+    "Web Development",
+    "MERN Stack",
+    "Pandas (Software)",
+    "NumPy",
+    "Front-End Development",
+    "SASS",
+    "React.js",
+    "JavaScript"
+  ],  "social": {
+    "GitHub": "https://github.com/reallywasi",
+    "Twitter": "https://twitter.com/reallywasi",
+    "LinkedIn": "https://www.linkedin.com/in/m-wasi-4a5825242/details/skills/"
+  }
+}
