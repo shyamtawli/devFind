@@ -1,0 +1,13 @@
+{
+  "name": "Pushkar Roy",
+  "location": "Bhopal, India",
+  "bio": "I'm MERN Stack Developer who Design and Develop Fully Functional and Scalable websites.",
+  "avatar": "https://github.com/roy2pushkar.png",
+  "portfolio": "https://github.com/roy2pushkar",
+  "skills": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDb", "MySql", "Typescript", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/roy2pushkar",
+    "Twitter": "https://twitter.com/roy2pushkar",
+    "LinkedIn": "https://www.linkedin.com/in/roy2pushkar"
+  }
+}
