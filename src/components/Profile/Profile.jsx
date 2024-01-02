@@ -1,7 +1,6 @@
-import './Profile.css';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import './Profile.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 function Profile({ data }) {
