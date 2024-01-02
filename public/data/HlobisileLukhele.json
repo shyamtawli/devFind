@@ -1,0 +1,13 @@
+{
+    "name": "Hlobisile Lukhele",
+    "location": "Durban, South Africa",
+    "bio": "Your Bio should be 20-30 words not more then that",
+    "avatar": "https://github.com/<your-github-username>.png",
+    "portfolio": "https://github.com/HlobisileLukhele",
+    "skills": ["Javascript", "Reactjs", "HTML","CSS","Firebase"],
+    "social": {
+      "GitHub": "https://github.com/HlobisileLukhele",
+      "Twitter": "https://twitter.com/Hlobi_Lukhele",
+      "LinkedIn": "https://www.linkedin.com/in/<Hlobisile-Lukhele>"
+    }
+  }
