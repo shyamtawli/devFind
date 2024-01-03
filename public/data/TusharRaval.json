@@ -1,0 +1,13 @@
+{
+    "name": "Tushar Raval",
+    "location": "Gandhinagar",
+    "bio": " I am Versatile full-stack developer skilled in front-end and back-end technologies",
+    "avatar": "https://github.com/TusharRaval.png",
+    "portfolio": "tusharraval.github.io/Portfolio_site/",
+    "skills": ["HTML", "Css", "Javascript","Reactjs","Node js","Express","Mongodb","GitHub","Webpack","sql","EJS"],
+    "social": {
+      "GitHub": "https://github.com/TusharRaval",
+      "Twitter": "https://twitter.com/ravaltushar11",
+      "LinkedIn": "https://www.linkedin.com/in/tushar-raval-7a0137274/"
+    }
+  }
