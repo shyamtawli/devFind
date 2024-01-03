@@ -1,0 +1,38 @@
+{
+  "name": "Humayun Kabir",
+  "location": "Dhaka, Bangladesh",
+  "bio": " I've been engaged with web development focusing on intuitive UI and better UX",
+  "avatar": "https://github.com/humayunkabir.png",
+  "portfolio": "https://humayunkabir.dev",
+  "skills": [
+    "JavaScript",
+    "HTML5",
+    "CSS",
+    "TypeScript",
+    "React",
+    "Vue.js",
+    "jQuery",
+    "React Native",
+    "Framework7",
+    "Apache Cordova",
+    "Next.js",
+    "NestJS",
+    "Laravel",
+    "Git",
+    "Adobe Photoshop",
+    "Adobe Premier Pro",
+    "Webpack",
+    "rollup",
+    "gulp",
+    "NodeJS",
+    "Sass",
+    "Docker",
+    "Tailwind CSS",
+    "Bootstrap"
+  ],
+  "social": {
+    "GitHub": "https://github.com/humayunkabir",
+    "Twitter": "https://twitter.com/humayunkabirdev",
+    "LinkedIn": "https://www.linkedin.com/in/humayunkabirdev"
+  }
+}
