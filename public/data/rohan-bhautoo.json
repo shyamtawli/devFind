@@ -1,0 +1,12 @@
+{
+  "name": "Rohan Bhautoo",
+  "location": "Mauritius",
+  "bio": "I am a full-stack programmer.",
+  "avatar": "https://github.com/rohan-bhautoo.png",
+  "portfolio": "https://rohan-bhautoo.github.io/portfolio/",
+  "skills": ["Flutter", "Dart", "React", "TypeScript", "NodeJS", "PHP", "NextJS"],
+  "social": {
+    "GitHub": "https://github.com/rohan-bhautoo",
+    "LinkedIn": "https://www.linkedin.com/in/rohan-bhautoo"
+  }
+}
