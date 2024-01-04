@@ -1,0 +1,12 @@
+{
+    "name": "Jonas Ermert",
+    "location": "Your Location",
+    "bio": "Your Bio should be 20-30 words not more then that",
+    "avatar": "https://github.com/<your-github-username>.png",
+    "portfolio": "https://github.com/jonasermert",
+    "skills": ["Flutter", "Dart"],
+    "social": {
+      "GitHub": "https://github.com/jonasermert",
+      "Twitter": "https://twitter.com/Jonas20692"
+    }
+  }
