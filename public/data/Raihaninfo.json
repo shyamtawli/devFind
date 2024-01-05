@@ -1,0 +1,13 @@
+{
+  "name": "Md Abu Raihan",
+  "location": "Kushtia, Bangladesh",
+  "bio": "Develope, Programmer",
+  "avatar": "https://github.com/raihaninfo.png",
+  "portfolio": "https://github.com/raihaninfo",
+  "skills": ["Golang", "Shell", "Linux", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/raihaninfo",
+    "Twitter": "https://twitter.com/mdabraihan40",
+    "LinkedIn": "https://www.linkedin.com/in/raihaninfo"
+  }
+}
