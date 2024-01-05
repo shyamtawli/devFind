@@ -1,0 +1,15 @@
+{
+  "name": "Ram Rathod",
+  "location": "India",
+  "bio": "Ambitious and passionate to an unrelenting pursuit of contributing towards growth of an organization by
+accepting challenges and having access to an ecosystem in which innovation and intellectual challenges
+can be explored.",
+  "avatar": "https://github.com/RamRathod2000.png",
+  "portfolio": "http://raamportfolio.netlify.app",
+  "skills": ["Core java" , "React js" , "HTML5" , "CSS" ,"MySQL"],
+  "social": {
+    "GitHub": "https://github.com/RamRathod2000",
+    "Twitter": "https://twitter.com/ram_rathod2000",
+    "LinkedIn": "https://www.linkedin.com/in/<ram rathod>"
+  }
+}
