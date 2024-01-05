@@ -1,0 +1,13 @@
+{
+  "name": "Licodeao",
+  "location": "Shenzhen, China",
+  "bio": "A TypeScript Full-stack Developer and a fan of Rust.",
+  "avatar": "https://github.com/Licodeao.png",
+  "portfolio": "https://github.com/Licodeao",
+  "skills": ["ReactJS", "NextJS", "NestJS", "TypeScript", "NodeJS", "Rust"],
+  "social": {
+    "GitHub": "https://github.com/Licodeao",
+    "Twitter": "https://twitter.com/LYangwu",
+    "LinkedIn": "https://www.linkedin.com/in/yangwu-liao-854b712a6/"
+  }
+}
