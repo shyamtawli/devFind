@@ -1,0 +1,13 @@
+{
+  "name": "Guillermo Lizondo",
+  "location": "Portland, OR",
+  "bio": "Senior software engineer student with passion for machine learning",
+  "avatar": "https://github.com/glizondo.png",
+  "portfolio": "https://github.com/glizondo",
+  "skills": ["ReactJS", "JavaScript", "Java", "Python", "HTML", "Tensorflow", "Git", "Rest API", "MariaDB"],
+  "social": {
+    "GitHub": "https://github.com/glizondo",
+    "Twitter": "https://twitter.com/glizondo1",
+    "LinkedIn": "https://www.linkedin.com/in/guillermo-lizondo"
+  }
+}
