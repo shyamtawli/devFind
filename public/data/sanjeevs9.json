@@ -1,0 +1,13 @@
+{
+  "name": "Sanjeev Shankar",
+  "location": "NCR INDIA",
+  "bio": "a full-stack web developer. I have experience with more than 300 questions of DSA in Java.",
+  "avatar": "https://github.com/sanjeevs9.png",
+  "portfolio": "null",
+  "skills": ["JAVA", "JAVASCIPT", "TYPESCRIPT", "REACT", "CSS", "HTML", "XML"],
+  "social": {
+    "GitHub": "https://github.com/sanjeevs9",
+    "Twitter": "https://twitter.com/sanjeevs91",
+    "LinkedIn": "https://www.linkedin.com/in/sanjeev-kumar-s91/"
+  }
+}

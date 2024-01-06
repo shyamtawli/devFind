@@ -1,0 +1,32 @@
+{
+  "name": "Gour Saha Joy",
+  "location": "Rajshahi, Bangladesh",
+  "bio": "A MERN stack developer. Expert in backend and with next.Js. Love to learn new technologies. Open to work.",
+  "avatar": "https://github.com/gsjoy24.png",
+  "portfolio": "https://gour-chandra-saha.web.app/",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "Redux",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Git",
+    "GitHub",
+    "PostgreSQL",
+    "Postman",
+    "VSCode",
+    "Firebase",
+    "JWT Auth",
+    "Fullstack developer",
+    "MERN Stack Developer"
+  ],
+  "social": {
+    "GitHub": "https://github.com/gsjoy24",
+    "LinkedIn": "https://www.linkedin.com/in/gsjoy24/"
+  }
+}
