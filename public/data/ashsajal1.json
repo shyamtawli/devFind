@@ -1,0 +1,13 @@
+{
+  "name": "Ashfiquzzaman Sajal",
+  "location": "Bangladesh",
+  "bio": "I am a web developer experienced in React.js and Express.js.",
+  "avatar": "https://github.com/ashsajal1.png",
+  "portfolio": "https://github.com/ashsajal1",
+  "skills": ["ReactJs", "ExpressJs", "Figma UiUx"],
+  "social": {
+    "GitHub": "https://github.com/ashsajal1",
+    "Twitter": "https://twitter.com/ashsajal1",
+    "LinkedIn": "https://www.linkedin.com/in/ashsajal"
+  }
+}
