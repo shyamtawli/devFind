@@ -1,0 +1,13 @@
+{
+  "name": "Dhanush Nehru",
+  "location": "India",
+  "bio": "Tech Autodidact",
+  "avatar": "https://github.com/DhanushNehru.png",
+  "portfolio": "https://whatsapp-portfolio-dhanushnehru.netlify.app/",
+  "skills": ["Python", "JavaScript", "Node.js", "MongoDB", "Elasticsearch", "AWS", "Docker", "Cybersecurity", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/DhanushNehru",
+    "Twitter": "https://twitter.com/Dhanush_Nehru",
+    "LinkedIn": "https://www.linkedin.com/in/dhanushnehru/"
+  }
+}

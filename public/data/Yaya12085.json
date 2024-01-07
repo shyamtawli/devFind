@@ -1,0 +1,13 @@
+{
+  "name": "Yaya Mohamed",
+  "location": "Ivory Coast",
+  "bio": "As a self-employed Full Stack M.E.R.N Developer, I create dynamic and responsive web applications using MongoDB, Express, React, and Node.js.",
+  "avatar": "https://github.com/yaya12085.png",
+  "portfolio": "https://yayamohamed.com",
+  "skills": ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Prisma", "Typescript", "DevOps"],
+  "social": {
+    "GitHub": "https://github.com/Yaya12085",
+    "Twitter": "https://twitter.com/yayadeveloppeur",
+    "LinkedIn": "https://www.linkedin.com/in/yayadev"
+  }
+}

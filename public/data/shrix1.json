@@ -1,0 +1,24 @@
+{
+  "name": "Shriprasanna",
+  "location": "Tamil Nadu, India",
+  "bio": "Hello! I'm a Software Development Enginner @Exemplary AI. Love to Build Cool Stuff in AI and Web.",
+  "avatar": "https://github.com/shrix1.png",
+  "portfolio": "https://github.com/shrix1",
+  "skills": [
+    "NextJS",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Supabase",
+    "TailwindCSS",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shrix1",
+    "Twitter": "https://twitter.com/shriprasanna007",
+    "LinkedIn": "https://www.linkedin.com/in/shrix1/"
+  }
+}

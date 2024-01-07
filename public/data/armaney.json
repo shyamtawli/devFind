@@ -1,0 +1,13 @@
+{
+  "name": "Khaja Arman Ahmed",
+  "location": "HYD, TS",
+  "bio": "Passionate about MERN stack and Python. Crafting user-centric experiences through clean code. Let's build something amazing together! 💻🌐✨",
+  "avatar": "https://github.com/armaney.png",
+  "portfolio": "https://github.com/armaney",
+  "skills": ["React.js", "Python", "C++", ""],
+  "social": {
+    "GitHub": "https://github.com/armaney",
+    "Twitter": "https://twitter.com/armanifier",
+    "LinkedIn": "https://www.linkedin.com/in/armaniahmed"
+  }
+}
