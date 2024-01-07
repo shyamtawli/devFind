@@ -1,0 +1,13 @@
+{
+  "name": "Vedant Yetekar",
+  "location": "Pune, India",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/uuvedant4.png",
+  "portfolio": "https://vedantyetekar.vercel.app/",
+  "skills": ["Next.js", "GraphQL", "Prisma", "Typescript"],
+  "social": {
+    "GitHub": "https://github.com/uuvedant4",
+    "Twitter": "https://twitter.com/__vedant4",
+    "LinkedIn": "https://www.linkedin.com/in/vedant-yetekar-497949218/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hammad Zafar",
+  "location": "Pakistan",
+  "bio": "Laravel PHP Full Stack Developer with 3+ years' expertise. Proven in streamlining processes, REST APIs, and WordPress. Committed to innovation and delivering top-tier solutions.",
+  "avatar": "https://github.com/hammadzafar05.png",
+  "portfolio": "https://www.linkedin.com/in/hammadzafar05/",
+  "skills": [
+    "PHP",
+    "Laravel",
+    "Livewire",
+    "MySql",
+    "FilamentPHP",
+    "Tailwind",
+    "Javascript",
+    "WordPress",
+    "REST APIs",
+    "Backend Development",
+    "Admin Panel Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/hammadzafar05",
+    "Twitter": "https://twitter.com/hammadzafar05",
+    "LinkedIn": "https://www.linkedin.com/in/hammadzafar05"
+  }
+}
