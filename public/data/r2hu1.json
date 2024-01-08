@@ -1,0 +1,13 @@
+{
+  "name": "Rahul Rajput",
+  "location": "India",
+  "bio": "A self thought full stack developer and freelancer.",
+  "avatar": "https://github.com/r2hu1.png",
+  "portfolio": "https://rahul.eu.org",
+  "skills": ["JavaScript", "NodeJS","React" , "NextJS", "Appwrite","MongoDB",".."],
+  "social": {
+    "GitHub": "https://github.com/r2hu1",
+    "Twitter": "https://twitter.com/r2hu1",
+    "LinkedIn": "https://www.linkedin.com/in/r2hu1"
+  }
+}
