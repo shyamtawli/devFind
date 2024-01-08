@@ -1,0 +1,13 @@
+{
+  "name": "Stephen Kwaku Azongo",
+  "location": "Accra, Ghana",
+  "bio": "Web Developer(Full Stack) MERN",
+  "avatar": "https://github.com/steveAzo.png",
+  "portfolio": "https://github.com/steveAzo",
+  "skills": ["HTML", "CSS", "Javascript", "Tailwind CSS", "React.js", "Node.js", "MongoDB", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/steveAzo",
+    "Twitter": "https://twitter.com/StephenAzongo2",
+    "LinkedIn": "https://www.linkedin.com/in/stephen-azongo-671823257/"
+  }
+}
