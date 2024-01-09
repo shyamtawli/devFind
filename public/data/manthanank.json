@@ -1,13 +1,13 @@
 {
-    "name": "Manthan Ankolekar",
-    "location": "Karnataka, India",
-    "bio": "Software Engineer",
-    "avatar": "https://github.com/manthanank.png",
-    "portfolio": "https://github.com/manthanank",
-    "skills": ["Angular", "JavaScript", "Nodejs", "CSS", "SCSS", "TypeScript"],
-    "social": {
-      "GitHub": "https://github.com/manthanank",
-      "Twitter": "https://twitter.com/manthan_ank",
-      "LinkedIn": "https://www.linkedin.com/in/manthanank"
-    }
+  "name": "Manthan Ankolekar",
+  "location": "Karnataka, India",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/manthanank.png",
+  "portfolio": "https://github.com/manthanank",
+  "skills": ["Angular", "JavaScript", "Nodejs", "CSS", "SCSS", "TypeScript"],
+  "social": {
+    "GitHub": "https://github.com/manthanank",
+    "Twitter": "https://twitter.com/manthan_ank",
+    "LinkedIn": "https://www.linkedin.com/in/manthanank"
   }
+}

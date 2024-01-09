@@ -1,0 +1,25 @@
+{
+  "name": "Abubakar Muhammad Ala",
+  "location": "Kano, Nigeria",
+  "bio": "Frontend web developer, Technical writer",
+  "avatar": "https://github.com/amjido-01.png",
+  "portfolio": "https://alerntech.vercel.app/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Tailwind",
+    "JavaScript",
+    "TypeScript",
+    "ReactJS",
+    "Python",
+    "Vite",
+    "Famer motion",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/amjido-01",
+    "Twitter": "https://twitter.com/amJido_01",
+    "LinkedIn": "https://www.linkedin.com/in/abubakar-muhammad-ala-110925242/"
+  }
+}
