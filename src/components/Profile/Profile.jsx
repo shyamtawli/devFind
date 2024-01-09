@@ -3,6 +3,7 @@ import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
+
 function Profile({ data }) {
   return (
     <div className="profile-container">
@@ -12,7 +13,8 @@ function Profile({ data }) {
 
   function Card({ data }) {
     const cardRef = React.useRef();
-    const handleWheel = (event) => {
+    const [avatarSrc, setAvatarSrc] = React.useState(data.avatar);
+    const handleWheel = (event) => { 
       event.stopPropagation();
       event.preventDefault();
       let container = event.target;
@@ -30,11 +32,16 @@ function Profile({ data }) {
       cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
     }, []);
 
+
     return (
       <div className="profile-card">
         <div className="top-container">
           <div className="profile-photo">
-            <img src={data.avatar ? data.avatar : 'default.png'} alt="User logo" />
+            <img
+            src={avatarSrc}
+            alt="User logo"
+            onError={() => setAvatarSrc('default.png')}
+          /> 
           </div>
           <div className="profile-details">
             <h3>
