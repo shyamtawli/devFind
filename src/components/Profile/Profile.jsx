@@ -34,7 +34,7 @@ function Profile({ data }) {
       <div className="profile-card">
         <div className="top-container">
           <div className="profile-photo">
-            <img src={data.avatar} alt="User logo" />
+            <img src={data.avatar ? data.avatar : 'default.png'} alt="User logo" />
           </div>
           <div className="profile-details">
             <h3>
