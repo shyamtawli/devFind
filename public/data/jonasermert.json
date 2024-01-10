@@ -1,0 +1,12 @@
+{
+    "name": "Jonas Ermert",
+    "location": "Erfurt, Germany",
+    "bio": "Hello, my Name is Jonas. I am a Fullstack Developer working with React Native and Golang. In my free time I love to create Flutter Apps.",
+    "avatar": "https://github.com/jonasermert.png",
+    "portfolio": "https://github.com/jonasermert",
+    "skills": ["Flutter", "Dart", "React Native", "Golang"],
+    "social": {
+      "GitHub": "https://github.com/jonasermert",
+      "Twitter": "https://twitter.com/Jonas20692"
+    }
+  }
