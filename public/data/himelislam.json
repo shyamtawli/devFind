@@ -1,0 +1,13 @@
+{
+    "name": "Himel Islam",
+    "location": "Sylhet, Bangladesh",
+    "bio": "An easygoing web developer and tech support enthusiast with a passion for JavaScript and React.js, currently succeeding as a technical support engineer with troubleshooting and problem-solving, focusing on Next.js",
+    "avatar": "https://github.com/himelislam.png",
+    "portfolio": "https://himelportfilio.web.app/",
+    "skills": ["JavaScript", "PHP", "React", "Nextjs", "NodeJS", "ExpressJS", "MongoDB"],
+    "social": {
+      "GitHub": "https://github.com/himelislam",
+      "Twitter": "https://twitter.com/himel_islam1",
+      "LinkedIn": "https://www.linkedin.com/in/himelislam"
+    }
+  }
