@@ -1,19 +1,13 @@
 {
-    "name": "Khairul Islam Emon",
-    "location": "Dhaka, Bangladesh",
-    "bio": "Software Engineer at Wanit LTD",
-    "avatar": "https://github.com/emon1432.png",
-    "portfolio": "https://emon.craziestit.com/",
-    "skills": [
-        "PHP",
-        "JavaScript",
-        "MySQL",
-        "Laravel",
-        "React"
-    ],
-    "social": {
-        "GitHub": "https://github.com/emon1432",
-        "Twitter": "https://twitter.com/emon143298",
-        "LinkedIn": "https://www.linkedin.com/in/md-khairul-islam-emon-6849071a5"
-    }
+  "name": "Khairul Islam Emon",
+  "location": "Dhaka, Bangladesh",
+  "bio": "Software Engineer at Wanit LTD",
+  "avatar": "https://github.com/emon1432.png",
+  "portfolio": "https://emon.craziestit.com/",
+  "skills": ["PHP", "JavaScript", "MySQL", "Laravel", "React"],
+  "social": {
+    "GitHub": "https://github.com/emon1432",
+    "Twitter": "https://twitter.com/emon143298",
+    "LinkedIn": "https://www.linkedin.com/in/md-khairul-islam-emon-6849071a5"
+  }
 }
