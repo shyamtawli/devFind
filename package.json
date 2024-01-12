@@ -48,6 +48,6 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "json-loader": "^0.5.7",
-    "prettier": "^3.0.3"
+    "prettier": "^3.2.0"
   }
 }
