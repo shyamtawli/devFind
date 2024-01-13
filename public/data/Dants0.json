@@ -1,0 +1,12 @@
+{
+  "name": "Guilherme Dantas",
+  "location": "Salvador, Bahia, Brazil",
+  "bio": "Talk is cheap. Show me the code.",
+  "avatar": "https://github.com/Dants0.png",
+  "portfolio": "https://github.com/Dants0?tab=repositories",
+  "skills": ["HTML/CSS", "JavaScript/TypeScript", "NodeJS", "ReactJS", "MySQL", "Python", "Ruby", "Go"],
+  "social": {
+    "GitHub": "https://github.com/Dants0",
+    "LinkedIn": "https://www.linkedin.com/in/guilherme-góes-8b72531b0/?locale=en_US"
+  }
+}

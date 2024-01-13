@@ -2,6 +2,9 @@ import React from 'react';
 import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function Profile({ data }) {
   return (
@@ -71,17 +74,17 @@ function Profile({ data }) {
             <ul className="social-icons">
               <li>
                 <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-                  <i className="fa fa-github"></i>
+                  <FontAwesomeIcon icon={faGithub} className="social-icon" />
                 </a>
               </li>
               <li>
                 <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                  <i className="fa fa-twitter"></i>
+                  <FontAwesomeIcon icon={faXTwitter} className="social-icon" />
                 </a>
               </li>
               <li>
                 <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-                  <i className="fa fa-linkedin"></i>
+                  <FontAwesomeIcon icon={faLinkedinIn} className="social-icon" />
                 </a>
               </li>
             </ul>
