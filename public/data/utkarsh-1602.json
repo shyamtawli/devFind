@@ -1,0 +1,14 @@
+{
+    "name": "Utkarsh hadgekar",
+    "location": "aurangabad, maharashtra",
+    "bio": "A Full stack Developer with experience in MERN Stack",
+    "avatar": "https://github.com/utkarsh-1602.png",
+    "portfolio": "https://portfolio-website-2024.vercel.app/",
+    "skills": ["React", "Typescript", "JavaScript", "TailwindCss", "Postgres", "NodeJS", "MongoDB", "Docker"],
+    "social": {
+      "GitHub": "https://github.com/utkarsh-1602",
+      "Twitter": "https://twitter.com/hey_utkarshh",
+      "LinkedIn": "https://www.linkedin.com/in/utkarsh-hadgekar-9a0b411a5/"
+    }
+  }
+  
