@@ -1,13 +1,13 @@
 {
-    "name": "Murilo Arnemann",
-    "location": "Brasilia, Brazil",
-    "bio": "Firmware engineer developing secure and reliable code",
-    "avatar": "https://github.com/murilo-simio.png",
-    "portfolio": "https://github.com/murilo-simio/",
-    "skills": ["C++", "C", "Embed", "ESP32", "PlatformIO", "MQTT"],
-    "social": {
-      "GitHub": "https://github.com/murilo-simio",
-      "Twitter": "",
-      "LinkedIn": "https://www.linkedin.com/in/murilo-simionato-arnemann-988409a8/"
-    }
+  "name": "Murilo Arnemann",
+  "location": "Brasilia, Brazil",
+  "bio": "Firmware engineer developing secure and reliable code",
+  "avatar": "https://github.com/murilo-simio.png",
+  "portfolio": "https://github.com/murilo-simio/",
+  "skills": ["C++", "C", "Embed", "ESP32", "PlatformIO", "MQTT"],
+  "social": {
+    "GitHub": "https://github.com/murilo-simio",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/murilo-simionato-arnemann-988409a8/"
   }
+}
