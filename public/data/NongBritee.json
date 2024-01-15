@@ -4,17 +4,7 @@
   "bio": "Hi, I'm Napong. A Software Engineer from Thailand. I love coding",
   "avatar": "https://github.com/NongBritee.png",
   "portfolio": "https://github.com/NongBritee",
-  "skills": [
-    "Golang",
-    "React",
-    "Node.js",
-    "Next.js",
-    "TailwindCSS",
-    "MongoDB",
-    "PostgreSQL",
-    "Java",
-    "SpringBoot"
-  ],
+  "skills": ["Golang", "React", "Node.js", "Next.js", "TailwindCSS", "MongoDB", "PostgreSQL", "Java", "SpringBoot"],
   "social": {
     "GitHub": "https://github.com/NongBritee",
     "Twitter": "#",
