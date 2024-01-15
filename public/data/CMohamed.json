@@ -1,24 +1,13 @@
 {
-    "name": "Mohamed CHADAD",
-    "location": "Casablanca, Morocco",
-    "bio": "Software Engineer & problem solver",
-    "avatar": "https://github.com/CMohamed.png",
-    "portfolio": "https://github.com/CMohamed",
-    "skills": [
-        "React",
-        "Next",
-        "Java",
-        "Spring Framwork",
-        "Git",
-        "TypeScript",
-        "JavaScript",
-        "SQL",
-        "Python",
-        "Docker"
-    ],
-    "social": {
-        "GitHub": "https://github.com/CMohamed",
-        "LinkedIn": "https://www.linkedin.com/in/mohamed-chadad/",
-        "Twitter": "https://twitter.com/C_Mohamed_5"
-    }
+  "name": "Mohamed CHADAD",
+  "location": "Casablanca, Morocco",
+  "bio": "Software Engineer & problem solver",
+  "avatar": "https://github.com/CMohamed.png",
+  "portfolio": "https://github.com/CMohamed",
+  "skills": ["React", "Next", "Java", "Spring Framwork", "Git", "TypeScript", "JavaScript", "SQL", "Python", "Docker"],
+  "social": {
+    "GitHub": "https://github.com/CMohamed",
+    "LinkedIn": "https://www.linkedin.com/in/mohamed-chadad/",
+    "Twitter": "https://twitter.com/C_Mohamed_5"
+  }
 }

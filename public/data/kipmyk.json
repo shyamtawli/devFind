@@ -1,13 +1,13 @@
 {
-    "name": "Mike Kipruto",
-    "location": "Nairobi, Kenya",
-    "bio": "Howdy 👋, I'm Mike - a Professional Telecom & Electrical Engineer, Problem Solver, and WordPress Enthusiast. I help build and maintain parts of the Web, with a particular focus on WordPress.",
-    "avatar": "https://github.com/kipmyk.png",
-    "portfolio": "https://github.com/kipmyk",
-    "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress"],
-    "social": {
-      "GitHub": "https://github.com/kipmyk",
-      "Twitter": "https://twitter.com/kipmyk",
-      "LinkedIn": "https://www.linkedin.com/in/kipmyk/"
-    }
+  "name": "Mike Kipruto",
+  "location": "Nairobi, Kenya",
+  "bio": "Howdy 👋, I'm Mike - a Professional Telecom & Electrical Engineer, Problem Solver, and WordPress Enthusiast. I help build and maintain parts of the Web, with a particular focus on WordPress.",
+  "avatar": "https://github.com/kipmyk.png",
+  "portfolio": "https://github.com/kipmyk",
+  "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress"],
+  "social": {
+    "GitHub": "https://github.com/kipmyk",
+    "Twitter": "https://twitter.com/kipmyk",
+    "LinkedIn": "https://www.linkedin.com/in/kipmyk/"
   }
+}
