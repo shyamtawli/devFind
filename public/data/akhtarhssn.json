@@ -1,0 +1,13 @@
+{
+  "name": "Akhtar Hussain",
+  "location": "Sylhet, Bangladesh",
+  "bio": "Ingenious MERN maestro crafting digital realms. Architect of sleek, user-centric wonders. Code conjurer on a mission to redefine web experiences with flair and finesse.",
+  "avatar": "https://github.com/<your-github-username>.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Your Skill 1", "Your Skill 2", "..."],
+  "social": {
+    "GitHub": "https://github.com/<github-username>",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
