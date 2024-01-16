@@ -1,0 +1,13 @@
+{
+  "name": "Andrey P",
+  "location": "Russia, Moscow",
+  "bio": "Fullstack web3 developer",
+  "avatar": "https://github.com/melonges.png",
+  "portfolio": "https://github.com/melonges",
+  "skills": ["JavaScript", "TypeScript", "SQL", "Rust", "Solidity", "Web3", "React", "Node js", "Next js", "Nest js"],
+  "social": {
+    "GitHub": "https://github.com/melonges",
+    "Twitter": "https://twitter.com/melonges",
+    "LinkedIn": "https://www.linkedin.com/in/melonges"
+  }
+}
