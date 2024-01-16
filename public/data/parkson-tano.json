@@ -1,0 +1,13 @@
+{
+  "name": "Parkson Tano Daniel",
+  "location": "Yaounde, Cameroon",
+  "bio": "Full Stack Developer with 4 years of experience developing, testing, and deploying web-based applications, resulting in increased user performance, cost savings",
+  "avatar": "https://github.com/parkson-tano.png",
+  "portfolio": "https://github.com/parkson-tano",
+  "skills": ["Python", "JavaScript", "Full Stack web Development", "React JS", "React Native", "Django"],
+  "social": {
+    "GitHub": "https://github.com/parkson-tano",
+    "Twitter": "https://twitter.com/parksondaniel",
+    "LinkedIn": "https://www.linkedsin.com/in/daniel-parkson-tano/"
+  }
+}

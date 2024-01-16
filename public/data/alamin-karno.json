@@ -1,0 +1,13 @@
+{
+  "name": "Md. Al-Amin",
+  "location": "Dhaka, Bangladesh",
+  "bio": "Junior Software Engineer (Android & iOS) at Rokomari.com",
+  "avatar": "https://github.com/alamin-karno.png",
+  "portfolio": "https://github.com/alamin-karno",
+  "skills": ["Java", "Dart", "Android", "Flutter", "Firebase", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/alamin-karno",
+    "Twitter": "https://twitter.com/alamin_karno",
+    "LinkedIn": "https://www.linkedin.com/in/alaminkarno"
+  }
+}

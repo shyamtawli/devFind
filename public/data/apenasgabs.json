@@ -1,0 +1,38 @@
+{
+  "name": "Gabriel Rodrigues",
+  "location": "Campinas - SP, Brazil",
+  "bio": "I spent 3 years working in the testing field, and now, I have been working in the development field for a little over 2 years.",
+  "avatar": "https://github.com/apenasgabs.png",
+  "portfolio": "https://github.com/apenasgabs",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "React Native",
+    "PWA",
+    "Styled Components",
+    "Ant Design",
+    "ES6",
+    "NextJs",
+    "Node.js",
+    "ExpressJs",
+    "Python",
+    "Flask",
+    "Docker",
+    "Version Control",
+    "UML",
+    "Database",
+    "GraphQL",
+    "REST",
+    "Context API",
+    "React Query",
+    "Jest",
+    "Cypress",
+    "Puppeteer"
+  ],
+  "social": {
+    "GitHub": "https://github.com/apenasgabs",
+    "Twitter": "https://twitter.com/apenasgabs",
+    "LinkedIn": "https://www.linkedin.com/in/apenasgabs"
+  }
+}

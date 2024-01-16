@@ -1,0 +1,24 @@
+{
+  "name": "Abhiraj Chaudhuri",
+  "location": "Vadodara, India",
+  "bio": "I'm an aspiring Full stack Developer and also an AI/ML Enthusiast.",
+  "avatar": "https://github.com/abhie7.png",
+  "portfolio": "https://github.com/abhie7",
+  "skills": [
+    "JavaScript",
+    "Python",
+    "C#",
+    "HTML",
+    "CSS",
+    "Git",
+    "MySQL",
+    "AWS",
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+  ],
+  "social": {
+    "GitHub": "https://github.com/abhie7",
+    "Twitter": "https://twitter.com/bunnypinguu",
+    "LinkedIn": "https://www.linkedin.com/in/abhiraj-chaudhuri"
+  }
+}

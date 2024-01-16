@@ -1,0 +1,13 @@
+{
+  "name": "Anjal Binayak Adhikari",
+  "location": "London, Ontario",
+  "bio": "Full Stack Software Engineer | SEO Enthusiast | Neuroscience Enthusiast | Indie SaaS Developer",
+  "avatar": "https://github.com/anjalbinayak.png",
+  "portfolio": "anjalbinayak.com.np",
+  "skills": ["Reactjs", "Nextjs", "Typescript", "NodeJS", "Postgres", "Docker", "Redis", "CI/CD", "SEO"],
+  "social": {
+    "GitHub": "https://github.com/anjalbinayak",
+    "Twitter": "https://twitter.com/anjalbinayak",
+    "LinkedIn": "https://www.linkedin.com/in/anjalbinayak"
+  }
+}

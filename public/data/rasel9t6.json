@@ -1,0 +1,13 @@
+{
+  "name": "Rasel Hossen",
+  "location": "Bangladesh",
+  "bio": "Hello there! I'm RASEL, a dedicated and skilled full-stack web developer with expertise in Next.js, MongoDB, TypeScript, and JavaScript. My focus is on transforming creative ideas into seamless digital experiences, driven by a belief in the power of technology to simplify, connect, and inspire.",
+  "avatar": "https://github.com/rasel9t6.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Next.js", "React.js", "TypeScript", "JavaScript", "MongoDB", "Supabase"],
+  "social": {
+    "GitHub": "https://github.com/rasel9t6",
+    "Twitter": "https://www.facebook.com/rasel9t6/",
+    "LinkedIn": "https://www.linkedin.com/in/rasel-9t6/"
+  }
+}
