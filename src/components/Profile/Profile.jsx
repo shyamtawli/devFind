@@ -37,7 +37,7 @@ function Profile({ data }) {
           <div className="h-24 w-24 flex-shrink-0">
             <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
           </div>
-          <div className="w-[75%]">
+          <div className="w-[55%] sm:w-[75%]">
             <h3>
               <a
                 className="text-lg font-bold hover:text-textSecondary dark:text-white"
