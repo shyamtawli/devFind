@@ -53,7 +53,7 @@ function Search({ onSearch }) {
   }, []);
 
   return (
-    <div className="relative mb-8 flex items-center justify-end pb-6">
+    <div className="relative flex items-center justify-end pb-6">
       <input
         className="h-12 w-full rounded-md border-2 border-borderSecondary bg-primaryColor px-4 py-3 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         ref={searchInput}

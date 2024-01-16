@@ -1,14 +1,12 @@
 import React from 'react';
-import './Profile.css';
+import { FaGithub } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 function Profile({ data }) {
-  return (
-    <div className="profile-container">
-      <Card data={data} />
-    </div>
-  );
+  return <Card data={data} />;
 
   function Card({ data }) {
     const cardRef = React.useRef();
@@ -31,60 +29,68 @@ function Profile({ data }) {
     }, []);
 
     return (
-      <div className="profile-card">
-        <div className="top-container">
-          <div className="profile-photo">
-            <img src={data.avatar} alt="User logo" />
+      <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
+        <div className="flex gap-4">
+          <div className="h-24 w-24 flex-shrink-0">
+            <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
           </div>
-          <div className="profile-details">
+          <div className="w-[75%]">
             <h3>
-              <a className="profile-name" href={data.portfolio} target="_blank" rel="noreferrer">
+              <a
+                className="text-lg font-bold hover:text-textSecondary dark:text-white"
+                href={data.portfolio}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {data.name}
               </a>
             </h3>
-            <p>
+            <p className="text-sm dark:text-white">
               <span style={{ marginRight: '0.5rem' }}>
                 <FontAwesomeIcon icon={faLocationDot} />
               </span>
               {data.location}
             </p>
-            <div className="skills-container" ref={cardRef}>
+            <div
+              className="skills-container mt-4 flex h-9 gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
+              ref={cardRef}
+            >
               {data.skills &&
                 data.skills.map((skill, index) => {
                   return (
-                    <div className="skill" key={index}>
+                    <div
+                      className="inline h-[30px] cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-sm text-white"
+                      key={index}
+                    >
                       {skill}
                     </div>
                   );
                 })}
             </div>
           </div>
-          <div className={`${data.portfolio ? 'profile-link' : 'profile-link-disabled'}`}>
-            <a href={data.portfolio} target="_blank" rel="noreferrer">
+          <div
+            className={`${
+              data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
+            }`}
+          >
+            <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
               View Profile &#8594;
             </a>
           </div>
         </div>
-        <div className="bottom-container">
-          <div className="about">{data.bio}</div>
-          <div className="social-container">
-            <ul className="social-icons">
-              <li>
-                <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-                  <i className="fa fa-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-                  <i className="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
+        <div className="mt-4">
+          <div className="dark:text-white">{data.bio}</div>
+          <div className="mt-1 flex gap-4">
+            <a href={data.social.GitHub} target="_blank" rel="noreferrer">
+              <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+
+            <a href={data.social.Twitter} target="_blank" rel="noreferrer">
+              <FaTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+            <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
+              <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
           </div>
         </div>
       </div>

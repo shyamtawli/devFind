@@ -18,3 +18,17 @@
   border-radius: 8px;
   background-clip: content-box;
 }
+
+.skills-container::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+.skills-container::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+.skills-container::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
