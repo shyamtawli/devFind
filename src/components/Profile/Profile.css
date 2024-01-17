@@ -13,6 +13,10 @@
   color: #fff;
 }
 
+.profile-card:hover{
+  background-color: #243453;
+}
+
 .profile-card .top-container {
   display: flex;
   gap: 1rem;
