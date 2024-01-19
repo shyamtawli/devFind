@@ -159,11 +159,12 @@
   font-size: 1.2em;
 }
 
-.social-icons i {
+.social-icons .social-icon {
   color: #fff;
   position: absolute;
-  top: 16px;
-  left: 16.75px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   transition: all 265ms ease-out;
 }
 
@@ -186,11 +187,11 @@
   -webkit-tap-highlight-color: transparent; /* Add the WebKit-specific property to remove the border in safari browser*/
 }
 
-.social-icons a:hover i {
-  transform: scale(2.25);
-  -ms-transform: scale(2.25);
-  -webkit-transform: scale(2.25);
-  color: #0031b9;
+.social-icons a:hover .social-icon {
+  transform: scale(2) translate(-25%, -25%);
+  -ms-transform: scale(2) translate(-25%, -25%);
+  -webkit-transform: scale(2) translate(-25%, -25%);
+  color: #3474ec;
   background: -webkit-linear-gradient(45deg, #1b58c9, #0daae9);
   background-clip: text;
   -webkit-background-clip: text;
