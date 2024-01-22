@@ -1,0 +1,24 @@
+{
+  "name": "Utku BEKTASOGLU",
+  "location": "Istanbul, Turkey",
+  "bio": "Mobile compatible and responsive designs | Modern and customizable user interfaces 🚀 | Advanced web applications with CSS3, HTML5 and JavaScript technologies",
+  "avatar": "https://github.com/utkbkts.png",
+  "portfolio": "https://www.utkubektasoglu.pro/",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Tailwind",
+    "Sass",
+    "UI/UX",
+    "Firebase",
+    "MongoDB",
+    "HTML",
+    "CSS",
+    "Bootstrap"
+  ],
+  "social": {
+    "GitHub": "https://github.com/utkbkts",
+    "LinkedIn": "https://www.linkedin.com/in/utku-bektasoglu-80264a274/"
+  }
+}

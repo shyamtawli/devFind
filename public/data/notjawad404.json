@@ -1,0 +1,13 @@
+{
+  "name": "Jawad Ali",
+  "location": "Islambad, Pakistan",
+  "bio": "Front end web developer and data science enthusiast. Working in ReactJS and Tailwind CSS to build beautiful and responsive web appss.",
+  "avatar": "https://github.com/notjawad404.png",
+  "portfolio": "https://notjawad404.vercel.app",
+  "skills": ["ReactJS", "Tailwind CSS", "Bootstrap", "JavaScript", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/notjawad404",
+    "Twitter": "https://twitter.com/notjawad404",
+    "LinkedIn": "https://www.linkedin.com/in/notjawad404"
+  }
+}

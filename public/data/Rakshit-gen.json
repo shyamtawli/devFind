@@ -1,0 +1,13 @@
+{
+  "name": "Rakshit",
+  "location": "Hamirpur, Himachal Pradesh",
+  "bio": "A passionate Full Stack developer and AI enthusiast with a core knowledge of APIs.",
+  "avatar": "https://github.com/Rakshit-gen.png",
+  "portfolio": "https://rakshit-dev-portfolio.netlify.app/",
+  "skills": ["ReactJs", "NextJs", "NodeJs", "MongoDB", "ExpressJs", "RestAPI", "Django", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/Rakshit-gen",
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya"
+  }
+}

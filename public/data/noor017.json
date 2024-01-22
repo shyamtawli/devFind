@@ -1,0 +1,25 @@
+{
+  "name": "Asaduzzaman Noor",
+  "location": "Dhaka, Bangladesh",
+  "bio": "Full-stack Developer adept in Java, Spring Boot, AWS, MongoDB, MySQL. Skilled in distributed systems, team management, problem-solving, and embracing new tech. Passionate about software development and innovation.",
+  "avatar": "https://github.com/noor017.png",
+  "portfolio": "https://gitlab.com/noor017",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "Javascript",
+    "NodeJS",
+    "MySQL",
+    "MongoDB",
+    "AWS",
+    "Micro Services",
+    "Data Structures and Algorithms",
+    "Team Management"
+  ],
+  "social": {
+    "GitHub": "https://github.com/noor017",
+    "Twitter": "https://twitter.com/noor01747",
+    "LinkedIn": "https://www.linkedin.com/in/noor01747"
+  }
+}
