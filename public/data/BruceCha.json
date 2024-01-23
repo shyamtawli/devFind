@@ -1,0 +1,13 @@
+{
+  "name": "Bruce Chapman",
+  "location": "Virginia, USA",
+  "bio": "I am a full stack developer with a passion for learning",
+  "avatar": "https://github.com/BruceCha.png",
+  "portfolio": "https://github.com/BruceCha",
+  "skills": ["HTML", "JAVASCRIPT", "CSS", "REACT", "GIT", "AWS CLOUD"],
+  "social": {
+    "GitHub": "https://github.com/BruceCha",
+    "Twitter": "https://twitter.com/BruceJr1010",
+    "LinkedIn": "https://www.linkedin.com/in/brucechapmanjr"
+  }
+}
