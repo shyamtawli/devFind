@@ -16,6 +16,10 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.profile-card:hover{
+  background-color: #243453;
+}
+
 .profile-card .top-container {
   display: flex;
   gap: 1rem;
