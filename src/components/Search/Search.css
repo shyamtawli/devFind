@@ -22,11 +22,84 @@
   font-family: 'Space Mono', sans-serif;
 }
 
+@media screen and (max-width: 355px) {
+  .search-bar ::placeholder {
+    height: 2.5rem; /* Adjusted height for smaller screens */
+    padding: 0.25rem 0.8rem; /* Adjusted padding for smaller screens */
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
+}
+@media screen and (max-width: 340px) {
+  .search-bar ::placeholder {
+    height: 2.2rem; /* Adjusted height for smaller screens */
+    padding: 0.22rem 0.6rem; /* Adjusted padding for smaller screens */
+    font-size: 0.75rem; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .search-bar ::placeholder {
+    height: 1.95rem; /* Further adjusted height for 320px screens */
+    padding: 0.2rem 0.5rem; /* Further adjusted padding for 320px screens */
+    font-size: 0.7rem; /* Further adjusted font size for 320px screens */
+  }
+
+  .search-bar input::placeholder {
+    white-space: nowrap; /* Prevent placeholder from wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .search-bar ::placeholder {
+    height: 1.5rem; /* Adjusted height for smaller screens */
+    padding: 0.15rem 0.18rem; /* Adjusted padding for smaller screens */
+    font-size: 0.6rem; /* Adjusted font size for smaller screens */
+  }
+}
+@media screen and (max-width: 250px) {
+  .search-bar ::placeholder {
+    height: 1.5rem; /* Adjusted height for smaller screens */
+    padding: 0.1rem 0.13rem; /* Adjusted padding for smaller screens */
+    font-size: 0.4rem; /* Adjusted font size for smaller screens */
+  }
+}
+
 .search-bar .search-icon {
   position: absolute;
   margin-right: 10px;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+/* Media query for screens up to 320px */
+@media screen and (max-width: 320px) {
+  .search-bar .search-icon {
+    font-size: 0.8rem; /* Adjusted font size for smaller screens */
+  }
+
+  .search-bar .search-icon {
+    /* Adjusted font size for 320px screens */
+    position: absolute;
+    margin-right: 5px;
+    font-size: 1rem;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .search-bar .search-icon {
+    font-size: 0.5rem; /* Adjusted font size for smaller screens */
+  }
+
+  .search-bar input,
+  .search-bar .search-icon {
+    height: 1.5rem; /* Adjusted height for 320px screens */
+    padding: 0.2rem 0.5rem; /* Adjusted padding for 320px screens */
+    font-size: 0.3rem; /* Adjusted font size for 320px screens */
+  }
 }
 
 .search-icon:hover {

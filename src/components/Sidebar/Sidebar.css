@@ -71,6 +71,26 @@
   font-size: 14px;
   border: 2px solid #00a6fb;
 }
+@media screen and (max-width: 365px) {
+  .link_button {
+    padding: 8px 10px; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .link_button {
+    padding: 5px 10px; /* Adjusted padding for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .link_button {
+    padding: 3px 7px; /* Adjusted padding for smaller screens */
+    font-size: 8px; /* Adjusted font size for smaller screens */
+  }
+}
 
 .link_button:hover {
   background-color: transparent;
