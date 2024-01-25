@@ -1,0 +1,12 @@
+{
+  "name": "Vladislav Stepovoy",
+  "location": "Poland, Wroclaw",
+  "bio": "Backend Developer with 4+ years of experience concentrating mostly on web development using Java. Professional experience covers software development of web applications using SpringBoot and Hibernate, and has skills in SQL, PL/SQL scripts writing. Is highly motivated to work with the newest technologies, such as Kubernetes and cloud servers. Constantly strives to enrich his knowledge, being a communicative person, works efficiently both in a team and independently. ",
+  "avatar": "https://github.com/vladstepway.png",
+  "portfolio": "https://github.com/vladstepway",
+  "skills": ["Java", "SQL", "Spring", "React"],
+  "social": {
+    "GitHub": "https://github.com/vladstepway",
+    "LinkedIn": "https://www.linkedin.com/in/vlad-stepovoy"
+  }
+}

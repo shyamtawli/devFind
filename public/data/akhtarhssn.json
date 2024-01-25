@@ -1,0 +1,13 @@
+{
+  "name": "Akhtar Hussain",
+  "location": "Sylhet, Bangladesh",
+  "bio": "Ingenious MERN maestro crafting digital realms. Architect of sleek, user-centric wonders. Code conjurer on a mission to redefine web experiences with flair and finesse.",
+  "avatar": "https://github.com/akhtarhssn.png",
+  "portfolio": "https://aktarhossain.com",
+  "skills": ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Mongoose", "Firebase", "PostgreSQL", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/akhtarhssn",
+    "Twitter": "https://twitter.com/akhtarhssn",
+    "LinkedIn": "https://www.linkedin.com/in/akhtarhssn"
+  }
+}
