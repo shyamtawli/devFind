@@ -1,0 +1,13 @@
+{
+  "name": "Quinn Narlo",
+  "location": "Paynesville, Liberia",
+  "bio": "Quinn Narlo is a dedicated and ambitious individual pursuing a major in Computer Science. With a passion for technology and a keen interest in the digital world, Quinn is on a journey to become a proficient computer scientist.",
+  "avatar": "https://github.com/pyquinnnarlo.png",
+  "portfolio": "https://github.com/pyquinnnarlo",
+  "skills": ["Backend Engineer", "Unity 3d Game Dev", "Frontend Dev", "Mobile/Desktop App Developer"],
+  "social": {
+    "GitHub": "https://github.com/pyquinnnarlo",
+    "Twitter": "https://twitter.com/quinn_narlo",
+    "LinkedIn": "https://www.linkedin.com/in/quinn-narlo-b0ab4724a"
+  }
+}
