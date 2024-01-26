@@ -1,0 +1,13 @@
+{
+    "name": "Jeremy Ray Jewell",
+    "location": "San Antonio, TX, USA",
+    "bio": "I'm a writer and web developer with a passion for learning and teaching.",
+    "avatar": "https://github.com/jeremyrayjewell.png",
+    "portfolio": "www.jeremyrayjewell.com",
+    "skills": ["Front-End", "Teaching", "Javascript", "React"],
+    "social": {
+      "GitHub": "https://github.com/jeremyrayjewell",
+      "Twitter": "https://twitter.com/jeremyrayjewell",
+      "LinkedIn": "https://www.linkedin.com/in/jeremyrayjewell"
+    }
+  }

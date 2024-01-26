@@ -1,0 +1,26 @@
+{
+  "name": "Abdullah Javaid",
+  "location": "Lahore, Pakistan",
+  "bio": "CS Graduate, full-stack web developer, Team Leader",
+  "avatar": "https://github.com/abdullahjavaid86.png",
+  "portfolio": "https://github.com/abdullahjavaid86",
+  "skills": [
+    "React",
+    "Vue",
+    "TypeScript",
+    "Node",
+    "Next.js",
+    "Laravel",
+    "PHP",
+    "TailwindCSS",
+    "AWS",
+    "MySQL",
+    "MongoDB",
+    "PostgreSQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/abdullahjavaid86",
+    "Twitter": "https://twitter.com/abdullahjavaid2",
+    "LinkedIn": "https://www.linkedin.com/in/abdullahjavaid86"
+  }
+}
