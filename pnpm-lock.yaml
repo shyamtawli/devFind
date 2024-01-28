@@ -28,6 +28,12 @@ importers:
       '@testing-library/user-event':
         specifier: ^14.5.1
         version: 14.5.1(@testing-library/dom@9.3.3)
+      '@vercel/analytics':
+        specifier: ^1.1.2
+        version: 1.1.2
+      flag:
+        specifier: ^5.0.1
+        version: 5.0.1(react@18.2.0)
       pnpm:
         specifier: ^8.10.2
         version: 8.10.2
@@ -3142,6 +3148,13 @@ packages:
       { integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ== }
     dev: false
 
+  /@vercel/analytics@1.1.2:
+    resolution:
+      { integrity: sha512-CodhkLCQ/EHzjX8k+Qg+OzTBY0UadykrcfolfSOJVZZY/ZJM5nbhztm9KdbYvMfqKlasAr1+OYy0ThZnDA/MYA== }
+    dependencies:
+      server-only: 0.0.1
+    dev: false
+
   /@webassemblyjs/ast@1.11.6:
     resolution:
       { integrity: sha512-IN1xI7PwOvLPgjcf180gC1bqn3q/QaOCwYUahIOhbYUu8KA/3tw2RT/T0Gidi1l7Hhj5D/INhJxiICObqpMu4Q== }
@@ -3618,6 +3631,11 @@ packages:
   /ast-types-flow@0.0.8:
     resolution:
       { integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ== }
+    dev: false
+
+  /async-ref@0.1.6:
+    resolution:
+      { integrity: sha512-gIvfC7ahv452pM+nwnxZJd/vhUh8UFMrd1DCvIvWjoy9WrRmYroXTTDxwg91oiD+4CqQKrg+11uCxZrzat4UvQ== }
     dev: false
 
   /async@3.2.5:
@@ -5884,6 +5902,17 @@ packages:
     dependencies:
       locate-path: 6.0.0
       path-exists: 4.0.0
+    dev: false
+
+  /flag@5.0.1(react@18.2.0):
+    resolution:
+      { integrity: sha512-4P/rvPGKcFBneboyYHMOKbKaJL5ZhNjScbY7bGToas7FgBvrTWbh76yxRaoSoFe3HSjWc6IJ0EajUwSadcP6Lg== }
+    peerDependencies:
+      react: ^18
+    dependencies:
+      '@types/react': 18.2.35
+      async-ref: 0.1.6
+      react: 18.2.0
     dev: false
 
   /flat-cache@3.1.1:
@@ -10325,6 +10354,11 @@ packages:
       send: 0.18.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /server-only@0.0.1:
+    resolution:
+      { integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA== }
     dev: false
 
   /set-function-length@1.1.1:
