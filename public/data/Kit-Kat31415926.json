@@ -1,0 +1,11 @@
+{
+  "name": "Kit-Kat31415926",
+  "location": "California, US",
+  "bio": "Computer Science major!",
+  "avatar": "https://github.com/Kit-Kat31415926.png",
+  "portfolio": "https://github.com/Kit-Kat31415926",
+  "skills": ["HMTL", "CSS", "JavaScript", "Python", "Java"],
+  "social": {
+    "GitHub": "https://github.com/Kit-Kat31415926"
+  }
+}

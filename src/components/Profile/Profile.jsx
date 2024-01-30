@@ -11,6 +11,7 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
+  const [avatarSrc, setAvatarSrc] = React.useState(data.avatar);
   const handleWheel = (event) => {
     event.stopPropagation();
     event.preventDefault();
