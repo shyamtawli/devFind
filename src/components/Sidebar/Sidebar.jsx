@@ -3,6 +3,7 @@ import './Sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '../../hooks/useTheme';
+// import {UserForm} from '../UserFrom/UserFrom';
 
 function Sidebar() {
   const { theme, toogleTheme } = useTheme();
@@ -29,7 +30,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="headline">Discover and Connect with Skilled Developers.</div>
-      <div className="description">
+      <div className="description"> 
         <a href=" https://github.com/shyamtawli/devFind#how-to-add-your-profile-" target="_blank" rel="noreferrer">
           <button className="link_button"> Add your profile </button>
         </a>
