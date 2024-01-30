@@ -10,6 +10,9 @@ import './App.css';
 import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
 
+import { inject } from '@vercel/analytics';
+inject();
+
 function App() {
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);

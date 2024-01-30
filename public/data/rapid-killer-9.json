@@ -1,24 +1,13 @@
 {
-    "name": "Harsh Jha",
-    "location": "Mumbai, India",
-    "bio": "Hello, I am Harsh and I am a self-taught developer with a strong passion for coding and learning. I have been making projects for almost 3 years. I love to explore a new piece of technology. I am always on the lookout for new projects and opportunities to expand my skills, and I am excited about the possibilities that the future holds for me in the world of technology.",
-    "avatar": "https://github.com/rapid-killer-9.png",
-    "portfolio": "https://github.com/rapid-killer-9",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Git",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Firebase",
-      "Netlify"
-    ],
-    "social": {
-      "GitHub": "https://github.com/rapid-killer-9",
-      "Twitter": "https://twitter.com/rapid_killer_9",
-      "LinkedIn": "https://www.linkedin.com/in/harshjha02"
-    }
+  "name": "Harsh Jha",
+  "location": "Mumbai, India",
+  "bio": "Hello, I am Harsh and I am a self-taught developer with a strong passion for coding and learning. I have been making projects for almost 3 years. I love to explore a new piece of technology. I am always on the lookout for new projects and opportunities to expand my skills, and I am excited about the possibilities that the future holds for me in the world of technology.",
+  "avatar": "https://github.com/rapid-killer-9.png",
+  "portfolio": "https://github.com/rapid-killer-9",
+  "skills": ["JavaScript", "React", "Tailwind CSS", "Git", "Node.js", "Express", "MongoDB", "Firebase", "Netlify"],
+  "social": {
+    "GitHub": "https://github.com/rapid-killer-9",
+    "Twitter": "https://twitter.com/rapid_killer_9",
+    "LinkedIn": "https://www.linkedin.com/in/harshjha02"
   }
-  
+}

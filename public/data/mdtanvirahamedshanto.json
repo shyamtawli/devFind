@@ -1,13 +1,13 @@
 {
-    "name": "Md Tanvir Ahamed Shanto",
-    "location": "Kalapara, Patuakhali, Bangladesh",
-    "bio": "Hello, I'm Md Tanvir Ahamed Shanto. I'm a Front-end developer with 1 years of experience. I enjoy building sites & apps. My focus is React (Next.js) & Learing Backend Tecnhology Node.js.",
-    "avatar": "https://github.com/mdtanvirahamedshanto.png",
-    "portfolio": "https://mdtanvirahamedshanto.live",
-    "skills": ["JavaScript", "React", "Next.js", "Node.js","C++"],
-    "social": {
-      "GitHub": "https://github.com/mdtanvirahamedshanto",
-      "Twitter": "https://twitter.com/tashanto03",
-      "LinkedIn": "https://www.linkedin.com/in/mdtanvirahamedshanto"
-    }
+  "name": "Md Tanvir Ahamed Shanto",
+  "location": "Kalapara, Patuakhali, Bangladesh",
+  "bio": "Hello, I'm Md Tanvir Ahamed Shanto. I'm a Front-end developer with 1 years of experience. I enjoy building sites & apps. My focus is React (Next.js) & Learing Backend Tecnhology Node.js.",
+  "avatar": "https://github.com/mdtanvirahamedshanto.png",
+  "portfolio": "https://mdtanvirahamedshanto.live",
+  "skills": ["JavaScript", "React", "Next.js", "Node.js", "C++"],
+  "social": {
+    "GitHub": "https://github.com/mdtanvirahamedshanto",
+    "Twitter": "https://twitter.com/tashanto03",
+    "LinkedIn": "https://www.linkedin.com/in/mdtanvirahamedshanto"
   }
+}
