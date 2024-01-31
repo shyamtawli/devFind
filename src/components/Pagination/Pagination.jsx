@@ -14,19 +14,24 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
   };
 
   return (
-    <div className="pagination">
-      <button onClick={handlePrevPage} disabled={currentPage === 1} className="pagination-button">
-        <span href="#" className="pagination-text">
+    <div className="flex items-center justify-center gap-12">
+      <button onClick={handlePrevPage} disabled={currentPage === 1} className="focus:outline-none disabled:opacity-30">
+        <span
+          href="#"
+          className="font-spaceMono hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+        >
           Previous
         </span>
       </button>
       <button
         onClick={handleNextPage}
-        type="submit"
         disabled={currentPage === totalPages}
-        className="pagination-button "
+        className="focus:outline-none disabled:opacity-30"
       >
-        <span href="#" className="pagination-text">
+        <span
+          href="#"
+          className="font-spaceMono hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+        >
           Next
         </span>
       </button>
