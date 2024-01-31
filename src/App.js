@@ -7,7 +7,6 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
-import './components/Pagination/Pagination.css';
 import filenames from './ProfilesList.json';
 
 function App() {
