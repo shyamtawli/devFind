@@ -1,0 +1,13 @@
+{
+  "name": "Sebastião Sukuakueche",
+  "location": "Luanda, Angola",
+  "bio": "I am a young man passionate about software development",
+  "avatar": "https://github.com/sukuasoft.png",
+  "portfolio": "https://github.com/sukuasoft",
+  "skills": ["C#", "Javascript", "PHP", "React", "Web development", "Game development"],
+  "social": {
+    "GitHub": "https://github.com/sukuasoft",
+    "Twitter": "https://twitter.com/SSukuakueche",
+    "LinkedIn": "https://www.linkedin.com/in/sebasti%C3%A3o-sukuakueche-154931247/"
+  }
+}

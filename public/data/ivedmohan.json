@@ -1,0 +1,13 @@
+{
+  "name": "Ved mohan",
+  "location": "Delhi India",
+  "bio": "Your Bio should be 20-30 words not more then that",
+  "avatar": "https://github.com/ivedmohan.png",
+  "portfolio": "https://github.com/ivedmohan",
+  "skills": ["HTML", "CSS", "JS"],
+  "social": {
+    "GitHub": "https://github.com/ivedmohan",
+    "Twitter": "https://twitter.com/ivedmohan",
+    "LinkedIn": "https://www.linkedin.com/in/ivedmohan"
+  }
+}

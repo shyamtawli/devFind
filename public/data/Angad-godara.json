@@ -1,0 +1,28 @@
+{
+  "name": "Angad Godara",
+  "location": "India",
+  "bio": "I seek challenging opportunities and want to succeed in that environment. I want to excel in my eld and want a highly rewarding career. I want to use my skills and knowledge for personal and professional growth.",
+  "avatar": "https://github.com/angad-godara.png",
+  "portfolio": "https://github.com/angad-godara.png",
+  "skills": [
+    "C++",
+    "Java",
+    "JavaScript",
+    "Python",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "Git/GitHub",
+    "Azure",
+    "VS-Code",
+    "spring-boot",
+    "SQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/angad-godara",
+    "Twitter": "https://twitter.com/herDebugger",
+    "LinkedIn": "https://www.linkedin.com/in/angad-godara-502373142/"
+  }
+}

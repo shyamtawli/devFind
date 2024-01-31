@@ -1,0 +1,13 @@
+{
+  "name": "Ayush Kumar Tiwari",
+  "location": "Chhattisgarh, India",
+  "bio": "A backend developer who is disciplined to learn and master whatever he desires.",
+  "avatar": "https://github.com/ayush8085.png",
+  "portfolio": "https://github.com/ayush8085",
+  "skills": ["Python", "Django/Flask", "MongoDB", "Java", "DSA", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/ayush8085",
+    "Twitter": "https://twitter.com/ayushtiwari1101",
+    "LinkedIn": "https://www.linkedin.com/in/ayush-kumar-tiwari/"
+  }
+}

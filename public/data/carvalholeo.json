@@ -1,0 +1,13 @@
+{
+  "name": "Leonardo 'Léo' Carvalho",
+  "location": "Guarujá, Brazil",
+  "bio": "Backend Developer at Namu and Development teacher.",
+  "avatar": "https://github.com/carvalholeo.png",
+  "portfolio": "https://github.com/carvalholeo",
+  "skills": ["AWS", "Node.js", "Laravel", "WordPress", "PHP", "JavaScript", "SQL", "Docker"],
+  "social": {
+    "GitHub": "https://github.com/carvalholeo",
+    "Twitter": "https://twitter.com/_carvalho_leo",
+    "LinkedIn": "https://www.linkedin.com/in/carvalholeo"
+  }
+}

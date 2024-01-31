@@ -1,0 +1,13 @@
+{
+  "name": "Imtiaz Nayeem Shawon",
+  "location": "Dhaka,Bangladesh",
+  "bio": "I'm Imtiaz Nayeem Shawon, an 18-year-old web developer with over three years of experience",
+  "avatar": "https://github.com/ImtiazNayeemShawon.png",
+  "portfolio": "https://www.imtiaznayeem.co/",
+  "skills": ["Javascript", "React js", "Next js", "nodejs", "Express js", "Mongodb", "Prisma", "Typescript", "C++"],
+  "social": {
+    "GitHub": "https://github.com/ImtiazNayeemShawon/",
+    "Twitter": "https://twitter.com/Imtiaz_Nayim",
+    "LinkedIn": "https://www.linkedin.com/in/imtiaznayeem/"
+  }
+}

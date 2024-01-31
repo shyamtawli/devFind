@@ -1,0 +1,13 @@
+{
+  "name": "Sameer Faisal",
+  "location": "Lahore, Pakistan",
+  "bio": "Full-stack web developer with a passion for creating beautiful and aestheically pleasing interfaces.",
+  "avatar": "https://github.com/imrtls00.png",
+  "portfolio": "http://imrtls00.xyz",
+  "skills": ["Figma", "Python"],
+  "social": {
+    "GitHub": "https://github.com/imrtls00",
+    "Twitter": "https://twitter.com/imrtls00",
+    "LinkedIn": "https://www.linkedin.com/in/imrtls00/"
+  }
+}

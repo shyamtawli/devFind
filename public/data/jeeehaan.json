@@ -1,0 +1,13 @@
+{
+  "name": "Jessy H",
+  "location": "Indonesia",
+  "bio": "Frontend Enthusiast",
+  "avatar": "https://github.com/jeeehaan.png",
+  "portfolio": "https://github.com/jeeehaan.png",
+  "skills": ["Taiwlindcss", "Nextjs"],
+  "social": {
+    "GitHub": "https://github.com/jeeehaan",
+    "Twitter": "https://twitter.com/jeeehaan",
+    "LinkedIn": "https://www.linkedin.com/in/jeeehaan"
+  }
+}

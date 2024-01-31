@@ -1,0 +1,13 @@
+{
+  "name": "Thanachon Supasatian",
+  "location": "Bangkok, Thailand",
+  "bio": "A front-end engineer passionate about building aesthetically pleasing yet functional things, a curious mind who constantly waging war in the pursuit of self-improvement.",
+  "avatar": "https://github.com/thasup.png",
+  "portfolio": "https://thanachon.me",
+  "skills": ["React.js", "Next.js", "Vue.js", "TypeScript.js", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/thasup",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/thanachon-supasatian-278292159"
+  }
+}

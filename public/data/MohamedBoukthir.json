@@ -1,0 +1,12 @@
+{
+  "name": "Mohamed Boukthir",
+  "location": "Gafsa - Tunisia",
+  "bio": "Tech enthusiast. Coding my way through innovation and learning. Building the future with creativity and caffeine. Join me on this exciting digital journey.",
+  "avatar": "https://github.com/MohamedBoukthir.png",
+  "portfolio": "https://github.com/MohamedBoukthir",
+  "skills": ["NextJS", "TypeScript", "JavaScript", "ReactJS", "TailwindCSS", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/MohamedBoukthir",
+    "LinkedIn": "https://www.linkedin.com/in/mohamedboukthir/"
+  }
+}

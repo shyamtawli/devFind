@@ -1,0 +1,13 @@
+{
+  "name": "Nitesh Sharma",
+  "location": "Chandigarh",
+  "bio": "I am a full-stack web developer.",
+  "avatar": "https://avatars.githubusercontent.com/u/84772997?v=4",
+  "portfolio": "https://nitesh32.github.io/nit_folio/",
+  "skills": ["React", "Python", "HTML", "CSS", "JavaScript", "C++"],
+  "social": {
+    "GitHub": "https://github.com/nitesh32",
+    "Twitter": "https://twitter.com/NiteshS1123",
+    "LinkedIn": "https://www.linkedin.com/in/nitesh-sharma-3429541bb/"
+  }
+}

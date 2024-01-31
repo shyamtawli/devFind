@@ -1,0 +1,12 @@
+{
+  "name": "Abhishek Padiyar",
+  "location": "Uttrakhand",
+  "bio": "Passionate Web DEveloper .I have experience in developing both Frontend and Backend Applications.I also love Machine Learning & Artificial Intelligence. At first i tried App Dev , but i didn't liked it .",
+  "avatar": "https://avatars.githubusercontent.com/u/145835714?v=4",
+  "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Abhishek19-dev",
+    "Twitter": "https://twitter.com/AbhishekPa16256",
+    "LinkedIn": "https://www.linkedin.com/in/abhishek-padiyar-27bb54280/"
+  }
+}

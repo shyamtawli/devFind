@@ -1,0 +1,13 @@
+{
+  "name": "Yash Suthar",
+  "location": "Vadodara, India",
+  "bio": "I'm a FullStack web devloper who loves creating unique websites.I have a passion for exploring new technologies and enjoy participating in hackathons to showcase my skills and collaborate with others.",
+  "avatar": "https://github.com/Yash636261.png",
+  "portfolio": "https://yash-suthar.netlify.app/",
+  "skills": ["Javascript", "MongoDB", "React.js", "Next.js"],
+  "social": {
+    "GitHub": "https://github.com/Yash636261",
+    "Twitter": "https://twitter.com/yash__dev",
+    "LinkedIn": "https://www.linkedin.com/in/yash-suthar-22339124a"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Furkan Kapukaya",
+  "location": "Istanbul, Turkey",
+  "bio": "I am a Software Developer. I am a tech enthusiast who is passionate about learning and working with new technologies.",
+  "avatar": "https://avatars.githubusercontent.com/u/56193503?v=4",
+  "portfolio": "https://kapukaya.dev",
+  "skills": ["C#", ".NET", "SQL", "HTML", "CSS", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/furkankapukayaa",
+    "LinkedIn": "https://www.linkedin.com/in/furkankapukayaa",
+    "Twitter": "https://twitter.com/furkankapukayaa"
+  }
+}

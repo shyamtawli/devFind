@@ -1,0 +1,25 @@
+{
+  "name": "Mateus Felipe Gonçalves",
+  "location": "Minas Gerais, Brazil",
+  "bio": "A curious self-taught",
+  "avatar": "https://github.com/mateusfg7.png",
+  "portfolio": "https://mateusf.om",
+  "skills": [
+    "typescript",
+    "rust",
+    "react",
+    "next.js",
+    "svelte",
+    "python",
+    "linux",
+    "nest.js",
+    "node.js",
+    "tailwindcss",
+    "react-native"
+  ],
+  "social": {
+    "GitHub": "https://github.com/mateusfg7",
+    "Twitter": "https://twitter.com/mateusfg77",
+    "LinkedIn": "https://www.linkedin.com/in/mateusfg"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Thanmai Sai",
+  "location": "Banglore",
+  "bio": "An Indian Undergrad with a solid enthusiasm for devlopment. My fundamental subjects of interest are Web Dev, Application Dev, Programming, and ofcourse food. Nonetheless, I'm an inquisitive and flexible person whose interests reach out to anything, anyplace!",
+  "avatar": "https://github.com/thanmaisai.png",
+  "portfolio": "https://thanmaisai.github.io/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Bootstrap",
+    "Balma",
+    "Node",
+    "Express",
+    "PHP",
+    "MongoDB",
+    "MySQL",
+    "Firebase",
+    "Photoshop",
+    "Snapseed",
+    "Figma",
+    "Flutter"
+  ],
+  "social": {
+    "GitHub": "https://github.com/thanmaisai",
+    "LinkedIn": "https://www.linkedin.com/in/thanmai-sai"
+  }
+}
