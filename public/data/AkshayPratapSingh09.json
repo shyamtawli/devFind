@@ -4,7 +4,20 @@
   "bio": "MERN Full Stack Developer And AI Enthusiast",
   "avatar": "https://github.com/AkshayPratapSingh09.png",
   "portfolio": "https://akshay09.pages.dev/",
-  "skills": ["ReactJs", "MongoDb", "ExpressJs","NodeJs", "Javascript", "Python", "C", "GraphQL", "Django", "Flask", "FastApi", "Mysql"],
+  "skills": [
+    "ReactJs",
+    "MongoDb",
+    "ExpressJs",
+    "NodeJs",
+    "Javascript",
+    "Python",
+    "C",
+    "GraphQL",
+    "Django",
+    "Flask",
+    "FastApi",
+    "Mysql"
+  ],
   "social": {
     "GitHub": "https://github.com/AkshayPratapSingh09",
     "Twitter": "https://twitter.com/AkshayPSingh09",
