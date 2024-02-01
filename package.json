@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "flag": "^5.0.1",
-    "husky": "^8.0.3",
+    "husky": "^9.0.10",
     "json-loader": "^0.5.7",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.7",
