@@ -27,7 +27,7 @@ function ProfileSkeleton() {
               {skeletonData.skills &&
                 skeletonData.skills.map((skill, index) => {
                   return (
-                    <div className="skeleton skeleton-skill h-[2rem] w-full rounded-[0.25rem]" key={index}>
+                    <div className="skeleton h-[2rem] w-full rounded-[0.25rem]" key={index}>
                       {skill}
                     </div>
                   );
@@ -35,11 +35,11 @@ function ProfileSkeleton() {
             </div>
           </div>
           <div className="w-[10%] justify-end overflow-hidden">
-            <div className="skeleton skeleton-profile-link mb-[0.5rem] h-[6rem] w-[4rem] rounded-[0.25rem]"></div>
+            <div className="skeleton mb-[0.5rem] h-[6rem] w-[4rem] rounded-[0.25rem]"></div>
           </div>
         </div>
-        <div className="bottom-container-sk mt-[1rem]">
-          <div className="about-sk skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.bio}</div>
+        <div className="mt-[1rem]">
+          <div className="skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.bio}</div>
           <div className="mt-[0.5rem] flex h-[3rem] gap-[1rem]">
             <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
               {skeletonData.social.GitHub}
