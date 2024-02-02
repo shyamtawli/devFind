@@ -56,5 +56,4 @@ function ProfileSkeleton() {
     </div>
   );
 }
-
 export default ProfileSkeleton;
