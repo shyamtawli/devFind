@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -10,6 +10,7 @@ import './App.css';
 import filenames from './ProfilesList.json';
 
 function App() {
+  const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
@@ -89,7 +90,7 @@ function App() {
   };
 
   useEffect(() => {
-    window.scrollTo({
+    profilesRef.current.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
@@ -121,7 +122,7 @@ function App() {
   return currentUrl === '/' ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7">
+      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
         <Pagination
