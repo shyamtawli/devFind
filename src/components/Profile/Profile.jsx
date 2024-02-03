@@ -1,9 +1,7 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faXTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Profile({ data }) {
   return <Card data={data} />;
@@ -84,14 +82,14 @@ function Card({ data }) {
         <div className="dark:text-white">{data.bio}</div>
         <div className="mt-1 flex gap-4">
           <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-            <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FontAwesomeIcon icon={faGithub} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
 
           <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-            <FaTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FontAwesomeIcon icon={faXTwitter} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
           <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-            <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FontAwesomeIcon icon={faLinkedin} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
         </div>
       </div>
