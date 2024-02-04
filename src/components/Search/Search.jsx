@@ -55,7 +55,7 @@ function Search({ onSearch }) {
   return (
     <div className="relative flex items-center justify-end pb-6">
       <input
-        className="h-12 w-full rounded-md border-2 border-borderSecondary bg-primaryColor px-4 py-3 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+        className="h-12 w-full rounded-md border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         ref={searchInput}
         type="text"
         onChange={handleInputChange}
@@ -65,7 +65,7 @@ function Search({ onSearch }) {
       />
       <FontAwesomeIcon
         onClick={handleSearchButtonClick}
-        className="absolute mr-2.5 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+        className="absolute mr-4 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         icon={faMagnifyingGlass}
       />
       {searchValue && (
