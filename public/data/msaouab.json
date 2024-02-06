@@ -1,0 +1,13 @@
+{
+  "name": "Mohamed Saouab",
+  "location": "Casablanca, Morocco",
+  "bio": "Junior full-stack web development.",
+  "avatar": "https://github.com/msaouab.png",
+  "portfolio": "https://github.com/msaouab",
+  "skills": ["Unix", "Git", "HTML", "css", "JS", "TS", "React", "Angular", "NestJS", "C/C++"],
+  "social": {
+    "GitHub": "https://github.com/msaouab",
+    "Twitter": "https://twitter.com/msaouab",
+    "LinkedIn": "https://www.linkedin.com/in/msaouab"
+  }
+}
