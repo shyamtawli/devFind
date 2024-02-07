@@ -28,6 +28,10 @@ function Card({ data }) {
 
   React.useEffect(() => {
     cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
+
+    return () => {
+      cardRef.current.removeEventListener('wheel', handleWheel);
+    };
   }, []);
 
   return (
