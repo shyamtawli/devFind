@@ -79,7 +79,7 @@ function Card({ data }) {
       </div>
       <div className="mt-4">
         <div className="dark:text-white">{data.bio}</div>
-        <div className="mt-1 flex gap-4">
+        <div className="mt-1 flex gap-x-4">
           <a href={data.social.GitHub} target="_blank" rel="noreferrer">
             <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
