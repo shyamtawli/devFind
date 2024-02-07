@@ -1,7 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faXTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
 function Profile({ data }) {
   return <Card data={data} />;
@@ -47,7 +46,7 @@ function Card({ data }) {
           </h3>
           <p className="text-sm dark:text-white">
             <span style={{ marginRight: '0.5rem' }}>
-              <FontAwesomeIcon icon={faLocationDot} />
+              <FaLocationDot />
             </span>
             {data.location}
           </p>
@@ -82,14 +81,14 @@ function Card({ data }) {
         <div className="dark:text-white">{data.bio}</div>
         <div className="mt-1 flex gap-4">
           <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
 
           <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faXTwitter} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
           <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
         </div>
       </div>
