@@ -1,0 +1,26 @@
+{
+  "name": "Sahil Atahar",
+  "location": "India",
+  "bio": "Aspiring Full Stack Developer | Integrating Frontend Proficiency with Expanding Backend Knowledge",
+  "avatar": "https://github.com/sahilatahar.png",
+  "portfolio": "https://github.com/sahilatahar",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "Redux Toolkit",
+    "SASS",
+    "TailwindCSS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sahilatahar",
+    "Twitter": "https://twitter.com/sahilatahar",
+    "LinkedIn": "https://www.linkedin.com/in/sahilatahar"
+  }
+}
