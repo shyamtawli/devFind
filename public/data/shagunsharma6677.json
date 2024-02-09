@@ -1,0 +1,27 @@
+{
+  "name": "Shagun Sharma",
+  "location": "Uttrakhand, India",
+  "bio": "A passionate Full Stack Web Developer with strong problem-solving abilities, proficient in React Js, Mongo DB, Express Js Next Js, Typescript and Chakra Ui, keen to learn new technologies and frameworks.",
+  "avatar": "https://github.com/shagunsharma6677.png",
+  "portfolio": "https://shagunsharma6677.github.io/",
+  "skills": [
+    "Docker 🐳",
+    "MERN Stack Dev 🔥",
+    "Alum @Masai",
+    "React/Next.js 🌐",
+    "MongoDB",
+    "TypeScript/JavaScript ✨",
+    "Express.js/Node.js",
+    "Mongoose",
+    "React Redux",
+    "Tailwind Css ☀️",
+    "Material UI",
+    "Jest",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shagunsharma6677",
+    "Twitter": "https://twitter.com/i_nicck",
+    "LinkedIn": "https://www.linkedin.com/in/shagun-s67/"
+  }
+}

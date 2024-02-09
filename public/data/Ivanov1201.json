@@ -1,0 +1,30 @@
+{
+  "name": "Vitaliy Ivanov",
+  "location": "Rivne, Ukraine",
+  "bio": "Senior Web developer who is proficient in HTML/CSS, Javascript, Typescript, PHP and Python.",
+  "avatar": "https://github.com/Ivanov1201.png",
+  "portfolio": "https://vitaliy.vercel.app",
+  "skills": [
+    "HTML/CSS",
+    "Javascript",
+    "Typescript",
+    "PHP",
+    "Python",
+    "Node.js",
+    "React",
+    "Next",
+    "Vue",
+    "Angular",
+    "SvelteKit",
+    "Nuxt",
+    "Nest",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Ivanov1201",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/ivanovvitaliydev"
+  }
+}

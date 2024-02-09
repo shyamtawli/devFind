@@ -1,0 +1,28 @@
+{
+  "name": "Geoffrey Kithuku",
+  "location": "Nairobi, Kenya",
+  "bio": "Recent graduate and junior software developer passionate about web development, seeking opportunities to contribute and grow in a dynamic team.",
+  "avatar": "https://github.com/geoffreykithuku.png",
+  "portfolio": "https://geoffrey-kithuku.vercel.app/",
+  "skills": [
+    "JavaScript",
+    "ReactJs",
+    "NextJS",
+    "Ruby",
+    "Ruby On Rails",
+    "Python",
+    "Django",
+    "Typescript",
+    "Tailwind CSS",
+    "NodeJs",
+    "SQL",
+    "Git",
+    "Linux",
+    "Effective Communication"
+  ],
+  "social": {
+    "GitHub": "https://github.com/geoffreykithuku",
+    "Twitter": "https://twitter.com/k__geoffrey",
+    "LinkedIn": "https://www.linkedin.com/in/geoffrey-kithuku"
+  }
+}

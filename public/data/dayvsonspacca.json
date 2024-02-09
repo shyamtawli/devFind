@@ -1,0 +1,13 @@
+{
+  "name": "Dayvson Spacca",
+  "location": "Pernambuco, Brazil",
+  "bio": "I'm a PHP lover and developer, channeling all my ideas into projects and work.",
+  "avatar": "https://github.com/dayvsonspacca.png",
+  "portfolio": "https://dayvsonspacca.netlify.app/",
+  "skills": ["Javascript / Typescript", "ReactJS", "NextJS/Vite/TailwindCSS", "Rust", "PHP", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/dayvsonspacca",
+    "Twitter": "",
+    "LinkedIn": ""
+  }
+}

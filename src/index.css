@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;600;700&display=swap');
 
@@ -11,20 +14,21 @@ html {
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --primary-color: rgba(20, 29, 47, 1);
   --secondary-color: #1e2a47;
   --border-color: rgba(194, 183, 183, 0.1);
   --text-color: #fff;
-}
+} */
 
 /* light theme */
-html.light {
+
+/* html.light {
   --primary-color: rgb(243, 244, 246);
   --secondary-color: white;
   --border-color: rgba(20, 29, 47, 0.1);
   --text-color: rgba(20, 29, 47, 1);
-}
+} */
 
 body {
   margin: 0;
@@ -43,5 +47,18 @@ code {
 @media (max-width: 480px) {
   html {
     font-size: 12px;
+  }
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
   }
 }
