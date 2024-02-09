@@ -1,0 +1,13 @@
+{
+  "name": "Juan Diaz",
+  "location": "North Carolina, United States",
+  "bio": "Front End Developer: Seeking a startup for growth. Values discipline, loyalty, and reliability. Self-motivated learner, eager to acquire new skills.",
+  "avatar": "https://github.com/JuanPabloDiaz.png",
+  "portfolio": "https://jpdiaz.dev",
+  "skills": ["JavaScript", "React", "Next.js", "Tailwind CSS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/JuanPabloDiaz",
+    "Twitter": "https://twitter.com/1diazdev",
+    "LinkedIn": "https://www.linkedin.com/in/1diazdev"
+  }
+}
