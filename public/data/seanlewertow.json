@@ -1,0 +1,13 @@
+{
+  "name": "Sean Lewertow",
+  "location": "Gainesville, FL",
+  "bio": "Computer Science student at University of Florida with a focus on data structures, AI, and natural language processing.",
+  "avatar": "https://github.com/seanlewertow.png",
+  "portfolio": "http://seanlewertow.com",
+  "skills": ["Python", "C#", "C++", "MATLAB", "SQL", "JavaScript", ".NET", "NUnit", "JIRA", "PyCharm", "CLion", "Visual Studio", "Rider", "Git", "React.js", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/seanlewertow",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/seanlewertow/"
+  }
+}
