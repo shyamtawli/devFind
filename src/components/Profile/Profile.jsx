@@ -44,10 +44,8 @@ function Card({ data }) {
               {data.name}
             </a>
           </h3>
-          <p className="text-sm dark:text-white">
-            <span style={{ marginRight: '0.5rem' }}>
-              <FaLocationDot />
-            </span>
+          <p className="flex items-center gap-x-1 text-sm dark:text-white">
+            <FaLocationDot />
             {data.location}
           </p>
           <div
