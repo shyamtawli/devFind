@@ -1,0 +1,13 @@
+{
+  "name": "Jason Williams",
+  "location": "Lagos, Nigeria",
+  "bio": "Currently Contributing to Open Source",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLK3esteq764Y2zYgy98KfMPGT-Yg5Fi83am2zC4KvuohE=s288-c-no",
+  "portfolio": "https://portfolio3-js.vercel.app/",
+  "skills": ["Mobile Development", "Full Stack Web Development"],
+  "social": {
+    "GitHub": "https://github.com/Jasowills",
+    "Twitter": "https://twitter.com/Jasowills",
+    "LinkedIn": "https://www.linkedin.com"
+  }
+}
