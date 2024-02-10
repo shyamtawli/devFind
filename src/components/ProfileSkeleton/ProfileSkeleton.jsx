@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProfileSkeleton.css';
 
 function ProfileSkeleton() {
   const skeletonData = {
@@ -17,39 +16,44 @@ function ProfileSkeleton() {
   };
 
   return (
-    <div className="profile-container-sk">
-      <div className="profile-card-sk">
-        <div className="top-container-sk">
-          <div className="profile-photo-sk skeleton skeleton-img"></div>
-          <div className="profile-details-sk">
-            <h3 className="skeleton skeleton-text-lg">{skeletonData.name}</h3>
-            <p className="skeleton skeleton-text-sm">{skeletonData.location}</p>
-            <div className="skills-container-sk">
+    <div>
+      <div className="mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg ">
+        <div className="flex gap-[1rem]">
+          <div className="skeleton h-[6.1rem] w-[6.1rem] flex-shrink-0 rounded"></div>
+          <div className="w-[80%] overflow-hidden">
+            <h3 className="skeleton mb-[0.5rem] h-[1.6rem] w-full rounded-[0.25rem]">{skeletonData.name}</h3>
+            <p className="skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.location}</p>
+            <div className="flex gap-[1rem] overflow-hidden">
               {skeletonData.skills &&
                 skeletonData.skills.map((skill, index) => {
                   return (
-                    <div className="skill-sk skeleton skeleton-skill" key={index}>
+                    <div className="skeleton h-[2rem] w-full rounded-[0.25rem]" key={index}>
                       {skill}
                     </div>
                   );
                 })}
             </div>
           </div>
-          <div className="profile-link-sk">
-            <div className="skeleton skeleton-profile-link"></div>
+          <div className="w-[10%] justify-end overflow-hidden">
+            <div className="skeleton mb-[0.5rem] h-[6rem] w-[4rem] rounded-[0.25rem]"></div>
           </div>
         </div>
-        <div className="bottom-container-sk">
-          <div className="about-sk skeleton skeleton-text-sm">{skeletonData.bio}</div>
-          <div className="social-sk">
-            <div className="skeleton skeleton-social">{skeletonData.social.GitHub}</div>
-            <div className="skeleton skeleton-social">{skeletonData.social.GitHub}</div>
-            <div className="skeleton skeleton-social">{skeletonData.social.GitHub}</div>
+        <div className="mt-[1rem]">
+          <div className="skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.bio}</div>
+          <div className="mt-[0.5rem] flex h-[3rem] gap-[1rem]">
+            <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
+              {skeletonData.social.GitHub}
+            </div>
+            <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
+              {skeletonData.social.GitHub}
+            </div>
+            <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
+              {skeletonData.social.GitHub}
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
 export default ProfileSkeleton;
