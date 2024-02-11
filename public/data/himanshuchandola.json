@@ -1,0 +1,13 @@
+{
+  "name": "Himanshu Chandola",
+  "location": "Delhi",
+  "bio": "Experienced in front-end development with React JS, and expanding into back-end, I excel at creating comprehensive, user-focused applications.",
+  "avatar": "https://avatars.githubusercontent.com/u/96554303?v=4",
+  "portfolio": "https://himanshuchandola-portfolio.vercel.app/",
+  "skills": ["ReactJS", "Redux", "NextJS", "Typescript", "HTML", "CSS", "Tailwind", "SCSS", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/himanshuchandola",
+    "Twitter": "https://twitter.com/himanshuistaken",
+    "LinkedIn": "https://www.linkedin.com/in/himanshuchandola"
+  }
+}

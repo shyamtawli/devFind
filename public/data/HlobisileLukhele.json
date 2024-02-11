@@ -1,0 +1,13 @@
+{
+  "name": "Hlobisile Lukhele",
+  "location": "Durban, South Africa",
+  "bio": "I am Hlobisile, Fronted developer who is passionate about solving small businesses using my developing skills and passionate about building scalable websites",
+  "avatar": "https://github.com/HlobisileLukhele.png",
+  "portfolio": "https://github.com/HlobisileLukhele",
+  "skills": ["Javascript", "Reactjs", "HTML", "CSS", "Firebase"],
+  "social": {
+    "GitHub": "https://github.com/HlobisileLukhele",
+    "Twitter": "https://twitter.com/Hlobi_Lukhele",
+    "LinkedIn": "https://www.linkedin.com/in/Hlobisile-Lukhele"
+  }
+}
