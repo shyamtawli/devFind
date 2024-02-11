@@ -1,0 +1,12 @@
+{
+  "name": "Vincent Toledo",
+  "location": "Gainesville",
+  "bio": "Hi, please hire me",
+  "avatar": "https://github.com/VincentTol.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Python", "C++", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/VincentTol",
+    "LinkedIn": "https://www.linkedin.com/in/tol-vat/"
+  }
+}
