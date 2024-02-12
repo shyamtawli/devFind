@@ -4,16 +4,21 @@
   }
 }
 
+:root {
+  --sidebar-background-color: rgb(70, 70, 70);
+  --track-color: rgb(200, 200, 200);
+}
+
 ::-webkit-scrollbar {
   width: 0.8rem;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(20, 29, 47, 1);
+  background-color: var(--track-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(43, 58, 88);
+  background: var(--sidebar-background-color);
   border: 2px solid transparent;
   border-radius: 8px;
   background-clip: content-box;

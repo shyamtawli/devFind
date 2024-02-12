@@ -23,12 +23,12 @@ html {
 
 /* light theme */
 
-/* html.light {
+html.light {
   --primary-color: rgb(243, 244, 246);
   --secondary-color: white;
   --border-color: rgba(20, 29, 47, 0.1);
   --text-color: rgba(20, 29, 47, 1);
-} */
+}
 
 body {
   margin: 0;
