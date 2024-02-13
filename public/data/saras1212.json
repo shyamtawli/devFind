@@ -1,0 +1,12 @@
+{
+  "name": "Sara Smith",
+  "location": "Gainesville, FL",
+  "bio": "I'm currently a junior Computer Science major at the University of Florida!",
+  "avatar": "https://github.com/saras1212.png",
+  "portfolio": "https://github.com/saras1212",
+  "skills": ["C++", "Java"],
+  "social": {
+    "GitHub": "https://github.com/saras1212",
+    "LinkedIn": "https://www.linkedin.com/in/saranicolesmith/"
+  }
+}
