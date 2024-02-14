@@ -1,0 +1,44 @@
+{
+    "name": "Soren Larsen",
+    "location": "San Diego, CA, USA",
+    "bio": "Passionate full-stack developer with expertise in Node.js, React, and JavaScript. Driven to innovate and empower through technology. Committed to collaborative problem-solving and continuous learning.",
+    "avatar": "https://github.com/iamsorenl.png",
+    "portfolio": "https://www.larsensoren.com",
+    "skills": [
+        "Python",
+        "C/C++",
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Javascript",
+        "Dart",
+        "Typescript",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Haskell",
+        "Latex",
+        "React",
+        "React Native",
+        "Flutter",
+        "Express.js",
+        "Node.js",
+        "Vue.js",
+        "PostgreSQL",
+        "Flask",
+        "Git/GitHub",
+        "Jira",
+        "Figma",
+        "Docker",
+        "Jest",
+        "Barista/Espresso",
+        "Postman",
+        "Google Cloud"
+      ]
+      ,
+    "social": {
+      "GitHub": "https://github.com/iamsorenl",
+      "Twitter": "https://twitter.com/",
+      "LinkedIn": "https://www.linkedin.com/in/soren-larsen-46a57118b/"
+    }
+  }
