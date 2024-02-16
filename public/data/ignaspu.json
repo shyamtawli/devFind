@@ -1,0 +1,12 @@
+{
+  "name": "Ignas",
+  "location": "Vilnius, Lithuania",
+  "bio": "Front-end beginner, looking for new experience and collaborate.",
+  "avatar": "https://github.com/ignaspu.png",
+  "portfolio": "https://pupelis.com",
+  "skills": ["HTML", "CSS", "JavaScript", "React"],
+  "social": {
+    "GitHub": "https://github.com/ignaspu",
+    "LinkedIn": "www.linkedin.com/in/ignas-pupelis-8236b9173"
+  }
+}
