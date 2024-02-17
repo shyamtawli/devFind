@@ -1,0 +1,13 @@
+{
+  "name": "Iago Rivelo",
+  "location": "Pernambuco, Brazil",
+  "bio": "I am a php developer passionate about creating dynamic and interactive web solutions.",
+  "avatar": "https://github.com/iagorivelo.png",
+  "portfolio": "https://github.com/iagorivelo",
+  "skills": ["Javascript / Typescript", "ReactJS", "NextJS", "TailwindCSS", "PHP", "Laravel", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/iagorivelo",
+    "Twitter": "",
+    "LinkedIn": ""
+  }
+}

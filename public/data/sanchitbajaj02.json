@@ -1,0 +1,13 @@
+{
+  "name": "Sanchit Bajaj",
+  "location": "New Delhi, India",
+  "bio": "Experienced Full Stack Developer & Open-Source Contributor who loves learning new skills 👨‍💻. I am working on improving my knowledge and looking for collaborations for my projects.",
+  "avatar": "https://github.com/sanchitbajaj02.png",
+  "portfolio": "https://sanchitbajaj02.github.io/portfolio/",
+  "skills": ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js", "TailwindCSS", "Git/GitHub"],
+  "social": {
+    "GitHub": "https://github.com/sanchitbajaj02",
+    "Twitter": "https://twitter.com/solitrix02",
+    "LinkedIn": "https://www.linkedin.com/in/sanchitbajaj02"
+  }
+}
