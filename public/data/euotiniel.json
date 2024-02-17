@@ -1,0 +1,13 @@
+{
+  "name": "Otoniel Emanuel",
+  "location": "Luanda, Angola",
+  "bio": "I want to put a ding in the universe ▲",
+  "avatar": "https://github.com/euotiniel.png",
+  "portfolio": "https://euotiniel.com/",
+  "skills": ["Tailwind", "SASS", "VueJS", "ReactJs", "NextJS", "Git", "UI Design"],
+  "social": {
+    "GitHub": "https://github.com/euotiniel",
+    "Twitter": "https://twitter.com/euotiniel",
+    "LinkedIn": "https://www.linkedin.com/in/euotiniel"
+  }
+}
