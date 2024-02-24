@@ -1,0 +1,13 @@
+{
+  "name": "Asmar Ali",
+  "location": "Pakistan",
+  "bio": "A passionate Full Stack Developer making exceptional web applications for more than 3 years using ReactJS, NodeJS, and AWS.",
+  "avatar": "https://github.com/Asmar-Ali.png",
+  "portfolio": "https://asmar-portfolio.netlify.app/",
+  "skills": ["ReactJS", "NodeJS", "AWS", "MySQL", "MongoDB", "TailwindCSS", "Material UI"],
+  "social": {
+    "GitHub": "https://github.com/Asmar-Ali",
+    "Twitter": "https://twitter.com/@AsmarAl24708413",
+    "LinkedIn": "https://www.linkedin.com/in/asmar-ali"
+  }
+}
