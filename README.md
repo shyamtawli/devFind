@@ -102,7 +102,7 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 
 3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command:
    **`pnpm install`**
-4. Navigate to the **`public/data`** folder in your project directory.
+4. Navigate to the **`src/data`** folder in your project directory.
 5. Create a new JSON file named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
 6. Add the following JSON object, replacing the placeholder values with your own details:
    ```json
@@ -121,24 +121,16 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
    }
    ```
 7. Save the **`your_github_username.json`** file.
-8. Navigate to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
-9. Add your JSON filename (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
-
-   ```json
-   ["filename1.json", "filename2.json", "your_github_username.json"]
-   ```
-
-10. Save the **`ProfileLists.json`** file.
-11. Create a new branch: To create a new branch for your profile, run the following command:
+8. Create a new branch: To create a new branch for your profile, run the following command:
     **`git checkout -b add-profile`**
-12. Add your changed files to the stage by running the following command:
+9. Add your changed files to the stage by running the following command:
     **`git add .`**
-13. Commit your changes: To save your changes to the branch, run the following command:
+10. Commit your changes: To save your changes to the branch, run the following command:
     **`git commit -m "add: <your-name>"`**
-14. Push to the branch: To push the changes to the remote repository, run the following command:
+11. Push to the branch: To push the changes to the remote repository, run the following command:
     **`git push origin add-profile`**
-15. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
-16. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
+12. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
+13. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
