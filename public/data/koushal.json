@@ -1,0 +1,31 @@
+{
+  "name": "Koushal Anitha Raja",
+  "location": "New York, United states",
+  "bio": "👋 Hi,I am Koushal Anitha Raja, a recent graduate with a Master's degree in Computer Science from Stevens Institute of Technology. Throughout my academic journey, I immersed myself in a diverse range of courses, focusing particularly on web development, with a keen interest in ReactJS and NodeJS frameworks. My academic pursuits are complemented by practical hands-on experience, boasting over a year of expertise as a full-stack developer, specializing in Python, NodeJS, and ReactJS.Let's connect and create! 🚀 Connect on GitHub and LinkedIn.",
+  "avatar": "https://avatars.githubusercontent.com/u/95262944?s=400&u=48ac3a2dfe0ab8d15c878b13134f19f6ffe7ab29&v=4",
+  "portfolio": "https://my-portfolio-nlxp-9hdb78mh6-koushal-anitha-raja.vercel.app/",
+  "skills": [
+    "ReactJS",
+    "NodeJS",
+    "Redux",
+    "Javascript",
+    "NextJS",
+    "TypeScript",
+    "APIs",
+    "Tailwind CSS",
+    "MongoDB",
+    "Express.js",
+    "HTML",
+    "CSS",
+    "Python",
+    "Firebase",
+    "Redis",
+    "ElasticSearch",
+    "Docker",
+    "Material UI"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Koushal-Anitha-Raja",
+    "LinkedIn": "https://www.linkedin.com/in/arkoushal/"
+  }
+}
