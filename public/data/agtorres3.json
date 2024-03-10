@@ -1,0 +1,13 @@
+{
+  "name": "Adrian T",
+  "location": "Texas",
+  "bio": "I'm currently a first year masters student studying Software Engineering.",
+  "avatar": "https://github.com/agtorres3.png",
+  "portfolio": "",
+  "skills": ["Java", "Python", "Organization"],
+  "social": {
+    "GitHub": "https://github.com/agtorres3",
+    "Twitter": "n/a",
+    "LinkedIn": "https://www.linkedin.com/in/adrian-torres-1413b4230"
+  }
+}
