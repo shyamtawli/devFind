@@ -1,0 +1,13 @@
+{
+    "name": "YASH GHARAT",
+    "location": "Mumbai",
+    "bio": "Enthusiastic learner, aspiring full-stack web developer proficient in the MERN stack. Committed to pushing boundaries, maximizing skills, and driving innovation in web development",
+    "avatar": "https://github.com/Yash8452.png",
+    "portfolio": "https://portfolio-eight-sigma-82.vercel.app/",
+    "skills": ["Javascript","ReactJs","NodeJs","ExpressJs","MongoDB"],
+    "social": {
+      "GitHub": "https://github.com/Yash8452",
+      "Twitter": "https://twitter.com/<twitter-username>",
+      "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+    }
+  }
