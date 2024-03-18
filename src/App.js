@@ -3,11 +3,12 @@ import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
 import Sidebar from './components/Sidebar/Sidebar';
-import ErrorPage from './components/ErrorPage/ErrorPage';
+import ErrorPage from './components/ErrorPage/ErrorPage'; // need to render this
 import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import Body from './components/Body/Body';
 
 function App() {
   const profilesRef = useRef();
@@ -120,23 +121,25 @@ function App() {
   };
 
   return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {profiles.length > 0 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        )}
+    <Body />
+  ) : (
+    <div>
+      <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+        <Sidebar />
+        <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
+          <Search onSearch={handleSearch} />
+          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+          {profiles.length > 0 && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+              onNextPage={handleNextPage}
+              onPrevPage={handlePrevPage}
+            />
+          )}
+        </div>
       </div>
     </div>
-  ) : (
-    <ErrorPage />
   );
 }
 
