@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import SignOutButton from '../../SignOutButton/SignOutButton';
 
 function Sidebar() {
   const [theme, setTheme] = useState('dark');
@@ -50,6 +51,7 @@ function Sidebar() {
             Add your profile
           </button>
         </a>
+        <SignOutButton/>
       </div>
     </div>
   );
