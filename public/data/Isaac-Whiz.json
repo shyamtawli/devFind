@@ -1,0 +1,13 @@
+{
+  "name": "Ssekajja Wavamuno Isaac",
+  "location": "Kampala, Uganda",
+  "bio": "Am a 23 male backend engineer, using Java and Javascript creating mobile and desktop applications also using some frontend tools like HTML and CSS",
+  "avatar": "https://github.com/Isaac-Whiz.png",
+  "portfolio": "https://github.com/Isaac-Whiz",
+  "skills": ["Java", "Javascript", "Html & Css", "Docker", "AWS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Isaac-Whiz",
+    "Twitter": "https://twitter.com/@IsaacWavamuno",
+    "LinkedIn": "https://www.linkedin.com/in/ssekajja-wavamuno-isaac-628a612b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+}
