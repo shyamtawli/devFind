@@ -2,15 +2,17 @@ import React, { useEffect } from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Authentication from '../Authentication/Authentication'
 import App from '../../App'
+import ErrorPage from '../ErrorPage/ErrorPage'
 import { onAuthStateChanged } from 'firebase/auth'
-import { auth } from '../../Utils/Firebase'
 import { useDispatch } from 'react-redux'
 import { addUser, removeUser } from '../../Utils/userSlice'
-import ErrorPage from '../ErrorPage/ErrorPage'
+import { auth } from '../../Utils/Firebase'
 
 const Body = () => {
 
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
+ 
+   
     const appRouter = createBrowserRouter([
         {
           path: '/',
@@ -41,12 +43,15 @@ const Body = () => {
           } else {
             // User is signed out
 
-            dispatch(removeUser());   
+            dispatch(removeUser());
+    
            
           }
         });
 
       }, [])
+
+      
   return (
     <div>
       <RouterProvider router={appRouter} />
@@ -55,3 +60,4 @@ const Body = () => {
 }
 
 export default Body
+

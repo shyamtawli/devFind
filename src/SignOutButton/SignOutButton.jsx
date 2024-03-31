@@ -1,7 +1,7 @@
 import { signOut } from 'firebase/auth';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { auth } from '../Utils/Firebase';
+import { useNavigate } from 'react-router-dom';
 
 const SignOutButton = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,6 @@ const SignOutButton = () => {
   };
 
   const handleSignOut = () => {
-    
     signOut(auth)
       .then(() => {
         navigate('/');

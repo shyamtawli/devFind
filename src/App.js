@@ -10,6 +10,7 @@ import './App.css';
 import filenames from './ProfilesList.json';
 import Body from './components/Body/Body';
 
+
 function App() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
@@ -121,7 +122,10 @@ function App() {
   };
 
   return currentUrl === '/' ? (
+    // isLoggedin === true : {} :{}
     <Body />
+  
+  
   ) : (
    
     <>

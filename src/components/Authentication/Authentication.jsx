@@ -2,17 +2,15 @@ import React, { useRef, useState } from 'react';
 import { CheckValidData } from '../../Utils/Validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth } from '../../Utils/Firebase';
-import { useNavigate } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { addUser } from '../../Utils/userSlice';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Authentication = () => {
-  const navigate = useNavigate();
   const [isSignInForm, SetIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const name = useRef(null);
   const email = useRef(null);
   const password = useRef(null);
@@ -69,17 +67,17 @@ const Authentication = () => {
   return (
     <div className="flex ">
       {/* we used preventDefault to prevvent the form to get submitted on clicking the button */}
-      <div>
+      <div className="w-[550px]">
         <form
           onSubmit={(e) => e.preventDefault()}
-          className="left-0 right-0 mx-20 my-36 flex w-3/12 flex-wrap rounded-lg bg-gray-100 p-5"
+          className="left-0 right-0 mx-20 my-36 flex  flex-wrap rounded-lg bg-gray-200 p-5"
         >
           <h1 className="mx-2 py-4 text-3xl font-bold">{isSignInForm ? 'Sign in' : 'Sign up'}</h1>
-          {!isSignInForm && <input ref={name} type="text" placeholder="Name" className="m-2 w-full p-3" />}
-          <input ref={email} type="text" placeholder="Email address" className="m-2 w-full p-3" />
-          <input ref={password} type="password" placeholder="Password" className="m-2 w-full p-3" />
+          {!isSignInForm && <input ref={name} type="text" placeholder="Name" className="m-2 w-full rounded-lg p-3" />}
+          <input ref={email} type="text" placeholder="Email address" className="m-2 w-full rounded-lg p-3" />
+          <input ref={password} type="password" placeholder="Password" className="m-2 w-full rounded-lg p-3" />
           <p className="mx-4 text-red-500">{errorMessage}</p>
-          <button className="mx-2 my-4 w-full bg-blue-500 py-4" onClick={HandleButtonClick}>
+          <button className="mx-2 my-4 w-full rounded-lg bg-blue-500 py-4" onClick={HandleButtonClick}>
             {isSignInForm ? 'Sign in' : 'Sign up'}
           </button>
           <div className="mx-auto mt-8 flex gap-4">
@@ -90,22 +88,18 @@ const Authentication = () => {
           </div>
         </form>
       </div>
-      <div className="flex w-1/2 items-center justify-center border border-red-500">
-        <FontAwesomeIcon icon={faCode} size="3xl" />
+      <div className="m-auto w-1/2 items-center">
+        {/* <FontAwesomeIcon icon={faCode} size='w-[800px]'/> */}
+        {/* <h1 className='text-3xl font-extrabold text-blue-600'>devFind</h1> */}
+        <div className="flex">
+          <img className="w-[50px]" src="bracketIcon.svg"></img>
+          <p className="mt-10000 text-5xl text-secondaryColor dark:text-white">dev</p>
+          <p className="text-5xl text-textSecondary">Find</p>
+        </div>
+        <h1 className="mt-4 text-3xl shadow-md">Build Your Dream Team Today!</h1>
       </div>
     </div>
   );
 };
 
 export default Authentication;
-
-let str = 'hello, full stack developer';
-
-let indexOfStr = str.indexOf('developer');
-console.log(indexOfStr);
-
-let subStrIndex = 18;
-let stringToAdd = '& front end ';
-
-let newString = str.slice(0, subStrIndex) + stringToAdd + str.slice(subStrIndex);
-console.log(newString);
