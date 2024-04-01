@@ -10,21 +10,13 @@ Once you have these in place, let's get the devFind repository onto your local m
 git clone https://github.com/shyamtawli/devFind.git
 ```
 
-## **Install `pnpm`**
-
-To make things even more fun and efficient, we're using `pnpm`. Install it with this command:
-
-```bash
-npm install -g pnpm
-```
-
 ## **Install dependencies**
 
 Time to gather our supplies! Navigate to the project folder in your terminal and install the dependencies with these magical incantations:
 
 ```bash
 cd devFind
-pnpm install
+npm install
 ```
 
 ## **Launch the Application**
@@ -32,7 +24,7 @@ pnpm install
 Ready to unveil your creation? Use this command to start the application:
 
 ```bash
-pnpm start
+npm start
 ```
 
 ## **Create a New Branch**
@@ -52,7 +44,7 @@ The world of devFind is your oyster! Make your changes, tweak existing code, add
 Before you reveal your wizardry, ensure everything works like a charm. Run the tests with this enchantment:
 
 ```bash
-pnpm test
+npm test
 ```
 
 The tests will act as your trusty spellbook, guiding you to victory!

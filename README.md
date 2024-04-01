@@ -22,14 +22,18 @@
 
 ## Table of Contents
 
-- [About 🚀](#about)
-- [Features 💪](#features)
-- [Prerequisites](#prerequisites)
-- [How to Add Your Profile Data 🤔](#how-to-add-your-profile-data)
-- [Contributing 👨‍💻](#contributing)
-- [Contributors 🤝](#contributors)
+- [Table of Contents](#table-of-contents)
+- [About 🚀](#about-)
+- [Features 💪](#features-)
+- [How to add your profile Data 🤔](#how-to-add-your-profile-data-)
+  - [Prerequisites](#prerequisites)
+  - [How to Install Git](#how-to-install-git)
+  - [How to Install Node.js and npm](#how-to-install-nodejs-and-npm)
+  - [Steps to Add Your Profile Data](#steps-to-add-your-profile-data)
+- [Contributing 👨‍💻](#contributing-)
+- [Contributors 🤝](#contributors-)
 - [License](#license)
-- [Support 🙏](#support)
+- [Support 🙏](#support-)
 
 <a id="about"></a>
 
@@ -55,14 +59,13 @@
 
 <a id="prerequisites"></a>
 
-## Prerequisites
+### Prerequisites
 
 - A GitHub account
 - Git installed on your local development environment
 - Node Package Manager (npm) installed on your local development environment
-- pnpm installed on your local development environment
 
-## How to Install Git
+### How to Install Git
 
 Git is a version control system that is used to manage the source code of your project.
 
@@ -71,40 +74,74 @@ To install Git, follow these steps:
 1. Download and install Git from the [Official Website](https://git-scm.com/downloads)
 2. Open the terminal or command prompt on your local development environment
 3. Verify the installation of Git by running the following command:
-   **`git --version`**
 
-## How to Install npm
+   ```bash
+   git --version
+   ```
 
-npm (Node Package Manager) is a package manager for JavaScript programming language and is used to manage the packages that are required by your project.
+### How to Install Node.js and npm
 
-To install npm, follow these steps:
+Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a web browser. npm (Node Package Manager) is a package manager for JavaScript, essential for managing dependencies in Node.js projects. Here's how to install Node.js and npm:
 
-1. Download and install Node.js from the [Official Website](https://nodejs.org/en/download/)
-2. Open the terminal or command prompt on your local development environment
-3. Verify that npm has been installed by running the command: **`npm -v`**
+1. **Download Node.js:**
 
-## How to Install pnpm
+   - Visit the [official Node.js website](https://nodejs.org/en/download/) and download the appropriate installer for your operating system (Windows, macOS, or Linux).
+   - Choose the LTS (Long Term Support) version for stable releases or the latest version for cutting-edge features.
+   - Follow the installation instructions provided by the installer.
 
-To install project dependencies, please make sure you have pnpm installed on your machine. pnpm is another package manager for Node.js, which is used by this project.
+2. **Verify Node.js Installation:**
 
-To install pnpm, follow these steps:
+   - After the installation is complete, open your terminal or command prompt.
+   - To verify that Node.js has been installed successfully, type the following command and press Enter:
 
-1. Open the terminal or command prompt on your local development environment.
-2. Run the following command: **`npm install -g pnpm`**
+     ```
+     node -v
+     ```
 
-Once pnpm is installed, you can navigate to the project directory and run the following command to install the project dependencies: **`pnpm install`**
+   - This command should display the version of Node.js installed on your system. If it does, Node.js installation was successful.
 
-## Steps to Add Your Profile Data
+3. **Verify npm Installation:**
 
-1. Fork the repository: To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
-2. Clone the forked repository: To clone the repository to your local development environment, open the terminal or command prompt and run the following command:
-   **`git clone https://github.com/<your-github-username>/devFind.git`**
+   - npm comes bundled with Node.js, so once Node.js is installed, npm is automatically installed as well.
+   - To confirm that npm is installed, in your terminal or command prompt, type:
 
-3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command:
-   **`pnpm install`**
-4. Navigate to the **`public/data`** folder in your project directory.
-5. Create a new JSON file named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
-6. Add the following JSON object, replacing the placeholder values with your own details:
+     ```
+     npm -v
+     ```
+
+   - Press Enter. This command should display the version of npm installed on your system. If it does, npm installation was successful.
+
+4. **Optional: Update npm (recommended):**
+
+   - It's recommended to keep npm up to date to access the latest features and bug fixes.
+   - To update npm to the latest version, type the following command and press Enter:
+
+     ```
+     npm install -g npm@latest
+     ```
+
+   - This command will update npm to the latest stable version globally (-g flag).
+
+By following these steps, you have successfully installed Node.js and npm on your system. You are now ready to start building JavaScript applications and managing dependencies with npm.
+
+### Steps to Add Your Profile Data
+
+1. **Fork the repository:** To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
+2. **Clone the forked repository:** To clone the repository to your local development environment, open the terminal or command prompt and run the following command:
+
+   ```bash
+   git clone https://github.com/<your-github-username>/devFind.git
+   ```
+
+3. **Install dependencies:** To install the necessary dependencies for the project, navigate to the project directory and run the following command:
+
+   ```bash
+   npm install
+   ```
+
+4. **Navigate** to the **`public/data`** folder in your project directory.
+5. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
+6. **Add** the following JSON object, replacing the placeholder values with your own details:
    ```json
    {
      "name": "Your Name",
@@ -120,25 +157,31 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
      }
    }
    ```
-7. Save the **`your_github_username.json`** file.
-8. Navigate to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
-9. Add your JSON filename (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
-
+7. **Save** the **`your_github_username.json`** file.
+8. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
+9. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
    ```json
    ["filename1.json", "filename2.json", "your_github_username.json"]
    ```
-
-10. Save the **`ProfileLists.json`** file.
-11. Create a new branch: To create a new branch for your profile, run the following command:
-    **`git checkout -b add-profile`**
-12. Add your changed files to the stage by running the following command:
-    **`git add .`**
-13. Commit your changes: To save your changes to the branch, run the following command:
-    **`git commit -m "add: <your-name>"`**
-14. Push to the branch: To push the changes to the remote repository, run the following command:
-    **`git push origin add-profile`**
-15. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
-16. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
+10. **Save** the **`ProfileLists.json`** file.
+11. **Create a new branch:** To create a new branch for your profile, run the following command:
+    ```bash
+    git checkout -b add-profile
+    ```
+12. **Add your changed files:** Add changed files to the stage by running the following command:
+    ```bash
+    git add .
+    ```
+13. **Commit your changes:** To save your changes to the branch,, run the following command:
+    ```bash
+    git commit -m "add: <your-name>"
+    ```
+14. **Push to the branch:** To push the changes to the remote repository, run the following command:
+    ```bash
+    git push origin add-profile
+    ```
+15. **Create a pull request:** To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
+16. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
