@@ -8,6 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import getSearchResult from './helper/getSearchResult';
 
 function App() {
   const profilesRef = useRef();
@@ -59,17 +60,7 @@ function App() {
   };
 
   const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase().trim();
-    const results = combinedData.filter((object) => {
-      const lowercaseName = object.name.toLowerCase();
-      const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
-      return (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      );
-    });
+    const results = getSearchResult({ searchValue, combinedData });
 
     setSearching(true);
     setProfiles(results);
