@@ -8,10 +8,6 @@
   width: 0.8rem;
 }
 
-::-webkit-scrollbar-track {
-  background-color: rgba(20, 29, 47, 1);
-}
-
 ::-webkit-scrollbar-thumb {
   background: rgb(43, 58, 88);
   border: 2px solid transparent;
