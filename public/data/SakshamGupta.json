@@ -1,0 +1,13 @@
+{
+  "name": "Saksham Gupta",
+  "location": "Maharashtra, India",
+  "portfolio": "https://sakshamgupta-portfolio.netlify.app/",
+  "bio": "A web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://avatars.githubusercontent.com/u/112967198?s=400&u=cb2d926c32611dc93a3b382abb8ac036beee7329&v=4",
+  "skills": ["HTML", "CSS", "JavaScript", "Node.js", "React", "React-Native", "C++", "Java", "Python"],
+  "social": {
+    "GitHub": "https://github.com/sakshamgupta912",
+    "LinkedIn": "www.linkedin.com/in/sakshamgupta912",
+    "Twitter": "https://twitter.com/Saksham66525108"
+  }
+}
