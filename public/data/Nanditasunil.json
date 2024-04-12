@@ -1,0 +1,13 @@
+{
+  "name": "Nandita Namboodiri",
+  "location": "Pune",
+  "bio": "I'm a 3rd year engineering student excited to explore GitHub.Few of my projects are available at nandita.namboodiri.netlify.app.",
+  "avatar": "https://github.com/NanditaSunil.png",
+  "portfolio": "nandita.namboodiri.netlify.app",
+  "skills": ["React", "Java", "C/Cpp", "Mysql"],
+  "social": {
+    "GitHub": "https://github.com/NanditaSunil",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/nandita-namboodiri/"
+  }
+}
