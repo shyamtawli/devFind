@@ -1,0 +1,32 @@
+{
+  "name": "Hassan Abou Khalil",
+  "location": "Earth",
+  "bio": "I am a full stack developer with over 3 years of experience. Proficient in both front-end and back-end technologies.",
+  "avatar": "https://github.com/hassanaboukhalil.png",
+  "portfolio": "https://hassan-ak-portfolio.vercel.app/",
+  "skills": [
+    "ReactJS",
+    "php",
+    "SQL",
+    "SASS",
+    "JavaScript",
+    "Git",
+    "Bootstrap",
+    "tailwind",
+    "Jest",
+    "HTML",
+    "CSS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Redux",
+    "Typescript",
+    "Java",
+    "Figma",
+    "Python"
+  ],
+  "social": {
+    "GitHub": "https://github.com/hassanaboukhalil",
+    "Twitter": "https://twitter.com/CodingHassan"
+  }
+}
