@@ -63,16 +63,18 @@ function Search({ onSearch }) {
         placeholder="Search user by name, location or skills"
         onKeyDown={handleSearchOnEnter}
       />
-      <FontAwesomeIcon
-        onClick={handleSearchButtonClick}
-        className="absolute mr-4 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
-        icon={faMagnifyingGlass}
-      />
       {searchValue && (
         <FontAwesomeIcon
           onClick={handleDeleteButtonClick}
-          className="absolute mr-10 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary  "
+          className="absolute mr-4 scale-125 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
           icon={faXmark}
+        />
+      )}
+      {!searchValue && (
+        <FontAwesomeIcon
+          onClick={handleSearchButtonClick}
+          className="absolute mr-4 cursor-pointer text-xl hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+          icon={faMagnifyingGlass}
         />
       )}
     </div>

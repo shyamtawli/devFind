@@ -1,0 +1,13 @@
+{
+  "name": "Chaitany Arora",
+  "location": "New Delhi, India",
+  "bio": "SDE. Speaks Python Fluently.",
+  "avatar": "https://github.com/chaitanyarora.png",
+  "portfolio": "https://chaitanyarora-portfolio.vercel.app/",
+  "skills": ["Python", "MERN", "C++"],
+  "social": {
+    "GitHub": "https://github.com/chaitanyarora",
+    "Twitter": "https://twitter.com/chaitanyarora1",
+    "LinkedIn": "https://www.linkedin.com/in/chaitany-arora-693872201/"
+  }
+}
