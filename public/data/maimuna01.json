@@ -1,0 +1,14 @@
+{
+    "name": "Maimuna Khatoon",
+    "location": "Pune",
+    "bio": "Hi i am a third year CS student at Student Institute of Technology",
+    "avatar": "https://github.com/<your-github-username>.png",
+    "portfolio": "https://github.com/maimuna01",
+    "skills": ["java", "C++", "Python"],
+    "social": {
+      "GitHub": "https://github.com/maimuna01",
+      "Twitter": "https://twitter.com/maimuna01",
+      "LinkedIn": "https://www.linkedin.com/in/maimunakhatoon"
+    }
+  }
+  
