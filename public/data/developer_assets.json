@@ -1,0 +1,13 @@
+{
+  "name": "Patrick Obama",
+  "location": "Kenya",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://github.com/developer-assets.png",
+  "portfolio": "https://developer-assets.github.io/",
+  "skills": ["React.js", "Tailwind CSS", "SQL", "Node.js", "HTML", "CSS", "JavaScript", "PHP", "Python", "C++"],
+  "social": {
+    "GitHub": "https://github.com/developer_assets",
+    "Twitter": "https://twitter.com/cybicl",
+    "LinkedIn": "https://www.linkedin.com/in/patrick-obama-8269152bb/"
+  }
+}

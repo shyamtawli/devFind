@@ -1,0 +1,25 @@
+{
+  "name": "Sabari CK",
+  "location": "Coimbatore, India",
+  "bio": "Frontend React Developer | React, Next.js | Increasing Website Performance and User Engagement",
+  "avatar": "https://github.com/CKsabari2001.png",
+  "portfolio": "https://github.com/CKsabari2001",
+  "skills": [
+    "Html",
+    "Css",
+    "JavaScript",
+    "TypeScript",
+    "ReactJS",
+    "NextJs",
+    "Redux",
+    "Git/GitHub",
+    "TailWindCss",
+    "MaterialUi",
+    "Bootstrap"
+  ],
+  "social": {
+    "GitHub": "https://github.com/CKsabari2001",
+    "Twitter": "https://twitter.com/sabarirck_2001",
+    "LinkedIn": "https://www.linkedin.com/in/sabarirck"
+  }
+}
