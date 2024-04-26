@@ -1,0 +1,13 @@
+{
+  "name": "Andrés Felipe Pizo Luligo",
+  "location": "Colombia - Cauca - Popayán",
+  "bio": "Young man passionate about software, I love capturing incredible ideas.",
+  "avatar": "https://github.com/AndresFelipe077.png",
+  "portfolio": "https://github.com/AndresFelipe077",
+  "skills": ["Laravel", "Nest.js", "Angular", "Unity"],
+  "social": {
+    "GitHub": "https://github.com/AndresFelipe077",
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/andres-felipe-pizo-luligo-6181001b1"
+  }
+}
