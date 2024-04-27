@@ -1,0 +1,13 @@
+{
+  "name": "Erick Wainaina.",
+  "location": "Nairobi, Kenya",
+  "bio": "Creating bugs since, 27th/10/2024",
+  "avatar": "https://avatars.githubusercontent.com/u/116720470?v=4",
+  "portfolio": "https://github.com/Erick-WG",
+  "skills": ["Python", "Django", "JavaScript", "Typescript", "React"],
+  "social": {
+    "GitHub": "https://github.com/Erick-WG",
+    "Twitter": "https://twitter.com/erick_gitahi",
+    "LinkedIn": "https://www.linkedin.com/in/erick-wainaina/"
+  }
+}
