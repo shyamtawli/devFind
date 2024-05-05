@@ -1,0 +1,13 @@
+{
+  "name": "Sunil Kumar",
+  "location": "India",
+  "bio": "Experienced in HTML, CSS, JavaScript, and React, adept at problem-solving and open-source contributions. A quick learner ready to enrich projects and elevate user experiences.",
+  "avatar": "https://github.com/0rigin-c0de.png",
+  "portfolio": "https://techfolio1.netlify.app",
+  "skills": ["JavaScript", "ReactJS", "MongoDB","NodeJS","HTML","CSS","Firebase","BootStrap","TailwindCSS"],
+  "social": {
+    "GitHub": "https://github.com/0rigin-c0de",
+    "Twitter": "https://twitter.com/shunnu02",
+    "LinkedIn": "https://www.linkedin.com/in/shunnu"
+  }
+}
