@@ -1,0 +1,13 @@
+{
+  "name": "Prajwal Mandlik",
+  "location": "Pune , India",
+  "bio": "A Full Stack Developer and Freelancer",
+  "avatar": "https://github.com/prajwalmandlik2004.png",
+  "portfolio": "https://bit.ly/Prajwal-Mandlik",
+  "skills": ["JavaScript", "React.js", "Next.js", "Node.js", "Express.js", "Java", "Kotlin"],
+  "social": {
+    "GitHub": "https://github.com/prajwalmandlik2004",
+    "Twitter": "https://twitter.com/MandlikPrajwal3",
+    "LinkedIn": "https://www.linkedin.com/in/prajwal-mandlik-5962b222a/"
+  }
+}
