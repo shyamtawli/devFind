@@ -1,0 +1,13 @@
+{
+  "name": "Atharv Dalal ",
+  "location": "Pune , Maharashtra",
+  "bio": "I am a full-stack web developer, mostly loving core development and building backend systems. ",
+  "avatar": "https://avatars.githubusercontent.com/u/77956535?v=4",
+  "portfolio": "https://github.com/phythdj24",
+  "skills": ["Javascript", "Node js", "ExpressJS", "PostgreSQL", "NestJS", "React", "MongoDB", "AWS", "Kafka", "Redis"],
+  "social": {
+    "GitHub": "https://github.com/phythdj24",
+    "Twitter": "https://twitter.com/Dalal_Atharv24",
+    "LinkedIn": "https://www.linkedin.com/in/atharv-dalal/"
+  }
+}
