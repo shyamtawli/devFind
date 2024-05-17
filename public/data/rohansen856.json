@@ -1,0 +1,13 @@
+{
+  "name": "Rohan Sen",
+  "location": "Kolkata, India",
+  "bio": "I am a experienced NextJs developerand Blockchain enthusiast",
+  "avatar": "https://github.com/rohansen856.png",
+  "portfolio": "https://rcsen.vercel.app",
+  "skills": ["NextJs", "YReactJs", "Blockchain", "Flutter", "App Development"],
+  "social": {
+    "GitHub": "https://github.com/rohansen856",
+    "Twitter": "https://twitter.com/rohansen856",
+    "LinkedIn": "https://www.linkedin.com/in/rohansen856"
+  }
+}
