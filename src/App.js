@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes }from "react-router-dom";
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -119,8 +120,11 @@ function App() {
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
-  return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+
+
+  const MainRootComponent = () => {
+    return(
+      <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
@@ -135,8 +139,15 @@ function App() {
         )}
       </div>
     </div>
-  ) : (
-    <ErrorPage />
+    )
+  }
+  return  (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainRootComponent/>}/>
+        <Route path="*" element={<ErrorPage />}/>
+      </Routes>
+    </Router>
   );
 }
 
