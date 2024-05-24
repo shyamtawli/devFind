@@ -1,0 +1,13 @@
+{
+  "name": "Abhishek Kumar Verma",
+  "location": "Uttar Pradesh, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://bit.ly/4bfqYfn",
+  "portfolio": "https://github.com/Abhishek0732",
+  "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Java", "Python", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Abhishek0732",
+    "Twitter": "https://twitter.com/Abhishek34412",
+    "LinkedIn": "https://www.linkedin.com/in/abhishekverma32/"
+  }
+}
