@@ -125,7 +125,7 @@ function App() {
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {profiles.length > 0 && (
+        {combinedData.length > 0 && (
           <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
