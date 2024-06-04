@@ -29,7 +29,7 @@ function Card({ data }) {
 
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
-      <div className="flex gap-4">
+      <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
           <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
         </div>
@@ -66,7 +66,7 @@ function Card({ data }) {
           </div>
         </div>
         <div
-          className={`${
+          className={` md:absolute md:right-2 md:top-2 ${
             data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
