@@ -49,14 +49,14 @@ function Card({ data }) {
             {data.location}
           </p>
           <div
-            className="skills-container mt-4 flex h-9 gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
+            className="skills-container mt-4 flex h-auto flex-wrap gap-1 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth md:gap-4"
             ref={cardRef}
           >
             {data.skills &&
               data.skills.map((skill, index) => {
                 return (
                   <div
-                    className="inline h-[30px] cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-sm text-white"
+                    className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
                     key={index}
                   >
                     {skill}
