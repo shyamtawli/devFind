@@ -8,6 +8,8 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import { fetchData } from './helpers/fetchData';
+import { shuffleProfiles } from './helpers/shuffleProfiles';
 
 function App() {
   const profilesRef = useRef();
@@ -21,17 +23,6 @@ function App() {
 
   const currentUrl = window.location.pathname;
   useEffect(() => {
-    const fetchData = async (file) => {
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        return [];
-      }
-    };
-
     const combineData = async () => {
       setLoadingProfiles(true);
       try {
@@ -49,14 +40,6 @@ function App() {
 
     combineData();
   }, []);
-
-  const shuffleProfiles = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  };
 
   const handleSearch = (searchValue) => {
     const lowercaseSearch = searchValue.toLowerCase().trim();
