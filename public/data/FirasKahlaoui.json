@@ -1,0 +1,13 @@
+{
+  "name": "Firas Kahlaoui",
+  "location": "Tunisia",
+  "bio": "Data Science Student, specialized in Machine Learning and BigData.",
+  "avatar": "https://github.com/FirasKahlaoui.png",
+  "portfolio": "https://firaskahlaoui.pages.dev/",
+  "skills": ["Python", "ReactJS", "NodeJS", "MongoDB", "SQL", "Machine Learning", "Deep Learning", "BigData"],
+  "social": {
+    "GitHub": "https://github.com/FirasKahlaoui",
+    "Twitter": "https://twitter.com/Firas_kahlaouii",
+    "LinkedIn": "https://www.linkedin.com/in/firas-kahlaoui-b0a031253"
+  }
+}
