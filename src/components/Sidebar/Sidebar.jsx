@@ -1,9 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
   const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    // Apply the saved or default theme on component mount
+    const htmlElement = document.documentElement;
+    if (theme === 'dark') {
+      htmlElement.classList.add('dark');
+    } else {
+      htmlElement.classList.remove('dark');
+    }
+  }, [theme]); // This effect runs only when the theme state changes
 
   function toggleTheme() {
     const htmlElement = document.documentElement;
@@ -12,9 +22,11 @@ function Sidebar() {
     if (isDarkModeEnabled) {
       htmlElement.classList.remove('dark');
       setTheme('light');
+      localStorage.setItem('theme', 'light'); // Save theme to localStorage
     } else {
       htmlElement.classList.add('dark');
       setTheme('dark');
+      localStorage.setItem('theme', 'dark'); // Save theme to localStorage
     }
   }
   return (
