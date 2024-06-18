@@ -1,22 +1,34 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState();
 
   function toggleTheme() {
     const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
-
-    if (isDarkModeEnabled) {
+    if (localStorage.getItem('theme') === 'light') {
+      setTheme('dark');
+      localStorage.setItem('theme', 'dark');
+      htmlElement.classList.add('dark');
+    } else {
       htmlElement.classList.remove('dark');
       setTheme('light');
-    } else {
-      htmlElement.classList.add('dark');
-      setTheme('dark');
+      localStorage.setItem('theme', 'light');
     }
   }
+
+  useEffect(() => {
+    let storedTheme = localStorage.getItem('theme');
+    if (storedTheme === null) {
+      localStorage.setItem('theme', 'light');
+      setTheme('light');
+    } else {
+      setTheme(storedTheme);
+    }
+    toggleTheme();
+  }, []);
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%]">
       <div className="mb-2 flex h-12 items-center gap-2.5">
