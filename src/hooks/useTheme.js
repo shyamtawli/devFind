@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 const useTheme = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
-  const toogleTheme = () => {
+  const toggle = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
     localStorage.setItem('theme', newTheme);
@@ -13,7 +13,7 @@ const useTheme = () => {
     document.documentElement.className = theme;
   }, [theme]);
 
-  return { theme, toogleTheme };
+  return { theme, toggle };
 };
 
 export default useTheme;

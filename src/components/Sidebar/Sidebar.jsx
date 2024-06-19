@@ -1,22 +1,15 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import useTheme from '../../hooks/useTheme';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
+  const [theme] = useState('dark');
+  const { toggle } = useTheme();
 
-  function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
-
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove('dark');
-      setTheme('light');
-    } else {
-      htmlElement.classList.add('dark');
-      setTheme('dark');
-    }
-  }
+  const toggleTheme = () => {
+    toggle();
+  };
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%]">
       <div className="mb-2 flex h-12 items-center gap-2.5">
