@@ -1,22 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
+  const initialTheme = localStorage.getItem('theme') || 'dark';
+  const [theme, setTheme] = useState(initialTheme);
+
+  // Update local storage when theme preference changes
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    // Update class on html element when theme changes
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+  }, [theme]);
 
   function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
-
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove('dark');
-      setTheme('light');
-    } else {
-      htmlElement.classList.add('dark');
-      setTheme('dark');
-    }
+    // Toggle between 'dark' and 'light' themes
+    setTheme(prevTheme => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%]">
       <div className="mb-2 flex h-12 items-center gap-2.5">
