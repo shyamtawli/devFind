@@ -97,7 +97,7 @@ function Sidebar() {
           </form>
         </div>
       )}
-      <div className="mt-auto rounded-lg bg-white p-4 text-center text-secondaryColor shadow-md dark:bg-gray-800 dark:text-white">
+      <div className="mt-auto  p-4 text-center text-secondaryColor  ">
         © {new Date().getFullYear()} devFind. All rights reserved.
       </div>
     </div>
