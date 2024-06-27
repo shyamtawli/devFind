@@ -91,9 +91,14 @@ function Sidebar() {
               <textarea id="message" name="message" rows="4" className="form-textarea" />
             </div>
 
-            <button type="submit" className="submit-button" color="orange">
-              Submit
-            </button>
+            <div className="pt-5">
+              <button
+                className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+                onClick={toggleContactForm}
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       )}
