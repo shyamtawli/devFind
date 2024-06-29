@@ -1,0 +1,12 @@
+{
+  "name": "José Lucas",
+  "location": "Santa Luzia, PB, Brazil",
+  "bio": "Software Engineer | Python and Javascript | Fullstack developer.",
+  "avatar": "https://github.com/joselucasapp.png",
+  "portfolio": "https://github.com/JoseLucasapp",
+  "skills": ["Javascript", "Python", "Golang", "Php", "Java", "Perl"],
+  "social": {
+    "GitHub": "https://github.com/joselucasapp",
+    "LinkedIn": "https://www.linkedin.com/in/jlgf524150/"
+  }
+}
