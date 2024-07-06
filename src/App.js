@@ -59,16 +59,16 @@ function App() {
   };
 
   const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase().trim();
+    // Remove commas and split by spaces
+    const lowercaseSearchArray = [...searchValue].filter(char => char !== ',').join("").toLowerCase().trim().split(/\s+/);
     const results = combinedData.filter((object) => {
       const lowercaseName = object.name.toLowerCase();
       const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
+      const matchingSkills = object.skills.filter((skill) => lowercaseSearchArray.includes(skill.toLowerCase()));
       return (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      );
+        matchingSkills.length +
+        lowercaseSearchArray.filter(word => lowercaseName.includes(word) || lowercaseLocation.includes(word)).length
+      ) >= lowercaseSearchArray.length;
     });
 
     setSearching(true);
