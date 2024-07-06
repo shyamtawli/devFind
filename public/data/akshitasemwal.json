@@ -1,0 +1,13 @@
+{
+  "name": "Akshita Semwal",
+  "location": "Uttarakhand, India",
+  "bio": "DSA | Problem Solving | Web Dev",
+  "avatar": "https://github.com/akshitasemwal.png",
+  "portfolio": "https://akshita-semwal-portfolio.netlify.app/",
+  "skills": ["React, Node, Express, MongoDB, Next, TailwindCSS, JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/akshitasemwal>",
+    "Twitter": "https://twitter.com/rayycloudy",
+    "LinkedIn": "https://www.linkedin.com/in/akshita-semwal-517b55206/"
+  }
+}
