@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -10,7 +10,7 @@ import './App.css';
 import filenames from './ProfilesList.json';
 
 function App() {
-  const profilesRef = useRef();
+  const profilesRef = useRef(null);
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
@@ -20,6 +20,7 @@ function App() {
   const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
+
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -90,10 +91,12 @@ function App() {
   };
 
   useEffect(() => {
-    profilesRef.current.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    if (profilesRef.current) {
+      profilesRef.current.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
   }, [currentPage]);
 
   const getPaginatedData = () => {
@@ -134,6 +137,30 @@ function App() {
           />
         )}
       </div>
+      <button
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          backgroundColor: '#3b82f6',
+          color: '#ffffff',
+          padding: '10px 20px',
+          borderRadius: '6px',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+          cursor: 'pointer',
+          zIndex: '999',
+        }}
+        onClick={() => {
+          if (profilesRef.current) {
+            profilesRef.current.scrollTo({
+              top: 0,
+              behavior: 'smooth',
+            });
+          }
+        }}
+      >
+        Scroll to Top
+      </button>
     </div>
   ) : (
     <ErrorPage />
