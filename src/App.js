@@ -58,23 +58,23 @@ function App() {
     return array;
   };
 
-  const handleSearch = (searchValue) => {
-    const lowercaseSearch = searchValue.toLowerCase().trim();
-    const results = combinedData.filter((object) => {
-      const lowercaseName = object.name.toLowerCase();
-      const lowercaseLocation = object.location.toLowerCase();
-      const matchingSkills = object.skills.filter((skill) => skill.toLowerCase().includes(lowercaseSearch));
-      return (
-        matchingSkills.length > 0 ||
-        lowercaseName.includes(lowercaseSearch) ||
-        lowercaseLocation.includes(lowercaseSearch)
-      );
+ const handleSearch = ({ value, criteria }) => {
+    const filteredResults = combinedData.filter((user) => {
+      if (criteria === 'name') {
+        return user.name.toLowerCase().includes(value.toLowerCase());
+      } else if (criteria === 'location') {
+        return user.location.toLowerCase().includes(value.toLowerCase());
+      } else if (criteria === 'skill') {
+        return user.skills.some((skill) =>
+          skill.toLowerCase().includes(value.toLowerCase())
+        );
+      }
+      return false;
     });
-
+    setProfiles(filteredResults);
     setSearching(true);
-    setProfiles(results);
-    setCurrentPage(1);
   };
+
 
   const handleNextPage = () => {
     const totalPages = Math.ceil((searching ? profiles.length : combinedData.length) / recordsPerPage);
