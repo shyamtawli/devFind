@@ -1,0 +1,26 @@
+{
+  "name": "Deepanshu Sharma",
+  "location": "New Delhi India",
+  "bio": "Creative Full Stack Developer passionate about building innovative web solutions. Blending design and functionality to craft seamless, user-centric applications that drive digital transformation.",
+  "avatar": "https://github.com/why-deepanshux.png",
+  "portfolio": "https://github.com/why-deepanshux",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "CSS",
+    "React",
+    "MongoDB",
+    "Tailwind",
+    "Nodejs",
+    "Nextjs",
+    "Express",
+    "Python",
+    "C++",
+    "AWS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/why-deepanshux",
+    "Twitter": "https://x.com/why_deepanshu",
+    "LinkedIn": "https://www.linkedin.com/in/deepanshu-sharma-449b661ba/"
+  }
+}
