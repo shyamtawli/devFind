@@ -59,18 +59,24 @@ function App() {
   };
 
  const handleSearch = ({ value, criteria }) => {
+    const normalizeString = (str) =>
+      str.toLowerCase().replace(/\s*,\s*/g, ' ').replace(/\s+/g, ' ').trim();
+  
+    const normalizedValue = normalizeString(value);
+  
     const filteredResults = combinedData.filter((user) => {
       if (criteria === 'name') {
-        return user.name.toLowerCase().includes(value.toLowerCase());
+        return normalizeString(user.name).includes(normalizedValue);
       } else if (criteria === 'location') {
-        return user.location.toLowerCase().includes(value.toLowerCase());
+        return normalizeString(user.location).includes(normalizedValue);
       } else if (criteria === 'skill') {
         return user.skills.some((skill) =>
-          skill.toLowerCase().includes(value.toLowerCase())
+          normalizeString(skill).includes(normalizedValue)
         );
       }
       return false;
     });
+  
     setProfiles(filteredResults);
     setSearching(true);
   };
