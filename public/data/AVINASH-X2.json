@@ -1,0 +1,13 @@
+{
+  "name": "Avinash Kumar Sinha",
+  "location": "Coimbatore",
+  "bio": "Hello, I'm Avinash, I love creating new web applications",
+  "avatar": "https://github.com/AVINASH-X2.png",
+  "portfolio": "https://github.com/AVINASH-X2",
+  "skills": ["React.JS", "Node.js", "Express", "MongoDB", "SQL", ".NET", "C#", "TailwindCSS", "Bootstrap"],
+  "social": {
+    "GitHub": "https://github.com/AVINASH-X2",
+    "Twitter": "https://x.com/avinash__x2",
+    "LinkedIn": "https://www.linkedin.com/in/avinash-kumar-sinha-54304325a/"
+  }
+}

@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
   const [theme, setTheme] = useState('dark');
   const [showContactForm, setShowContactForm] = useState(false);
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    htmlElement.classList.add(theme);
+    return () => {
+      htmlElement.classList.remove(theme);
+    };
+  }, [theme]);
 
   function toggleTheme() {
     const htmlElement = document.documentElement;
@@ -66,7 +74,7 @@ function Sidebar() {
         </button>
       </div>
       {showContactForm && (
-        <div className="contact-container pt-5">
+        <div className="contact-container pt-5 dark:text-white">
           <h1 className="contact-heading">Contact Us</h1>
           <p className="contact-description">Please fill out the form below to get in touch with us.</p>
           <form className="contact-form">
@@ -74,27 +82,42 @@ function Sidebar() {
               <label htmlFor="name" className="form-label">
                 Name:
               </label>
-              <input type="text" id="name" name="name" className="form-input" />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="form-input focus:outline-none dark:border-borderColor dark:bg-textPrimary dark:text-white"
+              />
             </div>
 
             <div className="form-group">
               <label htmlFor="email" className="form-label">
                 Email:
               </label>
-              <input type="email" id="email" name="email" className="form-input" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="form-input focus:outline-none dark:border-borderColor dark:bg-textPrimary dark:text-white"
+              />
             </div>
 
             <div className="form-group">
               <label htmlFor="message" className="form-label">
                 Message:
               </label>
-              <textarea id="message" name="message" rows="4" className="form-textarea" />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                className="form-textarea focus:outline-none dark:border-borderColor dark:bg-textPrimary dark:text-white"
+              />
             </div>
 
             <div className="pt-5">
               <button
                 className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
-                onClick={toggleContactForm}
+                type="submit"
               >
                 Submit
               </button>
@@ -102,7 +125,7 @@ function Sidebar() {
           </form>
         </div>
       )}
-      <div className="mt-auto  p-4 text-center text-secondaryColor  ">
+      <div className="mt-auto p-4 text-center text-secondaryColor dark:text-white">
         © {new Date().getFullYear()} devFind. All rights reserved.
       </div>
     </div>
