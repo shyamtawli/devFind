@@ -1,0 +1,26 @@
+{
+  "name": "Agnish Bhattacharya",
+  "location": "West Bengal, India",
+  "bio": "I am an aspiring web developer and devops engineer currently undergoing my undergraduate course. Love contributing to open-source. Lets connect!",
+  "avatar": "https://github.com/Agnish1611.png",
+  "portfolio": "https://github.com/Agnish1611",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB",
+    "Mongoose",
+    "MySQL",
+    "Sequelize",
+    "AWS",
+    "Tailwind",
+    "HTML",
+    "CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Agnish1611",
+    "Twitter": "https://twitter.com/agnish1611",
+    "LinkedIn": "https://www.linkedin.com/in/agnish-bhattacharya-324031286"
+  }
+}
