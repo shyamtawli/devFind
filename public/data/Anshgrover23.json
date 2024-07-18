@@ -1,0 +1,13 @@
+{
+  "name": "Ansh Grover",
+  "location": "Hanumangarh Town, Rajasthan",
+  "bio": "👨‍💻 Passionate web developer focused on JavaScript. Love learning new tech and improving code. Always exploring new ideas and contributing to open source. 🚀✨",
+  "avatar": "https://github.com/Anshgrover23.png",
+  "portfolio": "https://github.com/Anshgrover23",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Node.js", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/Anshgrover23",
+    "Twitter": "https://twitter.com/anshgrover938",
+    "LinkedIn": "https://www.linkedin.com/in/anshgrover23/"
+  }
+}
