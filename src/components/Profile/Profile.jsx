@@ -70,7 +70,12 @@ function Card({ data }) {
             data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
-          <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
+          <a
+            href={data.portfolio}
+            className="inline-block transform rounded-full border-2 border-transparent bg-[rgb(0,166,251,var(--tw-bg-opacity))] px-5 py-2 text-sm font-medium text-white shadow-lg transition-all duration-300 ease-in-out hover:scale-105 hover:border-[rgb(0,166,251,var(--tw-border-opacity))] hover:bg-[rgb(243,244,246,var(--tw-bg-opacity))] hover:text-textSecondary hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Profile &#8594;
           </a>
         </div>
