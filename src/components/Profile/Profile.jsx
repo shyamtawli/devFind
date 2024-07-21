@@ -49,7 +49,7 @@ function Card({ data }) {
             {data.location}
           </p>
           <div
-            className="skills-container mt-4 flex h-auto flex-wrap gap-1 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth md:gap-4"
+            className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
             ref={cardRef}
           >
             {data.skills &&
