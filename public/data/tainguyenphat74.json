@@ -1,0 +1,13 @@
+{
+  "name": "tainguyenphat74",
+  "location": "Viet Nam",
+  "bio": "Fullstack Software Engineer with 3+ years. Lovely build SaaS product.",
+  "avatar": "https://github.com/tainguyenphat74.png",
+  "portfolio": "https://github.com/tainguyenphat74",
+  "skills": ["Next.js", "TailwindCSS", "Java", "Quarkus", "Docker"],
+  "social": {
+    "GitHub": "https://github.com/tainguyenphat74",
+    "Twitter": "https://twitter.com/tainguyenphat74",
+    "LinkedIn": "https://www.linkedin.com/in/tainguyenphat74"
+  }
+}
