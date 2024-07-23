@@ -1,0 +1,27 @@
+{
+  "name": "Swarnendu Maity",
+  "location": "India",
+  "bio": "Aspiring Full Stack Developer | Integrating Frontend Proficiency with Expanding Backend Knowledge",
+  "avatar": "https://github.com/swarnendu19.png",
+  "portfolio": "https://github.com/swarnendu19",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "Redux Toolkit",
+    "SASS",
+    "TailwindCSS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/swarnendu19",
+    "Twitter": "https://x.com/swarnendu_dev",
+    "LinkedIn": "https://www.linkedin.com/in/swarnendu-maity-34111624b/"
+  }
+}
