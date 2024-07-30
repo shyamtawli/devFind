@@ -29,7 +29,7 @@ function Card({ data }) {
 
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
-      <div className="flex gap-4">
+      <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
           <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
         </div>
@@ -49,7 +49,7 @@ function Card({ data }) {
             {data.location}
           </p>
           <div
-            className="skills-container mt-4 flex h-auto flex-wrap gap-1 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth md:gap-4"
+            className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
             ref={cardRef}
           >
             {data.skills &&
@@ -66,7 +66,7 @@ function Card({ data }) {
           </div>
         </div>
         <div
-          className={`${
+          className={` md:absolute md:right-2 md:top-2 ${
             data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
