@@ -58,9 +58,9 @@ function Search({ onSearch }) {
   }, []);
 
   return (
-    <div className="relative flex items-center justify-end pb-6 space-x-4">
+    <div className="relative flex items-center justify-end space-x-4 pb-6">
       <select
-        className="h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none focus:border-primaryFocus focus:bg-primaryLight dark:border-borderColor dark:bg-secondaryColor dark:text-white dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight"
+        className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         value={searchCriteria}
         onChange={handleCriteriaChange}
       >
@@ -70,7 +70,7 @@ function Search({ onSearch }) {
       </select>
       <div className="relative w-full">
         <input
-          className="h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none focus:border-primaryFocus focus:bg-primaryLight dark:border-borderColor dark:bg-secondaryColor dark:text-white dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight"
+          className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
           ref={searchInput}
           type="text"
           onChange={handleInputChange}
@@ -81,13 +81,13 @@ function Search({ onSearch }) {
         {searchValue ? (
           <FontAwesomeIcon
             onClick={handleDeleteButtonClick}
-            className="absolute top-1/2 right-4 transform -translate-y-1/2 scale-125 cursor-pointer text-xl text-secondaryColor hover:text-primaryFocus dark:text-white dark:hover:text-secondaryFocus"
+            className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 scale-125 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faXmark}
           />
         ) : (
           <FontAwesomeIcon
             onClick={handleSearchButtonClick}
-            className="absolute top-1/2 right-4 transform -translate-y-1/2 cursor-pointer text-xl text-secondaryColor hover:text-primaryFocus dark:text-white dark:hover:text-secondaryFocus"
+            className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faMagnifyingGlass}
           />
         )}

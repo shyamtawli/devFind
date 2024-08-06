@@ -58,29 +58,30 @@ function App() {
     return array;
   };
 
- const handleSearch = ({ value, criteria }) => {
+  const handleSearch = ({ value, criteria }) => {
     const normalizeString = (str) =>
-      str.toLowerCase().replace(/\s*,\s*/g, ' ').replace(/\s+/g, ' ').trim();
-  
+      str
+        .toLowerCase()
+        .replace(/\s*,\s*/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
     const normalizedValue = normalizeString(value);
-  
+
     const filteredResults = combinedData.filter((user) => {
       if (criteria === 'name') {
         return normalizeString(user.name).includes(normalizedValue);
       } else if (criteria === 'location') {
         return normalizeString(user.location).includes(normalizedValue);
       } else if (criteria === 'skill') {
-        return user.skills.some((skill) =>
-          normalizeString(skill).includes(normalizedValue)
-        );
+        return user.skills.some((skill) => normalizeString(skill).includes(normalizedValue));
       }
       return false;
     });
-  
+
     setProfiles(filteredResults);
     setSearching(true);
   };
-
 
   const handleNextPage = () => {
     const totalPages = Math.ceil((searching ? profiles.length : combinedData.length) / recordsPerPage);

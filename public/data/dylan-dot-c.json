@@ -1,0 +1,25 @@
+{
+  "name": "Dylan Heslop",
+  "location": "New York, USA",
+  "bio": "Full Stack Software Developer, specializes in React, Vue, Supabase, TypsScript, Node.JS. Love making functional web applications and learning new things everyday.",
+  "avatar": "https://github.com/dylan-dot-c.png",
+  "portfolio": "https://www.frontendmentor.io/profile/dylan-dot-c",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "TypeScript",
+    "React",
+    "Vue",
+    "Supabase",
+    "Python",
+    "Node.JS",
+    "Flask",
+    "Responsive Web Design",
+    "Mobile-First Design"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dylan-dot-c",
+    "LinkedIn": "https://www.linkedin.com/in/heslopd23/"
+  }
+}
