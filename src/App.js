@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes }from "react-router-dom";
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -10,7 +11,6 @@ import './App.css';
 import filenames from './ProfilesList.json';
 
 function App() {
-  const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
@@ -19,7 +19,7 @@ function App() {
   const [loadingProfiles, setLoadingProfiles] = useState(false);
   const recordsPerPage = 20;
 
-  const currentUrl = window.location.pathname;
+  // const currentUrl = window.location.pathname;
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -97,7 +97,7 @@ function App() {
   };
 
   useEffect(() => {
-    profilesRef.current.scrollTo({
+    window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
@@ -126,10 +126,13 @@ function App() {
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
-  return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+
+
+  const MainRootComponent = () => {
+    return(
+      <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
+      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7">
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
         {combinedData.length > 0 && (
@@ -142,8 +145,15 @@ function App() {
         )}
       </div>
     </div>
-  ) : (
-    <ErrorPage />
+    )
+  }
+  return  (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainRootComponent/>}/>
+        <Route path="*" element={<ErrorPage />}/>
+      </Routes>
+    </Router>
   );
 }
 
