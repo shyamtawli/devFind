@@ -109,7 +109,7 @@ function App() {
     const endIndex = startIndex + recordsPerPage;
     return data.slice(startIndex, endIndex);
   };
-
+  console.log(profiles);
   const renderProfiles = () => {
     if (loadingProfiles) {
       return (
@@ -132,13 +132,15 @@ function App() {
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {combinedData.length > 0 && (
+        {profiles.length >= recordsPerPage ? (
           <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
             onNextPage={handleNextPage}
             onPrevPage={handlePrevPage}
           />
+        ) : (
+          ''
         )}
       </div>
     </div>

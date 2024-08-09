@@ -1,0 +1,12 @@
+{
+  "name": "Sohail Ahmad",
+  "location": "Pakistan",
+  "bio": "i am a react front-end developer",
+  "avatar": "https://github.com/sohailk12.png",
+  "portfolio": "https://github.com/sohailk12",
+  "skills": ["JavaScript", "React js", "Html", "Css", "Saas", "BootStrap", "jquery"],
+  "social": {
+    "GitHub": "https://github.com/sohailk12",
+    "LinkedIn": "https://www.linkedin.com/in/sohail-ahmad-45373125a"
+  }
+}
