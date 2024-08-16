@@ -1,0 +1,31 @@
+{
+    "name": "Aakash Saini",
+    "location": "Haryana, India",
+    "bio": "An aspiring web developer who is an undergrad and recently started exploring open source for Hacktober fest and Frogtober fest. Looking for some great opportunities in full stack developer. Let's connect!",
+    "avatar": "https://avatars.githubusercontent.com/u/121600651?v=4",
+    "portfolio": "https://github.com/aakashsaini09",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Rust",
+      "Solidity",
+      "React-Vite",
+      "NextJS",
+      "Web-Sockets",
+      "WebRTC",
+      "Material-UI",
+      "Tailwind",
+      "Postgresql",
+      "Prisma",
+      "Git/GitHub",
+      "NodeJs",
+      "MongoDb"
+    ],
+    "social": {
+      "GitHub": "https://github.com/aakashsaini09",
+      "Twitter": "https://twitter.com/__aakashsaini",
+      "LinkedIn": "https://www.linkedin.com/in/-aakashsaini/"
+    }
+  }
+  
