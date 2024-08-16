@@ -1,0 +1,12 @@
+{
+  "name": "Piyawat Wongyat",
+  "location": "Bangkok/Thailand",
+  "bio": "I'm a software engineering student at Burapha University. I'm not very passionate about coding but work in this field to earn a living.",
+  "avatar": "https://avatars.githubusercontent.com/u/104257779?s=400&u=4e9c1cc0d7c1530af16a0293b5338375fb4af27e&v=4",
+  "portfolio": "https://piyawat-portfolio.onrender.com/",
+  "skills": ["React.js", "Express.js", "Tailwind", "TypeScript", "JavaScript", "Linux"],
+  "social": {
+    "GitHub": "https://github.com/boytur",
+    "LinkedIn": "https://www.linkedin.com/in/piyawat-wongyat-a74b52270/"
+  }
+}
