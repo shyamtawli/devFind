@@ -1,0 +1,31 @@
+{
+    "name": "Aakash Saini",
+    "location": "Haryana, India",
+    "bio": "A Full Stack developer who loves face new challenges and learn new things everyday.",
+    "avatar": "https://avatars.githubusercontent.com/u/121600651?v=4",
+    "portfolio": "https://github.com/aakashsaini09",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Rust",
+      "Solidity",
+      "React-Vite",
+      "NextJS",
+      "Web-Sockets",
+      "WebRTC",
+      "Material-UI",
+      "Tailwind",
+      "Postgresql",
+      "Prisma",
+      "Git/GitHub",
+      "NodeJs",
+      "MongoDb"
+    ],
+    "social": {
+      "GitHub": "https://github.com/aakashsaini09",
+      "Twitter": "https://twitter.com/__aakashsaini",
+      "LinkedIn": "https://www.linkedin.com/in/-aakashsaini/"
+    }
+  }
+  
