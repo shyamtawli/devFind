@@ -1,0 +1,13 @@
+{
+  "name": "Vitor Marinheiro",
+  "location": "São Paulo - Brasil",
+  "bio": "Hello, my name is Vitor Marinheiro and I'am Frontend Developer. My motivation is to solve problems and be involved in projects where I can apply my knowledge and learn continuously. In my free time, I enjoy contributing to open source projects and helping others get involved in programming.",
+  "avatar": "https://github.com/vitormarinheiro1.png",
+  "portfolio": "https://vitormarinheiro.vercel.app/",
+  "skills": ["React", "Nextjs", "Angular", "Typescript", "Python", "Nest", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/vitormarinheiro1",
+    "Twitter": "#",
+    "LinkedIn": "https://br.linkedin.com/in/vitor-marinheiro-590a461ba"
+  }
+}
