@@ -1,0 +1,31 @@
+{
+    "name": "Piyush Nijhawan",
+    "location": "New Delhi,India",
+    "bio": "Full Stack Developer proficient in PHP,React",
+    "avatar": "https://github.com",
+    "portfolio": "https://github.com/Piyush903",
+    "skills": [
+      "ReactJS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "HTML/CSS",
+      "REST API",
+      "GraphQL",
+      "Docker",
+      "Kubernetes",
+      "Postgresql",
+      "QT",
+      "C++",
+      "JAVA",
+      "Spring"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Piyush903",
+      "Twitter": "https://twitter.com",
+      "LinkedIn": "https://www.linkedin.com/in/piyush-nijhawan-671a34213/"
+    }
+  }
+  
