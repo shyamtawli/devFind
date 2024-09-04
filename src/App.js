@@ -8,7 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
-
+import { FaArrowUpLong } from 'react-icons/fa6';
 function App() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
@@ -126,12 +126,54 @@ function App() {
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  const handleScroll = () => {
+    if (profilesRef.current.scrollTop > 100 || window.pageYOffset > 100) {
+      setShowScrollTop(true);
+    } else {
+      setShowScrollTop(false);
+    }
+  };
+  useEffect(() => {
+    const ref = profilesRef.current;
+    ref.addEventListener('scroll', handleScroll);
+
+    return () => {
+      ref.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollTop = () => {
+    profilesRef.current.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return currentUrl === '/' ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+        {showScrollTop && (
+          <div
+            onClick={scrollTop}
+            className="fixed bottom-4 right-12 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-[#00A6FB] text-xl"
+          >
+            <FaArrowUpLong />
+          </div>
+        )}
         {combinedData.length > 0 && (
           <Pagination
             currentPage={currentPage}
