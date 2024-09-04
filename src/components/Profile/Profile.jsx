@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
+import defaultAvatar from './image.png';
 
 function Profile({ data }) {
   return <Card data={data} />;
@@ -8,6 +9,10 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
+  // const [imageSrc, setImageSrc] = useState(data.avatar);
+  // const handleImageError = () => {
+  //   setImageSrc(defaultAvatar); // Fallback to default image
+  // };
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -31,7 +36,7 @@ function Card({ data }) {
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
-          <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
+          <img src={data.avatar} alt="User logo" className="h-full w-full rounded-full" />
         </div>
         <div className="w-[55%] sm:w-[75%]">
           <h3>
