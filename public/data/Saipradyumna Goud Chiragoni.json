@@ -1,0 +1,13 @@
+{
+  "name": "Chiragoni Sai Pradyumna Goud",
+  "location": "Telangana, India",
+  "bio": "I am an aspiring full stack developer and very sincere about my work. I am pursuing my B.Tech at Kakatiya Institute of Technology and Science, and I am an open source contributor.",
+  "avatar": "https://github.com/saipradyumnagoud.png",
+  "portfolio": "https://github.com/saipradyumnagoud",
+  "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT", "EXPRESS", "NODE", "MONGODB", "SQL", "C", "JAVA"],
+  "social": {
+    "GitHub": "https://github.com/saipradyumnagoud",
+    "Twitter": "https://x.com/saipradyumnaaaa",
+    "LinkedIn": "https://www.linkedin.com/in/saipradyumnagoudch/"
+  }
+}
