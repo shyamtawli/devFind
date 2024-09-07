@@ -1,0 +1,12 @@
+{
+  "name": "Arnav Garg",
+  "location": "Meerut, India",
+  "bio": "A software developer with experience in MERN stack & JAVA",
+  "avatar": "https://avatars.githubusercontent.com/u/150692775?s=400&u=76946dcd293b4bb56766f09dd3aef7755bde3911&v=4",
+  "portfolio": "https://portfolio-gsap.onrender.com",
+  "skills": ["React ", "MongoDB", "Express", "JavaScript", "Node", "GSAP", "HTML", "CSS", "JAVA"],
+  "social": {
+    "GitHub": "https://github.com/Arnavgarg68",
+    "LinkedIn": "https://www.linkedin.com/in/arnav-garg-221h/"
+  }
+}
