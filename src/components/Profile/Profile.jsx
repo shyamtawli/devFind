@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 import defaultAvatar from './image.png';
@@ -9,10 +9,13 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
-  // const [imageSrc, setImageSrc] = useState(data.avatar);
-  // const handleImageError = () => {
-  //   setImageSrc(defaultAvatar); // Fallback to default image
-  // };
+  const [imageSrc, setImageSrc] = useState(data.avatar);
+  const handleImageError = () => {
+    setImageSrc(defaultAvatar);
+  };
+  useEffect(() => {
+    setImageSrc(data.avatar);
+  }, [data.avatar]);
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -36,7 +39,12 @@ function Card({ data }) {
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
-          <img src={data.avatar} alt="User logo" className="h-full w-full rounded-full" />
+          <img
+            src={imageSrc + '?t=' + new Date().getTime()} // Adding timestamp to force reload
+            alt="User logo"
+            className="h-full w-full rounded-full"
+            onError={handleImageError}
+          />
         </div>
         <div className="w-[55%] sm:w-[75%]">
           <h3>
