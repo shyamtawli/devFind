@@ -1,0 +1,13 @@
+{
+    "name": "Aryan Gaikwad",
+    "location": "Pune",
+    "bio": "I'm intended as a Software Engineer, an Open-Source Enthusiast with expertise in MERN, cloud-based solutions, AI/ML and problem solving.",
+    "avatar": "https://github.com/Megamind0407.png",
+    "portfolio": "https://aryan-portfolio-indol.vercel.app",
+    "skills": ["C++", "HTML", "CSS", "React", "Node", "Express","Tailwind", "MongoDB", "MySQL", "Postgres", "Next", "AWS", "Docker", "Python", "Firebase", "Django"],
+    "social": {
+    "GitHub": "https://github.com/Megamind0407",
+    "Twitter": "https://x.com/aryan29093",
+    "LinkedIn": "https://www.linkedin.com/in/aryan-gaikwad"
+    }
+}
