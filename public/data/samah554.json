@@ -1,0 +1,13 @@
+{
+  "name": "Samah Shakir Ali",
+  "location": "India",
+  "bio": "CS Grad, Web dev, Full Stack Developer expertise in .Net and MERN Stack",
+  "avatar": "https://github.com/samah554.png",
+  "portfolio": "https://getssa.framer.website",
+  "skills": ["Javascript", "ReactJS", "Node.js", ".Net", "MongoDB", "MySql", "MSSql", "C#", "RestApi", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/samah554",
+    "Twitter": "https://twitter.com/samah554>",
+    "LinkedIn": "https://www.linkedin.com/in/samahshakir"
+  }
+}
