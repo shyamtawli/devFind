@@ -1,0 +1,13 @@
+{
+  "name": "Jyothishree Rajkumar",
+  "location": "TamilNadu",
+  "bio": "I am a pre-final year IT student with knowledege in MERN stack and i do dsa in python. I am currently trying to do open source as it interests me the most.",
+  "avatar": "https://github.com/Jyothishree2k5.png",
+  "portfolio": "https://github.com/Jyothishree2k5",
+  "skills": ["HTML", "CSS", "JAVASCRIPT", "MONGODB", "NODEJS", "EXPRESSJS", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/Jyothishree2k5",
+    "Twitter": "https://twitter.com/Jyothishree2k58",
+    "LinkedIn": "https://www.linkedin.com/in/jyothishree-rajkumar-055022243"
+  }
+}
