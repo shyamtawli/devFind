@@ -1,0 +1,12 @@
+{
+  "name": "Giulia",
+  "location": "Italy",
+  "bio": "Junior fullstack delevoper searching a project to collaborate for improve skills",
+  "avatar": "https://github.com/giuliarappo.png",
+  "portfolio": "https://github.com/giuliarappo",
+  "skills": ["Java", "Spring boot", "Angular", "React"],
+  "social": {
+    "GitHub": "https://github.com/<giuliarappo>",
+    "LinkedIn": "https://www.linkedin.com/in/<giulia-rappo>"
+  }
+}
