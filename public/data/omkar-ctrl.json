@@ -1,0 +1,13 @@
+{
+  "name": "Omkar Bhatuse",
+  "location": "Mumbai",
+  "bio": "Hii I am Omkar Bhatuse, B.E Student.",
+  "avatar": "https://avatars.githubusercontent.com/u/72722881?v=4&size=64",
+  "portfolio": "https://github.com/Omkar-ctrl",
+  "skills": ["JS", "Web Dev", "..."],
+  "social": {
+    "GitHub": "https://github.com/Omkar-ctrl",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
