@@ -1,0 +1,13 @@
+{
+  "name": "Elijah",
+  "location": "University of Florida",
+  "bio": "I love everything about digital visualization, currently learning react, ruby on rails, but most proficient in C# with unity",
+  "avatar": "https://github.com/elijahlowe77.png",
+  "portfolio": "https://github.com/elijahlowe77",
+  "skills": ["Unity", "REACT"],
+  "social": {
+    "GitHub": "https://github.com/elijahlowe77",
+    "Twitter": "https://twitter.com/REDACTED",
+    "LinkedIn": "https://www.linkedin.com/in/elijah-lowe-54105821a/"
+  }
+}
