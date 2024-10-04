@@ -8,6 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import PageUp from "./components/PageUp/PageUp.jsx"; 
 
 function App() {
   const profilesRef = useRef();
