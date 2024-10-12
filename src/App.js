@@ -20,6 +20,7 @@ function App() {
   const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
+
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -36,7 +37,7 @@ function App() {
       setLoadingProfiles(true);
       try {
         const promises = filenames.map((file) => fetchData(`/data/${file}`));
-        const combinedData = await Promise.all(promises);
+        const combinedData = await Promise.all(promises).then((results) => results.flat());
         setCombinedData(combinedData);
         setShuffledProfiles(shuffleProfiles(combinedData));
       } catch (error) {
@@ -80,11 +81,12 @@ function App() {
     });
 
     setProfiles(filteredResults);
+    setCurrentPage(1);
     setSearching(true);
   };
 
   const handleNextPage = () => {
-    const totalPages = Math.ceil((searching ? profiles.length : combinedData.length) / recordsPerPage);
+    const totalPages = Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage);
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
@@ -132,7 +134,7 @@ function App() {
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
         {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {combinedData.length > 0 && (
+        {(searching ? profiles.length : shuffledProfiles.length) > 0 && (
           <Pagination
             currentPage={currentPage}
             totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
