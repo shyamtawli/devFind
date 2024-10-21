@@ -1,0 +1,26 @@
+{
+  "name": "Shashi Kumar Kasturi",
+  "location": "New York, USA",
+  "bio": "Tech Enthusiast and driven Full Stack software engineer crafting robust and innovative solutions. Proficient in a diverse set of technologies like Java, Python, Spring Boot, Spring Batch, Angular Js, React Js, SQL, Fast API, Django, Docker, Openshift",
+  "avatar": "https://github.com/kshashikumar.png",
+  "portfolio": "https://www.shashikumarkasturi.me/",
+  "skills": [
+    "Java",
+    "Python",
+    "Spring Boot",
+    "Spring Batch",
+    "Django",
+    "Fast API",
+    "React.js",
+    "Angular",
+    "JavaScript/TypeScript",
+    "HTML/CSS",
+    "Node.js",
+    "Express.js"
+  ],
+  "social": {
+    "GitHub": "https://github.com/kshashikumar",
+    "Twitter": "https://x.com/K_SHASHI_KUMAR",
+    "LinkedIn": "https://www.linkedin.com/in/shashikumarkasturi/"
+  }
+}
