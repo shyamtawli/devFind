@@ -1,0 +1,27 @@
+{
+  "name": "Shiva Silmawala",
+  "location": "Maharastra, India",
+  "bio": "Backend Engineer. Design with code",
+  "avatar": "https://github.com/Groot-2001.png",
+  "portfolio": "shiva-silmawala.onrender.com",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "React",
+    "NextJS",
+    "Nodejs",
+    "ExpressJs",
+    "Git/GitHub",
+    "Linux",
+    "APIs",
+    "Mongodb",
+    "Redis",
+    "CSS/SCSS",
+    "TailwindCSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Groot-2001",
+    "Twitter": "https://twitter.com/Groot-2001",
+    "LinkedIn": "https://www.linkedin.com/in/shiva-silmawala-0876261a3/"
+  }
+}
