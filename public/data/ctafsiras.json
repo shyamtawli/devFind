@@ -1,0 +1,34 @@
+{
+  "name": "Chowdhury Tafsir Ahmed Siddiki",
+  "location": "Dhaka, Bangladesh",
+  "bio": " I am passionate about continuous learning, exploring new technologies, and creating innovative solutions to solve real-life problems. With a background in accounting and a strong foundation in computer science, I bring a unique perspective to software development, combining analytical skills with technical expertise.",
+  "avatar": "https://github.com/ctafsiras.png",
+  "portfolio": "https://ctafsiras.vercel.app",
+  "skills": [
+    "JavaScript",
+    "Typescript",
+    "Node.js",
+    "ReactJS",
+    "Next.js",
+    "Tailwind CSS",
+    "ShadCN",
+    "Redux",
+    "Redux Toolkit",
+    "React Query",
+    "Express.js",
+    "Firebase",
+    "JWT Auth",
+    "REST APIs and Integration",
+    "OpenAI Integration",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Docker",
+    "Linux CLI"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ctafsiras",
+    "Twitter": "https://twitter.com/ctafsiras",
+    "LinkedIn": "https://www.linkedin.com/in/ctafsiras"
+  }
+}

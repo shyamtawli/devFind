@@ -1,0 +1,13 @@
+{
+  "name": "Vishal",
+  "location": "Delhi, India",
+  "bio": "Full Stack Dev primary focus on NodeJS with knowledge of ReactJS and NextJS. Obsessed with learning and growing. Seeking new opportunities to expand my skills and knowledge.",
+  "avatar": "https://github.com/vishal065.png",
+  "portfolio": "https://main--vishal06-portfolio.netlify.app",
+  "skills": ["ReactJS", "NodeJS", "NextJS", "Typescript", "Docker"],
+  "social": {
+    "GitHub": "https://github.com/vishal065",
+    "Twitter": "https://twitter.com/CodeWithVishal6",
+    "LinkedIn": "https://www.linkedin.com/in/das-vishal-615b1b193/"
+  }
+}
