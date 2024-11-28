@@ -1,0 +1,13 @@
+{
+  "name": "Atik Vohra",
+  "location": "Anand",
+  "bio": "Passionate about MERN stack and Competitive Programming. Crafting user-centric experiences through clean code. Let's build something amazing together! ",
+  "avatar": "https://github.com/atik-7866.png",
+  "portfolio": "https://github.com/atik-7866",
+  "skills": ["C", "C++", "Python", "Javascript", "Sql", "CSS", "Tailwindcss"],
+  "social": {
+    "GitHub": "https://github.com/atik-7866",
+    "Twitter": "https://twitter.com/atik",
+    "LinkedIn": "https://www.linkedin.com/in/atik-vohra-321b33288/"
+  }
+}

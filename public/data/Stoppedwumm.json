@@ -1,0 +1,11 @@
+{
+  "name": "Stoppedwumm",
+  "location": "Germany",
+  "bio": "I'm an javascript (Vanilla) Coder. I create projects for fun, but also code things like my own search engine!",
+  "avatar": "https://github.com/Stoppedwumm.png",
+  "portfolio": "https://github.com/Stoppedwumm",
+  "skills": ["Javascript", "Python", "API"],
+  "social": {
+    "GitHub": "https://github.com/Stoppedwumm"
+  }
+}
