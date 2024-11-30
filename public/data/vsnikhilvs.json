@@ -1,0 +1,12 @@
+{
+  "name": "Nikhil Vikraman",
+  "location": "Thiruvananthapuram, Kerala",
+  "bio": "The frontend guy",
+  "avatar": "https://github.com/vsnikhilvs.png",
+  "portfolio": "https://github.com/vsnikhilvs",
+  "skills": ["ReactJS", "NextJS", "Angular", "Javascript", "Typescript", "Jest"],
+  "social": {
+    "GitHub": "https://github.com/vsnikhilvs",
+    "LinkedIn": "https://www.linkedin.com/in/sknikhilvs5/"
+  }
+}
