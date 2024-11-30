@@ -1,0 +1,25 @@
+{
+  "name": "Tushar Jamdade",
+  "location": "Pune, Maharashtra",
+  "bio": "Exploring DevOps and Machine Learning, command-line enthusiast, and second-year student at VIIT Pune. Open to collaboration—DM me on Twitter to connect!",
+  "avatar": "https://github.com/Tusharjamdade.png",
+  "portfolio": "https://tusharjamdade.vercel.app",
+  "skills": [
+    "Next.js",
+    "React.js",
+    "Devops",
+    "Machine Learning",
+    "Node.js",
+    "Express.js",
+    "Docker",
+    "Kubernetes",
+    "React Native",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Tusharjamdade",
+    "Twitter": "https://x.com/tusharnjamdade",
+    "LinkedIn": "https://www.linkedin.com/in/tusharjamdade"
+  }
+}
