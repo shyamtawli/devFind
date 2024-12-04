@@ -1,0 +1,12 @@
+{
+  "name": "Rohit Sharma",
+  "location": "Delhi, India",
+  "bio": "Passionate Full Stack Developer | Building Web Solutions from Front-end to Back-end | JavaScript, Python, C# and More",
+  "avatar": "https://github.com/rohitxdd.png",
+  "portfolio": "https://github.com/rohitxdd",
+  "skills": ["Javascript", "Python", "C#", "Asp.Net", "SQL", "REACT", "NODEJS"],
+  "social": {
+    "GitHub": "https://github.com/rohitxdd",
+    "LinkedIn": "https://www.linkedin.com/in/rohit-sharma-b60713172/"
+  }
+}

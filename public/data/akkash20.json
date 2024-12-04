@@ -1,0 +1,12 @@
+{
+  "name": "Akkash H",
+  "location": "Chennai, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://github.com/Akkash20.png",
+  "portfolio": "https://github.com/Akkash20",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Java", "DSA", "Git/GitHub"],
+  "social": {
+    "GitHub": "https://github.com/Akkash20",
+    "LinkedIn": "https://www.linkedin.com/in/akkash-h-8098a7249"
+  }
+}

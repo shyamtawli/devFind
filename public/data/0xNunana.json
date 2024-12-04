@@ -1,0 +1,13 @@
+{
+  "name": "Kudaya Paul Yao",
+  "location": "Accra, Ghana",
+  "bio": "A software developer with years of experience in NextJs and Javascript",
+  "avatar": "https://github.com/0xNunana.png",
+  "portfolio": "www.0xnunana.lol",
+  "skills": ["React Native", "React", "Typescript", "JavaScript", "TailwindCss", "Postgres", "HTML", "CSS", "NodeJS"],
+  "social": {
+    "GitHub": "https://github.com/0xNunana",
+    "Twitter": "https://twitter.com/0xNunana",
+    "LinkedIn": "https://www.linkedin.com/in/paul-yao-kudaya"
+  }
+}

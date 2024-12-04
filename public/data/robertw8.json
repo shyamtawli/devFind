@@ -1,0 +1,13 @@
+{
+  "name": "Arsenii Brovchuk",
+  "location": "Kraków, Poland",
+  "bio": "A frontend developer with 2 years of experience, learning everything I can get my hands on. Feel free to connect me on LinkedIn!",
+  "avatar": "https://github.com/Robertw8.png",
+  "portfolio": "https://github.com/Robertw8",
+  "skills": ["React/Redux", "JavaScript", "HTML/CSS", "Bootstrap", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/Robertw8",
+    "Twitter": "https://twitter.com/robertw8ua",
+    "LinkedIn": "https://www.linkedin.com/in/arsenii-brovchuk-9a5159248"
+  }
+}

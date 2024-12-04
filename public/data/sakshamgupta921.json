@@ -1,0 +1,13 @@
+{
+  "name": "Saksham Gupta",
+  "location": "Dehradun , Uttrakhand",
+  "bio": "An undergrad working with MERN Stack and React Native. I am a tech enthusiast and love to learn new technologies.",
+  "avatar": "https://github.com/sakshamgupta912.png",
+  "portfolio": "https://sakshamgupta-portfolio.netlify.app/",
+  "skills": ["MERN", "C++", "Java", "Python", "React Native"],
+  "social": {
+    "GitHub": "https://github.com/sakshamgupta912",
+    "Twitter": "https://twitter.com/Saksham66525108",
+    "LinkedIn": "https://www.linkedin.com/in/sakshamgupta912"
+  }
+}

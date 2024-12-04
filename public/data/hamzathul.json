@@ -1,0 +1,24 @@
+{
+  "name": "Hamzathul Favas E",
+  "location": "Malappuram, Kerala, India",
+  "bio": "Analytical Web Developer with a B.Tech in CSE, specializing in JavaScript and proficient in MERN Stack development. Skilled in building web applications.",
+  "avatar": "https://github.com/hamzathul.png",
+  "portfolio": "https://github.com/hamzathul",
+  "skills": [
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "TypeScript",
+    "SQL",
+    "GraphQL",
+    "NoSQL",
+    "HTML",
+    "Tailwind CSS",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/hamzathul",
+    "Twitter": "https://twitter.com/hamzathulfavase",
+    "LinkedIn": "https://www.linkedin.com/in/hamzathul"
+  }
+}

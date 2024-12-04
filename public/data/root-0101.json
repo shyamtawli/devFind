@@ -1,0 +1,13 @@
+{
+  "name": "Rajveer",
+  "location": "Bihar, India",
+  "bio": "I'm a CyberSecurity enthusiast, learning about web security and doing CTF",
+  "avatar": "https://pbs.twimg.com/profile_images/1671250198960693248/mnl0-OPm_400x400.jpg",
+  "portfolio": "https://github.com/root-0101",
+  "skills": ["python", "MySql", "Javascript", "Linux", "Bash"],
+  "social": {
+    "GitHub": "https://github.com/root-0101",
+    "Twitter": "https://twitter.com/rajveer_0101",
+    "LinkedIn": "https://www.linkedin.com/in/rajveer-146b92262/"
+  }
+}

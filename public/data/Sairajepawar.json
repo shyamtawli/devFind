@@ -1,0 +1,13 @@
+{
+  "name": "Sairaj Pawar",
+  "location": "Maharashtra, India",
+  "bio": "Excited about New Technologies",
+  "avatar": "https://github.com/Sairajepawar.png",
+  "portfolio": "https://github.com/Sairajepawar",
+  "skills": ["C", "C++", "HTML", "CSS", "Javascript", "BootStrap", "jQuery", "R", "Python"],
+  "social": {
+    "GitHub": "https://github.com/Sairajepawar",
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/sairaj-pawar-1a3a0922a/"
+  }
+}

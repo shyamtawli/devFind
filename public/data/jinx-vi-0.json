@@ -1,0 +1,28 @@
+{
+  "name": "Adarsh",
+  "location": "Bharat",
+  "bio": "Otaku",
+  "avatar": "https://github.com/jinx-vi-0.png",
+  "portfolio": "https://github.com/jinx-vi-0",
+  "skills": [
+    "C++",
+    "JAVA",
+    "C",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "GitHub",
+    "Git",
+    "NodeJs",
+    "ExpressJs",
+    "SQL",
+    "MYSQL",
+    "MongoDB",
+    "REST API"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jinx-vi-0",
+    "Twitter": "https://twitter.com/_jinx_vi_",
+    "LinkedIn": "https://www.linkedin.com/in/jinx-vi/"
+  }
+}

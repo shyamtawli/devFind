@@ -1,0 +1,13 @@
+{
+  "name": "Tholkappiar",
+  "location": "India",
+  "bio": "Student from India",
+  "avatar": "https://github.com/tholkappiar.png",
+  "portfolio": "https://github.com/tholkappiar",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "MySQL", "JAVA"],
+  "social": {
+    "GitHub": "https://github.com/tholkappiar",
+    "Twitter": "https://twitter.com/tholkappiar",
+    "LinkedIn": "https://www.linkedin.com/in/tholkappiar-m-b9a86a250/"
+  }
+}

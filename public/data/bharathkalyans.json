@@ -1,0 +1,31 @@
+{
+  "name": "Bharath Kalyan S",
+  "location": "Bengaluru, India 🇮🇳",
+  "bio": "Full Stack Developer with expertise in MERN + Spring Boot",
+  "avatar": "https://github.com/bharathkalyans.png",
+  "portfolio": "https://showwcase.com/bharathkalyans",
+  "skills": [
+    "React JS",
+    "Next JS",
+    "Node JS",
+    "Express JS",
+    "PostgreSQL",
+    "MongoDB",
+    "Java",
+    "Spring Boot",
+    "REST APIs",
+    "Git",
+    "Tailwind CSS",
+    "Blockchain",
+    "Web3",
+    "Kotlin",
+    "Android Development",
+    "Python",
+    "Machine Learning"
+  ],
+  "social": {
+    "GitHub": "https://github.com/bharathkalyans",
+    "Twitter": "https://twitter.com/bharathkalyans",
+    "LinkedIn": "https://www.linkedin.com/in/bharathkalyans"
+  }
+}

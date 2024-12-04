@@ -1,0 +1,13 @@
+{
+  "name": "Brian Salvator",
+  "location": "Nairobi",
+  "bio": "Am a Fullstack web developer, infosec analyst and i love eveything about webdev and infosec.",
+  "avatar": "https://github.com/salvator-del.png",
+  "portfolio": "https://github.com/salvator-del",
+  "skills": ["Fullstack Development", "System Analysis", "Python"],
+  "social": {
+    "GitHub": "https://github.com/salvator-del",
+    "Twitter": "https://twitter.com/MwisyaB",
+    "LinkedIn": "https://www.linkedin.com/in/BrianSalvator"
+  }
+}

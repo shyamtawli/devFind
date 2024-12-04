@@ -1,0 +1,13 @@
+{
+  "name": "Abdulmumeen Ibrahim",
+  "location": "Nigeria",
+  "bio": "An Ambitious Web Programmer",
+  "avatar": "https://github.com/Adebayoibrahim.png",
+  "portfolio": "https://ibrahim-setup.netlify.app/",
+  "skills": ["Html", "CSS", "javaScript", "React", "Python", "Django"],
+  "social": {
+    "GitHub": "https://github.com/Adebayoibrahim",
+    "Twitter": "https://twitter.com/IbrahimSetup",
+    "LinkedIn": "https://www.linkedin.com/in/ibrahim-setup"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ayeza Bashir",
+  "location": "Sargodha, Pakistan",
+  "bio": "I am a Junior developer. I have deep infatuation with Frontend Development. Currently I am learning Typescript and ReactJs ",
+  "avatar": "https://github.com/ayezabashir.png",
+  "portfolio": "https://github.com/ayezabashir",
+  "skills": ["Javascript", "jQuery", "ReactJs", "TailwindCSS", "GSAP"],
+  "social": {
+    "GitHub": "https://github.com/ayezabashir",
+    "Codepen": "https://codepen.io/ayezabashir",
+    "LinkedIn": "https://www.linkedin.com/in/ayezabashir/"
+  }
+}

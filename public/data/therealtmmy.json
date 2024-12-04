@@ -1,0 +1,25 @@
+{
+  "name": "Oluwatimilehin Esan",
+  "location": "Nigeria",
+  "bio": "I'm a highly motivated Front-End Developer with a passion for crafting exceptional user experiences and contributing to open source projects.",
+  "avatar": "https://avatars.githubusercontent.com/u/107879861?v=4",
+  "skills": [
+    "ReactJs",
+    "Javascript",
+    "CSS",
+    "HTML",
+    "React",
+    "REST APIs",
+    "Git",
+    "Github",
+    "Vercel",
+    "Photoshop",
+    "Figma"
+  ],
+
+  "social": {
+    "GitHub": "https://github.com/therealtmmy",
+    "Twitter": "https://twitter.com/therealtmmy",
+    "LinkedIn": "https://www.linkedin.com/in/oluwatimilehin-esan-32a66a157/"
+  }
+}

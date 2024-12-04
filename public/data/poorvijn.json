@@ -1,0 +1,13 @@
+{
+  "name": "Poorvi J Nayak",
+  "location": "Karnataka, India",
+  "bio": "An open-source enthusiast currently learning front-end web technologies",
+  "avatar": "https://github.com/poorvijn.png",
+  "portfolio": "https://github.com/poorvijn",
+  "skills": ["HTML", "CSS", "Figma"],
+  "social": {
+    "GitHub": "https://github.com/poorvijn",
+    "Twitter": "https://twitter.com/PoorviJNayak04",
+    "LinkedIn": "https://www.linkedin.com/in/poorvi-j-nayak-628aab215"
+  }
+}

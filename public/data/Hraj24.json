@@ -1,0 +1,12 @@
+{
+  "name": "Harsh Raj",
+  "location": "Varanasi, India",
+  "bio": "An astrophile who is new to the world of open-source trying to connect the dots.",
+  "avatar": "https://github.com/Hraj24.png",
+  "portfolio": "https://github.com/Hraj24",
+  "skills": ["HTML", "CSS", "JavaScript", "Java", "Python", "Bash", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Hraj24",
+    "LinkedIn": "https://www.linkedin.com/in/harsh-raj-244800259/"
+  }
+}

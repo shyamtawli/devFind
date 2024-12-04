@@ -1,0 +1,13 @@
+{
+  "name": "Rutul Patel",
+  "location": "Bangalore,India",
+  "bio": "Software developer with a passion for coding and problem-solving. Skilled in various programming languages, I strive to create efficient and innovative solutions to drive technological advancements.",
+  "avatar": "https://github.com/RutulPatel007.png",
+  "portfolio": "https://github.com/RutulPatel007/Portfolio",
+  "skills": ["Web Development", "Java", "React", "Python", "Django", "UI/UX", "NodeJS"],
+  "social": {
+    "GitHub": "https://github.com/RutulPatel007",
+    "Twitter": "https://twitter.com/RutulPatel99870",
+    "LinkedIn": "https://www.linkedin.com/in/rutul-patel-17378024a/"
+  }
+}

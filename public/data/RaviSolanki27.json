@@ -1,0 +1,13 @@
+{
+  "name": "Raviraj Solanki",
+  "location": "Ahmedabad, India",
+  "bio": "Skilled software developer and content creator with 1.5+ years of experience in the industry and a love for solving complex problems and creating engaging content.",
+  "avatar": "https://github.com/RaviSolanki27.png",
+  "portfolio": "https://ravisolanki27.github.io/Raviraj",
+  "skills": ["Web Development", "ReactJS", "NextJS", "Typescript", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/RaviSolanki27",
+    "Twitter": "https://twitter.com/Ravirajsolanki_",
+    "LinkedIn": "https://www.linkedin.com/in/ravirajsolanki27"
+  }
+}

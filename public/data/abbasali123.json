@@ -1,0 +1,13 @@
+{
+  "name": "Abbas Ali",
+  "location": "Lahore, Pakistan",
+  "bio": "I'm a skilled Full Stack Developer with expertise in React and Node.js, creating exceptional web applications with a focus on user experience and design.",
+  "avatar": "https://github.com/abbasali123.png",
+  "portfolio": "https://github.com/abbasali123",
+  "skills": ["React", "Node", "MERN", "NestJS", "NextJS", "Typescript"],
+  "social": {
+    "GitHub": "https://github.com/abbasali123",
+    "Twitter": "https://twitter.com/AbbasWebDev",
+    "LinkedIn": "https://www.linkedin.com/in/abbas-ali123"
+  }
+}

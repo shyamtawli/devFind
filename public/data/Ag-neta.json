@@ -1,0 +1,13 @@
+{
+  "name": "Agneta",
+  "location": "Nairobi, Kenya",
+  "bio": "An aspiring web developer who recently started exploring open source. Looking for some great opportunities in frontend development. Let's connect!",
+  "avatar": "https://github.com/Ag-neta.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["UI/UX", "Web Development", "React.js", "Django Framework", "Python", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/Ag-neta",
+    "Twitter": "https://twitter.com/agii45",
+    "LinkedIn": "https://www.linkedin.com/in/agneta-odhiambo-595328231"
+  }
+}

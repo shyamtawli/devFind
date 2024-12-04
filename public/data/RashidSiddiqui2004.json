@@ -1,0 +1,23 @@
+{
+  "name": "Rashid Siddiqui",
+  "location": "New Delhi, India",
+  "bio": "Full Stack Developer proficient in React and Next.js and currently exploring Deep Learning",
+  "avatar": "https://avatars.githubusercontent.com/u/124426004?v=4",
+  "portfolio": "https://rashid-siddiqui.netlify.app/",
+  "skills": [
+    "ReactJS",
+    "NextJS",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST API",
+    "Machine Learning",
+    "Keras"
+  ],
+  "social": {
+    "GitHub": "https://github.com/RashidSiddiqui2004",
+    "Twitter": "https://twitter.com/RashidSidd3319",
+    "LinkedIn": "https://www.linkedin.com/in/rashid-siddiqui2004"
+  }
+}

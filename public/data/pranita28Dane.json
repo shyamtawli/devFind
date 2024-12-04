@@ -1,0 +1,13 @@
+{
+  "name": "Pranita Dane",
+  "location": "Maharashtra, India",
+  "bio": "Enthusiasm for Python full-stack web development. I thrive on the excitement of continuous learning, embracing the challenge of acquiring new everyday.",
+  "avatar": "https://github.com/pranita28Dane.png",
+  "portfolio": "",
+  "skills": ["Python", "Django", "MySql"],
+  "social": {
+    "GitHub": "https://github.com/pranita28Dane",
+    "Twitter": "https://twitter.com/PranitaDane",
+    "LinkedIn": "https://www.linkedin.com/in/pranitadane"
+  }
+}

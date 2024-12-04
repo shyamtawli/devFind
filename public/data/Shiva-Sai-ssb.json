@@ -1,0 +1,13 @@
+{
+  "name": "Shiva Sai",
+  "location": "India",
+  "bio": "Passionate web developer skilled in the MERN stack, with a strong enthusiasm for Web3 and a commitment to open-source contributions, driven by a continuous thirst for learning.",
+  "avatar": "https://github.com/Shiva-Sai-ssb.png",
+  "portfolio": "https://github.com/Shiva-Sai-ssb",
+  "skills": ["HTML", "CSS", "Tailwind", "Javascript", "Git", "Github", "React", "Solidity"],
+  "social": {
+    "GitHub": "https://github.com/Shiva-Sai-ssb",
+    "Twitter": "https://twitter.com/shivasai_ssb",
+    "LinkedIn": "https://www.linkedin.com/in/Shiva-sai-ssb"
+  }
+}

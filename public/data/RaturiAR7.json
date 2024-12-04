@@ -1,0 +1,13 @@
+{
+  "name": "Anshul Raturi",
+  "location": "India",
+  "bio": "Hello World",
+  "avatar": "https://avatars.githubusercontent.com/u/98044125?v=4",
+  "portfolio": "https://ar7portfolio.netlify.app/",
+  "skills": ["ReactJs", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/RaturiAR7",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/anshul-raturi-9224a4244/"
+  }
+}

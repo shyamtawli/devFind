@@ -1,0 +1,13 @@
+{
+  "name": "Sharanya Chakraborty",
+  "location": "Delhi, India",
+  "bio": "CSE Sophomore at IITKGP. Backend enthusiast with experience in Node.Js, MongoDB and Express. Competitive programming enjoyer.",
+  "avatar": "https://github.com/destryptor.png",
+  "portfolio": "https://github.com/destryptor",
+  "skills": ["C++", "Java", "Node.Js", "Express", "MongoDB", "JavaScript", "HTML/CSS"],
+  "social": {
+    "GitHub": "https://github.com/destryptor",
+    "Twitter": "https://twitter.com/destryptor",
+    "LinkedIn": "https://www.linkedin.com/in/sharanya-chakraborty"
+  }
+}

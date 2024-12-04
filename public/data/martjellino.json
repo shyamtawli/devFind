@@ -1,0 +1,25 @@
+{
+  "name": "Ryan Marcellino",
+  "location": "Jakarta",
+  "bio": "Software Engineer from mechanical engineering background",
+  "avatar": "https://github.com/martjellino.png",
+  "portfolio": "https://github.com/martjellino",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "MongoDB",
+    "MySQL",
+    "Express.js",
+    "NextJS",
+    "Tailwind CSS",
+    "PostgreSQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/martjellino",
+    "Twitter": "https://twitter.com/martjellino",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Manish Jha",
+  "location": "India",
+  "bio": "A Mern Enthusisast , Frontend Virtuoso and  Blockchain Visionary",
+  "avatar": "https://github.com/manishjha-04.png",
+  "portfolio": "https://github.com/manishjha-04",
+  "skills": ["MERN", "PYTHON", "C++", "SOLIDITY"],
+  "social": {
+    "GitHub": "https://github.com/manishjha-04",
+    "LinkedIn": "https://www.linkedin.com/in/manish-jha04/"
+  }
+}

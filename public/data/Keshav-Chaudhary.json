@@ -1,0 +1,13 @@
+{
+  "name": "Keshav Chaudhary",
+  "location": "New Delhi, India",
+  "bio": "Passionate about coding, web development, and problem-solving. Skilled in Python, C++, DSA, Web Dev, and React.",
+  "avatar": "https://github.com/Keshav-Chaudhary.png",
+  "portfolio": "https://github.com/Keshav-Chaudhary",
+  "skills": ["Python", "C++", "DSA", "Web Development", "React"],
+  "social": {
+    "GitHub": "https://github.com/Keshav-Chaudhary",
+    "Twitter": "https://twitter.com/K_Chaudhary_HR",
+    "LinkedIn": "https://www.linkedin.com/in/keshav-c-a61b78287/"
+  }
+}

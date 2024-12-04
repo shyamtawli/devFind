@@ -1,0 +1,23 @@
+{
+  "name": "Kennedy Musau",
+  "location": "Nairobi, Kenya",
+  "bio": "Front-End Software Engineer, currently learning Python",
+  "avatar": "https://github.com/Ken-Musau.png",
+  "portfolio": "https://github.com/Ken-MusauL",
+  "skills": [
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "JavaScript",
+    "ReactJS",
+    "Python/Flask",
+    "Ruby/Ruby on Rails",
+    "Linux",
+    "Git/Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Ken-Musau",
+    "Twitter": "https://twitter.com/kenmusau_",
+    "LinkedIn": "https://www.linkedin.com/in/kennedy-musau"
+  }
+}

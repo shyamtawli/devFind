@@ -1,0 +1,12 @@
+{
+  "name": "Shubham",
+  "location": "Delhi,India",
+  "bio": "Senior year pursuing Btech in Information Technology, additionally loves books, music, movies",
+  "avatar": "https://github.com/shubham13k.png",
+  "portfolio": "https://github.com/shubham13k",
+  "skills": ["MERN Stack Devleoper", "Machine Learning", "Problem Solving", "Leadership"],
+  "social": {
+    "GitHub": "https://github.com/shubham13k",
+    "LinkedIn": "https://www.linkedin.com/in/shubham-kumar-2aa649201"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "YPrakhar Shankar",
+  "location": "Noida, India",
+  "bio": "I am a MERN developer and a B.tech undergrad at JIIT Noida",
+  "avatar": "https://github.com/prakhar-shankar.png",
+  "portfolio": "https://github.com/Prakhar-Shankar",
+  "skills": ["React.js", "Next.js", "HTML", "CSS", "Tailwind CSS", "Javascript", "MongoDB", "Node.js", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/Prakhar-Shankar",
+    "Twitter": "https://twitter.com/prakharshankar2",
+    "LinkedIn": "https://www.linkedin.com/in/prakhar-shankar-24a788227/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "BhanuTeja",
+  "location": "Visakhapatnam",
+  "bio": "Tech Enthusiast and Open Source Contributor. Always on the hunt for new ways to innovate and develop!",
+  "avatar": "https://github.com/Bhanuteja01.png",
+  "portfolio": "https://github.com/Bhanuteja01",
+  "skills": ["Java", "Python", "Docker", "HTML", "CSS", "K8s", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/Bhanuteja01",
+    "Twitter": "https://twitter.com/@HereBhanuTeja",
+    "LinkedIn": "https://www.linkedin.com/in/HereBhanuteja"
+  }
+}

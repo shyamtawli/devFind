@@ -1,0 +1,23 @@
+{
+  "name": "Ali t.nazari",
+  "location": "Tehran/Iran",
+  "bio": "web developer (FrontEnd|BackEnd) 🧠",
+  "avatar": "https://github.com/Silent-Watcher.png",
+  "portfolio": "https://ali-nazari.netlify.app/",
+  "skills": [
+    "javascript",
+    "typescript",
+    "React",
+    "Nextjs",
+    "Tailwind",
+    "Marterial UI",
+    "Node js",
+    "Express",
+    "React-Redux"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Silent-Watcher",
+    "Instagram": "https://www.instagram.com/ali.tte1/",
+    "LinkedIn": "https://www.linkedin.com/in/ali-tabatabaee-9021081aa/"
+  }
+}

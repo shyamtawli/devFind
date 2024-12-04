@@ -1,0 +1,13 @@
+{
+  "name": "Nabin Bhatt",
+  "location": "Kathmandu, Nepal",
+  "bio": "I am passionate, self-taught and aspiring front-end developer. I also design sometimes.",
+  "avatar": "https://github.com/nabinbhatt.png",
+  "portfolio": "https://github.com/nabinbhatt",
+  "skills": ["NodeJS", "JavaScript", "HTML", "CSS", "Git/GitHub", "Tailwind", "REST API"],
+  "social": {
+    "GitHub": "https://github.com/nabinbhatt",
+    "Twitter": "https://twitter.com/thenabinbhatt",
+    "LinkedIn": "https://www.linkedin.com/in/thenabinbhatt"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chelsea Nguyen",
+  "location": "Gainesville, Florida",
+  "bio": "A computer science student at the University of Florida. Go Gators!",
+  "avatar": "https://github.com/chelseaqnguyen.png",
+  "portfolio": "https://github.com/chelseaqnguyen/",
+  "skills": ["C++", "Java", "HTML", "CSS", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/chelseaqnguyen",
+    "Twitter": "https://twitter.com/chelseaqnguyen",
+    "LinkedIn": "https://www.linkedin.com/in/chelseaqnguyen"
+  }
+}

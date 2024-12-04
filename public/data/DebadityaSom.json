@@ -1,0 +1,13 @@
+{
+  "name": "Debaditya Som",
+  "location": "Kolkata,India",
+  "bio": "CS Undergrad , DevOps Enthusiasts and an open source contributor",
+  "avatar": "https://github.com/debaditya-som.png",
+  "portfolio": "https://github.com/Debaditya-Som",
+  "skills": ["DevOps", "Web Development", " Java", "C++", "C"],
+  "social": {
+    "GitHub": "https://github.com/debaditya-som",
+    "Twitter": "https://twitter.com/debaditya_som",
+    "LinkedIn": "https://www.linkedin.com/in/debaditya-som-877032262/"
+  }
+}

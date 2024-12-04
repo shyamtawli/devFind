@@ -1,0 +1,12 @@
+{
+  "name": "Prgya Kashyap",
+  "location": "Bangalore, India",
+  "bio": " Software Engineer specialized in data structures algorithms and problem-solving. My professional journey combines strong theoretical knowledge with practical coding proficiency, making me an effective contributor to technology-driven projects.. ",
+  "avatar": "https://github.com/pragyakashyap.png",
+  "portfolio": "https://github.com/pragyakashyap",
+  "skills": ["C++", "React", "Express", "Node", "PostgreSQL", "MongoDB", "Responsive web design", "testing"],
+  "social": {
+    "GitHub": "https://github.com/pragyakashyap",
+    "LinkedIn": "https://www.linkedin.com/in/pragya-kashyap18"
+  }
+}

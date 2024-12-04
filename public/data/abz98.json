@@ -1,0 +1,13 @@
+{
+  "name": "Abhi Patil",
+  "location": "MUMBAI",
+  "bio": "Full stack developer with proven skill working in telecom as well as service industry",
+  "avatar": "https://github.com/abz98.png",
+  "portfolio": "https://github.com/abz98",
+  "skills": ["Javascript", "Nodejd", "Backend"],
+  "social": {
+    "GitHub": "https://github.com/abz98",
+    "Twitter": "https://twitter.com/abz-patil",
+    "LinkedIn": "https://www.linkedin.com/in/eren-jaeger"
+  }
+}

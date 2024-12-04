@@ -1,0 +1,12 @@
+{
+  "name": "Shubham Shinde",
+  "location": "Mumbai ,India",
+  "bio": "I am an Open source Enthusiast, Always love to Help and Contribute to different Projects.",
+  "avatar": "https://github.com/shubham-shinde-442.png",
+  "portfolio": "https://github.com/shubham-shinde-442",
+  "skills": ["React JS", "Angular", "MongoDB", "Express", "TypeScript", "Java"],
+  "social": {
+    "GitHub": "https://github.com/shubham-shinde-442",
+    "LinkedIn": "https://www.linkedin.com/in/shubham-shinde-42992726b"
+  }
+}

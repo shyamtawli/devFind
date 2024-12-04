@@ -1,0 +1,13 @@
+{
+  "name": "Praveen Kumar",
+  "location": "India",
+  "bio": "Code by hook or by crook",
+  "avatar": "https://github.com/sha0urya.png",
+  "portfolio": "https://pk-t-portfolio.vercel.app/",
+  "skills": ["ReactJs", "JavaScript", "NextJs", "NodeJs", "MongoDB", "ExpressJs"],
+  "social": {
+    "GitHub": "https://github.com/sha0urya",
+    "Twitter": "https://twitter.com/sha0urya2",
+    "LinkedIn": "https://www.linkedin.com/in/sha0urya"
+  }
+}

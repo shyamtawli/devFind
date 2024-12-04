@@ -1,0 +1,27 @@
+{
+  "name": "Aditya Nikunj Shah",
+  "location": "Mumbai, India 🇮🇳",
+  "bio": "FULL STACK DEV",
+  "avatar": "https://adityadevappweb.s3.ap-south-1.amazonaws.com/Untitled+design.png",
+  "portfolio": "https://adityanshah.netlify.app/",
+  "skills": [
+    "Javascript",
+    "C++",
+    "Typescript",
+    "Nodejs",
+    "Expressjs",
+    "React",
+    "Next.Js",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/adityashah7867",
+    "LinkedIn": "https://www.linkedin.com/in/adi-tya-shah"
+  }
+}

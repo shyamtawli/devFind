@@ -1,0 +1,27 @@
+{
+  "name": "Shiva Aryal",
+  "location": "Kathmandu, Nepal",
+  "bio": "Senior Software Engineer with 5+ years of experience in building scalable applications.",
+  "avatar": "https://github.com/connectaryal.png",
+  "portfolio": "https://shivaaryal.com.np/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Tailwind CSS",
+    "TypeScript",
+    "React",
+    "OOP",
+    "Node.js",
+    "PHP",
+    "Laravel",
+    "WordPress",
+    "MYSQL",
+    "Docker"
+  ],
+  "social": {
+    "GitHub": "https://github.com/connectaryal",
+    "Twitter": "https://twitter.com/connectaryal",
+    "LinkedIn": "https://www.linkedin.com/in/connectaryal"
+  }
+}

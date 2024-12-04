@@ -1,0 +1,24 @@
+{
+  "name": "Deep Dhanuka",
+  "location": "Bangalore, India",
+  "bio": "Software Engineer specializing in mobile and web app development with industry experience. Known for problem-solving skills and having a passion for continuous learning",
+  "avatar": "https://github.com/Deep512.png",
+  "portfolio": "https://github.com/Deep512",
+  "skills": [
+    "C++",
+    "Frontend Development",
+    "Fullstack Development",
+    "TypeScript",
+    "Javascript",
+    "MySQL",
+    "React Native",
+    "React",
+    "Express.JS",
+    "Open Source"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Deep512",
+    "Twitter": "https://twitter.com/iamdeep0512",
+    "LinkedIn": "https://www.linkedin.com/in/iamdeep0512"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Aditya Rawas",
+  "location": "Pune, India",
+  "bio": "Tech enthusiast and Full Stack Developer specializing in React and Node.js creating innovative solutions. Seeking opportunities to collaborate and contribute to the ever-evolving tech community. Currently learning Svelte",
+  "avatar": "https://github.com/rawasaditya.png",
+  "portfolio": "https://github.com/rawasaditya",
+  "skills": ["HTML", "CSS", "Tailwind", "SCSS", "JavaScript", "ReactJS", "NextJS", "React-Redux", "Svelte"],
+  "social": {
+    "GitHub": "https://github.com/rawasaditya",
+    "Twitter": "https://twitter.com/rawas_aditya",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-rawas-626578149/"
+  }
+}

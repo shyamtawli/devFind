@@ -1,0 +1,13 @@
+{
+  "name": "Cameron Squires",
+  "location": "Newfoundland, Canada",
+  "bio": "Current computer science major at the Memorial University of Newfoundland",
+  "avatar": "https://github.com/CameronSquires.png",
+  "portfolio": "cameronsquires.github.io",
+  "skills": ["Python", "Java", "C", "HTML", "CSS", "SCSS"],
+  "social": {
+    "GitHub": "https://github.com/CameronSquires",
+    "Twitter": "https://twitter.com/CameronSquires_",
+    "LinkedIn": "https://www.linkedin.com/in/cameron-squires-b393b2209/"
+  }
+}

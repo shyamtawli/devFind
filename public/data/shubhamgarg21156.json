@@ -1,0 +1,13 @@
+{
+  "name": "Shubham Garg",
+  "location": "Haryana,India",
+  "bio": "A web developer/Software Enginner exploring the field more and trying to get better in it.",
+  "avatar": "https://github.com/shubhamgarg21156.png",
+  "portfolio": "https://github.com/shubhamgarg21156",
+  "skills": ["React JS", "Node JS", "Tailwind CSS", "Express JS"],
+  "social": {
+    "GitHub": "https://github.com/shubhamgarg21156",
+    "Twitter": "https://twitter.com/__ShubhamGarg__",
+    "LinkedIn": "https://www.linkedin.com/in/gargshubham2"
+  }
+}

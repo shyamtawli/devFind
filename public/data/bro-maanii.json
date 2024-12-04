@@ -1,0 +1,24 @@
+{
+  "name": "Maani",
+  "location": "Pakistan",
+  "bio": "Hello👋 I'm Eman Ali Abbasi, a passionate software developer with a keen interest in web development and GenAI.",
+  "avatar": "https://github.com/bro-maanii.png",
+  "portfolio": "https://emaanabbasi-portfolio.vercel.app/",
+  "skills": [
+    "HTML/CSS",
+    "JavaScript/TypeScript",
+    "ReactJS",
+    "NodeJS",
+    "TailwindCSS",
+    "Git/GitHub",
+    "Python",
+    "FastAPI",
+    "Docker",
+    "SQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/bro-maanii",
+    "Twitter": "https://twitter.com/Maani_31",
+    "LinkedIn": "https://www.linkedin.com/in/eman-ali-abbasi-937932237/"
+  }
+}

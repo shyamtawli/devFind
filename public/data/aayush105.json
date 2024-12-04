@@ -1,0 +1,29 @@
+{
+  "name": "Aayush shrestha",
+  "location": "Kathmandu, Nepal",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source for Hacktober fest and Frogtober fest. Looking for some great opportunities in full stack developer. Let's connect!",
+  "avatar": "https://avatars.githubusercontent.com/u/115408327?v=4",
+  "portfolio": "https://github.com/aayush105",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Linux",
+    "Bootstrap",
+    "Java",
+    "DSA",
+    "Git/GitHub",
+    "Mysql",
+    "C",
+    "C++",
+    "NodeJs",
+    "MongoDb",
+    "Django"
+  ],
+  "social": {
+    "GitHub": "https://github.com/aayush105",
+    "Twitter": "https://twitter.com/aayushrestha5",
+    "LinkedIn": "https://www.linkedin.com/in/aayushrestha/"
+  }
+}

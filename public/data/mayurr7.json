@@ -1,0 +1,13 @@
+{
+  "name": "Mayur Tekale",
+  "location": "Maharashtra, India",
+  "bio": "A passionate web developer from India.",
+  "avatar": "https://avatars.githubusercontent.com/u/147367560?s=400&u=fc01c0ff31e5b5d0f5bddd5e9a99ba5d7d2634fa&v=4",
+  "portfolio": "https://mayurr7.github.io/mayurPortfolio/",
+  "skills": ["HTML5", "CSS3", "JavaScript", "ReactJs", "TailwindCss", "NodeJs", "Java", "DSA"],
+  "social": {
+    "GitHub": "https://github.com/mayurr7",
+    "Twitter": "https://twitter.com/mayur_b_tekale",
+    "LinkedIn": "https://www.linkedin.com/in/mayur-tekale-1540a023b"
+  }
+}

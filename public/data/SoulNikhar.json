@@ -1,0 +1,13 @@
+{
+  "name": "Nikhar Behera",
+  "location": "Odisha, India",
+  "bio": "I'm a full-stack developer specializing in the MERN stack, with experience in building scalable and efficient web applications. I have a keen interest in cloud computing.",
+  "avatar": "https://github.com/SoulNikhar.png",
+  "portfolio": "https://github.com/SoulNikhar",
+  "skills": ["Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/SoulNikhar",
+    "Twitter": "https://twitter.com/Hydraso51942691",
+    "LinkedIn": "https://www.linkedin.com/in/nikhar-behera-926832204/"
+  }
+}

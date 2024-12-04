@@ -1,0 +1,24 @@
+{
+  "name": "Lea Buende",
+  "location": "Paris , France",
+  "bio": "Software engineer and content creator, always passionate about creating beautiful and impactful things 🌱",
+  "avatar": "https://github.com/leabuende.png",
+  "portfolio": "https:/lea-buende.com",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python",
+    "Vue.js",
+    "Svelte",
+    "LLM App development",
+    "UI/UX Design",
+    "Figma",
+    "REST APIs"
+  ],
+  "social": {
+    "GitHub": "https://github.com/leabuende",
+    "Twitter": "https://twitter.com/becominglea",
+    "LinkedIn": "https://www.linkedin.com/in/leabuende/"
+  }
+}

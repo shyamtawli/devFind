@@ -1,0 +1,13 @@
+{
+  "name": "Krisha Joshi",
+  "location": "Pune",
+  "bio": "I'm a 3rd year CSE student.",
+  "avatar": "https://github.com/krishajoshi14.png",
+  "portfolio": "https://github.com/krishajoshi14",
+  "skills": ["Java", "CPP", "React"],
+  "social": {
+    "GitHub": "https://github.com/krishajoshi14",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/krisha-joshi-98a431169/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Sahil Sanjay Chalke",
+  "location": "Mumbai, India 🇮🇳",
+  "bio": "FULL STACK DEV",
+  "avatar": "https://avatars.githubusercontent.com/u/109215419?v=4",
+  "portfolio": "https://sahilchalke.online/",
+  "skills": [
+    "Javascript",
+    "C++",
+    "Typescript",
+    "Nodejs",
+    "Expressjs",
+    "React",
+    "Next.Js",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Sahilll15",
+    "LinkedIn": "https://www.linkedin.com/in/sahilchalke/"
+  }
+}

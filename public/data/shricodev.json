@@ -1,0 +1,23 @@
+{
+  "name": "Shrijal Acharya",
+  "location": "Kathmandu, Nepal",
+  "bio": "Hello, I'm Shrijal, a full stack developer specializing in Cloud. I do write tech articles at https://dev.to/shricodev. I am currently working in an open source project called Oppia, a free and open source platform for online learning.",
+  "avatar": "https://avatars.githubusercontent.com/u/76906722?v=4",
+  "portfolio": "https://shricodev.tech",
+  "skills": [
+    "GCP/AWS",
+    "Typescript",
+    "Node.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Next.js",
+    "Express.js",
+    "Docker",
+    "Kubernetes"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shricodev",
+    "Twitter": "https://twitter.com/shricodevv",
+    "LinkedIn": "https://www.linkedin.com/in/shrijal007/"
+  }
+}

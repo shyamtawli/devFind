@@ -1,0 +1,12 @@
+{
+  "name": "Priyanshu Singh",
+  "location": "Kanpur, India",
+  "bio": "Passionate computer science student with a focus on web development",
+  "avatar": "https://github.com/priyanshu0511.png",
+  "portfolio": "https://github.com/priyanshu0511",
+  "skills": ["HTML", "CSS", "JavaScript", "Java", "C", "Python"],
+  "social": {
+    "GitHub": "https://github.com/priyanshu0511",
+    "LinkedIn": "https://www.linkedin.com/in/priyanshu-singh-770401260/"
+  }
+}

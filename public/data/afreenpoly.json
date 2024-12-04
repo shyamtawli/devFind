@@ -1,0 +1,13 @@
+{
+  "name": "Afreen Poly",
+  "location": "Kerala, India",
+  "bio": "Learning Full-Stack Web Developer as a 4th Year Student CS Student",
+  "avatar": "https://github.com/afreenpoly.png",
+  "portfolio": "https://github.com/afreenpoly",
+  "skills": ["Python", "Javascript", "Node.js", "MongoDB", "ReactJS", "Express.js", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/afreenpoly",
+    "Twitter": "https://twitter.com/afreenpoly",
+    "LinkedIn": "https://www.linkedin.com/in/afreenpoly"
+  }
+}

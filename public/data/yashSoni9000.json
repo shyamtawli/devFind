@@ -1,0 +1,13 @@
+{
+  "name": "Yash Soni",
+  "location": "Rajashtan, India",
+  "bio": "Tech Enthusiast👨‍💻 | Web Developer💻 | DSA📖 ",
+  "avatar": "https://github.com/yashSoni9000.png",
+  "portfolio": "https://github.com/yashSoni9000",
+  "skills": ["React", "NodeJS", "Chrome Extension", "MongoDB", "REST API", "JavaScript", "c++"],
+  "social": {
+    "GitHub": "https://github.com/yashSoni9000",
+    "Twitter": "https://twitter.com/Yash37186849",
+    "LinkedIn": "https://www.linkedin.com/in/yashsoni9000/"
+  }
+}

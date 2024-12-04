@@ -1,0 +1,13 @@
+{
+  "name": "Prasad Khatake",
+  "location": "India",
+  "bio": "I am an engineering student, trying to explore the open-source world.",
+  "avatar": "https://github.com/hackerspider09.png",
+  "portfolio": "#",
+  "skills": ["Python", "C++", "Django", "Docker", "AWS"],
+  "social": {
+    "GitHub": "https://github.com/hackerspider09/",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/prasad-khatake/"
+  }
+}

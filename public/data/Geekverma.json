@@ -1,0 +1,13 @@
+{
+  "name": "Geek Verma",
+  "location": "Earth",
+  "bio": "I am passionate about software engineer with a strong background in developing innovative and user-centric software solutions. ",
+  "avatar": "https://github.com/Geekverma.png",
+  "portfolio": "https://github.com/Geekverma",
+  "skills": ["Python", "Linux", "Cloud", "Security"],
+  "social": {
+    "GitHub": "https://github.com/Geekverma",
+    "Twitter": "https://twitter.com/GeekVerma",
+    "LinkedIn": "-"
+  }
+}

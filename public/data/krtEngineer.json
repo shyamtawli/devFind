@@ -1,0 +1,13 @@
+{
+  "name": "Kushagra Raj Tiwari",
+  "location": "Pune, India",
+  "bio": "Software Engineer @ Marketcast",
+  "avatar": "https://github.com/krtEngineer.png",
+  "portfolio": "",
+  "skills": ["Javascript", "Java", "AWS", "Typescript", "NodeJs", "NestJs", "React", "SQL", "Python"],
+  "social": {
+    "GitHub": "https://github.com/krtEngineer",
+    "Twitter": "https://x.com/kushagra1857",
+    "LinkedIn": "https://www.linkedin.com/in/kushagra-raj-tiwari/"
+  }
+}

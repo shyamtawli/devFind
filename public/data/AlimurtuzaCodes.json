@@ -1,0 +1,12 @@
+{
+  "name": "Alimurtuza",
+  "location": "India",
+  "bio": "Mobile and Web App Developer",
+  "avatar": "https://github.com/AlimurtuzaCodes.png",
+  "portfolio": "https://github.com/AlimurtuzaCodes/",
+  "skills": ["React", "React Native", "Javascript", "Java", "C++"],
+  "social": {
+    "GitHub": "https://github.com/AlimurtuzaCodes",
+    "LinkedIn": "https://www.linkedin.com/in/p-alimurtuza"
+  }
+}

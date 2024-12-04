@@ -1,0 +1,25 @@
+{
+  "name": "Sayantan Choudhury",
+  "location": "Kolkata, West Bengal",
+  "bio": "Hi, everyone I am Sayantan. I am a Full Stack Developer with focus on Frontend. Currently learning Blockchain Technology",
+  "avatar": "https://github.com/Sch476.png",
+  "portfolio": "http://sayantanchr476.me/Website_Updated/",
+  "skills": [
+    "ReactJs",
+    "React Native",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Javascript",
+    "Node Js",
+    "Express Js",
+    "Python",
+    "Mongo DB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Sch476",
+    "Twitter": "https://twitter.com/sayantanchr13",
+    "LinkedIn": "https://www.linkedin.com/in/sayantan-choudhury/"
+  }
+}

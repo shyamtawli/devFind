@@ -1,0 +1,13 @@
+{
+  "name": "Trishan Wagle",
+  "location": "Nepal",
+  "bio": "I'm a highly motivated Front-End Developer with a passion for crafting exceptional user experiences and contributing to open source projects.",
+  "avatar": "https://github.com/trishan9.png",
+  "portfolio": "https://trishan.vercel.app/",
+  "skills": ["React", "NextJS", "JavaScript", "TypeScript", "Tailwind", "Python"],
+  "social": {
+    "GitHub": "https://github.com/trishan9",
+    "Twitter": "https://twitter.com/trishan999",
+    "LinkedIn": "https://www.linkedin.com/in/trishan9"
+  }
+}

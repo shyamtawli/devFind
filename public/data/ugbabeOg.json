@@ -1,0 +1,12 @@
+{
+  "name": "Ugbabe Choco",
+  "location": "Abuja, Nigeria",
+  "bio": "Problem solver, not code compiler. Creative thinker using technology to bridge the gap between imagination and reality.",
+  "avatar": "https://github.com/ugbabeOg.png",
+  "portfolio": "https//chocos-portfolio.netlify.app/",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Python", "Nodejs", "Nextjs"],
+  "social": {
+    "GitHub": "https://github.com/ugbabeOg",
+    "Twitter": "https://twitter.com/Chocothe1st"
+  }
+}

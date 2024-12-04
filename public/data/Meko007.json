@@ -1,0 +1,24 @@
+{
+  "name": "Okem Onyeka",
+  "location": "Port Harcourt, Nigeria",
+  "bio": "Backend developer committed to creating scalable and secure solutions, continuous learning and collaboration",
+  "avatar": "https://github.com/Meko007.png",
+  "portfolio": "https://github.com/Meko007",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "NestJS",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "HTML",
+    "CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Meko007",
+    "Twitter": "nil",
+    "LinkedIn": "https://www.linkedin.com/in/okem-onyeka"
+  }
+}

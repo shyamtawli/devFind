@@ -1,0 +1,13 @@
+{
+  "name": "Rahul Kumar",
+  "location": "Saran,Bihar",
+  "bio": "I'm a FrontEnd Developer with expertise in Vanilla JS,React,HTML,CSS",
+  "avatar": "https://github.com/rahul0x00.png",
+  "portfolio": "https://rahul0x00.github.io/Portfolio",
+  "skills": ["React", "Vanilla JS", "HTML", "Node"],
+  "social": {
+    "GitHub": "https://github.com/rahul0x00",
+    "Twitter": "https://twitter.com/rahul0x00",
+    "LinkedIn": "https://www.linkedin.com/in/rahul0x00"
+  }
+}

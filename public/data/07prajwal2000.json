@@ -1,0 +1,29 @@
+{
+  "name": "Prajwal Aradhya S K",
+  "location": "Bengaluru, India 🇮🇳",
+  "bio": "A developer passionate about building systems for the web 🌐 and also develop games 🎮 in my free time.",
+  "avatar": "https://pbs.twimg.com/profile_images/1648685423453958144/Xo1C5Phg_400x400.jpg",
+  "portfolio": "https://prajwalaradhya.live/",
+  "skills": [
+    "C#",
+    "Javascript",
+    "Typescript",
+    "Asp.Net Core",
+    "React",
+    "Next.Js",
+    "Unity",
+    "ServiceNow",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/07prajwal2000",
+    "Twitter": "https://twitter.com/prajwal200",
+    "LinkedIn": "https://linkedin.com/in/prajwal-aradhya"
+  }
+}

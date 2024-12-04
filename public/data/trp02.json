@@ -1,0 +1,13 @@
+{
+  "name": "TRP02",
+  "location": "South Carolina, United States",
+  "bio": "Undergrad student interested in backend development and HPC.",
+  "avatar": "https://avatars.githubusercontent.com/u/83850231?s=400&v=4",
+  "portfolio": "https://github.com/trp02",
+  "skills": ["Java", "C", "C++", "MySQL", "DPDK", "PHP", "Python", "HTML"],
+  "social": {
+    "GitHub": "https://github.com/trp02",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/tirthrp/"
+  }
+}

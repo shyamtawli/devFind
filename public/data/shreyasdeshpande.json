@@ -1,0 +1,13 @@
+{
+  "name": "Shreyas Deshpande",
+  "location": "Navi Mumbai",
+  "bio": "Competitive Programmer , Open Source Enthusiast , MERN Stack Developer",
+  "avatar": "https://github.com/Shreyas0410.png",
+  "portfolio": "https://github.com/Shreyas0410",
+  "skills": ["HTML", "CSS", "JavaScript", "Python", "React", "Node", "Express", "MySQL", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/Shreyas0410",
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/shreyasdp/"
+  }
+}

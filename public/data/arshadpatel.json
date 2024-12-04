@@ -1,0 +1,12 @@
+{
+  "name": "Arshad M. Patel",
+  "location": "Hyderabad",
+  "bio": "Passionate developer exploring the realms of code and creativity.🌱Embracing challenges, pushing boundaries, and constantly learning.",
+  "avatar": "https://github.com/arshadpatel.png",
+  "portfolio": "https://arshadpatel.github.io/portfolio/",
+  "skills": ["Java", "Python", "C", "HTML", "CSS", "JavaScript", "Node.js", "Express.js", "Handlebars", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/arshadpatel",
+    "LinkedIn": "https://www.linkedin.com/in/arshad-patel/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Khushminder Singh",
+  "location": "Bangalore",
+  "bio": "I'm a full-stack developer, with experience in building scalable and efficient web applications. I have a keen interest in new technologies like AI, BlockChain. So, I'm learning BlockChain right now.",
+  "avatar": "https://github.com/khushminder270.png",
+  "portfolio": "https://github.com/khushminder270",
+  "skills": [
+    "Java",
+    "Scala",
+    "Angular",
+    "ReactJS",
+    "Microservices",
+    "Docker",
+    "Tech-Architect",
+    "Spring-boot",
+    "fullstack"
+  ],
+  "social": {
+    "GitHub": "https://github.com/khushminder270",
+    "Twitter": "https://twitter.com/Khushminde14681",
+    "LinkedIn": "https://www.linkedin.com/in/khushminder-singh-601856109/"
+  }
+}

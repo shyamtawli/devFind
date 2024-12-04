@@ -1,0 +1,13 @@
+{
+  "name": "Kaleem Ullah",
+  "location": "Lahore, Pakistan",
+  "bio": "A highly focused web developer in a variety of development and engineering positions with polished skills in HTML, CSS, Bootstrap, Tailwind CSS, Javascript, React.js, Node.js, and MERN Stack. Pursuing an IT degree at the Punjab University College of Information Technology.",
+  "avatar": "https://github.com/kaleemullah786.png",
+  "portfolio": "https://github.com/kaleemullah786",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "Nextjs", "Nodejs", "Python", "C/C++"],
+  "social": {
+    "GitHub": "https://github.com/kaleemullah786",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/kaleem-ullah-548010209"
+  }
+}

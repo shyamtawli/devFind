@@ -1,0 +1,26 @@
+{
+  "name": "Solomon Kanu",
+  "location": "Sierra Leone",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/solomonx-star.png",
+  "portfolio": "https://github.com/solomonx-star/GPAcalculator",
+  "skills": [
+    "Frontend Developer",
+    "HTML",
+    "CSS",
+    "javaScript",
+    "TypeScript",
+    "React",
+    "React Native",
+    "Next.js",
+    "Mobile App Development",
+    "Python",
+    "Illustrator",
+    "PhotoShop"
+  ],
+  "social": {
+    "Github": "https://github.com/solomonx-star",
+    "Twitter": "https://twitter.com/solcaster",
+    "LinkedIn": "https://www.linkedIn.com/in/solomon-kanu"
+  }
+}

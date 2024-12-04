@@ -1,0 +1,14 @@
+{
+  "name": "Ankush tripathi",
+  "location": "Maharashtra , India",
+  "bio": "Hi, I am Ankush Tripathi, currently pursuing my engineering degree in computer science from Atharva college of engineering. I am a tech enthusiast. I am always open to collaborating on projects and innovative/disruptive ideas",
+  "avatar": "https://github.com/ankushtripathii.png",
+  "skills": ["javascript", "DSA", "CSS/html", "canva", "Java"],
+  "portfolio": "https://github.com/ankushtripathii",
+
+  "social": {
+    "GitHub": "https://github.com/ankushtripathii",
+    "Twitter": "https://twitter.com/ankushtripathii",
+    "LinkedIn": "https://www.linkedin.com/in/ankush-tripathi-547008234"
+  }
+}

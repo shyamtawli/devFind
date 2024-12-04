@@ -1,0 +1,13 @@
+{
+  "name": "Hari Narayana BOddula",
+  "location": "Hyderabad",
+  "bio": "I am a full stack developer.",
+  "avatar": "https://github.com/harinarayanaboddula.png",
+  "portfolio": "https://github.com/harinarayanaboddula",
+  "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Reactjs", "NodeJs", "ExpressJs", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/harinarayanaboddula",
+    "Twitter": "https://twitter.com/HariNarayana25",
+    "LinkedIn": "https://www.linkedin.com/in/hari-narayana-boddula-7a6885192/"
+  }
+}

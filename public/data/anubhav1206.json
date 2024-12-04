@@ -1,0 +1,13 @@
+{
+  "name": "Anubhav Adhikari",
+  "location": "Bengaluru, India",
+  "bio": "I'm a problem solver and front-end web developer with a passion for technology and gaming. When I'm not coding, you can find me playing games and exploring tech",
+  "avatar": "https://github.com/anubhav1206.png",
+  "portfolio": "https://www.notion.so/Anubhav-Adhikari-s-Projects-and-links-a0e83053085c436da8fdac15f1eef383?pvs=4",
+  "skills": ["HTML", "CSS", "SCSS", "JavaScript", "Java", "ReactJS", "Python", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/anubhav1206",
+    "Twitter": "https://twitter.com/crasheddfps",
+    "LinkedIn": "https://www.linkedin.com/in/anubhav-adhikari-a3565b176/"
+  }
+}

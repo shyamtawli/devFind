@@ -1,0 +1,27 @@
+{
+  "name": "Kritika Agrawal",
+  "location": "maharashtra, India",
+  "bio": "I am a self-motivated individual who is always eager to learn new technologies and approaches to programming.In my free time, enjoys reading about the latest trends in software development and experimenting with new coding techniques",
+  "avatar": "https://github.com/K-21.png",
+  "portfolio": "https://github.com/K-21",
+  "skills": [
+    "ReactJS",
+    "C++",
+    "Javascript",
+    "APIs",
+    "Tailwind CSS",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "HTML",
+    "CSS",
+    "Typescript",
+    "SQL",
+    "MongoDB",
+    "NextJs"
+  ],
+  "social": {
+    "GitHub": "https://github.com/K-21",
+    "LinkedIn": "https://www.linkedin.com/in/kritika-agrawal499/"
+  }
+}

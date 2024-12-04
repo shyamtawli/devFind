@@ -1,0 +1,13 @@
+{
+  "name": "Haris Mohanty",
+  "location": "Odisha, India",
+  "bio": "Hello there,I am Haris Mohanty, a aspiring Mern Stack Developer!",
+  "avatar": "https://github.com/Haris-Mohanty.png",
+  "portfolio": "https://haris-portfolios.netlify.app/",
+  "skills": ["Mern Stack Web Dev", "Problem Solving", "DSA", "Full Stack"],
+  "social": {
+    "GitHub": "https://github.com/Haris-Mohanty",
+    "Twitter": "https://twitter.com/haris_mohanty",
+    "LinkedIn": "https://www.linkedin.com/in/harismohanty/"
+  }
+}

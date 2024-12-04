@@ -1,0 +1,13 @@
+{
+  "name": "Austin Ameh",
+  "location": "Abuja, Nigeria",
+  "bio": "Experienced Full-Stack Engineer with proficiency and expertise in crafting and developing decentralized applications.",
+  "avatar": "https://github.com/arewageek.png",
+  "portfolio": "https://github.com/arewageek",
+  "skills": ["React", "Next", "Laravel", "Node.js", "React Native", "TypeScript", "Web3"],
+  "social": {
+    "GitHub": "https://github.com/arewageek",
+    "Twitter": "https://twitter.com/arewageek",
+    "LinkedIn": "https://www.linkedin.com/in/austin-ameh-a2315b165"
+  }
+}

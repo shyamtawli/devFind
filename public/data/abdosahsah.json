@@ -1,0 +1,13 @@
+{
+  "name": "Abdellatif S.",
+  "location": "Morocco",
+  "bio": "As a Full-stack Developer I help companies to build a robust web apps",
+  "avatar": "https://github.com/abdosahsah.png",
+  "portfolio": "https://github.com/abdosahsah",
+  "skills": ["Laravel", "Node.js", "React.js", "Vue.js"],
+  "social": {
+    "GitHub": "https://github.com/abdosahsah",
+    "Twitter": "https://twitter.com/Abdellatif0x1",
+    "LinkedIn": "https://www.linkedin.com/in/abdellatif-sahsah-080aa6238"
+  }
+}

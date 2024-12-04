@@ -1,0 +1,13 @@
+{
+  "name": "Samrat Ghosh",
+  "location": "Kolkata,India",
+  "bio": "Hey this is Samrat Ghosh I am a sophomore at MSIT (Kolkata) in Computer Science engineering. Currently, I have learning DSA in C++ and backend tech stack. I am also interested in Web Development and want to explore other domains in the future. My hobbies are photography and photo editing.I am always eager to learn new things and share my knowledge with others.",
+  "avatar": "https://github.com/samratghosh291.png",
+  "portfolio": "https://github.com/samratghosh291",
+  "skills": ["HTML", "CSS", "Node.js", "JavaScript", "C/C++", "php", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/samratghosh291",
+    "Twitter": "https://twitter.com/piku_samrat490",
+    "LinkedIn": "https://www.linkedin.com/in/samratghosh490"
+  }
+}

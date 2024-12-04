@@ -1,0 +1,12 @@
+{
+  "name": "Ti Wei",
+  "location": "United States",
+  "bio": "I am a FullStack Developer who likes to code",
+  "avatar": "https://github.com/GeniusSniper.png",
+  "portfolio": "https://geniussniper.github.io/Portfolio/",
+  "skills": ["Java", "JavaScript", "Ruby", "Ruby on Rail", "C++", "HTML", "CSS", "Node.js", "React.js", "Redux.js"],
+  "social": {
+    "GitHub": "https://github.com/GeniusSniper",
+    "LinkedIn": "https://www.linkedin.com/in/ti-wei-0a20a61b8/"
+  }
+}

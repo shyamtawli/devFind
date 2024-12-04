@@ -1,0 +1,27 @@
+{
+  "name": "Xiaolei Bao",
+  "location": "Stockholm, Sweden",
+  "bio": "Experienced Full Stack Developer skilled in MERN stack, passionate about building responsive web apps and eager to bring innovative solutions",
+  "avatar": "https://github.com/bxljoy.png",
+  "portfolio": "https://sanity-nextjs-portfolio-zeta.vercel.app/",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node",
+    "GraphQL",
+    "CSS",
+    "HTML",
+    "Python",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "AWS",
+    "Java",
+    "CI/CD"
+  ],
+  "social": {
+    "GitHub": "https://github.com/bxljoy",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/xiaolei-bao-aa4b7b257/"
+  }
+}

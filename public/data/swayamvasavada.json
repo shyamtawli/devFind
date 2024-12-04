@@ -1,0 +1,13 @@
+{
+  "name": "Swayam Vasavada",
+  "location": "Vadodara, Gujarat, India",
+  "bio": "Passionate full-stack web developer dedicated to crafting seamless, user-centric digital experiences. Proficient in frontend and backend technologies, with a drive for innovation and problem-solving.",
+  "avatar": "https://github.com/swayamvasavada.png",
+  "portfolio": "https://github.com/swayamvasavada",
+  "skills": ["JavaScript", "Node.js", "Express.js", "React.js", "EJS", "Java", "PHP", "C", "MySQL", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/swayamvasavada",
+    "Twitter": "https://twitter.com/swayamvasavada",
+    "LinkedIn": "https://www.linkedin.com/in/swayamvasavada"
+  }
+}

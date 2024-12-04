@@ -1,0 +1,13 @@
+{
+  "name": "Dally R",
+  "location": "Madurai, Tamilnadu",
+  "bio": "Detail-oriented Front End Developer passionate about creating visually appealing, user-friendly websites, eager to contribute to dynamic teams.",
+  "avatar": "https://github.com/astro-dally.png",
+  "portfolio": "https://astro-dally.github.io/Porfolio-Website/",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJs", "Tailwind CSS"],
+  "social": {
+    "GitHub": "https://github.com/astro-dally",
+    "Twitter": "https://twitter.com/AstroDreamer64",
+    "LinkedIn": "https://www.linkedin.com/in/dally-r-a8a963272/"
+  }
+}

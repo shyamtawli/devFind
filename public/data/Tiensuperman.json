@@ -1,0 +1,12 @@
+{
+  "name": "Tiensuperman",
+  "location": "Vietnam",
+  "bio": "console.log('Just let me Cook.');",
+  "avatar": "https://github.com/Tiensuperman.png",
+  "portfolio": "https://github.com/Tiensuperman.png",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Git", "Bootstrap"],
+  "social": {
+    "GitHub": "https://github.com/<Tiensuperman",
+    "Twitter": "https://twitter.com/Tiensuperman"
+  }
+}

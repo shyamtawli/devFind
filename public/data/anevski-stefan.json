@@ -1,0 +1,29 @@
+{
+  "name": "Stefan Anevski",
+  "location": "Skopje, North Macedonia",
+  "bio": "I'm a final year computer science and engineering student with a very big passion towards software engineering.",
+  "avatar": "https://github.com/anevski-stefan.png",
+  "portfolio": "https://stefananevski.xyz/",
+  "skills": [
+    "Java",
+    "Javascript",
+    "Django",
+    "Typescript",
+    "Storybook",
+    "HTML",
+    "CSS",
+    "TaiwindCSS",
+    "Bootstrap",
+    "React",
+    "Handlebars",
+    "NodeJS",
+    "Express",
+    "PostgreSQL",
+    "MySQL",
+    "PHP"
+  ],
+  "social": {
+    "GitHub": "https://github.com/anevski-stefan",
+    "LinkedIn": "https://www.linkedin.com/in/stefan-anevski/"
+  }
+}

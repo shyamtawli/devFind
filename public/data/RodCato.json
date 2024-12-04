@@ -1,0 +1,27 @@
+{
+  "name": "Catalino (aka C Rod)",
+  "location": "Tennessee",
+  "bio": "Hi, I'm Catalino, a US Army Combat Veteran and currently a Full Stack Developer. I have a passion for helping others with my problem-solving skills, creativity and experience.",
+  "avatar": "https://github.com/RodCato.png",
+  "portfolio": "https://crod.co/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Ruby",
+    "Ruby on Rails",
+    "Postgresql",
+    "Jest",
+    "RSpec",
+    "WordPres",
+    "PHP",
+    "Node.js",
+    "Git/Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/RodCato",
+    "Twitter": "https://twitter.com/CRodDev",
+    "LinkedIn": "https://www.linkedin.com/in/catalinorodriguez"
+  }
+}

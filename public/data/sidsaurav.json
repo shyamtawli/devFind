@@ -1,0 +1,13 @@
+{
+  "name": "Siddharth Saurav",
+  "location": "Darbhanga, India",
+  "bio": "Hi, I'm a Full Stack Developer from India. I love building products and solving problems. Currently working on my own project and looking for some awesome peeps to collaborate with.",
+  "avatar": "https://github.com/sidsaurav.png",
+  "portfolio": "http://siddharthiit.me/",
+  "skills": ["Javascript", "React.js", "Express.js", "AWS", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/sidsaurav",
+    "Twitter": "https://twitter.com/siddsaurav",
+    "LinkedIn": "https://www.linkedin.com/in/siddharth-saurav/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vidip Ghosh",
+  "location": "New Delhi",
+  "bio": "I am a MERN stack developer and Data structure enthusiast, have knowledge of C++, Python, JavaScript as well as I am very fond of collaborating to open source projects and learning new technologies.",
+  "avatar": "https://github.com/Vidip-Ghosh.png",
+  "portfolio": "https://github.com/Vidip-Ghosh",
+  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "MongoDB", "Firebase", "NextJS", "Python", "C++"],
+  "social": {
+    "GitHub": "https://github.com/Vidip-Ghosh",
+    "Twitter": "https://twitter.com/GhoshVidip67772",
+    "LinkedIn": "https://www.linkedin.com/in/vidip-ghosh-9973b7213"
+  }
+}

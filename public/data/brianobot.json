@@ -1,0 +1,13 @@
+{
+  "name": "Brian Obot",
+  "location": "The Matrix",
+  "bio": "👋 Hi, I'm Brian! A software developer passionate about crafting efficient, innovative, and elegant solutions to real-world problems",
+  "avatar": "https://github.com/brianobot.png",
+  "portfolio": "https://brianobot.github.io/",
+  "skills": ["Python", "Django", "Laravel", "Linux", "REST API"],
+  "social": {
+    "GitHub": "https://github.com/brianobot",
+    "Twitter": "https://twitter.com/i_am_brian_obot",
+    "LinkedIn": "https://www.linkedin.com/in/brian-obot-924b49216"
+  }
+}

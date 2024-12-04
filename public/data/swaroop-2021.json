@@ -1,0 +1,13 @@
+{
+  "name": "Swaroop Anegundi",
+  "location": "Hubli, Karnataka, India",
+  "bio": "MERN Stack Devloper and Competitive Programmer",
+  "avatar": "https://github.com/swaroop-2021.png",
+  "portfolio": "https://github.com/swaroop-2021",
+  "skills": ["C", "C++", "HTML", "JavaScript", "CSS", "NodeJS", "ReactJS", "Solidity", "SQL", "MongoDB", "Python"],
+  "social": {
+    "GitHub": "https://github.com/swaroop-2021",
+    "Twitter": "https://twitter.com/SwaroopAnegundi",
+    "LinkedIn": "https://www.linkedin.com/in/swaroop-raghavendra-anegundi/"
+  }
+}

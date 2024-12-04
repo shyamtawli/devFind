@@ -1,0 +1,28 @@
+{
+  "name": "Yair Notkovich",
+  "location": "Israel",
+  "bio": "Passionate about developing creative software solutions using a Full Stack set of tools.",
+  "avatar": "https://avatars.githubusercontent.com/u/121730504?v=4",
+  "portfolio": "https://portfolio-page-3k6h-yair-n.vercel.app/",
+  "skills": [
+    "Python",
+    "Javascript",
+    "Typescript",
+    "Django",
+    "React",
+    "Next.Js",
+    "Flask",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Material UI",
+    "REST APIs"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Yair-N",
+    "LinkedIn": "https://www.linkedin.com/in/yair-notkovich/"
+  }
+}

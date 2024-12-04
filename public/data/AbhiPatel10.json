@@ -1,0 +1,13 @@
+{
+  "name": "Abhi Patel",
+  "location": "Ahmedabad, India",
+  "bio": "I'm a computer whiz who loves creating websites and is all about startups. I live for challenges and learning on the go.",
+  "avatar": "https://github.com/AbhiPatel10.png",
+  "portfolio": "https://abhipatelportfolio.netlify.app/",
+  "skills": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDb", "MySql"],
+  "social": {
+    "GitHub": "https://github.com/AbhiPatel10",
+    "Twitter": "https://twitter.com/AbhiPatel0001",
+    "LinkedIn": "https://www.linkedin.com/in/abhipatel001/"
+  }
+}
