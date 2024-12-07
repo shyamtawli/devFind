@@ -1,0 +1,12 @@
+{
+    "name": "Christopher White",
+    "location": "Houston, TX",
+    "bio": "Hi! I'm originally from New Orleans. I love to play the piano, code, travel and tryout different cuisines.",
+    "avatar": "https://avatars.githubusercontent.com/u/143274655?v=4",
+    "portfolio": "https://github.com/Chris255202",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "social": {
+      "GitHub": "https://github.com/Chris255202",
+      "LinkedIn": "https://www.linkedin.com/in/Chris2552"
+    }
+  }
