@@ -1,0 +1,25 @@
+{
+  "name": "Al Riyad",
+  "location": "Bogura, Bangladesh",
+  "bio": "Greetings, I'm MERN Stack Web Developer with a passion for creating seamless UI/UX experiences. I am Proficient in React.js, JavaScript, Node.js, Express.js, MongoDB,Mongoose, Tailwind CSS, Firebase, Socket.IO, JSON Web Token (JWT), CSS3, and HTML5. I am currently pursuing computer science engineering at Kushtia Polytechnic Institute.",
+  "avatar": "https://avatars.githubusercontent.com/u/111139540?v=4",
+  "portfolio": "https://al-riyad.netlify.app",
+  "skills": [
+    "React.js",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "Firebase",
+    "Socket.IO",
+    "JSON Web Token (JWT)",
+    "CSS3",
+    "Mongoose"
+  ],
+  "social": {
+    "GitHub": "https://github.com/imalriyad",
+    "Twitter": "https://x.com/imalriyad",
+    "LinkedIn": "https://www.linkedin.com/in/imalriyad"
+  }
+}
