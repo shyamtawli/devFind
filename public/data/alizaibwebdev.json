@@ -1,0 +1,24 @@
+{
+  "name": "Ali Zaib",
+  "location": "Pakistan",
+  "bio": "A skilled full-stack web developer with 3+ years of experience, passionate about coding, creating digital products, and contributing to open source.",
+  "avatar": "https://github.com/alizaibwebdev.png",
+  "portfolio": "https://alizaibwebdeveloper.vercel.app/",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "HTML",
+    "CSS",
+    "UI/UX Design",
+    "API Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/alizaibwebdev",
+    "LinkedIn": "https://www.linkedin.com/in/ali-zaib-411250252",
+    "Fiverr": "https://www.fiverr.com/alizaibwebdev"
+  }
+}
