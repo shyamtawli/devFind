@@ -1,0 +1,13 @@
+{
+  "name": "Nahid HK",
+  "location": "Pabna, Bangladesh",
+  "bio": "I am a Full Stack Web Developer. I love to build web applications using JavaScript and PHP. I am also a tech enthusiast and love to learn new technologies.",
+  "avatar": "https://github.com/nahidhk.png",
+  "portfolio": "https://nahidhk.vercel.app",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Python", "PHP", "MySQL"],
+  "social": {
+    "GitHub": "https://github.com/nahidhk",
+    "Twitter": "https://twitter.com/nahidhk0",
+    "LinkedIn": "https://www.linkedin.com/in/nahidhk"
+  }
+}
