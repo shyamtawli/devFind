@@ -1,0 +1,12 @@
+{
+  "name": "Stefani",
+  "location": "United Kingdom",
+  "bio": "I am passionate about software and web development, and have hands-on experience in JavaScript, HTML, CSS, TypeScript, and Python.",
+  "avatar": "https://github.com/stefanidmtrv.png",
+  "portfolio": "https://stefanidmtrv.com/",
+  "skills": ["Javascript", "React", "CSS", "HTML", "Python", "PySpark", "TypeScript", "React"],
+  "social": {
+    "GitHub": "https://github.com/stefanidmtrv",
+    "LinkedIn": "https://www.linkedin.com/in/stefanidimitrova317"
+  }
+}
