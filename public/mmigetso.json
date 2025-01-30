@@ -1,0 +1,13 @@
+{
+    "name": "Mihajn Muhammad Ibrahim",
+    "location": "Istanbul,  Turkiye",
+    "bio": "Born and raisad in Kano, Nigeria. I am a react.js frontend software engineer and a web designer. I am passionate about web development and I love to learn new things.",
+    "avatar": "https://github.com/mmigetso.png",
+    "portfolio": "https://github.com/mmigetso",
+    "skills": ["Your Skill 1", "Your Skill 2", "..."],
+    "social": {
+      "GitHub": "https://github.com/mmigetso",
+      "Twitter": "https://twitter.com/mmigetso",
+      "LinkedIn": "https://www.linkedin.com/in/mihjan-muhammad-ibrahim"
+    }
+  }
