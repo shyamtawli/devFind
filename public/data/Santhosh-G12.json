@@ -1,0 +1,13 @@
+{
+  "name": "Santhosh Kumar",
+  "location": "Thoothukudi",
+  "bio": "Code for Life",
+  "avatar": "https://github.com/Santhosh-G12.png",
+  "portfolio": "https://github.com/Santhosh-G12",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "TailwindCss"],
+  "social": {
+    "GitHub": "hhttps://github.com/Santhosh-G12",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
