@@ -7,7 +7,7 @@ export default function NoResultFound() {
       <FaFrown className="text-7xl" />
       <div className="">
         <p className="text-2xl font-bold">No Results Found</p>
-        <p>We couldn't find any results for your search.</p>
+        <p>We couldn&apos;t find any results for your search.</p>
       </div>
     </div>
   );
