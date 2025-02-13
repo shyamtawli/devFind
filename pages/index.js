@@ -6,6 +6,8 @@ import Search from "@/components/Search";
 import Sidebar from "@/components/Sidebar";
 import { useRouter } from "next/router";
 import { useState, useEffect, useRef } from "react";
+import filenames from "../components/ProfileList.json";
+import ProfileSkeleton from "@/components/ProfileSkeleton";
 
 function App() {
   const profilesRef = useRef();

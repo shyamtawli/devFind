@@ -22,7 +22,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       >
         <span
           href="#"
-          className="font-spaceMono hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+          className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
           Previous
         </span>
@@ -34,7 +34,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       >
         <span
           href="#"
-          className="font-spaceMono hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+          className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
           Next
         </span>
