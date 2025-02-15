@@ -158,7 +158,7 @@ By following these steps, you have successfully installed Node.js and npm on you
    }
    ```
 7. **Save** the **`your_github_username.json`** file.
-8. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
+8. **Navigate** to the **`components`** folder in your project directory. Open the **`ProfilesList.json`** file.
 9. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
    ```json
    ["filename1.json", "filename2.json", "your_github_username.json"]
