@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import AuthForm from "./AuthForm";
@@ -7,6 +7,21 @@ function Sidebar() {
   const [theme, setTheme] = useState("dark");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showAuthForm, setShowAuthForm] = useState(false);
+  const [user, setUser] = useState(null);
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    // Retrieve users from local storage
+    const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
+    setUsers(storedUsers);
+
+    // Retrieve authenticated user from local storage
+    const storedUser = JSON.parse(localStorage.getItem("authenticatedUser"));
+    if (storedUser) {
+      setIsAuthenticated(true);
+      setUser(storedUser);
+    }
+  }, []);
 
   function toggleTheme() {
     const htmlElement = document.documentElement;
@@ -23,13 +38,40 @@ function Sidebar() {
 
   const handleLogin = (username, password) => {
     // Replace with actual authentication logic
-    if (username === "admin" && password === "password") {
+    const foundUser = users.find((u) => u.username === username && u.password === password);
+    if (foundUser) {
       setIsAuthenticated(true);
       setShowAuthForm(false);
+      setUser(foundUser);
+      localStorage.setItem("authenticatedUser", JSON.stringify(foundUser));
       return true;
     } else {
       return false;
     }
+  };
+
+  const handleRegister = (username, email, password) => {
+    // Check if the user already exists
+    const existingUser = users.find((u) => u.username === username);
+    if (existingUser) {
+      return false;
+    }
+    // Save the new user
+    const newUser = { username, email, password };
+    const updatedUsers = [...users, newUser];
+    setUsers(updatedUsers);
+    localStorage.setItem("users", JSON.stringify(updatedUsers));
+    setIsAuthenticated(true);
+    setShowAuthForm(false);
+    setUser(newUser);
+    localStorage.setItem("authenticatedUser", JSON.stringify(newUser));
+    return true;
+  };
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+    setUser(null);
+    localStorage.removeItem("authenticatedUser");
   };
 
   return (
@@ -63,6 +105,9 @@ function Sidebar() {
       </div>
       {isAuthenticated && (
         <div className="pt-5">
+          <p className="text-lg font-bold text-gray-800 dark:text-white">
+            Welcome, {user.username}
+          </p>
           <a
             href="https://github.com/shyamtawli/devFind#how-to-add-your-profile-"
             target="_blank"
@@ -72,17 +117,31 @@ function Sidebar() {
               Add your Profile
             </button>
           </a>
+          <button
+            className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white mt-4"
+            onClick={handleLogout}
+          >
+            Logout
+          </button>
         </div>
       )}
-      <div className="pt-5">
-        <button
-          className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
-          onClick={() => setShowAuthForm(true)}
-        >
-          Sign Up
-        </button>
-      </div>
-      {showAuthForm && <AuthForm onLogin={handleLogin} onClose={() => setShowAuthForm(false)} />}
+      {!isAuthenticated && (
+        <div className="pt-5">
+          <button
+            className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+            onClick={() => setShowAuthForm(true)}
+          >
+            Sign Up / Login
+          </button>
+        </div>
+      )}
+      {showAuthForm && (
+        <AuthForm
+          onRegister={handleRegister}
+          onLogin={handleLogin}
+          onClose={() => setShowAuthForm(false)}
+        />
+      )}
     </div>
   );
 }
