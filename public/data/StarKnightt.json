@@ -1,0 +1,13 @@
+{
+    "name": "Prasenjit Nayak",
+    "location": "India",
+    "bio": "I write code that’s clean and comments that aren’t",
+    "avatar": "https://github.com/StarKnightt.png",
+    "portfolio": "https://prasen.dev",
+    "skills": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB", "Linux", "Git", "JavaScript", "pug"],
+    "social": {
+      "GitHub": "https://github.com/StarKnightt",
+      "Twitter": "https://twitter.com/Star_Knight12",
+      "LinkedIn": "https://www.linkedin.com/in/prasenjitnayak/"
+    }
+  }
