@@ -1,21 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
   const [theme, setTheme] = useState("dark");
 
-  function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains("dark");
-
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove("dark");
-      setTheme("light");
-    } else {
-      htmlElement.classList.add("dark");
-      setTheme("dark");
+  useEffect(() => {
+    const savedTheme =
+      typeof window !== "undefined" ? localStorage.getItem("theme") : "dark";
+    if (savedTheme) {
+      setTheme(savedTheme);
+      document.documentElement.classList.toggle("dark", savedTheme === "dark");
     }
+  }, []);
+
+  function toggleTheme() {
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("theme", newTheme);
+    }
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
   }
 
   return (
@@ -36,7 +41,7 @@ function Sidebar() {
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
             onClick={toggleTheme}
           >
-            {theme === "light" ? (
+            {theme === "dark" ? (
               <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             ) : (
               <FontAwesomeIcon icon={faSun} fontSize="1rem" />
