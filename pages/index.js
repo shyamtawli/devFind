@@ -22,35 +22,38 @@ function App() {
   const router = useRouter();
   const currentUrl = router.pathname;
 
-  useEffect(() => {
-    const fetchData = async (file) => {
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error("Error fetching data:", error);
-        return [];
+  const fetchData = async (file) => {
+    try {
+      const response = await fetch(file);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-    };
+      return await response.json();
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      return [];
+    }
+  };
 
-    const combineData = async () => {
-      setLoadingProfiles(true);
-      try {
-        const promises = filenames.map((file) => fetchData(`/data/${file}`));
-        const combinedData = await Promise.all(promises).then((results) =>
-          results.flat()
-        );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
-      } catch (error) {
-        console.error("Error combining data:", error);
-        setCombinedData([]);
-        setShuffledProfiles([]);
-      }
+  const combineData = async () => {
+    setLoadingProfiles(true);
+    try {
+      const promises = filenames.map((file) => fetchData(`/data/${file}`));
+      const results = await Promise.all(promises);
+      const combinedData = results.flat();
+      setCombinedData(combinedData);
+      setShuffledProfiles(shuffleProfiles(combinedData));
+    } catch (error) {
+      console.error("Error combining data:", error);
+      setCombinedData([]);
+      setShuffledProfiles([]);
+      alert("Failed to load profiles. Please try again later.");
+    } finally {
       setLoadingProfiles(false);
-    };
+    }
+  };
 
+  useEffect(() => {
     combineData();
   }, []);
 
