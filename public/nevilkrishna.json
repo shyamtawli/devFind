@@ -1,0 +1,13 @@
+{
+  "name": "Nevil Krishna K",
+  "location": "India",
+  "bio": "React Developer Who Uses Arch BTW",
+  "avatar": "https://github.com/dracu-lah.png",
+  "portfolio": "https://dracufolio.vercel.app/",
+  "skills": ["ReactJs", "JavaScript", "NextJs"],
+  "social": {
+    "GitHub": "https://github.com/dracu-lah",
+    "Twitter": "https://x.com/nevilkrishnak",
+    "LinkedIn": "https://www.linkedin.com/in/nevil-krishna-k-77170222a/"
+  }
+}
