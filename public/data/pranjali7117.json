@@ -1,0 +1,12 @@
+{
+    "name": "Pranjali Mishra",
+    "location": "Kanpur",
+    "bio": "Hi, i am web developer currentlt exploring machine learning and data analytics.",
+    "avatar": "https://github.com/pranjali7117.png",
+    "portfolio": "https://pranjalimishra.vercel.app/",
+    "skills": ["React", "Nodejs", "Express","MongoDB","python","numpy","Pandas","Matplotlib"],
+    "social": {
+      "GitHub": "https://github.com/pranjali7117",
+      "LinkedIn": "https://www.linkedin.com/in/pranjali07/"
+    }
+  }
