@@ -62,6 +62,7 @@ function Search({ onSearch }) {
       <select
         className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         value={searchCriteria}
+        id="filter"
         onChange={handleCriteriaChange}
       >
         <option value="name">Name</option>
@@ -72,6 +73,7 @@ function Search({ onSearch }) {
         <input
           className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
           ref={searchInput}
+          id="search-bar"
           type="text"
           onChange={handleInputChange}
           value={searchValue}

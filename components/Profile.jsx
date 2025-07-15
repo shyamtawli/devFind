@@ -8,10 +8,7 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
-  // const [imageSrc, setImageSrc] = useState(data.avatar);
-  // const handleImageError = () => {
-  //   setImageSrc(defaultAvatar); // Fallback to default image
-  // };
+  const [imageSrc, setImageSrc] = useState(data.avatar);
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -36,8 +33,9 @@ function Card({ data }) {
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
           <img
-            src={data.avatar}
+            src={imageSrc}
             alt="User logo"
+            onError={() => setImageSrc('/defaultAvatar.webp')}
             className="h-full w-full rounded-full"
           />
         </div>

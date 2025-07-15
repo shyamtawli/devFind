@@ -1,0 +1,26 @@
+{
+    "name": "Joyal George K J",
+    "location": "Kochi, Kerala, India",
+    "bio": "Web and Native App Developer | Next JS, React JS and React Native | Firebase and Appwrite | TypeScript and JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/144530321?v=4",
+    "portfolio": "https://www.joyalgeorgekj.com/",
+    "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "React",
+        "NextJS",
+        "Tailwind CSS",
+        "Node.js",
+        "Appwrite Auth, Function & DB",
+        "Material UI",
+        "Jest",
+        "SaaS"
+    ],
+    "social": {
+        "GitHub": "https://github.com/Joyal-George-KJ",
+        "Twitter": "https://x.com/JoyalGeorgeKJ",
+        "LinkedIn": "https://www.linkedin.com/in/joyalgeorgekj"
+    }
+}
