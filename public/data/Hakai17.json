@@ -1,0 +1,13 @@
+{
+  "name": "Miguel Netto",
+  "location": "Brazil",
+  "bio": "Senior Full-Stack Engineer.",
+  "avatar": "https://github.com/Hakai17.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["React", "Node.js", "Next.js", "TypeScript", "JavaScript", "FastAPI", "Python", "Django", "Docker", "Tailwind CSS", "MySQL", "PostgreSQL", "AWS", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Hakai17",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/miguel-arruda"
+  }
+}
