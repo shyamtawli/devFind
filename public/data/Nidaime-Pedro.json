@@ -1,0 +1,13 @@
+{
+  "name": "Cadimiel Pedro Nzuanga",
+  "location": "Angola",
+  "bio": "TI Intern at Learnit AO",
+  "avatar": "https://github.com/Nidaime-Pedro.png",
+  "portfolio": "https://nidaime-pedro.vercel.app/",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "Git", "GitHub", "Cybersecurity", "Python", "PHP", "MySQL", "Laravel", "NMAP", "Wireshark", "Metasploit", "Kali Linux"],
+  "social": {
+    "GitHub": "https://github.com/Nidaime-Pedro",
+    "instagram": "https://www.instagram.com/nidaime_pedro/",
+    "LinkedIn": "https://www.linkedin.com/in/cadimiel-pedro-nzuanga/"
+  }
+}
