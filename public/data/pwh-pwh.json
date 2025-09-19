@@ -1,0 +1,13 @@
+{
+  "name": "coderpwh",
+  "location": "Cosmos",
+  "bio": "just me. ",
+  "avatar": "https://avatars.githubusercontent.com/u/56707259?v=4",
+  "portfolio": "https://github.com/pwh-pwh",
+  "skills": ["Rust", "Go", "Kotlin", "Java", "TypeScript", "Python"],
+  "social": {
+    "GitHub": "https://github.com/pwh-pwh",
+    "Twitter": "",
+    "LinkedIn": ""
+  }
+}
