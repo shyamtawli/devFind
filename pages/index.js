@@ -17,6 +17,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+  const [topProfiles, setTopProfiles] = useState([]);
   const recordsPerPage = 20;
 
   const router = useRouter();
@@ -41,8 +42,25 @@ function App() {
         const combinedData = await Promise.all(promises).then((results) =>
           results.flat()
         );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
+          setCombinedData(combinedData);
+          setShuffledProfiles(shuffleProfiles(combinedData));
+          // compute top profiles from localStorage likes (client-only)
+          if (typeof window !== "undefined") {
+            try {
+              const raw = localStorage.getItem("profileLikes");
+              const map = raw ? JSON.parse(raw) : {};
+              const withLikes = combinedData.map((p) => {
+                const key = `profile:${p.id || p.name}`;
+                const count = map[key] && map[key].count ? Number(map[key].count) : 0;
+                return { ...p, _likes: count };
+              });
+              const top = withLikes.sort((a, b) => b._likes - a._likes).slice(0, 5);
+              setTopProfiles(top);
+            } catch (e) {
+              // ignore parsing errors
+              setTopProfiles([]);
+            }
+          }
       } catch (error) {
         console.error("Error combining data:", error);
         setCombinedData([]);
@@ -52,6 +70,36 @@ function App() {
     };
 
     combineData();
+    // recompute topProfiles helper
+    const computeTopProfiles = () => {
+      if (typeof window === "undefined") return;
+      try {
+        const raw = localStorage.getItem("profileLikes");
+        const map = raw ? JSON.parse(raw) : {};
+        const withLikes = combinedData.map((p) => {
+          const key = `profile:${p.id || p.name}`;
+          const count = map[key] && map[key].count ? Number(map[key].count) : 0;
+          return { ...p, _likes: count };
+        });
+        const top = withLikes.sort((a, b) => b._likes - a._likes).slice(0, 5);
+        setTopProfiles(top);
+      } catch (e) {
+        setTopProfiles([]);
+      }
+    };
+
+    // update when other tabs change localStorage
+    const storageHandler = (e) => {
+      if (e.key === 'profileLikes') computeTopProfiles();
+    };
+    const customHandler = () => computeTopProfiles();
+    window.addEventListener('storage', storageHandler);
+    window.addEventListener('profileLikesChanged', customHandler);
+
+    return () => {
+      window.removeEventListener('storage', storageHandler);
+      window.removeEventListener('profileLikesChanged', customHandler);
+    };
   }, []);
 
   const shuffleProfiles = (array) => {
@@ -139,7 +187,7 @@ function App() {
 
   return currentUrl === "/" ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
+      <Sidebar topProfiles={topProfiles} />
       <div
         className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7"
         ref={profilesRef}

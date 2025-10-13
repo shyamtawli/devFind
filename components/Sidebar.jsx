@@ -3,7 +3,7 @@ import useTheme from "./hooks/useTheme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-function Sidebar() {
+function Sidebar({ topProfiles = [] }) {
   const [mount, theme, toggleTheme] = useTheme();
 
   return (
@@ -44,6 +44,26 @@ function Sidebar() {
           </button>
         </a>
       </div>
+      {/* Top ranking section (client-side likes) */}
+      {topProfiles && topProfiles.length > 0 && (
+        <div className="mt-6">
+          <h4 className="mb-2 text-sm font-semibold dark:text-white">Top Contributors</h4>
+          <ul className="space-y-2">
+            {topProfiles.map((p, idx) => (
+              <li key={p.id || p.name} className="flex items-center gap-3">
+                <div className="h-8 w-8 flex-shrink-0 overflow-hidden rounded-full">
+                  <img src={p.avatar} alt={p.name} className="h-full w-full object-cover" />
+                </div>
+                <div className="flex-1 text-sm">
+                  <div className="font-medium dark:text-white">{p.name}</div>
+                  <div className="text-xs text-textSecondary">{p._likes || 0} likes</div>
+                </div>
+                <div className="text-sm text-textSecondary">#{idx + 1}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
