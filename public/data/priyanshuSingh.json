@@ -1,0 +1,11 @@
+{
+  "name": "Priyanshu Singh",
+  "location": "Greater Noida, India",
+  "bio": "Freelance Web Developer | Tech Enthusiast | Open Source Contributor | Lifelong Learner",
+  "avatar": "https://avatars.githubusercontent.com/u/198406931?v=4",
+  "skills": ["HTML", "CSS", "Javascript", "Django", "Python", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Priyanshu2004-Singh",
+    "LinkedIn": "https://www.linkedin.com/in/priyanshu-singh-a17807231/"
+  }
+}

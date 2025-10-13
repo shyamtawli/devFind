@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHeart } from "react-icons/fa";
 import { FaXTwitter, FaLocationDot } from "react-icons/fa6";
 
 function Profile({ data }) {
@@ -9,6 +9,28 @@ function Profile({ data }) {
 function Card({ data }) {
   const cardRef = React.useRef();
   const [imageSrc, setImageSrc] = useState(data.avatar);
+  const [likes, setLikes] = useState(0);
+  const [liked, setLiked] = useState(false);
+
+  // localStorage key for this profile — prefer unique id if available
+  const profileKey = `profile:${data.id || data.name}`;
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('profileLikes');
+      const map = raw ? JSON.parse(raw) : {};
+      const entry = map[profileKey];
+      if (entry) {
+        setLikes(Number(entry.count) || 0);
+        setLiked(Boolean(entry.liked));
+      } else {
+        setLikes(0);
+        setLiked(false);
+      }
+    } catch (e) {
+      // ignore parse errors
+    }
+  }, [profileKey]);
 
   useEffect(() => {
     setImageSrc(data.avatar);
@@ -105,6 +127,38 @@ function Card({ data }) {
           <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
             <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </a>
+          {/* Like button */}
+          <button
+            onClick={() => {
+              // toggle like
+              const willLike = !liked;
+              const newCount = willLike ? likes + 1 : Math.max(0, likes - 1);
+              setLikes(newCount);
+              setLiked(willLike);
+              try {
+                const raw = localStorage.getItem('profileLikes');
+                const map = raw ? JSON.parse(raw) : {};
+                map[profileKey] = { count: newCount, liked: willLike };
+                localStorage.setItem('profileLikes', JSON.stringify(map));
+                // notify other parts of the app that likes changed
+                try {
+                  window.dispatchEvent(new Event('profileLikesChanged'));
+                } catch (e) {
+                  // ignore if window not available
+                }
+              } catch (e) {
+                // ignore storage errors
+              }
+            }}
+            aria-pressed={liked}
+            aria-label={liked ? 'Unlike profile' : 'Like profile'}
+            className={`flex items-center gap-2 text-2xl transition-all duration-200 ${
+              liked ? 'text-red-500' : 'text-gray-400 hover:text-red-400'
+            }`}
+          >
+            <FaHeart />
+            <span className="text-sm font-medium">{likes}</span>
+          </button>
         </div>
       </div>
     </div>
