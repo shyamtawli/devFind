@@ -1,0 +1,13 @@
+{
+  "name": "Harsh Gharat",
+  "location": "Mumbai, India",
+  "bio": "Software Engineer building scalable backend and AI-powered systems with Go, Spark, and Redis. Passionate about open source and distributed systems.",
+  "avatar": "https://github.com/harsh16coder.png",
+  "portfolio": "https://github.com/harsh16coder",
+  "skills": ["Go", "Scala", "Spark", "Redis", "Azure DevOps", "ReactJS", "Docker", "Prometheus", "Grafana", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/harsh16coder",
+    "Twitter": "https://x.com/harsh1614twt",
+    "LinkedIn": "https://www.linkedin.com/in/harsh-gharat-a3567918b/"
+  }
+}
