@@ -40,7 +40,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
     }
     if (!formData.github.trim()) {
       newErrors.github = "GitHub link is required";
-    } else if (!formData.github.includes("github.com")) {
+    } else if (!isValidUrl(formData.github) || !formData.github.includes("github.com")) {
       newErrors.github = "Please enter a valid GitHub URL";
     }
     if (!formData.avatar.trim()) {
