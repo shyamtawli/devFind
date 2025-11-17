@@ -121,14 +121,12 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div 
-        className="relative w-full max-w-2xl rounded-lg bg-white p-8 shadow-lg dark:bg-textPrimary md:max-h-[90vh] md:overflow-y-auto"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="modal-title"
-        aria-describedby="modal-description"
-      >
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+      onClick={(e) => e.target === e.currentTarget && handleClose()}
+    >
+      <div className="relative w-full max-w-2xl rounded-lg bg-white p-8 shadow-lg dark:bg-textPrimary md:max-h-[90vh] md:overflow-y-auto">
+        {/* Close Button */}
         <button
           onClick={handleClose}
           className="absolute right-4 top-4 text-secondaryColor hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
@@ -195,7 +193,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               value={formData.linkedin}
               onChange={handleInputChange}
               placeholder="https://linkedin.com/in/johndoe"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
           </div>
 
@@ -209,7 +207,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               value={formData.twitter}
               onChange={handleInputChange}
               placeholder="https://twitter.com/johndoe"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
           </div>
 
@@ -245,7 +243,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               value={formData.portfolio}
               onChange={handleInputChange}
               placeholder="https://johndoe.com"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
             <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
               Leave empty to use your GitHub profile
@@ -262,7 +260,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               value={formData.location}
               onChange={handleInputChange}
               placeholder="New York, USA"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
           </div>
 
@@ -276,7 +274,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               onChange={handleInputChange}
               placeholder="Tell us about yourself..."
               rows="4"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
           </div>
 
@@ -290,21 +288,21 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
               value={formData.skills}
               onChange={handleInputChange}
               placeholder="JavaScript, React, Node.js, MongoDB"
-              className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight mt-1 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-2 text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+              className="w-full px-4 py-2 mt-1 border-2 rounded-lg outline-none focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight border-borderSecondary bg-primaryColor text-secondaryColor dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             />
           </div>
 
-          <div className="mt-6 flex gap-3 pt-4">
+          <div className="flex gap-3 pt-4 mt-6">
             <button
               type="button"
               onClick={handleClose}
-              className="flex-1 rounded-lg border-2 border-borderSecondary bg-transparent px-4 py-2 text-secondaryColor transition-all hover:bg-primaryLight dark:border-borderColor dark:text-white dark:hover:bg-secondaryLight"
+              className="flex-1 px-4 py-2 transition-all bg-transparent border-2 rounded-lg border-borderSecondary text-secondaryColor hover:bg-primaryLight dark:border-borderColor dark:text-white dark:hover:bg-secondaryLight"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="flex-1 rounded-lg border-2 border-textSecondary bg-textSecondary px-4 py-2 text-white transition-all hover:bg-transparent hover:text-textSecondary dark:border-textSecondary dark:text-white dark:hover:bg-transparent dark:hover:text-textSecondary"
+              className="flex-1 px-4 py-2 text-white transition-all border-2 rounded-lg border-textSecondary bg-textSecondary hover:bg-transparent hover:text-textSecondary dark:border-textSecondary dark:text-white dark:hover:bg-transparent dark:hover:text-textSecondary"
             >
               Add Profile
             </button>
