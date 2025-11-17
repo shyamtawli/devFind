@@ -119,6 +119,7 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
         <button
           onClick={handleClose}
           className="absolute right-4 top-4 text-secondaryColor hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
+          aria-label="Close modal"
         >
           <FontAwesomeIcon icon={faXmark} size="xl" />
         </button>
