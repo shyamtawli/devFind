@@ -113,7 +113,10 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+      onClick={(e) => e.target === e.currentTarget && handleClose()}
+    >
       <div className="relative w-full max-w-2xl rounded-lg bg-white p-8 shadow-lg dark:bg-textPrimary md:max-h-[90vh] md:overflow-y-auto">
         {/* Close Button */}
         <button
