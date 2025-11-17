@@ -4,6 +4,7 @@ import Pagination from "@/components/Pagination";
 import Profile from "@/components/Profile";
 import Search from "@/components/Search";
 import Sidebar from "@/components/Sidebar";
+import AddProfileModal from "@/components/AddProfileModal";
 import { useRouter } from "next/router";
 import { useState, useEffect, useRef } from "react";
 import filenames from "../components/ProfileList.json";
@@ -17,6 +18,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const recordsPerPage = 20;
 
   const router = useRouter();
@@ -41,8 +43,12 @@ function App() {
         const combinedData = await Promise.all(promises).then((results) =>
           results.flat()
         );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
+
+        const customProfiles = loadCustomProfiles();
+        const allProfiles = [...combinedData, ...customProfiles];
+
+        setCombinedData(allProfiles);
+        setShuffledProfiles(shuffleProfiles(allProfiles));
       } catch (error) {
         console.error("Error combining data:", error);
         setCombinedData([]);
@@ -54,12 +60,39 @@ function App() {
     combineData();
   }, []);
 
-  const shuffleProfiles = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+  const loadCustomProfiles = () => {
+    if (typeof window === "undefined") return [];
+    try {
+      const customProfiles = localStorage.getItem("devFindCustomProfiles");
+      return customProfiles ? JSON.parse(customProfiles) : [];
+    } catch (error) {
+      console.error("Error loading custom profiles from localStorage:", error);
+      return [];
     }
-    return array;
+  };
+
+  const saveCustomProfiles = (profiles) => {
+    if (typeof window === "undefined") return;
+    try {
+      localStorage.setItem("devFindCustomProfiles", JSON.stringify(profiles));
+    } catch (error) {
+      if (error && (error.name === 'QuotaExceededError' || error.code === 22)) {
+        console.error("localStorage quota exceeded. Cannot save more profiles.");
+        // Optionally notify user, e.g.:
+        // alert("You have reached the maximum number of custom profiles you can save.");
+      } else {
+        console.error("Error saving custom profiles to localStorage:", error);
+      }
+    }
+  };
+
+  const shuffleProfiles = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   };
 
   const handleSearch = ({ value, criteria }) => {
@@ -105,8 +138,26 @@ function App() {
     }
   };
 
+  const handleAddProfile = (profileData) => {
+    const customProfiles = loadCustomProfiles();
+
+    const newProfile = {
+      ...profileData,
+      id: `custom_${Date.now()}`,
+    };
+    customProfiles.push(newProfile);
+
+    saveCustomProfiles(customProfiles);
+
+    const updatedCombinedData = [...combinedData, newProfile];
+    setCombinedData(updatedCombinedData);
+    setShuffledProfiles(shuffleProfiles(updatedCombinedData));
+
+    setIsModalOpen(false);
+  };
+
   useEffect(() => {
-    profilesRef.current.scrollTo({
+    profilesRef.current?.scrollTo({
       top: 0,
       behavior: "smooth",
     });
@@ -138,8 +189,8 @@ function App() {
   };
 
   return currentUrl === "/" ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
+    <div className="flex flex-col App bg-primaryColor dark:bg-secondaryColor md:flex-row">
+      <Sidebar onAddProfileClick={() => setIsModalOpen(true)} />
       <div
         className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7"
         ref={profilesRef}
@@ -162,6 +213,11 @@ function App() {
           />
         )}
       </div>
+      <AddProfileModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onSubmit={handleAddProfile}
+      />
     </div>
   ) : (
     <ErrorPage />

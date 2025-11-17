@@ -3,7 +3,7 @@ import useTheme from "./hooks/useTheme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-function Sidebar() {
+function Sidebar({ onAddProfileClick }) {
   const [mount, theme, toggleTheme] = useTheme();
 
   return (
@@ -34,15 +34,12 @@ function Sidebar() {
         Discover and Connect with Skilled Developers.
       </div>
       <div className="pt-5">
-        <a
-          href="https://github.com/shyamtawli/devFind#how-to-add-your-profile-"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          onClick={onAddProfileClick}
+          className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Add your profile
-          </button>
-        </a>
+          Add your profile
+        </button>
       </div>
     </div>
   );
