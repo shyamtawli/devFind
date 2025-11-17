@@ -78,7 +78,13 @@ function App() {
     try {
       localStorage.setItem("devFindCustomProfiles", JSON.stringify(profiles));
     } catch (error) {
-      console.error("Error saving custom profiles to localStorage:", error);
+      if (error && (error.name === 'QuotaExceededError' || error.code === 22)) {
+        console.error("localStorage quota exceeded. Cannot save more profiles.");
+        // Optionally notify user, e.g.:
+        // alert("You have reached the maximum number of custom profiles you can save.");
+      } else {
+        console.error("Error saving custom profiles to localStorage:", error);
+      }
     }
   };
 
