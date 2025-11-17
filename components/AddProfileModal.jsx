@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,13 +17,21 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
 
   const [errors, setErrors] = useState({});
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = 'unset';
+      };
+    }
+  }, [isOpen]);
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
-    // Clear error for this field when user starts typing
     if (errors[name]) {
       setErrors((prev) => ({
         ...prev,
@@ -114,8 +122,13 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="relative w-full max-w-2xl rounded-lg bg-white p-8 shadow-lg dark:bg-textPrimary md:max-h-[90vh] md:overflow-y-auto">
-        {/* Close Button */}
+      <div 
+        className="relative w-full max-w-2xl rounded-lg bg-white p-8 shadow-lg dark:bg-textPrimary md:max-h-[90vh] md:overflow-y-auto"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        aria-describedby="modal-description"
+      >
         <button
           onClick={handleClose}
           className="absolute right-4 top-4 text-secondaryColor hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
@@ -124,19 +137,16 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
           <FontAwesomeIcon icon={faXmark} size="xl" />
         </button>
 
-        {/* Modal Header */}
         <div className="mb-6">
-          <h2 className="text-2xl font-bold text-secondaryColor dark:text-white">
+          <h2 id="modal-title" className="text-2xl font-bold text-secondaryColor dark:text-white">
             Add Your Profile
           </h2>
-          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+          <p id="modal-description" className="mt-2 text-sm text-gray-600 dark:text-gray-400">
             Share your professional information with the developer community
           </p>
         </div>
 
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Name Field */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Full Name *
@@ -156,7 +166,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             )}
           </div>
 
-          {/* GitHub Link */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               GitHub Profile Link *
@@ -176,7 +185,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             )}
           </div>
 
-          {/* LinkedIn Link */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               LinkedIn Profile Link
@@ -191,7 +199,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
 
-          {/* Twitter Link */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Twitter Profile Link
@@ -206,7 +213,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
 
-          {/* Profile Photo URL */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Profile Photo URL *
@@ -229,7 +235,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             </p>
           </div>
 
-          {/* Portfolio Link */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Portfolio Link
@@ -247,7 +252,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             </p>
           </div>
 
-          {/* Location */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Location
@@ -262,7 +266,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
 
-          {/* Bio */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Bio
@@ -277,7 +280,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
 
-          {/* Skills */}
           <div>
             <label className="block text-sm font-medium text-secondaryColor dark:text-white">
               Skills (comma-separated)
@@ -292,7 +294,6 @@ function AddProfileModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
 
-          {/* Form Actions */}
           <div className="mt-6 flex gap-3 pt-4">
             <button
               type="button"

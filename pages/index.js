@@ -24,7 +24,6 @@ function App() {
   const router = useRouter();
   const currentUrl = router.pathname;
 
-  // Load data from localStorage and combine with API data
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -45,7 +44,6 @@ function App() {
           results.flat()
         );
 
-        // Load custom profiles from localStorage
         const customProfiles = loadCustomProfiles();
         const allProfiles = [...combinedData, ...customProfiles];
 
@@ -83,11 +81,12 @@ function App() {
   };
 
   const shuffleProfiles = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return array;
+    return shuffled;
   };
 
   const handleSearch = ({ value, criteria }) => {
@@ -134,29 +133,21 @@ function App() {
   };
 
   const handleAddProfile = (profileData) => {
-    // Get existing custom profiles
     const customProfiles = loadCustomProfiles();
 
-    // Add new profile
     const newProfile = {
       ...profileData,
-      id: `custom_${Date.now()}`, // Unique ID for custom profiles
+      id: `custom_${Date.now()}`,
     };
     customProfiles.push(newProfile);
 
-    // Save to localStorage
     saveCustomProfiles(customProfiles);
 
-    // Update combined data with new profile
     const updatedCombinedData = [...combinedData, newProfile];
     setCombinedData(updatedCombinedData);
     setShuffledProfiles(shuffleProfiles(updatedCombinedData));
 
-    // Close modal
     setIsModalOpen(false);
-
-    // Show success message (optional - you can add a toast notification here)
-    alert("Profile added successfully!");
   };
 
   useEffect(() => {
@@ -192,7 +183,7 @@ function App() {
   };
 
   return currentUrl === "/" ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+    <div className="flex flex-col App bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar onAddProfileClick={() => setIsModalOpen(true)} />
       <div
         className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7"
