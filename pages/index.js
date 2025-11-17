@@ -4,6 +4,7 @@ import Pagination from "@/components/Pagination";
 import Profile from "@/components/Profile";
 import Search from "@/components/Search";
 import Sidebar from "@/components/Sidebar";
+import AddProfileModal from "@/components/AddProfileModal";
 import { useRouter } from "next/router";
 import { useState, useEffect, useRef } from "react";
 import filenames from "../components/ProfileList.json";
@@ -17,11 +18,13 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const recordsPerPage = 20;
 
   const router = useRouter();
   const currentUrl = router.pathname;
 
+  // Load data from localStorage and combine with API data
   useEffect(() => {
     const fetchData = async (file) => {
       try {
@@ -41,8 +44,13 @@ function App() {
         const combinedData = await Promise.all(promises).then((results) =>
           results.flat()
         );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
+
+        // Load custom profiles from localStorage
+        const customProfiles = loadCustomProfiles();
+        const allProfiles = [...combinedData, ...customProfiles];
+
+        setCombinedData(allProfiles);
+        setShuffledProfiles(shuffleProfiles(allProfiles));
       } catch (error) {
         console.error("Error combining data:", error);
         setCombinedData([]);
@@ -53,6 +61,26 @@ function App() {
 
     combineData();
   }, []);
+
+  const loadCustomProfiles = () => {
+    if (typeof window === "undefined") return [];
+    try {
+      const customProfiles = localStorage.getItem("devFindCustomProfiles");
+      return customProfiles ? JSON.parse(customProfiles) : [];
+    } catch (error) {
+      console.error("Error loading custom profiles from localStorage:", error);
+      return [];
+    }
+  };
+
+  const saveCustomProfiles = (profiles) => {
+    if (typeof window === "undefined") return;
+    try {
+      localStorage.setItem("devFindCustomProfiles", JSON.stringify(profiles));
+    } catch (error) {
+      console.error("Error saving custom profiles to localStorage:", error);
+    }
+  };
 
   const shuffleProfiles = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -105,8 +133,34 @@ function App() {
     }
   };
 
+  const handleAddProfile = (profileData) => {
+    // Get existing custom profiles
+    const customProfiles = loadCustomProfiles();
+
+    // Add new profile
+    const newProfile = {
+      ...profileData,
+      id: `custom_${Date.now()}`, // Unique ID for custom profiles
+    };
+    customProfiles.push(newProfile);
+
+    // Save to localStorage
+    saveCustomProfiles(customProfiles);
+
+    // Update combined data with new profile
+    const updatedCombinedData = [...combinedData, newProfile];
+    setCombinedData(updatedCombinedData);
+    setShuffledProfiles(shuffleProfiles(updatedCombinedData));
+
+    // Close modal
+    setIsModalOpen(false);
+
+    // Show success message (optional - you can add a toast notification here)
+    alert("Profile added successfully!");
+  };
+
   useEffect(() => {
-    profilesRef.current.scrollTo({
+    profilesRef.current?.scrollTo({
       top: 0,
       behavior: "smooth",
     });
@@ -139,7 +193,7 @@ function App() {
 
   return currentUrl === "/" ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
+      <Sidebar onAddProfileClick={() => setIsModalOpen(true)} />
       <div
         className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7"
         ref={profilesRef}
@@ -162,6 +216,11 @@ function App() {
           />
         )}
       </div>
+      <AddProfileModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onSubmit={handleAddProfile}
+      />
     </div>
   ) : (
     <ErrorPage />
