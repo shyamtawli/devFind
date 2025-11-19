@@ -1,0 +1,25 @@
+{
+  "name": "Mihir Das",
+  "location": "Sylhet, Bangladesh",
+  "bio": "Full-stack developer skilled in modern web technologies, building scalable, user-centric applications with strong expertise in MERN, Next.js, TypeScript, and WordPress.",
+  "avatar": "https://avatars.githubusercontent.com/u/58401556?v=4",
+  "portfolio": "https://github.com/the-mihir",
+  "skills": [
+    "MERN Stack",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "WordPress",
+    "REST APIs",
+    "Frontend Development",
+    "Full Stack Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/the-mihir",
+    "Twitter": "https://x.com/get_mihir",
+    "LinkedIn": "https://www.linkedin.com/in/getmihir/",
+    "website": "https://getmihir.com"
+  }
+}
