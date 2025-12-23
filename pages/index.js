@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { useState, useEffect, useRef } from "react";
 import filenames from "../components/ProfileList.json";
 import ProfileSkeleton from "@/components/ProfileSkeleton";
+import Head from "next/head";
 
 function App() {
   const profilesRef = useRef();
@@ -106,10 +107,12 @@ function App() {
   };
 
   useEffect(() => {
-    profilesRef.current.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    if (profilesRef.current) {
+      profilesRef.current.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
   }, [currentPage]);
 
   const getPaginatedData = () => {
@@ -138,31 +141,76 @@ function App() {
   };
 
   return currentUrl === "/" ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
-      <div
-        className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7"
-        ref={profilesRef}
-      >
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? (
-          <NoResultFound />
-        ) : (
-          renderProfiles()
-        )}
-        {(searching ? profiles.length : shuffledProfiles.length) > 0 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil(
-              (searching ? profiles.length : shuffledProfiles.length) /
-                recordsPerPage
+    <>
+      <Head>
+        <title>devFind - Discover & Connect with Skilled Developers</title>
+        <meta
+          name="description"
+          content="devFind is a platform for developers to showcase their skills and connect with potential collaborators. Find skilled developers by name, location, or skills."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      {/* Animated Background */}
+      <div className="animated-bg"></div>
+
+      <div className="App relative flex min-h-screen flex-col md:flex-row">
+        {/* Sidebar - Sticky on Desktop */}
+        <div className="md:sticky md:top-0 md:h-screen md:flex-shrink-0">
+          <Sidebar />
+        </div>
+
+        {/* Main Content - Scrollable */}
+        <div
+          className="flex-1 overflow-y-auto px-4 py-4 md:h-screen md:px-6 md:py-6 lg:px-8"
+          ref={profilesRef}
+        >
+          <div className="mx-auto max-w-4xl">
+            {/* Search Section */}
+            <Search onSearch={handleSearch} />
+
+            {/* Results Count */}
+            {!loadingProfiles && (
+              <div className="mb-4 flex items-center gap-2 md:mb-6">
+                <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-500"></div>
+                <p className="text-[10px] text-slate-500 dark:text-slate-400 sm:text-xs md:text-sm">
+                  Showing{" "}
+                  <span className="font-semibold text-slate-700 dark:text-slate-200">
+                    {getPaginatedData().length}
+                  </span>{" "}
+                  of{" "}
+                  <span className="font-semibold gradient-text">
+                    {searching ? profiles.length : shuffledProfiles.length}
+                  </span>{" "}
+                  developers
+                </p>
+              </div>
             )}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        )}
+
+            {/* Profile Cards */}
+            {profiles.length === 0 && searching ? (
+              <NoResultFound />
+            ) : (
+              renderProfiles()
+            )}
+
+            {/* Pagination */}
+            {(searching ? profiles.length : shuffledProfiles.length) > 0 && (
+              <Pagination
+                currentPage={currentPage}
+                totalPages={Math.ceil(
+                  (searching ? profiles.length : shuffledProfiles.length) /
+                  recordsPerPage
+                )}
+                onNextPage={handleNextPage}
+                onPrevPage={handlePrevPage}
+              />
+            )}
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   ) : (
     <ErrorPage />
   );
