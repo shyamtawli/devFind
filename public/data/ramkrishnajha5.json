@@ -1,0 +1,13 @@
+{
+  "name": "Ram Krishna Jha",
+  "location": "Bihar, India",
+  "bio": "I'm a passionate Full Stack Developer skilled in building modern web applications. I love crafting seamless user experiences and scalable backend solutions using cutting-edge technologies.",
+  "avatar": "https://github.com/ramkrishnajha5.png",
+  "portfolio": "https://ramkrishnajha.netlify.app",
+  "skills": ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "React", "Express.js", "Node.js", "MySQL", "Firebase", "Supabase"],
+  "social": {
+    "GitHub": "https://github.com/ramkrishnajha5",
+    "Twitter": "https://twitter.com/ramkrishnajha5",
+    "LinkedIn": "https://www.linkedin.com/in/ramkrishnajha5"
+  }
+}
