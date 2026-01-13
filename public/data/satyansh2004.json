@@ -1,0 +1,13 @@
+{
+  "name": "Satyansh Chand",
+  "location": "Gorakhpur, India",
+  "bio": "B.Tech CSE student exploring web development and embedded systems, building real projects, learning by doing, and growing into a strong software engineer.",
+  "avatar": "https://github.com/satyansh2004.png",
+  "portfolio": "https://satyanshchand.netlify.app/",
+  "skills": ["JavaScript", "C", "HTML/CSS", "Node/Express", "MongoDB", "React/Next"],
+  "social": {
+    "GitHub": "https://github.com/satyansh2004",
+    "Twitter": "https://twitter.com/SatyanshChand",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
