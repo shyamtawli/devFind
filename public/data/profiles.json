@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Akib Vijapura",
+    "location": "India",
+    "bio": "A Software developer with good problem-solving skills. And also able to perform well in a team with good communication skills and leadership skills. And looking forward for open source contribution.",
+    "avatar": "https://github.com/Akib-Vijapura.png",
+    "portfolio": "https://github.com/Akib-Vijapura",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "RDBMS",
+      "C++",
+      "DSA",
+      "Git/GitHub"
+    ],
+    "social": {
+      "GitHub": "https://github.com/Akib-Vijapura",
+      "Twitter": "https://twitter.com/akib_vijapura",
+      "LinkedIn": "https://www.linkedin.com/in/akib-vijapura/"
+    }
+  },
+  {
+    "name": "Gaurav kishan Jadhav",
+    "location": "Nanded",
+    "bio": "qewfc",
+    "avatar": "https://github.com/account",
+    "portfolio": "DSVFWEF",
+    "skills": [
+      "Java"
+    ],
+    "social": {
+      "GitHub": "https://github.com/gauravj-prorigo",
+      "Twitter": "",
+      "LinkedIn": ""
+    }
+  },
+  {
+    "name": "Saurav Jagdambe",
+    "location": "Nanded",
+    "bio": "Working at Tech mahindra",
+    "avatar": "https://avatars.githubusercontent.com/u/193597071?v=4",
+    "portfolio": "https://github.com/gauravj-prorigo",
+    "skills": [
+      "React",
+      "Java",
+      "C#",
+      "Python"
+    ],
+    "social": {
+      "GitHub": "https://github.com/gauravj-prorigo",
+      "Twitter": "",
+      "LinkedIn": ""
+    }
+  }
+]

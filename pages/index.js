@@ -23,35 +23,21 @@ function App() {
   const currentUrl = router.pathname;
 
   useEffect(() => {
-    const fetchData = async (file) => {
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error("Error fetching data:", error);
-        return [];
-      }
-    };
-
-    const combineData = async () => {
+    const loadProfiles = async () => {
       setLoadingProfiles(true);
       try {
-        const promises = filenames.map((file) => fetchData(`/data/${file}`));
-        const combinedData = await Promise.all(promises).then((results) =>
-          results.flat()
-        );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
-      } catch (error) {
-        console.error("Error combining data:", error);
-        setCombinedData([]);
-        setShuffledProfiles([]);
+        const res = await fetch("/api/getProfiles");
+        const data = await res.json();
+
+        setCombinedData(data);
+        setShuffledProfiles(shuffleProfiles(data));
+      } catch (e) {
+        console.error(e);
       }
       setLoadingProfiles(false);
     };
 
-    combineData();
+    loadProfiles();
   }, []);
 
   const shuffleProfiles = (array) => {
@@ -79,7 +65,7 @@ function App() {
         return normalizeString(user.location).includes(normalizedValue);
       } else if (criteria === "skill") {
         return user.skills.some((skill) =>
-          normalizeString(skill).includes(normalizedValue)
+          normalizeString(skill).includes(normalizedValue),
         );
       }
       return false;
@@ -92,7 +78,7 @@ function App() {
 
   const handleNextPage = () => {
     const totalPages = Math.ceil(
-      (searching ? profiles.length : shuffledProfiles.length) / recordsPerPage
+      (searching ? profiles.length : shuffledProfiles.length) / recordsPerPage,
     );
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
@@ -155,7 +141,7 @@ function App() {
             currentPage={currentPage}
             totalPages={Math.ceil(
               (searching ? profiles.length : shuffledProfiles.length) /
-                recordsPerPage
+                recordsPerPage,
             )}
             onNextPage={handleNextPage}
             onPrevPage={handlePrevPage}

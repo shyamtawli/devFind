@@ -2,6 +2,7 @@ import React from "react";
 import useTheme from "./hooks/useTheme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 function Sidebar() {
   const [mount, theme, toggleTheme] = useTheme();
@@ -25,7 +26,10 @@ function Sidebar() {
             onClick={() => toggleTheme(theme, true)}
           >
             {mount && (
-              <FontAwesomeIcon icon={theme === "dark" ? faMoon : faSun} fontSize="1rem" />
+              <FontAwesomeIcon
+                icon={theme === "dark" ? faMoon : faSun}
+                fontSize="1rem"
+              />
             )}
           </button>
         </div>
@@ -34,15 +38,17 @@ function Sidebar() {
         Discover and Connect with Skilled Developers.
       </div>
       <div className="pt-5">
-        <a
+        {/* <a
           href="https://github.com/shyamtawli/devFind#how-to-add-your-profile-"
           target="_blank"
           rel="noreferrer"
-        >
+        > */}
+        <Link href="/add-profile">
           <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Add your profile
           </button>
-        </a>
+        </Link>
+        {/* </a> */}
       </div>
     </div>
   );
