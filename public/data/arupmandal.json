@@ -1,0 +1,13 @@
+{
+  "name": "Arup Mandal",
+  "location": "WB,India",
+  "bio": "Learning Front-End Web Development passionate about creating interactive applications and experiences on the web",
+  "avatar": "https://arupmandal.github.io/assets/me/arup.png",
+  "portfolio": "https://arupmandal.github.io/",
+  "skills": ["HTML", "CSS", "JS", "React", "Node", "Flutter", "Wordpress"],
+  "social": {
+    "GitHub": "https://github.com/arupmandal",
+    "Twitter": "https://twitter.com/iamarupmandal",
+    "LinkedIn": "https://www.linkedin.com/in/iamarupmandal"
+  }
+}
