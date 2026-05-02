@@ -1,0 +1,12 @@
+{
+  "name": "Mohib Khan",
+  "location": "Pakistan",
+  "bio": "Frontend developer with 1+ year experience building responsive React applications, translating Figma designs into pixel-perfect interfaces, and growing toward MERN stack development.",
+  "avatar": "https://github.com/mohibkhan2001.png",
+  "portfolio": "https://github.com/mohibkhan2001",
+  "skills": ["React", "Javascript", "Html", "CSS", "Tailwind CSS", "Flutter", "Figma"],
+  "social": {
+    "GitHub": "https://github.com/mohibkhan2001",
+    "LinkedIn": "https://www.linkedin.com/in/mohib-khan-615368254/"
+  }
+}
