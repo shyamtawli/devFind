@@ -18,6 +18,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       <button
         onClick={handlePrevPage}
         disabled={currentPage === 1}
+        aria-disabled={currentPage===1}
         className="focus:outline-none disabled:opacity-30"
       >
         <span
@@ -30,6 +31,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       <button
         onClick={handleNextPage}
         disabled={currentPage === totalPages}
+        aria-disabled={currentPage===totalPages}
         className="focus:outline-none disabled:opacity-30"
       >
         <span

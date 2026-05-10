@@ -64,10 +64,11 @@ function Search({ onSearch }) {
         value={searchCriteria}
         id="filter"
         onChange={handleCriteriaChange}
+        aria-label="Search Criteria"
       >
-        <option value="name">Name</option>
-        <option value="location">Location</option>
-        <option value="skill">Skill</option>
+        <option value="name" label="name">Name</option>
+        <option value="location" label="location">Location</option>
+        <option value="skill" label="skill">Skill</option>
       </select>
       <div className="relative w-full">
         <input
@@ -82,12 +83,14 @@ function Search({ onSearch }) {
         />
         {searchValue ? (
           <FontAwesomeIcon
+          aria-label="Clear All Button" 
             onClick={handleDeleteButtonClick}
             className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 scale-125 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faXmark}
           />
         ) : (
           <FontAwesomeIcon
+            aria-label="Search Button" 
             onClick={handleSearchButtonClick}
             className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faMagnifyingGlass}
