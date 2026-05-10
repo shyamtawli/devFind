@@ -95,16 +95,23 @@ function Card({ data }) {
       <div className="mt-4">
         <div className="dark:text-white">{data.bio}</div>
         <div className="mt-1 flex gap-x-4">
-          <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-            <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
-
-          <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-            <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
-          <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-            <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
+          {data.social.GitHub && (
+            <a href={data.social.GitHub} target="_blank" rel="noreferrer" aria-label={`GitHub profile of ${data.name}`}>
+              <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+          
+          {data.social.Twitter && (
+            <a href={data.social.Twitter} target="_blank" rel="noreferrer" aria-label={`Twitter/X profile of ${data.name}`}>
+              <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+          
+          {data.social.LinkedIn && (
+            <a href={data.social.LinkedIn} target="_blank" rel="noreferrer" aria-label={`LinkedIn profile of ${data.name}`}>
+              <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
         </div>
       </div>
     </div>
