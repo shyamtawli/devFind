@@ -119,21 +119,24 @@ function App() {
     return data.slice(startIndex, endIndex);
   };
 
+  const getGitHubUsername = (profile) => {
+    const githubUrl = profile.social?.GitHub;
+    return githubUrl?.split("/").filter(Boolean).pop() || profile.name;
+  };
+
   const renderProfiles = () => {
     if (loadingProfiles) {
       return (
         <>
-          {Array(5)
-            .fill("profile-skeleton")
-            .map((item, index) => (
-              <ProfileSkeleton key={index} />
-            ))}
+          {Array.from({ length: 5 }, (_, skeletonNumber) => (
+            <ProfileSkeleton key={`profile-skeleton-${skeletonNumber}`} />
+          ))}
         </>
       );
     }
     const paginatedData = getPaginatedData();
-    return paginatedData.map((currentRecord, index) => (
-      <Profile data={currentRecord} key={index} />
+    return paginatedData.map((currentRecord) => (
+      <Profile data={currentRecord} key={getGitHubUsername(currentRecord)} />
     ));
   };
 
