@@ -63,11 +63,11 @@ function Card({ data }) {
             ref={cardRef}
           >
             {data.skills &&
-              data.skills.map((skill, index) => {
+              data.skills.map((skill) => {
                 return (
                   <div
                     className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                    key={index}
+                    key={skill}
                   >
                     {skill}
                   </div>
