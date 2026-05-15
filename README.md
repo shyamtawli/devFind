@@ -48,7 +48,7 @@
 ## Features 💪
 
 - One of the key features of **`devFind`** is its powerful search functionality.
-- Users can search for developers based on specific skills, locations or name, making it easy to find developers with expertise in a particular technology or programming language.
+- Users can search for developers based on specific skills, locations or name, making it easy to find developers with expertise in a particular technologies or programming languages.
 - This makes **`devFind`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
 <a id="how-to-add-your-profile-data"></a>
