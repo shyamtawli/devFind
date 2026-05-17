@@ -1,0 +1,25 @@
+{
+  "name": "Praveen Kumar Purushothaman",
+  "location": "London, United Kingdom",
+  "bio": "Full Stack React & Node JavaScript Developer & Director of Engineering",
+  "avatar": "https://github.com/praveenscience.png",
+  "portfolio": "https://praveen.science/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+    "Bootstrap",
+    "NodeJS",
+    "ReactJS",
+    "Node",
+    "React",
+    "PHP",
+    "MySQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/praveenscience",
+    "Twitter": "https://twitter.com/praveenscience",
+    "LinkedIn": "https://www.linkedin.com/in/praveentech"
+  }
+}
