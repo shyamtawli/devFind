@@ -1,0 +1,13 @@
+{
+  "name": "Haaziq Ali ",
+  "location": "India ",
+  "bio": "A 15 yo that loves to learn and build ",
+  "avatar": "https://github.com/HAAZIQ-ALI.png",
+  "portfolio": "https://karou.me",
+  "skills": ["C++", "Vite + Tailwind CSS + React ", "Rust & Go" ,"Git"],
+  "social": {
+    "GitHub": "https://github.com/HAAZIQ-ALI",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
