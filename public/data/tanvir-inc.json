@@ -1,0 +1,13 @@
+{
+  "name": "Tanvir Tahsin",
+  "location": "Dhaka, Bangladesh",
+  "bio": "A passionate programmer and web developer.",
+  "avatar": "https://github.com/tanvir-inc.png",
+  "portfolio": "https://bio.link/drcryptic",
+  "skills": ["HTML", "CSS", "Java", "Python"],
+  "social": {
+    "GitHub": "https://github.com/tanvir-inc",
+    "Twitter": "https://x.com/world96_hello",
+    "LinkedIn": "https://www.linkedin.com/in/tanvir-tahsin-9305512a7/"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Muhammad Jareer",
+  "location": "Pakistan",
+  "bio": "I’m a Full Stack Developer from Pakistan who enjoys building things that live on the web.",
+  "avatar": "https://github.com/muhammadjareer24.png",
+  "portfolio": "https://muhammadjareer.vercel.app/",
+  "skills": [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/muhammadjareer24",
+    "Twitter": "https://twitter.com/muhammadjareerX",
+    "LinkedIn": "https://www.linkedin.com/in/muhammadjareer/"
+  }
+}
