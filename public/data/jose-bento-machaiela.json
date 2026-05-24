@@ -1,0 +1,24 @@
+{
+  "name": "Jose Bento Machaiela",
+  "location": "Maputo, Moçambique",
+  "bio": "Sou desenvolvedor de software apaixonado por criar soluções inovadoras. Trabalho com web e mobile usando React, Node.js, entre outras tecnologias...",
+  "avatar": "https://github.com/jose-bento-machaiela.png",
+  "portfolio": "https://github.com/jose-bento-machaiela",
+  "skills": [
+    "React",
+    "React Native",
+    "CSS",
+    "Tailwind",
+    "Node.js",
+    "Jest",
+    "Java",
+    "JavaScript",
+    "Python",
+    "Bash"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jose-bento-machaiela",
+    "Twitter": "https://x.com/JoseMachaiela",
+    "LinkedIn": "https://www.linkedin.com/in/jos%C3%A9-machaiela-12ab03212/"
+  }
+}
