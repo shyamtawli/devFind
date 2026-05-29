@@ -1,0 +1,29 @@
+{
+  "name": "MAS DIVO",
+  "location": "Indonesia 🇮🇩",
+  "bio": "Full-stack developer passionate about building web applications and contributing to open source projects. Love exploring new technologies and collaborating with developers worldwide.",
+  "avatar": "https://github.com/divorahim13.png",
+  "portfolio": "https://github.com/divorahim13",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Next.js",
+    "Python",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Git",
+    "MongoDB",
+    "PostgreSQL",
+    "Docker",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/divorahim13",
+    "Twitter": "",
+    "LinkedIn": ""
+  }
+}
