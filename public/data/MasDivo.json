@@ -1,0 +1,12 @@
+{
+  "name": "Mas Divo",
+  "location": "Indonesia",
+  "bio": "Passionate full-stack developer specializing in web and mobile applications. Experienced in JavaScript, Python, and cloud technologies. Love contributing to open source projects and building tools that help developers.",
+  "avatar": "https://github.com/masdivo.png",
+  "portfolio": "https://github.com/masdivo",
+  "skills": ["JavaScript", "Python", "React", "Node.js", "TypeScript", "Tailwind CSS", "MongoDB", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/masdivo",
+    "LinkedIn": "https://linkedin.com/in/masdivo"
+  }
+}
