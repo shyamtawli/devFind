@@ -1,0 +1,26 @@
+{
+    "name": "Hari Thatikonda",
+    "location": "Hyderabad, IN",
+    "bio": "Software Engineer with 4 years of experience building scalable Java, Spring Boot, Angular, and GCP applications. Passionate about open source, cloud technologies, and solving real-world problems.",
+    "avatar": "https://github.com/thughari.png",
+    "portfolio": "https://thughari.github.io/",
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "TypeScript",
+        "Google Cloud Platform",
+        "Microservices",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "GitHub Actions",
+        "WebRTC",
+        "REST APIs"
+    ],
+    "social": {
+        "GitHub": "https://github.com/thughari",
+        "Twitter": "https://x.com/thughari3",
+        "LinkedIn": "https://www.linkedin.com/in/hari-thatikonda"
+    }
+}
