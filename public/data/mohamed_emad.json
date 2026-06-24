@@ -1,0 +1,13 @@
+{
+    "name" : "Mohamed Emad",
+    "location" : "Mansoura , Egypt",
+    "bio" : "I'm Frontend Developer , I Love Problem Solving , I aim to be FullStack",
+    "avatar" : "https://avatars.githubusercontent.com/u/141279215?s=96&v=4",
+    "portoflio" : "https://www.linkedin.com/in/mohamed-emad-55812220b/",
+	"skills" :[ "HTML","CSS","Next.js","Tailwind CSS","JavaScript/TypeScript","Git & GitHub","JavaScript"],
+	"social" : {
+		"GitHub": "https://github.com/mohamed3655223",
+		"Twitter": "https://x.com/Mohamed84970001",
+		"LinkedIn": "https://www.linkedin.com/in/mohamed-emad-55812220b/"
+	}
+}
