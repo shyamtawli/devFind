@@ -1,0 +1,23 @@
+{
+  "name": "Harshit Mangal",
+  "username": "HarshitMangal",
+  "role": "Full Stack Developer",
+  "location": "Jodhpur, Rajasthan, India",
+  "bio": "B.Tech IT student at MBM University. MERN Stack Developer with 1100+ LeetCode problems solved.",
+  "avatar": "https://github.com/HarshitMangal.png",
+  "portfolio": "https://github.com/HarshitMangal",
+  "skills": [
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Express",
+    "Redux",
+    "Tailwind CSS",
+    "Redis",
+    "Docker"
+  ],
+  "social": {
+    "github": "https://github.com/HarshitMangal",
+    "linkedin": "https://linkedin.com/in/harshit-mangal"
+  }
+}
