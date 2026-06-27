@@ -17,40 +17,39 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
   const recordsPerPage = 20;
 
   const router = useRouter();
   const currentUrl = router.pathname;
 
+  const fetchData = async (file) => {
+   const response = await fetch(file);
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${file}`);
+  }
+
+  return response.json();
+  };
+  const combineData = async () => {
+    setLoadingProfiles(true);
+    setFetchError(false);
+    try {
+      const promises = filenames.map((file) => fetchData(`/data/${file}`));
+      const combinedData = await Promise.all(promises).then((results) =>
+        results.flat(),
+      );
+      setCombinedData(combinedData);
+      setShuffledProfiles(shuffleProfiles([...combinedData]));
+    } catch (error) {
+      console.error(error);
+      setFetchError(true);
+    }
+    setLoadingProfiles(false);
+  };
+
   useEffect(() => {
-    const fetchData = async (file) => {
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error("Error fetching data:", error);
-        return [];
-      }
-    };
-
-    const combineData = async () => {
-      setLoadingProfiles(true);
-      try {
-        const promises = filenames.map((file) => fetchData(`/data/${file}`));
-        const combinedData = await Promise.all(promises).then((results) =>
-          results.flat()
-        );
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
-      } catch (error) {
-        console.error("Error combining data:", error);
-        setCombinedData([]);
-        setShuffledProfiles([]);
-      }
-      setLoadingProfiles(false);
-    };
-
     combineData();
   }, []);
 
@@ -79,7 +78,7 @@ function App() {
         return normalizeString(user.location).includes(normalizedValue);
       } else if (criteria === "skill") {
         return user.skills.some((skill) =>
-          normalizeString(skill).includes(normalizedValue)
+          normalizeString(skill).includes(normalizedValue),
         );
       }
       return false;
@@ -92,7 +91,7 @@ function App() {
 
   const handleNextPage = () => {
     const totalPages = Math.ceil(
-      (searching ? profiles.length : shuffledProfiles.length) / recordsPerPage
+      (searching ? profiles.length : shuffledProfiles.length) / recordsPerPage,
     );
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
@@ -137,6 +136,17 @@ function App() {
     ));
   };
 
+  if (fetchError) {
+  return (
+    <ErrorPage
+      title="Unable to load profiles"
+      message="We couldn't load the profile data."
+      subMessage="Please check your connection and try again."
+      onRetry={combineData}
+    />
+  );
+}
+
   return currentUrl === "/" ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
@@ -155,7 +165,7 @@ function App() {
             currentPage={currentPage}
             totalPages={Math.ceil(
               (searching ? profiles.length : shuffledProfiles.length) /
-                recordsPerPage
+                recordsPerPage,
             )}
             onNextPage={handleNextPage}
             onPrevPage={handlePrevPage}
