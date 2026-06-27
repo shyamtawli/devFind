@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter, FaLocationDot } from "react-icons/fa6";
 
@@ -36,9 +37,11 @@ function Card({ data }) {
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
-          <img
+          <Image
             src={imageSrc}
-            alt="User logo"
+            alt={`${data.name}'s avatar`}
+            width={96}
+            height={96}
             onError={() => setImageSrc('/defaultAvatar.webp')}
             className="h-full w-full rounded-full"
           />
