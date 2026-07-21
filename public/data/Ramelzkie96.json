@@ -1,0 +1,13 @@
+{
+  "name": "Ramel Gulane",
+  "location": "Philippines",
+  "bio": "A passionate Web Developer who loves building dynamic and responsive websites",
+  "avatar": "https://github.com/Ramelzkie96.png",
+  "portfolio": "https://portfolio-ramel.netlify.app/",
+  "skills": ["HTML", "CSS", "JavaScript","HTML", "C#", "React","PHP", "Django", "Python"],
+  "social": {
+    "GitHub": "https://github.com/Ramelzkie96",
+    "Twitter": "https://twitter.com/Ramelzkie09",
+    "LinkedIn": "https://www.linkedin.com/in/gulane-ramel-l-93607a36a/"
+  }
+}
