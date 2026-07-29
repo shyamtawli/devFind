@@ -1,0 +1,21 @@
+{
+  "name": "Domenico Tenace",
+  "location": "Italy",
+  "bio": "Software developer based in Italy, with over five years of experience in application development.",
+  "avatar": "https://github.com/domet99.png",
+  "portfolio": "https://links.domenicotenace.dev",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Vue",
+    "Nuxt",
+    "Astro",
+    "C#",
+    ".NET",
+    "SQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/DomeT99",
+    "LinkedIn": "https://www.linkedin.com/in/domenico-tenace/"
+  }
+}
