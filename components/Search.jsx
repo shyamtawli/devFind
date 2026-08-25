@@ -59,6 +59,7 @@ function Search({ onSearch }) {
 
   return (
     <div className="relative flex items-center justify-end space-x-4 pb-6">
+      <label htmlFor="filter" className="sr-only">Search criteria</label>
       <select
         className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
         value={searchCriteria}
@@ -70,6 +71,7 @@ function Search({ onSearch }) {
         <option value="skill">Skill</option>
       </select>
       <div className="relative w-full">
+        <label htmlFor="search-bar" className="sr-only">Search users</label>
         <input
           className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
           ref={searchInput}
