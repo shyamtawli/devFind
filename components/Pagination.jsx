@@ -18,10 +18,11 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       <button
         onClick={handlePrevPage}
         disabled={currentPage === 1}
+        aria-disabled={currentPage === 1}
+        aria-label="Go to previous page"
         className="focus:outline-none disabled:opacity-30"
       >
         <span
-          href="#"
           className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
           Previous
@@ -30,10 +31,11 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
       <button
         onClick={handleNextPage}
         disabled={currentPage === totalPages}
+        aria-disabled={currentPage === totalPages}
+        aria-label="Go to next page"
         className="focus:outline-none disabled:opacity-30"
       >
         <span
-          href="#"
           className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
           Next
