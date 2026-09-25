@@ -1,0 +1,12 @@
+{
+  "name": "Sparsh Singh",
+  "location": "Noida, India",
+  "bio": "Keen on backend engineering.",
+  "avatar": "https://github.com/sparshsingh0506.png",
+  "portfolio": "https://github.com/sparshsingh0506",
+  "skills": ["Typescript", "Express", "Hono", "Next", "React", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/sparshsingh0506",
+    "Twitter": "https://twitter.com/sparshsingh0520"
+  }
+}
